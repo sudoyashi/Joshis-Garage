@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: home
 ---
 
 ![1985 Golf Mk1 convertible](/assets/img/driveway1.jpg)
