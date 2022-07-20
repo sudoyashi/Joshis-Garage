@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About the Build
-permalink: /about-the-build/
+permalink: /dacabby/
 ---
 Roughly $10,000.
 
