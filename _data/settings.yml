@@ -1,7 +1,7 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'millennial-3'
+  disqus_shortname: 'dacabby'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: ''
@@ -13,9 +13,7 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link:    'https://twitter.com/paululele'}
-- {icon: 'facebook', link:   'https://www.facebook.com/paululele'}
-- {icon: 'instagram', link:  'https://instagram.com/paululele'}
+- {icon: 'instagram', link:  'https://instagram.com/da_cabby'}
 
 # - {icon: 'rss-square', link: 'rss-feed.xml'}
 
