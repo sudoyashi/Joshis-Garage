@@ -2,10 +2,9 @@
 layout: default
 title: Home
 ---
-<img src="/assets/img/carbconversion-1.jpg" alt="1985 Golf Mk1 Convertible">
+<img src="/assets/img/driveway1.jpg" alt="1985 Golf Mk1 Convertible">
 <br>
-<img src="/joshis-garage/assets/img/carbconversion-1.jpg" alt="1985 Golf Mk1 Convertible">
-<br>
+
 
 <h2> Refuse to Give Up </h2>
 <p>
