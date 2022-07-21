@@ -19,7 +19,7 @@ I decided to make my own.
 
 ## CAD, not the cardboard kind
 
-![CAD Draft](/assets/img/cad-intakezx6r.png)
+![CAD Draft](ad-intakezx6r.png)
 
 It was a good excuse to finally learn more about CAD and machining. I learned graphic design and used graphic design in my projects before, so I figure I should jump into CAD. I used OnShape to design and SendCutSend, per recommendation from SuperFastMatt. Honestly, a lot of inspiration came from superfastmatt to make my own things.
 
