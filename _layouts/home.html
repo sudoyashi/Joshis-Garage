@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 <div class="page-content">
 
@@ -8,24 +7,31 @@ title: Home
     {{ content }}
   </article>
 
-  
-{% for post in paginator.posts %}
-{% include featured-post.html %}
-{% endfor %}
+  <div class="post-content">
+    <h1>
+      {{ page.title }}
+    </h1>
+    {% if site.hide_post_date != true %}
+      {% include post-date.html %}
+    {% endif %}
+    {% if page.image %}
+        <div class="featured-image">
+          <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+        </div>
+    {% endif %}
+      <article>
+        {{ content }}
+      </article>
+    {% if site.hide_post_share != true %}
+      {% include post-share.html %}
+    {% endif %}
+    {% if site.hide_related_posts != true %}
+      {% include related-posts.html %}
+    {% endif %}
+    {% if site.data.settings.disqus.comments %}
+      {% include disqus.html %}
+    {% endif %}
+  </div>
 
-    <!-- Pagination links -->
-    <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-button pagination-active next" href="{{ site.github.url }}{{ paginator.next_page_path }}">{{ site.data.settings.pagination.previous_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.previous_page }}</span>
-    {% endif %}
-    {% if paginator.previous_page %}
-      <a class="pagination-button pagination-active" href="{{ site.baseurl }}{{ paginator.previous_page_path }}">{{ site.data.settings.pagination.next_page }}</a>
-    {% else %}
-      <span class="pagination-button">{{ site.data.settings.pagination.next_page }}</span>
-    {% endif %}
-    </div>
 
 </div>
-

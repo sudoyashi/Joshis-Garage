@@ -1,16 +1,16 @@
 ---
 layout: home
-title: home
+title: Joshi's Garage
 ---
 
 ![1985 Golf Mk1 convertible](/assets/img/driveway1.jpg)
 *How do you get somewhere in life? Cars. Let's cruise.*
 <br>
 
-## Project Cars will Change Your Life
+## Refuse to Give Up
 
-If there's anything that you really need to keep a project car is tenacity and money. Refuse to give up, but also have enough money to eat and live.
+If there's anything that you really need to keep a project car is tenacity and money. Refuse to give up, but don't forget to eat once in a while.
 
-Want to start a project car on your own?  [Read more here.](/docs/projectcar/2022/01/03/firstprojectcar.html)
+Want to start a project car on your own?  [Read more here.](/_posts/2022-01-03-firstprojectcar.markdown)
 
 <hr>
