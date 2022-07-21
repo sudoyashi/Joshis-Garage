@@ -10,8 +10,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Josh at Work"
-description:	       "A collection of my project notes on cars, design, and other hobbies."
+title:		           "Joshi's Garage"
+description:	       "A collection of my project notes on cars, design, and other hobbies"
 author:              "Joshua Domingo"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
