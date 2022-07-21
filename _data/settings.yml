@@ -7,10 +7,13 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Cars',  url: 'facts'}
-- {name: 'Da Water', url: 'resources'}
-- {name: 'Words',       url: 'sample-posts'}
-- {name: 'IT',      url: 'documentation'}
+- {name: 'Cars',  url: 'cars'}
+- {name: 'Ocean Life', url: 'ocean-life'}
+- {name: 'Dakine', url: 'dakine'}
+- {name: 'Gallery', url: 'gallery'}
+- {name: 'Language Arts',       url: 'Language Arts'}
+- {name: 'IT',      url: 'it'}
+- {name: 'Downloads', url: 'downloads'}
 - {name: 'About',              url: 'about'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
