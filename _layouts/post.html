@@ -2,6 +2,8 @@
 layout: default
 ---
 
+
+
 <div class="post-content">
   <h1>
     {{ page.title }}
@@ -15,6 +17,9 @@ layout: default
     </div>
   {% endif %}
   <article>
+      <h2>Table of Contents</h2>
+      {% include toc.html html=content %}
+      <hr>
     {{ content }}
   </article>
   {% if site.hide_post_share != true %}

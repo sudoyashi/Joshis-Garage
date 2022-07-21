@@ -7,7 +7,7 @@ categories: lights
 
 # Finally installing dual round headlights!
 
-I've always lusted for the Euro style quad headlights because it's reminiscence to the classic four-light setup on E30s and classic Mercs. Like popup headlights to JDM cars, the dual round headlights on a Golf Mk1 is the Golf that I imagine in my head. 
+I've always lusted for the Euro style quad headlights because it's reminiscence to the classic four-light setup on E30s and classic Mercs. Like popup headlights to JDM cars, the dual round headlights on a Golf Mk1 is the Golf that I imagine in my head.
 
 I picked this grill up from a buddy named Robert in Waipahu, Hawaii. It's weird to name these smaller towns in Hawaii like Waipahu, Kalihi, or Mililani in the form like they're their own city. On the island of O'ahu our true "city" by legal address is generally Honolulu; hence, it is Honolulu, Hawaii. Robert was a very knowledgeable guy that had the parts that I was looking for:
 - Spare AC vents that came from a '91 Golf
@@ -26,7 +26,7 @@ The practical reason I wanted the dual round lights was it could provide with mo
 - Fabric, high-heat Tesa tap OR electrical tape OR liquid electric tape
 - Wire crimp connectors
 - Wire loom
-- Vampire clips, t-taps, or splice taps. Whatever you call 'em. 
+- Vampire clips, t-taps, or splice taps. Whatever you call 'em.
 
 ## Dual round installation
 
@@ -45,18 +45,18 @@ The wiring harness is protected by a relay and 10A fuse. In this diagram we have
 
 What is a relay?
 
-A relay is basically two switches in one. 
+A relay is basically two switches in one.
 - First, we have our low power switch: terminal 85 and 86. These two are powered once connected, just like a lightbulb. It grounds to the body and is powered by turning on the car.
-- Second, our high power switch: terminal 30 and 87. Terminal 30 is where the 12V battery power comes in and terminal 87 is our *thing* we want to power. 
+- Second, our high power switch: terminal 30 and 87. Terminal 30 is where the 12V battery power comes in and terminal 87 is our *thing* we want to power.
 - When we connect terminals 85 and 86 by pressing a button, this low-current circuit then allows terminal 30 and 87 to connect and power our *thing*.
 
-But why do we need two circuits if we only have one item? Protecting the circuit and decreasing the load. There undoubtedly many little circuits in a modern car, and if you're running ALL your circuits from battery power all the time, you'll wear and drain your battery significantly. It's not efficient. By using lighter, low-voltage circuits, we can control when we want to use the higher voltage *things*! 
+But why do we need two circuits if we only have one item? Protecting the circuit and decreasing the load. There undoubtedly many little circuits in a modern car, and if you're running ALL your circuits from battery power all the time, you'll wear and drain your battery significantly. It's not efficient. By using lighter, low-voltage circuits, we can control when we want to use the higher voltage *things*!
 
 ### Hooking up the wires, it's... mostly straightforward
 
 From ground to power, complete the circuit.
 
-DRAW yourself a diagram if you're planning on doing something similar and see where power goes, from ground to positive, understanding where and when power flows through. To start out mapping, start from the end. Where are your lights? Where are the wires going? How many switches do I need? 
+DRAW yourself a diagram if you're planning on doing something similar and see where power goes, from ground to positive, understanding where and when power flows through. To start out mapping, start from the end. Where are your lights? Where are the wires going? How many switches do I need?
 
 Most of our bonehead aftermarket solutions tap into a circuit that turns on from Ignition On. Finding ignition on what some people get intimidated about. The first time I heard that, I had no idea what I was looking for.
 
@@ -77,7 +77,7 @@ Once you've confirmed your power source, tap into it and don't forget to cover i
 Method 2: The easier way...
 
 What always gets power you turn the car on? The fuse block!.
-Your switch also needs to be connected to power! To do this, tap into the fuse-block 
+Your switch also needs to be connected to power! To do this, tap into the fuse-block
 
 Good, 1/3 of wiring is done.
 
@@ -85,12 +85,12 @@ Good, 1/3 of wiring is done.
 
 You should have your new wires from the cabin routed through the firewall, if not... go do that. Label the wires. Don't connect the wires to your relay yet.
 
-Let's look at the main power and main ground of the relay. 
+Let's look at the main power and main ground of the relay.
 
 On your relay, find terminal 30 and run a wire from terminal 30 to battery (+). This is the main power to the relay.
 Then, run a wire from terminal 86 to the body, but do not connect it to your relya yet. Clean up the body ground with a wire brush and fasten it down. This is the main ground to the relay. Leave the main ground disconnected.
 
-Lastly, terminal 87 will be run to your new headlights. We are splitting the wire in two, one wire to each highlight circuit. You can simply strip the wire down enough to wrap to wires around, then cover it with solder and electrical tape. Connect these to the positive terminal of the headlight. 
+Lastly, terminal 87 will be run to your new headlights. We are splitting the wire in two, one wire to each highlight circuit. You can simply strip the wire down enough to wrap to wires around, then cover it with solder and electrical tape. Connect these to the positive terminal of the headlight.
 
 From the headlights, run a wire from the negative terminal to the body. You can choose to combine the wire into one or make two holes in the chassis. It's cleaner if you can combine and tuck them away in the same place. But it's your shitbox, do what you like.
 
@@ -106,11 +106,11 @@ It was confusing at first, but after walking through the diagram, and even testi
 
 
 
-What wire? General rules of thumb, 12 AWG for boy power, 18 AWG for the rest. BUT, refer to a wiring chart on your choice of wire. Household Home Depot wire will work, but get some real copper at places like wirebarn.com. 
+What wire? General rules of thumb, 12 AWG for boy power, 18 AWG for the rest. BUT, refer to a wiring chart on your choice of wire. Household Home Depot wire will work, but get some real copper at places like wirebarn.com.
 
 ### Installation, finally.
 0. Double check your wiring diagram and loosely map your wires.
-1. Remove the gril using a philips head screwdriver, or whatever fastener the person used before you. Be gentle with the plastic clips. 
+1. Remove the gril using a philips head screwdriver, or whatever fastener the person used before you. Be gentle with the plastic clips.
 2. Install the new grill
 3. Install the fog lights, inner lights, whatever you want to call them. If you're going the route of custom mounting points, you may use 5.25" lights to fit into the quad grill, you'll have to figure out a way to fasten it, though.
 4. Install your wires. Work from the cabin to the engine bay, feeding your wires through the firewall.

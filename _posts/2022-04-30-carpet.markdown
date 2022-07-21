@@ -3,6 +3,7 @@ layout: post
 title:  "Fresh start for the cabby's interior"
 date:   2022-04-30 00:00:00 -1000
 categories: interior
+image: /carpet/interior.jpg
 ---
 
 I started to redo the interior from March 7, 2022. Having the ability to put the car into a closed garage has been a godsend in the house I'm living in right now.
@@ -11,7 +12,7 @@ Originally, I would be wrenching outdoors and would have to popup a tent when I 
 
 ## How long did it take?
 
-From start to finish, this took me over 50 work hours. 
+From start to finish, this took me over 50 work hours.
 - Remove door cards, shift boot, VDO gauge cluster, seats, and other fixins
 - Removing the old carpet and anything that was rotting underneath
 - Remove old butyl with dry ice and hammer
@@ -45,17 +46,17 @@ On all the materials, not all tools: ~$760
 | 3mm plastic sheeting         | $19   |
 | **TOTAL**                    | $759  |
 
-For my case, I went nearly full teardown and buildup. I would have spent more on welding and bigger patching materials if I had the income to do so, but I decided to go with metal body filler instead. 
+For my case, I went nearly full teardown and buildup. I would have spent more on welding and bigger patching materials if I had the income to do so, but I decided to go with metal body filler instead.
 
 The biggest costs were obviously in the materials: carpet and sound deadening. If you are reusing your carpet, great! You save about 20% of the costs. If you are not installing sound deadening and just replacing the carpet, that is about 70% of my total costs.
 
 I probably could have saved myself more trouble by cheaping out, but it may have not lasted as long. I probably could have future-proofed this car by doing more proper metal repair and professional installation, but it defeats the purpose of a project car on a budget.
 
-Of course, not having tools would make this an expensive first project; however, this assumes you have a good garage set of tools which means a basic socket and wrench set, screwdrivers, prying tools, and cutting tools. This also assumes you have an air compressor, grinder, mallets, buckets,and cleaning supplies as well. 
+Of course, not having tools would make this an expensive first project; however, this assumes you have a good garage set of tools which means a basic socket and wrench set, screwdrivers, prying tools, and cutting tools. This also assumes you have an air compressor, grinder, mallets, buckets,and cleaning supplies as well.
 
 Lastly, body condition and other pieces you need to buy and replace will be a possible variable.
 
-The car is something I want to enjoy driving in comfort, not for performance. It will be far too expensive to make this car fast, haha. 
+The car is something I want to enjoy driving in comfort, not for performance. It will be far too expensive to make this car fast, haha.
 
 ## The Process: Expedited
 
@@ -72,7 +73,7 @@ On to actually removing the pieces, read on!
 
 #### VDO Gauges + Shift Boot
 
-The VDO gauges and shift boot are packaged together. Remove the two screws underneath the dash, one on the driver and passenger side. Remove the main phillips screw right between the boot and e-brake. Remove the shift know. 
+The VDO gauges and shift boot are packaged together. Remove the two screws underneath the dash, one on the driver and passenger side. Remove the main phillips screw right between the boot and e-brake. Remove the shift know.
 
 Space is tight, so lift up from the side next to the e-brake and tilt the assembly down. Shimmy the plastic out from underneath the dashboard, you will also slowly lift the shifter boot out of the shifter. Continue to shimmy out slowly, watching your wires connected to the gauges. Once it's mostly free, turn it to the passenger side and check your wires. Disconnect and label the connectors and lights. It's pretty easy to figure out by distance of the wires, but less guessing, more wrenching.
 
@@ -101,11 +102,11 @@ To remove the rear seat back, there are two large phillip head screws on each si
 Let's start with the armrest. There are two phillips head screws underneath, remove them. Lift the armrest enough where the angled portion is parallel to the ground, then gently pull it out of the door.
 
 Remove the screws from the speaker grille then gently pop it off.
-If you have the stock speaker, it will be screwed into the grille. Remove the speaker wire from the speaker. 
+If you have the stock speaker, it will be screwed into the grille. Remove the speaker wire from the speaker.
 
-Pop off the inteior handle backing with a flathead, then pull out the entire cupped part. The handle will remain. 
+Pop off the inteior handle backing with a flathead, then pull out the entire cupped part. The handle will remain.
 
-Pop off the window crank, you may have to either peel off the handle crank plastic or pop it off. Here are both: This will reveal the screw. Remove it and SLOWLY remove the crank. There will be geared washers, look for the orientation and set aside. 
+Pop off the window crank, you may have to either peel off the handle crank plastic or pop it off. Here are both: This will reveal the screw. Remove it and SLOWLY remove the crank. There will be geared washers, look for the orientation and set aside.
 
 Check your card for any other fasteners and screw covers. Review the whole card and take pictures to remember where what screw goes where.
 
@@ -124,13 +125,13 @@ The doors (should) have plastic sheeting behind each door card, this is a moistu
 
 ### Removing the old carpet and anything that was rotting underneath
 
-WOO. The main event. Time to see all the damage from previous owners, the elements, and time. 
+WOO. The main event. Time to see all the damage from previous owners, the elements, and time.
 
 If it's like most of the Golfs, the carpet is in two pieces for easier installation. I would recommend installing it this way for sanity sake. I gave up trying to install a single piece because replacement carpet is not particulaly correct.
 
 Remove the rear carpet from the bench seats to the center. Slowly lift out and fold in to keep the dust/mold from falling back in. The carpet may be fastened down in some places by the doors, pull away and should be fine.
 
-Next, remove the door sill trim and door sill carpet hold-down clips. Lift up the carpet to confirm any missing parts. You may find little gems from here on. Next, lift out any original sound deadening materials, the main one being the piece underneath the dashboard on the center "transmission" tunnel, where your shifter is. 
+Next, remove the door sill trim and door sill carpet hold-down clips. Lift up the carpet to confirm any missing parts. You may find little gems from here on. Next, lift out any original sound deadening materials, the main one being the piece underneath the dashboard on the center "transmission" tunnel, where your shifter is.
 
 From this point a small person with capable hands will help. And a flashlight. Starting at the driver's side, remove the two screws holding the hood release. Next, remove the throttle pedal foot stop. Next, straigthen out any metal fingers that hold down the carpet. Search for any other plastic fasteners that hold the carpet. Gently pull away to confirm.
 
@@ -142,11 +143,11 @@ Congratualations, wash your hands, my carpet was fuckin' gross and would not dou
 
 ### Remove old butyl with dry ice and hammer
 
-Time to remove any old sound deadening and othe material. Note, there are intenional hole cutouts in the floor pans, do not simply bang away at them! 
+Time to remove any old sound deadening and othe material. Note, there are intenional hole cutouts in the floor pans, do not simply bang away at them!
 
 To remove the old black sound deadener, use dry ice. I got 10 lbs of it for the entire car. Pour the dry ice in ONE floor plan and let that sink in. I'd recommend gloves, eye protection, and a fan. Next, pour some isopropyl alcohol to accelerate the cooling effect. After about 5 minutes, take the remaining ice and swoop it over to the next pan. Pound the old rubber away and chunks should start flying. If you are distifisied, rotate all the way through and add more ice when you can.
 
-Repeat until mostly clean. 
+Repeat until mostly clean.
 
 This will identity the flaws in your metal. Find the rust and grind it away. Paint it and confirm your work. This is the last time you will get to see a bare floor. Inspect from front to back.
 
