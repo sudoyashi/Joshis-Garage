@@ -11,7 +11,7 @@ menu:
 - {name: 'Ocean', url: 'ocean'}
 - {name: 'Home Economics', url: 'home-economics'}
 - {name: 'Gallery', url: 'gallery'}
-- {name: 'IT',      url: 'it'}
+# - {name: 'IT',      url: 'it'}
 - {name: 'Downloads', url: 'downloads'}
 - {name: 'About',              url: 'about'}
 
