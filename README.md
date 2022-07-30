@@ -38,3 +38,4 @@ To add images: use the "![alt text](img link)", example:
 
 Other information:
   Page Limit - 1060 wide
+  Post Width - 600
