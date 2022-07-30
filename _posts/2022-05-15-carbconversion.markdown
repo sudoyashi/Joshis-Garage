@@ -226,11 +226,10 @@ Next, connect those runners with fluoro-lined hoses. This special rubber hose is
 
 #### Materials
 
-![Custom Flange](assets/img/flange.JPG)
+![Custom Flange](assets\img\flange.JPG)
 
 For all of these parts, I'd recommend 5052 or 6061 aluminum, depending on your budget. For gaskets, repeat the CAD drawing of the mating surfaces and get those parts made of cork. You could do stainless steel, but it's added weight and may rust quicker than aluminum. For the intake hose, stick with fluoro-lined hoses and for vacuum hoses, any silicone or rubber hose for vacuum will do. If you are doing a DIY build, buy extras, test, draft, and test again! If you think you're saving money making it on your own, think again!
 
-![Cork](assets/img/cork-1.jpg)
 ![Carb Conversion](assets\img\cork-1.jpg)
 Keep in mind these components will be getting hot, I recommend using heat shields for body parts, rubber, or other sensitive parts  and wire sheath to protect any wires.
 
