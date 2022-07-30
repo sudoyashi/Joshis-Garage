@@ -32,4 +32,6 @@ Don't forget to merge, pull, and push properly!
     git config --global user.email "emailhere"
 
 
-To add images: use the "![alt text](img link)"
+To add images: use the "![alt text](img link)", example:
+
+"![Carb Conversion] (assets/img/carbconversion-1.jpg)"

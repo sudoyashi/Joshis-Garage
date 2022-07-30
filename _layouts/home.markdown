@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<img src="/assets/img/driveway1.jpg" alt="1985 Golf Mk1 Convertible">
+<img src="assets/img/driveway1.jpg" alt="1985 Golf Mk1 Convertible">
 <br>
 
 
