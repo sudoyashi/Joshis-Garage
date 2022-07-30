@@ -17,6 +17,9 @@ permalink: /:categories/:title/
       <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
     </div>
   {% endif %}
+  <article>
+    {{ content }}
+  </article>
   {% if site.hide_post_share != true %}
     {% include post-share.html %}
   {% endif %}

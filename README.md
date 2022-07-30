@@ -30,3 +30,6 @@ Don't forget to merge, pull, and push properly!
     git status
     git config --global user.name "namehere"
     git config --global user.email "emailhere"
+
+
+To add images: use the "![alt text](img link)"
