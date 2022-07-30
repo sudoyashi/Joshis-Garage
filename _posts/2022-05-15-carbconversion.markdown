@@ -283,34 +283,42 @@ I went to the gas station for my first trip since I really needed to fill up som
 Carb heads will shine here, we're tuning the carburetors for the best performance across the throttle range.
 
 Our goal is to hit these target AFR ratios to balance performance and efficiency.
-https://www.safrtool.com/SAFR-AFR-values.asp
+[https://www.safrtool.com/SAFR-AFR-values.asp](https://www.safrtool.com/SAFR-AFR-values.asp)
 
-- 6 AFR - Rich Burn Limit
-- 9 AFR - Black Smoke, Low Power
-- 11.5 AFR - Best Rich Torque at Wide Open Throttle (WOT)
-- 12.2 AFR - Safe Best Power at Wide Open Throttle (WOT)
-- 13.3 AFR - Lean Best Torque
-- 14.6 AFR - Stoichimometirc Air/Fuel Ratio Value (Stoich)
-- 15.5 AFR - Lean Cruise
-- 16.5 AFR - Usual Best Economy
-- 18 AFR - Carbureted Lean Burn Limit
-- 22+ AFR - EEC / EFI Lean Burn Limit
+| AFR      | Description                                  |
+| -------- | -------------------------------------------- |
+| 6        | Rich Burn Limit                              |
+| 9        | Black smoke, low power                       |
+| 11.5     | Best rich torque at wide open throttle (WOT) |
+| **12.2** | **Safe best power at wide open throttle**    |
+| **13.3** | **Lean best torque**                         |
+| **14.6** | **Stoich mix**                               |
+| **15.5** | **Lean cruise**                              |
+| **16.5** | **Usual best economy**                       |
+| **18**   | **Carbureted lean burn limit**               |
+| 22       | EEC/EFI Burn limit                           |
+
+
 
 And these are the baseline targets we want to aim for:
-- Idle / light cruise: 13.5 AFR
-- Cruising: 14 AFR
-- Wide Open Throttle: 12.5 AFR
-- Acceleration 12 AFR
+| AFR  | Goal               |
+| ---- | ------------------ |
+| 13.5 | Idle, light cruise |
+| 14   | Cruising           |
+| 12.5 | Wide open throttle |
+| 12   | Acceleration       |
 
-During idle, 14.7 would be great, but for an ex-choke setup, it might be a little too lean for the car on a cold start resulting in longer starts. 13.5 will give you more leeway with the richer mixture. After getting the car warmed up, cruising at 14 reaches a balance between efficiency and power. Average power and average efficiency. This is where we will spend most of our time driving anyways, so this is our next critical circuit. Following cruising, Wide Open Throttle or WOT is our next focus. We will spend far less time in WOT, so tune to your preference. For solid, max power at WOT, 12.5 will suffice. Finally, during acceleration, 12 AFR will provide us with the highest amount of torque and power.
+During idle, 14.7 would be great, it might be a little too lean for the car on a cold start resulting in longer starts. 13.5 will give you more leeway with the richer mixture. After the car warms up, our next critical circuit is cruising. We want around 14 which is a balance of average power and average efficiency. While stoich would also be ideal here, we err on the side of more fuel. Next, wide Open Throttle or WOT is our next focus. Realistically we won't be at WOT all the time, so tune to your preference. My WOT is currently at 14 and I am fine with that. For solid, max power at WOT, 12.5 will suffice. Finally, during acceleration, 12 AFR will provide us with the highest amount of torque and power.
 
-You may want to tune for drivability or power, so adjust it as necessary. However, tune for reliability first. We need to establish a proper baseline for the car before going crazy. With all this talk about the baseline, how do you actually get there?
+Tune for reliability first. We need to establish a proper baseline for the car before going crazy. With all this talk about the baseline, how do you actually get there?
 
-The process of tuning your carbs can go two ways: (spark) plug chops and AFR gauges. Of the two, I recommend buying an AFR gauge.
+The process of tuning your carbs can go two ways: spark lug chops and AFR gauges. Of the two, I recommend buying an AFR gauge.
 
-#### Plug chops
+#### Spark plug chops
 
-Checking your spark plugs every so often on a drive up and down the street gets old really quick when trying to tune your carbs. The process starts with fresh, clean spark plugs and a drivable car. Drive up and down the street for about 5-10 minutes and promptly after going for a drive, stop and kill the car, and immediately check your spark plugs. All of them. You need to inspect and compare each cylinder's spark plugs and determine if the mixture is too lean, too rich, or just enough. After driving, you make some adjustments based on the results and then you start all over again. Drive. Stop. Check. Adjust. It's a very tedious and time-consuming task that most people do not have the time and patience for. However, it is not totally useless.
+This is an aged, tried-and-true method, but it's tedious and time consuming.
+
+Checking your spark plugs every so often on a drive up and down the street gets old really quick when trying to tune your carbs. The process starts with fresh, clean spark plugs and a drivable car. Drive up and down the street for about 5-10 minutes and promptly after going for a drive, stop and kill the car, and immediately check your spark plugs. All of them. You need to inspect and compare each cylinder's spark plugs and determine if the mixture is too lean, too rich, or just enough. After driving, you make some adjustments based on the results and then you start all over again. Drive. Stop. Check. Adjust. It's a very tedious and time consuming task that most people do not have the time and patience for. However, it is not totally useless.
 
 During an annual or semi-annual maintenance check with your car, you may pull the spark plugs to check engine health. This checkup is a supplementary indicator for you to see if the engine is too lean, too rich, or doing just fine. Refer to the spark plug chart below:
 
@@ -318,28 +326,39 @@ Checking spark plugs is a very tedious method of tuning but it is still somethin
 
 #### Air Fuel Ratio (AFR) Gauge
 
+The new age of tuning, with little drawbacks.
+
 A wideband AFR gauge is comprised of an O2 sensor and a gauge measuring small changes in voltage. The O2 sensor is different than your normal O2 sensor on factory cars. Factory sensors have a limited range of values they can measure. All it will say is if you're at ~14.7 or not! The factory's goal is to adhere to the 14.7 AFR as closely as possible throughout the RPM range for efficiency, power, and adherence to emissions. That is not the tuner's goal. Wideband O2 sensors are able to measure and output values outside of the 14.7 AFR range. This is what we want to see and how we want to tune.
 
 O2 sensors work like this: the car provides its energy (5V usually) to heat up its sensor. This sensor measures the oxygen levels wherever it is installed in your exhaust system. The sensor will produce a proportional amount of electrical output and that output is finally inputted to our gauge which will spew out some number that makes sense to us.
 
+The drawback? It's not the end all answer to everything. You may get a misleading lean or rich mixture when in fact you have a vacuum leak! There is nothing wrong with your AFR, it's your setup that has to be correct. If you are tuning on a vacuum leak or fuel pressure inadequacy, you will not be able to accurately tune. Confirm with a smoke test.
+
 ### Carb base settings
 
-Carburetors will come with a baseline setting for your float, idle adjustment screw, needle jet, and main jet. Set your carb to these settings. If you bought your carbs used or came off a motorcycle, we can assume that it should retain the same jets, screw, and float settings. However, check before using them. To find these settings, search up the factory manual or factory settings and you should come close to finding them. If you STILL can't find any settings, just use the jets that are in there and hope that it can run in your car :)
+Carburetors will have a baseline setting from the factory for your float, idle adjustment screw, needle jet, and main jet. Search for them online and set your carb to these settings. If you bought your carbs used or came off a motorcycle, we can assume that it should retain the same jets, screw, and float settings. If you STILL can't find any settings, just use the jets that are in there and hope that it can run in your car :)
+
+There may be reliable ways of guessing and checking, but with a lot of time and inconvenience to learn about the fuel and air inputs of your specific carb, I would say slap the carbs on first and test.
 
 ### Tuning Process
 
-With the car cold, attempt to start the car with your foot on the gas pedal. On my car, I have to hold down the gas pedal to load up the carb with fuel for 5 seconds, then I gently feather the throttle based on how the car sounds. Observe the cold start time. Cold starts are leaner than your normal idle, but we want to know how lean.
+There are MANY tuning guides on carburetors online. Here is my brief guide. But, if you want more reading, I would suggest the following resources:
+- [Keihin Carb Jetting](https://www.shiny-red.net/guides/keihin-carburetor-jetting/)
+-
 
-On a cold idle, record the AFR. This is your cold AFR idle. As the car warms up, the car's AFR will slowly richen up. Drive the car around if you can or just let the car warm up until the first fan cycle turns on and off. If your fan isn't turning out, confirm your thermostat, thermoswitch, or other warming switches for the fan to function.
+With a cold engine, attempt to start the car with your foot on the gas pedal. On my car, I have to hold down the gas pedal to load up the carb with fuel for 5 seconds, then I gently feather the throttle based on how the car sounds. Observe the cold start time. Cold starts are leaner than your normal idle, but we want to know how lean.
 
-Now at a warm idle, record the AFR. This is your warm AFR idle and our goal is 14 AFR. On your carbs, you have idle adjustment screws which can either adjust air or fuel. Keep the screws synced up between each barrel and check your gauge. Blip the throttle a few times to let the carb get used to the new mixture. Adjust as necessary. Keep in mind about your cold idle and if you want an easier time starting your car, go rich. If not, keep it where it idles around 14.7.
+On a cold idle, record the AFR. This is your cold AFR idle. As the car warms up, the car's AFR will slowly richen up. Drive the car around if you can or just let the car warm up until the first fan cycle turns on and off. This is only for the first tuning session. Once you can drive the car, do that to warm up your car. If your fan isn't turning out, confirm your thermostat, thermoswitch, or other warming switches for the fan are functioning.
+
+Now at a warm idle, record the AFR. Increase your idle speed to about 1500-2000. This will allow you to check your idle/air mixture, we want around 14-14.7. We are going to be adjusting the IDLE screws, this can be air or fuel screws. To reiterate, we set these screws to factory settings. Now that we have it on the car, we will adjust it to suit our AFR. For fuel adjustment screws, if your car is lean, increase the amount of fuel. If your car is rich, decrease the amount of fuel.
+
+For air adjustment screws, if your car is lean, decrease the amount of air. If your car is rich, increase the amount of air.
 
 With the idle circuit done, we can move on to the needle jet, the second-most important circuit.
 
 The needle jet circuit is where we will be cruising around the most, a little off idle to half throttle. To check this, keep your foot on the gas and modulate the pedal from the quarter to half position, and track your AFR. Our goal here is between 12 and 14. 12 on acceleration and 14 once it's stable.
 
-
-
+Last is the main jets
 
 ## 9. Final adjustments
 The final step is to perfect your setup! Projects will never be "finished", but there will be a point where you won't be breaking down every other time you drive it. And that my friend is the time to celebrate. This is where you can truly enjoy your car with only minor maintenance issues.
