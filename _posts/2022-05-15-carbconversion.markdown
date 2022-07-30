@@ -146,7 +146,7 @@ Here are the plans that I made regarding my fuel system, vacuum system, and elec
 
 Removing the current system is pretty straightforward, but don't go ripping out every single component. We'll look at the process I went through with the Golf.
 
-The basics of removing the current fueling system start from the fuel pump. You can assess what you need and don't need. I kept the internal fuel pump since I saw someone else do that, honsetly. In the original design of the Golf, two fuel pumps exist the in-tank one and the pressurized one outside of the tank. I removed the pressurized one outside and replaced that with the bike fuel pump, this pumps at about PSI 4-6PSI versus the factory 43.5PSI. From the rear of the car, I also removed whichever fittings I could and temporarily removed the hoses to the fuel return.
+The basics of removing the current fueling system start from the fuel pump. You can assess what you need and don't need. I kept the internal fuel pump since I saw someone else do that, honestly. In the original design of the Golf, two fuel pumps exist the in-tank one and the pressurized one outside of the tank. I removed the pressurized one outside and replaced that with the bike fuel pump, this pumps at about PSI 4-6PSI versus the factory 43.5PSI. From the rear of the car, I also removed whichever fittings I could and temporarily removed the hoses to the fuel return.
 
 In the engine bay, I removed the entire CIS system, barring some components that were directly on the block. For a Golf Mk1 this includes:
 - Fuel filter before fuel distributor
