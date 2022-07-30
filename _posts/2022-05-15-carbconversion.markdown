@@ -301,6 +301,7 @@ Our goal is to hit these target AFR ratios to balance performance and efficiency
 
 
 And these are the baseline targets we want to aim for:
+
 | AFR  | Goal               |
 | ---- | ------------------ |
 | 13.5 | Idle, light cruise |
