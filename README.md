@@ -1,6 +1,6 @@
 Da_Cabby and other writeups about my projects
 
-Jekyll build for the website Link: https://sudoyashi.github.io/JoshAtWork
+Jekyll build for the website Link: https://sudoyashi.github.io/Joshis-Garage/
 
 A collection of my project notes on cars, design, and other hobbies that I decided to spend a silly my valuable amount of money and time into. If there's something valuable I want to take away from trying something new, then motherfucka I am going to make sure I can walk away from it as a champ. Some entries may not have anything, but it probably means I'm too lazy to write about it.
 #1. Da Cabby - The Lil Carbureted Convertible
@@ -13,17 +13,14 @@ Refuse to give up, and you shall be rewarded.
 #2. Swagon - The Daily Wagon
 
 My 2007 Audi A3 is not technically a project car, but it's definitely a car that I want to keep around to modify in the end. Acquired in June 2022, I was and still am attracted to the drivability of a car, with the benefits of interior space of an SUV, hence the wagon. I don't have too much to say about it yet, but I will be writing more about it soon!
+
 #3. CAD - Where Cardboard and Computers Collide
 
 CAD was something elusive to me. I've always been surrounded by computers and design work, yet I could never put it together until necessity came around. Designing parts for the Volkswagen, the possibilities of CAD and 3D parts were finally blown open. Making gaskets, flanges, and block-off plates proved to be a cunning exercise in Google searching, YouTube learning, and learning a lot about materials.
-#4. Writing - Stupid Simple.
-#5. Calligraphy - Doesn't make your handwriting better.
-#6. Open Water Swimming - Exactly what you thought. Scary, tough, but incredibly rewarding.
-#7. IT Administration - Principles to not hurt yourself as an IT Admin.
-#8. Curiosities of silly things. -
-#9. Coffee - Cause we're all addicted to something.
-#10. Skills - Do you want to be useless, or naw?
-Personal Notes on jekyll
+
+Future topics: Open Water Swimming, IT Administration, and Coffee
+
+### Personal Notes on jekyll
 
 To open the website locally: bundle exec jekyll serve Can't open because of webrick error? bundle add webrick
 

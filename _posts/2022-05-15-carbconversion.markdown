@@ -29,7 +29,9 @@ Ideally, this is how the project build would go. Pretty simple! But, this is a p
 
 ## Introduction: Carbs are wonderfully imperfect
 
-![Carb Conversion](/assets/img/carbconversion-1.jpg)
+![Carb Conversion](/assets/img/carbconversion-1.jpg) assets/img/carbconversion
+![Carb Conversion](/img/carbconversion-1.jpg) img/carbconversion
+![Carb Conversion](/carbconversion-1.jpg) carbconversion
 
 A bike carb conversion is not very common and doesn't seem to get too much good coverage. So why would you do it? I can only really think of two reasons why you should even go through with this:
 1. As a proof-of-concept on a shitty car you don't care about
