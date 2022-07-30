@@ -226,17 +226,17 @@ Next, connect those runners with fluoro-lined hoses. This special rubber hose is
 
 #### Materials
 
-![Custom Flange](assets/imgs/flange.JPG)
+![Custom Flange](assets//flange.JPG)
 
 For all of these parts, I'd recommend 5052 or 6061 aluminum, depending on your budget. For gaskets, repeat the CAD drawing of the mating surfaces and get those parts made of cork. You could do stainless steel, but it's added weight and may rust quicker than aluminum. For the intake hose, stick with fluoro-lined hoses and for vacuum hoses, any silicone or rubber hose for vacuum will do. If you are doing a DIY build, buy extras, test, draft, and test again! If you think you're saving money making it on your own, think again!
 
-![Cork](assets/imgs/cork-1.jpg)
+![Cork](assets/img/cork-1.jpg)
 
 Keep in mind these components will be getting hot, I recommend using heat shields for body parts, rubber, or other sensitive parts  and wire sheath to protect any wires.
 
 ### Premade Kit
 
-![DanST Premade Kit](assets/imgs/zx6r.JPG)
+![DanST Premade Kit](assets/img/zx6r.JPG)
 
 A premade kit with a manifold and carburetor set will resolve most of the engineering issues, all you have to do is install them! I can't give specific notes here other than go through the installation slowly and understand the engineering design of it all.
 
@@ -390,7 +390,7 @@ Further down the line when we want to keep the car driving healthy, also ask you
 ### Is there a hissing noise when you use the starter?
 - **Check for vacuum leaks.** The hissing could be the air coming in through a small hole or leak. This is known as unmetered air. While we do want more air for the engine to create more power, unmetered air is unaccounted for and will through your AFR out of balance. Let's start the car on a good note.
 
-![Carb Conversion](assets/imgs/leak.jpg)
+![Carb Conversion](assets/img/leak.jpg)
 
 ### Car starts, then die, then starts again?
 - This could be because of several issues. Fueling, air leaks, alternator failing, cold engine, etc. You need to start broader and look at the five elements. Narrow down which system is failing then reference those issues as your new starting point.
