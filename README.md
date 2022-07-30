@@ -35,3 +35,6 @@ Don't forget to merge, pull, and push properly!
 To add images: use the "![alt text](img link)", example:
 
 "![Carb Conversion] (assets/img/carbconversion-1.jpg)"
+
+Other information:
+  Page Limit - 1060 wide
