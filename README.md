@@ -1,4 +1,4 @@
-Da_Cabby and other writeups about my projects
+# Da_Cabby and other writeups about my projects
 
 Jekyll build for the website Link: https://sudoyashi.github.io/Joshis-Garage/
 
