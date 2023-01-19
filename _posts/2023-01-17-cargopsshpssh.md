@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome 2023 and my Civic SI FC3"
+title:  "car go PSSH PSSH"
 author: "Joshua Domingo"
 date:   2023-01-17 00:00:00 -1000
 tags: civic honda scca dailydriver
