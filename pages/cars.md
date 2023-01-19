@@ -5,6 +5,20 @@ permalink: /cars/
 image: cars.jpg
 tags: cars, audi, volkswagen, vag
 ---
+Test
+
+# 1985 Volkswagen Golf Cabriolet
+![Cabby](assets/img/driveway1.jpg)
+![Interior Cabby](assets/img/cabbyinterior-1.jpg)
+![Cabby rear](assets/img/cabby-rear-1.jpg)
+![Wheel](assets/img/cabby-gallery-7.jpg)
+
+# 2019 Honda Civic Si
+
+![Civic Front](assets/img/)
+![Civic Front](assets/img/)
+![Civic Front](assets/img/)
+![Civic Front](assets/img/)
 
 <div id="car-archives">
 {% for category in site.categories %}
@@ -24,8 +38,3 @@ tags: cars, audi, volkswagen, vag
 {% endfor %}
 </div>
 
-# 1985 Volkswagen Golf Cabriolet
-![Cabby](assets/img/driveway1.jpg)
-![Interior Cabby](assets/img/cabbyinterior-1.jpg)
-![Cabby rear](assets/img/cabby-rear-1.jpg)
-![Wheel](assets/img/cabby-gallery-7.jpg)
