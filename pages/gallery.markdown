@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Gallery
-permalink: /gallery/
+title: Car gallery
+permalink: /cargallery/
 ---
-Collections of each car over the months I've owned them.
 
 ## 1985 Volkswagen Golf Cabriolet
+1. [Bike Carb Conersion Guide](https://sudoyashi.github.io/Joshis-Garage/carbconversion)
+2. [Carpet Replacement](https://sudoyashi.github.io/Joshis-Garage/carpet)
 
 ![1985 Golf Mk1 convertible](https://sudoyashi.github.io/Joshis-Garage/assets/img/driveway1.jpg) After the new carpet install, November 2022
 
