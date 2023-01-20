@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Cars
-tags: cars, audi, volkswagen, vag
 permalink: /cars/
 ---
 Test
