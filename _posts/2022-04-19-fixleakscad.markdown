@@ -3,7 +3,7 @@ layout: post
 title:  "Fixing my vacuum leaks with technology (CAD)"
 date:   2022-04-19 00:00:00 -1000
 categories: cad
-image: flange.jpg
+image: flange.JPG
 ---
 
 I know the issue, it's a vacuum leak. How do you fix a vacuum leak? Seal it. Specifically from the intake manifold seals.
@@ -39,7 +39,10 @@ My flange wasn't correct so I ended up not using it. I refurbished the original 
 
 My measurements made it not unusable but it's a very good learning experience.
 
-I might have been better off having a solid piece and drilling out the holes myself to match everything perfectly. Since I can't use the new part to seal off everything, I had to make a small patch with body filler to the portion of the original flange to a part that I had made a small incision.
+![Missed it by 2mm](https://sudoyashi.github.io/Joshis-Garage/enginehead/flange.jpg)
+
+I might have been better off having a solid piece and drilling out the holes myself to match everything perfectly. Since I can't use the new part to seal off everything, I had to make a small patch with body filler to the portion of the original flange to a part that I had made a small incision. 
+
 
 With the part patched, I sanded the aluminum piece on a long piece of wood with 400/800/1500 sandpaper to maintain the face squareness. It was not going to be a perfect flat surface, but I needed to remove the leftover material from my previous RTV sealing attempts. I tested the flatness with a machinist square and it was good enough!
 
