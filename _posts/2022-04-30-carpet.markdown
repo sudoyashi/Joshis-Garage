@@ -3,7 +3,7 @@ layout: post
 title:  "Fresh start for the cabby's interior"
 date:   2022-04-30 00:00:00 -1000
 categories: interior
-image: interior.jpg
+image: interior.JPG
 ---
 
 I started to redo the interior from March 7, 2022. Having the ability to put the car into a closed garage has been a godsend in the house I'm living in right now.
