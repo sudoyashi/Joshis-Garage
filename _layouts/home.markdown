@@ -2,16 +2,12 @@
 layout: default
 title: Home
 ---
-<img src="assets/img/civic-x-golf.jpg" alt="2019 Civic SI and 1985 Golf Mk1 Convertible">
-<br>
-
-
-<center><h2> Refuse to Give Up </h2>
+<center><h2>Cars and other obsesions.</h2>
 <p>
-If there's anything that you really need to keep a project going it's money and to refuse to give up, but don't forget to eat once in a while.
-
-Want to start a project car on your own?  <a href="/_posts/2022-01-03-firstprojectcar.markdown">Read here!</a> Otherwise, checkout my posts below.
+My project car notes and other hobbies I'm working on. But while you're here, read about <a href="https://sudoyashi.github.io/Joshis-Garage/firstprojectcar">starting your own shitty project car!</a> <br><br>
+Otherwise, checkout my posts below.
 </p>
+
 
 </center>
 

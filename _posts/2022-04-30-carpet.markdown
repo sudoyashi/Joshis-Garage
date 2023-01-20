@@ -3,7 +3,7 @@ layout: post
 title:  "Fresh start for the cabby's interior"
 date:   2022-04-30 00:00:00 -1000
 categories: interior
-image: /joshis-garage/assets/img/carpet/interior.jpg
+image: interior.JPG
 ---
 
 I started to redo the interior from March 7, 2022. Having the ability to put the car into a closed garage has been a godsend in the house I'm living in right now.
@@ -62,6 +62,8 @@ The car is something I want to enjoy driving in comfort, not for performance. It
 
 
 ### Removing the Interior Remove door cards, shift boot, VDO gauge cluster, seats, and other fixins
+
+![RemovedInteriorBits](https://sudoyashi.github.io/Joshis-Garage/assets/img/IMG_2771.JPG)
 
 Basically, all the interior pieces that you can get your hands on that you WANT to remove. The biggest obstacle for any DIY project is no one is going to make you do anything.
 

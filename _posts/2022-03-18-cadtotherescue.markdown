@@ -3,6 +3,7 @@ layout: post
 title:  "Making my own gaskets with CAD"
 date:   2022-03-06 00:00:00 -1000
 categories: cad
+image: cork-1.jpg
 ---
 
 I've stalled on making a video on my bike carb conversion long enough. It has technically been running...  very poorly. Running poorly after a year since making my first video isn't convincing anybody, so I decided to do it properly.

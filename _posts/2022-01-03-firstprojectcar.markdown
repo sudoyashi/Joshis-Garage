@@ -4,21 +4,9 @@ title: "How to start your shitty project car"
 date:   2022-01-03 00:00:00 -1000
 categories: projectcar
 permalink: /firstprojectcar
+image: cabby-gallery-2.jpg
 ---
-Enjoy your first project car, but remember, this costs money.
-
-The realities of your first *project car* go something like this:
-- Insurance rate isn't so great
-- Can't buy a car on credit, don't do it even if you do qualify
-- Not enough tools
-- Not enough parts
-- Not enough knowledge
-- Used car market is whack... as of 2021/2022
-- User car market will be riddled with mechanic specials at cheap prices
-
-The guidelines that I set for myself were to find something that was dirt-cheap and something I want to drive. That's how I bought my car.
-
-But every circumstance is different. If you're okay with buying on credit because you can back it up, that's fine. Have someone that can lend you the money interest-free? Go ahead. Your largest expense will not be the car that's for sale, it will be all of your time and money that will go into it.
+Your largest expense will not be the car that's for sale, it will be all of your time and money that will go into it.
 
 ## How I started: A pandemic and having money to blow
 
