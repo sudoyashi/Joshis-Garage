@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Car Gallery
+title: Gallery
 permalink: /gallery/
 ---
 Collections of each car over the months I've owned them.
+
+## 1985 Volkswagen Golf Cabriolet
 
 ![1985 Golf Mk1 convertible](https://sudoyashi.github.io/Joshis-Garage/assets/img/maks.jpg) Makapu'u Lighthouse parking lot, February 2022
 
@@ -27,5 +29,8 @@ Collections of each car over the months I've owned them.
 
 ![1985 Golf Mk1 convertible](https://sudoyashi.github.io/Joshis-Garage/assets/img/cabby-rear-1.jpg) Rear, December 2021
 
+## 2019 Honda Civic Si
 
-​
+![Civic Front](https://sudoyashi.github.io/Joshis-Garage/assets/img/pages/cars/civic-full.jpg) Full view, July 2022
+![Civic Front](https://sudoyashi.github.io/Joshis-Garage/assets/img/pages/cars/civic-rear.jpg) Civic rear, July 2022
+![Civic Front](https://sudoyashi.github.io/Joshis-Garage/assets/img/pages/cars/civic-side.jpg) Civic rear, July 2022
