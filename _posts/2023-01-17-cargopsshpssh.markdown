@@ -18,26 +18,23 @@ Yes... unfortunately.
 
 Knowing I needed to put some work into the Audi, it was reasonable for me to buy it because I have worked on cars enough to the point that I felt it was fine to do some of the repairs. While I was able to keep up for a bit, two project cars, long nights of diagnosis on weekdays, and trying to find parts online and in-person for my cars became more of a chore than a joy. 
 
-I did not find myself enjoying my cars at all! I dreaded driving them for the fear of not being able to drive around. I did not want to continue trying to work with 2 project cars, where 1 of them was my daily, so I had to pivot and take a loss.
+I did not find myself enjoying my cars at all. Work and searching on websites for parts throughout the day and going back home to install said part was a terrible cycle. I dreaded driving them because I didn't know if they were going to break or not. I did not want to continue trying to work with 2 project cars, where 1 of them was my daily, so I had to pivot and take a loss.
 
-Sold the Audi... but not before buying the replacement!
+Evntually sold the Audi... but not before buying the replacement!
 
 ## Enter the Civic
 
 On the hunt for another car, I was mildly excited but mostly mortified. I did not want to buy another dud, so I went with the dealership to find my next car. I figure I can dig myself a hole with a newer car OR dig myself a massive hole with another used car.
 
-My requirements were:
-- reliable
-- not stupid
-- not terribly slow
-- not an SUV
-- still hotboy-esque
+| Requirements       | Reason                                     |
+| ------------------ | ------------------------------------------ |
+| Reliable           | Duh.                                       |
+| Not stupid.        | Ugly ass Nissan Juke and Subaru Baja. Nah. |
+| Not terribly slow. | I want to feel nervous pressing the gas.   |
+| Not an SUV         | I don't have kids.                         |
+| Still hotboy-esque | I don't have kids, because I am the kid.   |
 
-- Reliability for the obvious reason that I don't want to deal with wrenching on my daily. 
-- Not stupid means no Nissan Jukes or Subaru Bajas
-- Not terribly slow, we are making some decent money and while it may not be the smartest financial move all around, cars make up a chunk of my quality of life. I would sacrifice money spent in entertainment, shopping, and food expenses to pay for my car. You can't be making decisions solely around the *Top 5 Money Moves When You Turn 30!* because what's the point of living through it if you're not going to enjoy yourself. In time, I would rather enjoy the good memories more than regret the missed opportunities.
-- Not an SUV... no one really needs that much car. Families? Sure, but you can do just fine with a hatchback or estate (wagon). Or who knows, I don't have kids. LOL.
-- Still hotboy-esque... this is why I don't have kids. I'm the kid.
 
-And where did we end up? With a 2019 Honda Civic Si Coupe in Crystal Black Pearl.
+
+And where did we end up? After a decent amount of test driving and perfectly logical means to justify this car, I went with a 2019 Honda Civic Si Coupe in Crystal Black Pearl at 27,000 miles. 
 
