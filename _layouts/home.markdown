@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<img src="https://sudoyashi.github.io/Joshis-Garage/assets/img/home-vertical.jpg" alt="2019 Civic SI and 1985 Golf Mk1 Convertible">
+<img src="https://sudoyashi.github.io/Joshis-Garage/assets/img/cars-home.jpg" alt="2019 Civic SI and 1985 Golf Mk1 Convertible">
 <br>
 
 
