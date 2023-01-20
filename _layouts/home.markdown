@@ -4,8 +4,10 @@ title: Home
 ---
 <center><h2>Cars and other obsesions.</h2>
 <p>
-If there's anything that you really need to keep a project going it's money and to refuse to give up, but don't forget to eat once in a while. Get a project car. It'll change your life and how much money you have.  <a href="https://sudoyashi.github.io/Joshis-Garage/firstprojectcar">Read here!</a> Otherwise, checkout my posts below.
+My project car notes and other hobbies I'm working on. But while you're here, read about <a href="https://sudoyashi.github.io/Joshis-Garage/firstprojectcar">starting your own shitty project car!</a> <br><br>
+Otherwise, checkout my posts below.
 </p>
+
 
 </center>
 
