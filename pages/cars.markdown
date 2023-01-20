@@ -4,21 +4,21 @@ title: Cars
 permalink: /cars/
 image: cars.jpg
 tags: cars, audi, volkswagen, vag
+image: /pages/cars/civic-golf.jpg
 ---
 Test
 
 # 1985 Volkswagen Golf Cabriolet
-![Cabby](assets/img/driveway1.jpg)
-![Interior Cabby](assets/img/cabbyinterior-1.jpg)
-![Cabby rear](assets/img/cabby-rear-1.jpg)
-![Wheel](assets/img/cabby-gallery-7.jpg)
+![Cabby](https://sudoyashi.github.io/Joshis-Garage/assets/img/driveway1.jpg)
+![Interior Cabby](https://sudoyashi.github.io/Joshis-Garage/assets/img/cabbyinterior-1.jpg)
+![Cabby rear](https://sudoyashi.github.io/Joshis-Garage/assets/img/cabby-rear-1.jpg)
+![Wheel](https://sudoyashi.github.io/Joshis-Garage/assets/img/cabby-gallery-7.jpg)
 
 # 2019 Honda Civic Si
 
-![Civic Front](assets/img/)
-![Civic Front](assets/img/)
-![Civic Front](assets/img/)
-![Civic Front](assets/img/)
+![Civic Front](https://sudoyashi.github.io/Joshis-Garage/assets/img/pages/cars/civic-full.jpg)
+![Civic Front](https://sudoyashi.github.io/Joshis-Garage/assets/img/pages/cars/civic-rear.jpg)
+![Civic Front](https://sudoyashi.github.io/Joshis-Garage/assets/img/pages/cars/civic-side.jpg)
 
 <div id="car-archives">
 {% for category in site.categories %}
