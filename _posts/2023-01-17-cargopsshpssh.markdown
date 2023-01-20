@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "car go PSSH PSSH"
+title:  "Civic Si enters the garage"
 author: "Joshua Domingo"
 date:   2023-01-17 00:00:00 -1000
 tags: civic honda scca dailydriver

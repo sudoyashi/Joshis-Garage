@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Plans - 1.8 JH 276 Camshaft Upgrade "
-date:   2022-03-04 00:00:00 -1000
+date:   2099-03-04 00:00:00 -1000
 categories: camshaft
 ---
 Eventually, I plan on adding a 276 to improve the powerband dyanmic for the Mk1. A new camshaft, a worthy mod for its own post.

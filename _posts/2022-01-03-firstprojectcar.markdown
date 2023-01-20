@@ -4,6 +4,7 @@ title: "How to start your shitty project car"
 date:   2022-01-03 00:00:00 -1000
 categories: projectcar
 permalink: /firstprojectcar
+image: cabby-gallery-2.jpg
 ---
 Enjoy your first project car, but remember, this costs money.
 

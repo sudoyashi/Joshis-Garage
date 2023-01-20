@@ -7,7 +7,7 @@ categories: cad
 ---
 This piece is meant to prevent incoming air from escaping above the radiator. Not tested for aerodynamic (drag) improvements. It should allow for less "air leaks" in the flow of air coming into the grille, improving the cooling slightly.
 
-![Radiator shroud draft, drawing not to scale](/da_cabby/assets/img/cad_radiatorshroud.jpg)
+![Radiator shroud draft, drawing not to scale](https://sudoyashi.github.io/Joshis-Garage/assets/img/cad_radiatorshroud.jpg)
 
 - [Link to OnShape](https://cad.onshape.com/documents/682002d861facf527e377bb4/w/63eb79031a9097a44fba7f47/e/30b572027f0ff45235c5da2d) <br>
 - [Link to sendcutsend.com](https://app.sendcutsend.com/)

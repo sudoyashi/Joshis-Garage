@@ -19,7 +19,7 @@ I decided to make my own.
 
 ## CAD, not the cardboard kind
 
-![CAD Draft](ad-intakezx6r.png)
+![CAD Draft](https://sudoyashi.github.io/Joshis-Garage/assets/img/cad-intakezx6r.png)
 
 It was a good excuse to finally learn more about CAD and machining. I learned graphic design and used graphic design in my projects before, so I figure I should jump into CAD. I used OnShape to design and SendCutSend, per recommendation from SuperFastMatt. Honestly, a lot of inspiration came from superfastmatt to make my own things.
 
@@ -35,7 +35,7 @@ Essentially, I made this part even better. Right?
 
 My flange wasn't correct so I ended up not using it. I refurbished the original flange instead.
 
-![Leak](/assets/img/engine head/leak.jpg)
+![Leak](https://sudoyashi.github.io/Joshis-Garage/assets/img/enginehead/leak.jpg)
 
 My measurements made it not unusable but it's a very good learning experience.
 
@@ -51,11 +51,11 @@ I didn't need to install the head yet, but I place it on there gingerly to test 
 
 This was a first for me, an actual DIY achievement for me. I designed my first bolt-on engine parts. Now, this wasn't a performance part but it wasn't particularly an easy part either. It took a lot of testing and trials and to see it come to fruition is something I can't buy with bolt-on parts.
 
-![Cork gasket](/assets/img/engine head/cork-1.jpg)
+![Cork gasket](https://sudoyashi.github.io/Joshis-Garage/assets/img/enginehead/cork-1.jpg)
 
 ## Looking Forward: Clean the engine, install the head
 
-![Head complete](/assets/img/engine head/head.JPG)
+![Head complete](https://sudoyashi.github.io/Joshis-Garage/assets/img/enginehead/head.JPG)
 
 The block needs some cleaning from all that carbon, so I can get all of that done pretty easily. I'm SUPER stoked that I have a good chance of a succesful engine now, so in a couple weeks when everything is buttoned up, I'll be up and running just in time for summer.
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Diagnosing vacuum leaks"
 date:   2022-04-16 00:00:00 -1000
 categories: carburetor
+image: leak.jpg
 ---
 
 Carb conversion solving vacuum leaks
@@ -43,7 +44,4 @@ Go over every possible place that may leak air. Starting from your engine intake
 Once you've find your vacuum leak, we'll go about the way on how to fix it.
 
 If it's a gasket you can replace, replace the gasket. If it's a cut hose or loose hose, replace the hose and/or clamp that secures it. And if a connection is simply loose, tighten it up. My vacuum leak is coming from intake manifold flange. I have two gaskets there and I'm unsure which one it's coming from since they're so close together.  This was not the biggest leak, but it shows how easy it is to find a leak.
-
-![Leak](/da_cabby/assets/imgs/engine head/leak.jpg)
-
 

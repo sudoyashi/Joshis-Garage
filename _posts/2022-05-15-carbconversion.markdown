@@ -196,7 +196,7 @@ Add your filter before the fuel pump, install the fuel pump, and fasten it to a 
 
 ### Engine bay: filter, gauge, and carburetors
 
-![Carb Conversion](assets/img/engine.JPG)
+![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets/img/engine.JPG)
 
 Next, follow the factory fuel feed line from the pump to the engine bay. Attach another line, a pressure gauge, fuel filter, and the final line that leads to the fuel inlet for the carburetors. Be VERY mindful of any lines that are running near hot areas like the exhaust manifold to prevent heat soak. If necessary, sheathe the lines with heat protection. Confirm all your clamps are sealed and pressurize your system for leaks by turning your car on and running your fuel pump.
 
@@ -212,7 +212,7 @@ From the engine head, you will need to connect your carbs to those intake ports.
 
 ### DIY Intake
 
-![CAD Draft](assets/img/cad-intakezx6r.png)
+![CAD Draft](https://sudoyashi.github.io/Joshis-Garage/assets/img/cad-intakezx6r.png)
 
 Remove the original intake manifold. Measure and draft the intake manifold's mating surface to create the flange that will bolt to the head. You can also take the original gasket and trace that out for the bolt pattern of your new flange. It can be an integrated flange to fit directly to the carbs, or a two-piece flange. One piece bolt to the head, then another piece that will connect the head to the carbs. Personally, I'm not sure which design I would go with. I would have simplified and gone with the all-in-one piece, but the two-piece may be easier to service. It also means two times the fasteners and gaskets. Anyways...
 
@@ -226,16 +226,16 @@ Next, connect those runners with fluoro-lined hoses. This special rubber hose is
 
 #### Materials
 
-![Custom Flange](assets\img\flange.JPG)
+![Custom Flange](https://sudoyashi.github.io/Joshis-Garage/assets\img\flange.JPG)
 
 For all of these parts, I'd recommend 5052 or 6061 aluminum, depending on your budget. For gaskets, repeat the CAD drawing of the mating surfaces and get those parts made of cork. You could do stainless steel, but it's added weight and may rust quicker than aluminum. For the intake hose, stick with fluoro-lined hoses and for vacuum hoses, any silicone or rubber hose for vacuum will do. If you are doing a DIY build, buy extras, test, draft, and test again! If you think you're saving money making it on your own, think again!
 
-![Carb Conversion](assets\img\cork-1.jpg)
+![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets\img\cork-1.jpg)
 Keep in mind these components will be getting hot, I recommend using heat shields for body parts, rubber, or other sensitive parts  and wire sheath to protect any wires.
 
 ### Premade Kit
 
-![DanST Premade Kit](assets\img\zx6r.JPG)
+![DanST Premade Kit](https://sudoyashi.github.io/Joshis-Garage/assets\img\zx6r.JPG)
 
 A premade kit with a manifold and carburetor set will resolve most of the engineering issues, all you have to do is install them! I can't give specific notes here other than go through the installation slowly and understand the engineering design of it all.
 
@@ -409,7 +409,7 @@ Further down the line when we want to keep the car driving healthy, also ask you
 ### Is there a hissing noise when you use the starter?
 - **Check for vacuum leaks.** The hissing could be the air coming in through a small hole or leak. This is known as unmetered air. While we do want more air for the engine to create more power, unmetered air is unaccounted for and will through your AFR out of balance. Let's start the car on a good note.
 
-![Carb Conversion](assets/img/leak.jpg)
+![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets/img/leak.jpg)
 
 ### Car starts, then die, then starts again?
 - This could be because of several issues. Fueling, air leaks, alternator failing, cold engine, etc. You need to start broader and look at the five elements. Narrow down which system is failing then reference those issues as your new starting point.

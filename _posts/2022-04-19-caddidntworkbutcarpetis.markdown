@@ -3,8 +3,9 @@ layout: post
 title:  "Fixing my vacuum leaks with technology (CAD)"
 date:   2022-04-19 00:00:00 -1000
 categories: cad
+image: cad-intakezx6r.png
 ---
-![Leak](/da_cabby/assets/imgs/engine head/leak.jpg)
+
 I know the issue, it's a vacuum leak. How do you fix a vacuum leak? Seal it. Specifically from the intake manifold seals. 
 
 The easiest way to check this out is to take off the head and inspect my flanges and seals for warping. Knowing the manifold was bent, it's not far off to think the flange was warped as well. Same goes for the seals that probably cause the warping from a leak, this caused a backfire in my carburetors. It was cool at first because I wanted to spit flames, then I found out that this was bad and not cool at all.
@@ -18,7 +19,7 @@ I decided to make my own.
 
 ## CAD, not the cardboard kind
 
-![CAD Draft](/da_cabby/assets/img/cad-intakezx6r.png)
+![CAD Draft](https://sudoyashi.github.io/Joshis-Garage/assets/img/cad-intakezx6r.png)
 
 It was a good excuse to finally learn more about CAD and machining. I learned graphic design and used graphic design in my projects before, so I figure I should jump into CAD. I used OnShape to design and SendCutSend, per recommendation from SuperFastMatt. Honestly, a lot of inspiration came from superfastmatt to make my own things. 
 
@@ -34,7 +35,7 @@ Essentially, I made this part even better. Right?
 
 My flange wasn't correct so I ended up not using it. I refurbished the original flange instead.
 
-![Missed it by 2mm](/da_cabby/imgs/engine head/flange.jpg)
+![Missed it by 2mm](https://sudoyashi.github.io/Joshis-Garage/enginehead/flange.jpg)
 
 My measurements made it not unusable but it's a very good learning experience. 
 
@@ -50,7 +51,7 @@ I didn't need to install the head yet, but I place it on there gingerly to test 
 
 This was a first for me, an actual DIY achievement for me. I designed my first bolt-on engine parts. Now, this wasn't a performance part but it wasn't particularly an easy part either. It took a lot of testing and trials and to see it come to fruition is something I can't buy with bolt-on parts.
 
-![Cork gasket](/da_cabby/assets/imgs/engine head/cork-1.jpg)
+![Cork gasket](https://sudoyashi.github.io/Joshis-Garage/assets/imgs/enginehead/cork-1.jpg)
 
 ## Looking Forward: Clean the engine, install the head
 
