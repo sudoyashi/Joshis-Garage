@@ -6,11 +6,9 @@ title: Home
 <br>
 
 
-<center><h2> Refuse to Give Up</h2>
+<center><h2>Cars and other obsesions.</h2>
 <p>
-If there's anything that you really need to keep a project going it's money and to refuse to give up, but don't forget to eat once in a while.
-<br><br>
-Want to start a project car on your own?  <a href="/_posts/2022-01-03-firstprojectcar.markdown">Read here!</a> Otherwise, checkout my posts below.
+If there's anything that you really need to keep a project going it's money and to refuse to give up, but don't forget to eat once in a while. Get a project car. It'll change your life and how much money you have.  <a href="/_posts/2022-01-03-firstprojectcar.markdown">Read here!</a> Otherwise, checkout my posts below.
 </p>
 
 </center>
