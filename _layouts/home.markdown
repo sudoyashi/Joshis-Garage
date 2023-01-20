@@ -2,10 +2,6 @@
 layout: default
 title: Home
 ---
-<img src="https://sudoyashi.github.io/Joshis-Garage/assets/img/cars-home.jpg" alt="2019 Civic SI and 1985 Golf Mk1 Convertible">
-<br>
-
-
 <center><h2>Cars and other obsesions.</h2>
 <p>
 If there's anything that you really need to keep a project going it's money and to refuse to give up, but don't forget to eat once in a while. Get a project car. It'll change your life and how much money you have.  <a href="/_posts/2022-01-03-firstprojectcar.markdown">Read here!</a> Otherwise, checkout my posts below.
