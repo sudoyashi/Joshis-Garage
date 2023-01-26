@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Make your own car decals for SCCA"
+title:  "DIY decals for SCCA"
 author: "Joshua Domingo"
 date:   2023-01-25 00:00:00 -1000
 tags: race prep scca solo decal car number class  
@@ -8,11 +8,16 @@ categories: cars
 image: 
 ---
 
-This is going to be my first SCCA autocross event so I'm doing everything I can to be prepared for my first day. This post will look at the car identification rules and how I made mine for about $20 in materials.
+
+Everyone's car running in an SCCA event needs to have a race number and class identifier. But what if you don't know where to get one? This is a DIY guide to making your own car decals.
 
 ## SCCA Car Numbers and Decals
 
-> Reference Section 3.7 Vehicle Identification from 2022 SCA National Solo Rules
+The main idea is that your car should be easy to identify from across the lot. It is a lot easier to identify cars with high-contrast numbers and letters. Using small decals, weak contrast, or an embellished design will make it harder to read. Be proud of driving and show off your number, that's the rule! Here is an excerpt from the 2022 Solo rulebook on vehicle identification.
+
+### Reference Section 3.7 Vehicle Identification from 2022 SCA National Solo Rules
+
+> 
 > A. All vehicles must display numbers and class letters on both sides, which must be readable by Timing & Scoring, Course, and Grid workers at all times. 
 >
 > B. Only one set of numbers and class letters may be visible while the vehicle is running. 
@@ -27,59 +32,53 @@ This is going to be my first SCCA autocross event so I'm doing everything I can 
 >
 > ...
 >
-> ... Skipping item G. and H. because it's not applicable to my car class.
+> ... Skipping item G. and H. because it does not apply to my car class.
 >
 > ...
 
-### TLDR - Visible letters and doesn't look stupid
+### TLDR; be a racecar. show your number and class.
 
-The main idea is that the numbers and letters should be easily identifiable to know what number you have and what class you have. If you're using tiny numbers and letters, or if you have bad color contrast (e.g. white decals on a white car) trying to time and identify your car will just make it harder than it needs to be.
-
-## How to make your numbers and letters
+## DIY race car numbers and letters
 
 Ok, this is what you actually came for.
-
 In my case, I used a Cricut die-cutting machine. It cuts a design based on the image files that it receives in .svg, .png, and more. It is a specialty machine that you probably won't casually have lying around. If you DON'T have one, you have a couple options:
-1. Convince your girlfriend, boyfriend, or any significant other that they NEED a Cricut, and then you end up borrowing it
+1. Convince your girlfriend, boyfriend, or any significant other that they NEED a Cricut, where we come and swoop in to use it instead.
 2. Cut it by hand with a razor
 3. By it yourself (not recommended, we're on a budget remember!) 
 
-Once you have a Cricut, let's look at the materials.
+Once you have a Cricut, let's look at the materials...
 
-### Cheap magnetic vinyl
+### Well, actually one material: magnetic vinyl
 
-Well, one material. Magnetic vinyl is sold at home improvement stores and craft stores, though they may be marketed or sold differently. All you are looking for is cheap magnetic sheets that you can cut (preferably <1mm thickness).
+You can buy magnetic vinyl at home improvement stores, look for "magnetic vent covers". If they don't have that, look for magnetic vinyl sheets (<1mm thickness). At Home Depot, I picked up these **magnetic vent covers** at $8.99 each. Each pack came with three 8 in. x 15 in. sheets.
 
-At Home Depot, I picked up these magnetic vent covers at $8.99 each. Each pack came with three 8 in. x 15 in. sheets.
 ![Magnetic Vent Covers]()
 
-If your local stores don't have this material, you can also try Michael's and WalMart to find the vinyl. Otherwise, go to Amazon.
+If your local stores don't have this material, you can also try Michael's craft store, Walmart, or Amazon.
 
-For four car digits (44 x 2) and ten class letters (RK STH x 2), I used two packs and the remaining material were scraps, leftover from the cuts. 
+In my case, I needed four car digits (44 x 2) and ten class letters (RK STH x 2). I used all 6 sheets with some scrap material to make a few more letters. As far as design, the simple answer is to **use a thick, bold, sans-serif font** (no curly things at the ends.)
 
-### Create your design as an SVG file
+### The longer answer, making the decal design
 
-In Adobe Photoshop, I made the designs using an italic sans serif font, Arial. 
+You can use any software to make the design for the Cricut, as long as you get an SVG file. If you have Adobe Illustrator, use it, since it can save as a .svg file, but I don't have a license anymore. Instead, I'll use Photoshop. In Adobe Photoshop, I used Arial and italicized the text. Set up your canvas to match your material, in this case, it was 8" x 15".
 
-Setup your canvas to match your material, in this case it was 8" x 15". Color profile RGB (doesn't really matter honestly) and 72 PPI.
+Create a text layer and type your number(s). For me, I just needed a single 4. Make your number as large as possible on your canvas to meet the 8" requirement. The number should run vertically so that the height can reach 8" or more. Rasterize your text layer and save, or export, it as a .PNG file. Finally, convert the PNG to an SVG converter using an online converter like (https://convertio.co/png-svg/). 
 
-Create a text layer and type your number(s). For me, I just needed a single 4. Make your number as large as possible on your canvas to meet the 8" requirement. The number should run vertical so that the height can reach 8" or more. Rasterize your text layer and save it, or export, as a .png.
-
-*Preferably, you would do this in Illustrator since it can save as .svg natively, but I don't have it!*
-
-We have the .png file, but now we need an .svg for the Cricut to read. Go online and search for any PNG to SVG converter. Use that and proceed to cutting your design.
+Save your .SVG and let's get cutting.
 
 ### Cut your design
 
-1. With your Cricut plugged in, connect your computer to the Cricut. Load your mat and cutting tool.
+With your SVG on your computer, let's load up the Cricut. (I'm also assuming you know how to operate a Cricut at this point, if not, please find a short tutorial elsewhere.)
+
+1. Power on the Cricut and load your mat and cutting tool.
 2. Open Cricut Design Space and upload your image (.svg)
 3. On the computer, line up your design with your material on the mat
-4. Test the cut with PAPER first. See where the design falls on an 8.5" x 11" and adjust your mat placement.
-5. Confirm the PAPER test with your vinyl material and see if it will all be on there. Make it look good. We're being cheap and can't afford screw-ups.
-6. Load your magnetic vinyl
+4. Load a sheet of PAPER to test the cut. Start the job and see where the design falls on an 8.5" x 11" and adjust your mat placement.
+5. Remove the paper test and see if it fits within your vinyl material. If not, adjust your mat and make another cut. It's cheaper to make mistakes on paper than on our vinyl.
+6. When ready, load your magnetic vinyl
 7. Change your material to magnetic vinyl 0.6mm, it will not cut all the way, but that's okay. We can separate it after.
 8. Cut your design
-9. Remove the mat and carefully remove the number or letter. Since it is not cut through all the way, use a razor and gently poke through the cuts. Once a corner or edge is released, you can carefully peel away the material.
+9. Remove the mat and remove the cut number or letter. Since it is not cut through all the way, use a razor and poke through the cuts. Once you release an edge or corner, you can peel away the remaining excess material.
 10. Check your handiwork, doesn't look too bad!
 11. Repeat as needed
 
@@ -87,14 +86,12 @@ We have the .png file, but now we need an .svg for the Cricut to read. Go online
 
 It sounds as dreadful as it is. 
 
-Cutting by hand with a rule and razor is pretty straightforward but it gets VERY tedious around curves (such as 2, S, and C). To get around curves, you can make a stencil or be very patient cutting them by hand. I have done cuts by hand before but I don't miss them.
-
-To get a decent cut, print and cut out a stencil with a thicker stock of paper. Better yet, if you have a wood or other hard material stencil, use that to trace and cut your numbers. A sharp blade and hard stencil will make this a lot easier.
+Cutting by hand with a rule and razor is straightforward, use a stencil and cut out your characters. Without a stencil, curved figures such as 2, S, and C would be unnecessarily difficult. Print and cut out a stencil with thicker paper like cardstock. Better yet, if you have a wood or other hard material stencil, use that to trace and cut your numbers. A sharp blade and hard stencil will make this a lot easier.
 
 ## Conclusion
 
-Making your own decals doesn't have to be hard. 
+Make simple decals. Don't go artistic.
 
-When you're in the position that you need something, you're going to get it done. Whether you did get a Cricut or have a razor and lots of patience, you can get it done. I needed race decals and figured I have the experience to do it myself. Most people probably won't have a background in graphic design, printing, and technical skill, but you can always learn.
+I needed race decals and figured I have the experience to do it myself. If you haven't used graphic design tools before, this can be daunting. Put in the time and watch a few tutorials on basic graphic design tools. 
 
-Most people are miraculously capable when it comes time to do so. Or maybe I believe in people too much, haha. Regardless of the circumstance, I believe that you'll find a way to DIY this in no time. Good luck! 
+If you don't have Adobe tools, use GIMP. It's a free alternative to Photoshop. Don't know how to use design tools? Watch some tutorials and in a few hours, you can certainly churn out something half-decent! Regardless of the circumstance, I believe that you'll find a way to DIY this in no time. Good luck! 
