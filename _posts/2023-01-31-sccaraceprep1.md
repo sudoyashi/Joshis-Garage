@@ -37,7 +37,7 @@ I know I have some skill in driving, but I know I'll get humbled real quick when
 
 There was a lot more reading in car prep than I thought! Read the rules and regulations for your local region. For the Hawaii region, this is what I did:
 
-1. Read the rules and requirements for the Jan 29, 2022 race: https://www.motorsportreg.com/events/scca-hawaii-solo-race-1-01-29-2023-aloha-stadium-lower-halawa-lot-795398
+1. Read the rules and requirements for the Jan 29, 2022 race: [Solo Race #1 2023](https://www.motorsportreg.com/events/scca-hawaii-solo-race-1-01-29-2023-aloha-stadium-lower-halawa-lot-795398)
    1. Prepare all event requirements (registration, confirm check-in times, proof of license)
    2. Pay for registration, $50 
    3. Car prep
@@ -98,6 +98,7 @@ This might look over-the-top but I need to write it all down, for my own sake.
 ![Helmet and Number]()
 - **Required!** Helmet
 - **Required!** Driver Number and Class Letters
+![Finished vinyl cutouts](https://sudoyashi.github.io/Joshis-Garage/assets/img/finishedvinyldecals.jpg)
   - (x2) 44 - Magnetic Vinyl Number 44 for 2023
   - (x2) STH - Magnetic Vinyl Honda Civic Si Sport Touring Hatchback, (STH) as rookie (RK). I used this site to figure out my class: [SCCA Classifier](https://www.scca-classifier.com/)
   - (x2) RK - Magnetic Vinyl, wasn't sure if I needed to put my driving class in? R for rookie, or RK. Also had a hard time finding that detail.
@@ -135,7 +136,9 @@ The aftermarket intake was the one thing I liked and kept it. Compliant with ST 
 
 ### Before changes, not STH compliant
 
-![Not STH Compliant]()
+![Not STH Compliant](https://sudoyashi.github.io/Joshis-Garage/assets/img/civic/civic-sth-noncompliant-front.JPG)
+
+![Not STH Compliant](https://sudoyashi.github.io/Joshis-Garage/assets/img/civic/civic-sth-noncompliant-rear.JPG)
 
 ### After changes, STH compliant
 
