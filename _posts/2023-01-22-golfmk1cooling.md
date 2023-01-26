@@ -2,7 +2,7 @@
 layout: post
 title:  "Golf Mk1 Cooling Fan and Thermoswitch wiring"
 author: "Joshua Domingo"
-date:   2023-01-22 00:00:00 -1000
+date:   2099-01-22 00:00:00 -1000
 tags: cabby cooling golfmk1 golf cabriolet 
 categories: cars
 image: cabby-coolingwires.JPG
