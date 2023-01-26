@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-01-25 00:00:00 -1000
 tags: race prep scca solo decal car number class  
 categories: cars
-image: 
+image: civic-si-decal.JPG
 ---
 
 
@@ -13,7 +13,9 @@ Everyone's car running in an SCCA event needs to have a race number and class id
 
 ## SCCA Car Numbers and Decals
 
-The main idea is that your car should be easy to identify from across the lot. It is easier to identify cars with high-contrast numbers and letters. Using small decals, weak contrast, or an embellished design will make it harder to read. Be proud of driving and show off your number, that's the rule! Here is an excerpt from the 2022 Solo rulebook on vehicle identification.
+The main idea is that your car should be easy to identify from across the lot. It is easier to identify cars with high-contrast numbers and letters. Using small decals, weak contrast, or an embellished design will make it harder to read. Be proud of driving and show off your number, that's the rule!
+<br>
+To elaborate, here is an excerpt from the 2022 Solo rulebook on vehicle identification.
 
 ### Reference Section 3.7 Vehicle Identification from 2022 SCA National Solo Rules
 
@@ -36,15 +38,17 @@ The main idea is that your car should be easy to identify from across the lot. I
 >
 > ...
 
-### TLDR; be a racecar. show your number and class.
+**TLDR; Be a racecar. Show your number and class.**
 
 ## DIY race car numbers and letters
 
 Ok, this is what you actually came for.
-In my case, I used a Cricut die-cutting machine. It cuts a design based on the image files that it receives in .svg, .png, and more. It is a specialty machine that you probably won't casually have lying around. If you DON'T have one, you have a couple options:
-1. Convince your girlfriend, boyfriend, or any significant other that they NEED a Cricut, where we come and swoop in to use it instead.
+
+In my case, I used a Cricut die-cutting machine. It cuts a design based on the image files that it receives in .svg, .png, and more. It is a specialty machine that you probably won't casually have lying around. If you DON'T have one, you have a few options:
+1. Convince your girlfriend or boyfriend that you need a Cricut and swoon them to buy it for you
 2. Cut it by hand with a razor
-3. By it yourself (not recommended, we're on a budget remember!) 
+3. Borrow it
+3. Buy it yourself (not recommended, we're on a budget remember!) 
 
 Once you have a Cricut, let's look at the materials...
 
@@ -52,9 +56,9 @@ Once you have a Cricut, let's look at the materials...
 
 You can buy magnetic vinyl at home improvement stores, look for "magnetic vent covers". If they don't have that, look for magnetic vinyl sheets (<1mm thickness). At Home Depot, I picked up these **magnetic vent covers** at $8.99 each. Each pack came with three 8 in. x 15 in. sheets.
 
-![Magnetic Vent Covers]()
+![Magnetic Vent Covers](https://www.homedepot.com/p/Frost-King-15-in-x-8-in-Magnetic-Grille-Covers-MC815/100345609)
 
-If your local stores don't have this material, you can also try Michael's craft store, Walmart, or Amazon.
+You can also try Michael's craft store, Walmart, or Amazon.
 
 In my case, I needed four car digits (44 x 2) and ten class letters (RK STH x 2). I used all 6 sheets with some scrap material to make a few more letters. As far as design, the simple answer is to **use a thick, bold, sans-serif font** (no curly things at the ends.)
 
@@ -62,35 +66,48 @@ In my case, I needed four car digits (44 x 2) and ten class letters (RK STH x 2)
 
 You can use any software to make the design for the Cricut, as long as you get an SVG file. If you have Adobe Illustrator, use it, since it can save as a .svg file, but I don't have a license anymore. Instead, I'll use Photoshop. In Adobe Photoshop, I used Arial and italicized the text. Set up your canvas to match your material, in this case, it was 8" x 15".
 
-Create a text layer and type your number(s). For me, I just needed a single 4. Make your number as large as possible on your canvas to meet the 8" requirement. The number should run vertically so that the height can reach 8" or more. Rasterize your text layer and save, or export, it as a .PNG file. Finally, convert the PNG to an SVG converter using an online converter like (https://convertio.co/png-svg/). 
+Create a text layer and type your number(s). For me, I just needed a single 4. Make your number as large as possible on your canvas to meet the 8" requirement. The number should run vertically so that the height can reach 8" or more. 
+<br>
+Rasterize your text layer and save, or export, it as a .PNG file. Finally, convert the PNG to an SVG converter using an online converter like [Convertio.co](https://convertio.co/png-svg/). 
 
 Save your .SVG and let's get cutting.
 
 ### Cut your design
+![Screenshot with Cricut Design Space]()
 
 With your SVG on your computer, let's load up the Cricut. (I'm also assuming you know how to operate a Cricut at this point, if not, please find a short tutorial elsewhere.)
 
 1. Power on the Cricut and load your mat and cutting tool.
 2. Open Cricut Design Space and upload your image (.svg)
+![SVG on computer]()
 3. On the computer, line up your design with your material on the mat
+![Line up design]()
 4. Load a sheet of PAPER to test the cut. Start the job and see where the design falls on an 8.5" x 11" and adjust your mat placement.
+![Paper test]()
 5. Remove the paper test and see if it fits within your vinyl material. If not, adjust your mat and make another cut. It's cheaper to make mistakes on paper than on our vinyl.
 6. When ready, load your magnetic vinyl
+![Load vinyl]()
 7. Change your material to magnetic vinyl 0.6mm, it will not cut all the way, but that's okay. We can separate it after.
 8. Cut your design
+![Cut vinyl]()
 9. Remove the mat and remove the cut number or letter. Since it is not cut through all the way, use a razor and poke through the cuts. Once you release an edge or corner, you can peel away the remaining excess material.
+![Poke through vinyl]()
 10. Check your handiwork, doesn't look too bad!
+![Finished vinyl cutouts]()
 11. Repeat as needed
 
 ### Alternative, cutting by hand
 
 It sounds as dreadful as it is. 
 
-Cutting by hand with a rule and razor is straightforward, use a stencil and cut out your characters. Without a stencil, curved figures such as 2, S, and C would be unnecessarily difficult. Print and cut out a stencil with thicker paper like cardstock. Better yet, if you have a wood or other hard material stencil, use that to trace and cut your numbers. A sharp blade and hard stencil will make this a lot easier.
+Cutting by hand with a rule and razor is straightforward: use a stencil and cut out your characters. Without a stencil, curved figures such as 2, S, and C would be unnecessarily difficult. 
+
+To make the stencil, print and cut out a stencil with thicker paper like cardstock. If you have a wood or other hard material stencil, even better. A sharp blade and hard stencil will make this a lot easier. For obvious reasons, I did not do this method.
 
 ## Conclusion
 
 Make simple decals. Don't go artistic.
+![Civic with decal]()
 
 I needed race decals and figured I have the experience to do it myself. If you haven't used graphic design tools before, this can be daunting. Put in the time and watch a few tutorials on basic graphic design tools. 
 
