@@ -17,7 +17,7 @@ The main idea is that your car should be easy to identify from across the lot. I
 <br>
 To elaborate, here is an excerpt from the 2022 Solo rulebook on vehicle identification.
 
-### Reference Section 3.7 Vehicle Identification from 2022 SCA National Solo Rules
+### Section 3.7 Vehicle Identification from 2022 SCA National Solo Rules
 
 > 
 > A. All vehicles must display numbers and class letters on both sides, which must be readable by Timing & Scoring, Course, and Grid workers at all times. 
