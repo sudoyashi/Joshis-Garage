@@ -13,7 +13,7 @@ Everyone's car running in an SCCA event needs to have a race number and class id
 
 ## SCCA Car Numbers and Decals
 
-The main idea is that your car should be easy to identify from across the lot. It is a lot easier to identify cars with high-contrast numbers and letters. Using small decals, weak contrast, or an embellished design will make it harder to read. Be proud of driving and show off your number, that's the rule! Here is an excerpt from the 2022 Solo rulebook on vehicle identification.
+The main idea is that your car should be easy to identify from across the lot. It is easier to identify cars with high-contrast numbers and letters. Using small decals, weak contrast, or an embellished design will make it harder to read. Be proud of driving and show off your number, that's the rule! Here is an excerpt from the 2022 Solo rulebook on vehicle identification.
 
 ### Reference Section 3.7 Vehicle Identification from 2022 SCA National Solo Rules
 
