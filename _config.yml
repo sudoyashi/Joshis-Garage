@@ -11,7 +11,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "Joshi's Garage"
-description:	       "Putting all my hobbies and notes in one place"
+description:	       "Still not a racecar"
 author:              "Joshua Domingo"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
