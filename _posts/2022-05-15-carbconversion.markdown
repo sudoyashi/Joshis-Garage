@@ -29,6 +29,7 @@ We can break the conversion into these major steps:
 Ideally, this is how the project build would go. Pretty simple! But, this is a project car. You will break stuff. You will find other parts that need repairs. You will remember that you wanted to buy a new door handle because it says, Porsche. But if it all does happen as smoothly as possible, wonderful. But let's not get our hopes up. Let's begin with planning.
 
 ## Introduction: Carbs are wonderfully imperfect
+![Carburetors on head](https://sudoyashi.github.io/Joshis-Garage/assets/img/enginehead/head.JPG)
 
 A bike carb conversion is not very common and doesn't seem to get too much good coverage. So why would you do it? I can only really think of two reasons why you should even go through with this:
 1. As a proof-of-concept on a shitty car you don't care about
@@ -40,7 +41,11 @@ For this conversion to go well, there will be many failures, and finding the rig
 
 Stick with your current fuel system and only do a carburetor swap when you don't have any options to fix your fuel injection (FI) setup. Otherwise, I would use any mainstream carburetor setup such as Holleys or Webers, or any other reputable DCOE carbs. There are no specific positives that warrant a bike swap as your primary option. Are there any advantages to doing it?
 
-One hell of an intake noise. And there weren't many options to get a used set of DCOE carbs when I first started this project! I sometimes have a hard time finding parts for this car, and the accompanying intake manifold for a DCOE setup wasn't readily available at the time. But the main reason: it looked like a pretty fun challenge! I guess I'm a masochist for problems.
+**One hell of an intake noise.** 
+
+{% include youtube.html id="RTLLoKO4Q1Y" %}
+
+And there weren't many options to get a used set of DCOE carbs when I first started this project! I sometimes have a hard time finding parts for this car, and the accompanying intake manifold for a DCOE setup wasn't readily available at the time. But the main reason: it looked like a pretty fun challenge! I guess I'm a masochist for problems.
 
 There was a lot of diagnosis, learning, time, money, and patience that went into this conversion. Since this is my first project car, I decided to go with this route to learn how to modify a low-power, fun car. Gaining experience with basic systems and tools will prepare me for future projects to improve my diagnostic analysis and simply make better projects. In the future, I'd transition over to an FI/ECU setup or maybe ITBs. I'll tell you this, I learned so much about how fueling works for a car than I would have ever thought and I do not regret anything with this conversion.
 
