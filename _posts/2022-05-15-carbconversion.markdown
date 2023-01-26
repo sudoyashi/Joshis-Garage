@@ -41,7 +41,7 @@ For this conversion to go well, there will be many failures, and finding the rig
 
 Stick with your current fuel system and only do a carburetor swap when you don't have any options to fix your fuel injection (FI) setup. Otherwise, I would use any mainstream carburetor setup such as Holleys or Webers, or any other reputable DCOE carbs. There are no specific positives that warrant a bike swap as your primary option. Are there any advantages to doing it?
 
-**One hell of an intake noise.** 
+**One hell of an engine noise.** 
 
 {% include youtube.html id="RTLLoKO4Q1Y" %}
 
