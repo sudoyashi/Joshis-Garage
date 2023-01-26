@@ -65,6 +65,8 @@ In my case, I needed four car digits (44 x 2) and ten class letters (RK STH x 2)
 
 You can use any software to make the design for the Cricut, as long as you get an SVG file. If you have Adobe Illustrator, use it, since it can save as a .svg file, but I don't have a license anymore. Instead, I'll use Photoshop. In Adobe Photoshop, I used Arial and italicized the text. Set up your canvas to match your material, in this case, it was 8" x 15".
 
+![SVG on computer](https://sudoyashi.github.io/Joshis-Garage/assets/img/SVGoncomputer.jpg)
+
 Create a text layer and type your number(s). For me, I just needed a single 4. Make your number as large as possible on your canvas to meet the 8" requirement. The number should run vertically so that the height can reach 8" or more. 
 <br>
 Rasterize your text layer and save, or export, it as a .PNG file. Finally, convert the PNG to an SVG converter using an online converter like [Convertio.co](https://convertio.co/png-svg/). 
@@ -78,7 +80,6 @@ With your SVG on your computer, let's load up the Cricut. (I'm also assuming you
 
 1. Power on the Cricut and load your mat and cutting tool.
 2. Open Cricut Design Space and upload your image (.svg)
-![SVG on computer](https://sudoyashi.github.io/Joshis-Garage/assets/img/SVGoncomputer.jpg)
 3. On the computer, line up your design with your material on the mat
 4. Load a sheet of PAPER to test the cut. Start the job and see where the design falls on an 8.5" x 11" and adjust your mat placement.
 5. Remove the paper test and see if it fits within your vinyl material. If not, adjust your mat and make another cut. It's cheaper to make mistakes on paper than on our vinyl.
