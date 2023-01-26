@@ -2,7 +2,7 @@
 layout: post
 title:  "SCCA Hawaii 2023 - First Season Prep"
 author: "Joshua Domingo"
-date:   2023-01-26 00:00:00 -1000
+date:   2023-01-31 00:00:00 -1000
 tags: race prep scca solo  
 categories: cars
 image: 
