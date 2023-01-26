@@ -410,7 +410,7 @@ In this stage you will want to resolve these things:
 - Reliable parts
 - More heat management
 
-Finding the optimal settings for fuel, air, vacuum, and heat in varying degrees of weather and performance is what you are trying to accomplish. Set targets you want to reach. 
+Finding the optimal settings for fuel, air, vacuum, and heat in varying degrees of weather and performance is what you are trying to accomplish. Set targets for what you want to reach. 
 
 Do you want to improve performance? Improve torque, improve reliability, and improve maintainability. Start with a goal and work towards that single goal. If it's too lofty, break it down to a smaller goal.
 
