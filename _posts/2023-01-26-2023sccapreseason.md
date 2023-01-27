@@ -50,7 +50,7 @@ There was a lot more reading in car prep than I thought! Read the rules and regu
 
 You will be putting in a bunch of time to make sure you do all of these steps correctly. Reading the rules, confirming my class for the first time, trying to find the correct helmet, and researching what other things are recommended is where you can spend as little or as much time as you need.
 
-## Personal Preparation
+## Personal prep
 
 This might look over-the-top but I need to write it all down, for my own sake.
 
@@ -95,8 +95,9 @@ This might look over-the-top but I need to write it all down, for my own sake.
   - Arrive with about half a tank of premium 92 (weight savings)
 
 ### Driver prep
-![Helmet and Number](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/helmet2023.jpg)
+
 - **Required!** Helmet
+![Helmet and Number](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/helmet2023.jpg)
 - **Required!** Driver Number and Class Letters
 ![Finished vinyl cutouts](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/finishedvinyldecals.jpg)
   - (x2) 44 - Magnetic Vinyl Number 44 for 2023
@@ -105,12 +106,12 @@ This might look over-the-top but I need to write it all down, for my own sake.
 - Other driving equipment? Gloves? Head sock?
   - I wasn't sure about these. How seriously am I taking this lol? I bought these anyway because they were cheap, about $45 for the gloves and head sock. I have a few piercings so the sock helps with avoiding any accidental nicks. Driving gloves also help with my sweaty hands.
 - Food, nourishment, and non-driving items
-- Sun hat and sunscreen
-- Sunglasses
-- Mental
-- Umbrella
-- Folding chair
-- Plastic bags, never know when it'll rain?
+  - Sun hat and sunscreen
+  - Sunglasses
+  - Mental
+  - Umbrella
+  - Folding chair
+  - Plastic bags, never know when it'll rain?
 
 ### Equipment and data prep
 
