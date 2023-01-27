@@ -61,8 +61,6 @@ Lastly, body condition and other pieces you need to buy and replace will be a va
 
 ### Removing the Interior Remove door cards, shift boot, VDO gauge cluster, seats, and other fixings
 
-![RemovedInteriorBits](https://sudoyashi.github.io/Joshis-Garage/assets/img/IMG_2771.JPG)
-
 Basically, all the interior pieces that you can get your hands on that you WANT to remove. The biggest obstacle for any DIY project is no one is going to make you do anything.
 
 Remove the parts that you can reliably put back on or have the confidence to do it slowly and carefully so that you don't break your car even more. This also means tools!
