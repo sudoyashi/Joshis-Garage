@@ -95,10 +95,10 @@ This might look over-the-top but I need to write it all down, for my own sake.
   - Arrive with about half a tank of premium 92 (weight savings)
 
 ### Driver prep
-![Helmet and Number]()
+![Helmet and Number](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/helmet2023.jpg)
 - **Required!** Helmet
 - **Required!** Driver Number and Class Letters
-![Finished vinyl cutouts](https://sudoyashi.github.io/Joshis-Garage/assets/img/finishedvinyldecals.jpg)
+![Finished vinyl cutouts](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/finishedvinyldecals.jpg)
   - (x2) 44 - Magnetic Vinyl Number 44 for 2023
   - (x2) STH - Magnetic Vinyl Honda Civic Si Sport Touring Hatchback, (STH) as rookie (RK). I used this site to figure out my class: [SCCA Classifier](https://www.scca-classifier.com/)
   - (x2) RK - Magnetic Vinyl, wasn't sure if I needed to put my driving class in? R for rookie, or RK. Also had a hard time finding that detail.
