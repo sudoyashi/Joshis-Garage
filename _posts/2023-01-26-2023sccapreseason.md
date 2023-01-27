@@ -10,11 +10,11 @@ image:
 
 First SCCA Event - SCCA Hawaii Solo 2023
 
-**Honestly, I'll probably get mopped in my category haha!**
+**Honestly, I'll probably get mopped in my category!**
 
 You think that just because you watched all the videos and saw what mistakes other people make that you won't make the same mistake the first time around. But I will! Experience matters and living vicariously through the eyes and videos of someone else does not equate to your personal experiences. Your true colors will reveal themselves and you'll figure out what you're made of. 
 
-Are you really balls-to-the-wall mad? Or a goddamn priss. Driving a motorcycle for the first time. Competing solo in the North Shore Swim Series. Volunteering in a foreign country. It's all the same adrenaline-pumping sensation filled with fear and nervous excitement. This is my prep for my first SCCA event.
+Are you really balls-to-the-wall mad? Or a goddamn weenie. Driving a motorcycle for the first time. Competing solo in the North Shore Swim Series. Volunteering in a foreign country. It's all the same adrenaline-pumping sensation filled with fear and nervous excitement. This is my prep for my first SCCA event.
 
 
 
@@ -78,8 +78,8 @@ This might look over-the-top but I need to write it all down, for my own sake.
 ### Car prep
 ![Car STH Setup]()
 - Wheels, tires, suspension
-  - Wheels - Since mine are OEM, no modifications or extra thought needed
-  - Tires - Because mines were closing in on the tread wear bars, I decided to put some new tires on. I went with BFG Comp-2 A/S PLUS (not Sport comps) for the year and hopefully they will serve me well. 
+  - Wheels - OEM, OK
+  - Tires - Because mines were closing in on the tread wear bars, I decided to put some new tires on. I went with BFG Comp-2 A/S PLUS (not Sport comps) for the year and hopefully, they will serve me well. 
   - Suspension: no extra play in joints, OK
 - Brakes
   - Inspecting my brake fluid, it had about 2% water. Closing in on 3%, I am not changing my fluids until after race #1.
@@ -127,7 +127,7 @@ I don't have telemetry data logging for myself right now, but I might in the fut
 With an intake and some extra body cosmetics, I had to make sure my car was compliant to avoid any issues.
 
 The car was modified before I got it and the mods kiinda sucked. More rice than race. It came with aftermarket coilovers, an intake, and aftermarket aero cosmetics. Cool, but I think I'll just keep the intake. 
-- Removed the coilovers, replaced with OEM
+- Removed the coilovers, and replaced with OEM
 - Removed the spoiler extension
 - Covered "aero holes"
 - Kept the intake
@@ -146,4 +146,4 @@ The aftermarket intake was the one thing I liked and kept it. Compliant with ST 
 
 ## Conclusion
 
-It will be a lot of fun! Ultimately, I want to get a win on time someday but it definitely won't be this coming Sunday. Right now, I have all the opportunities to learn how to drive better. I'll make the mistakes and bad moments now to mitigate the ones in the future. It was a lot to figure out on my own and don't think it's the best way to introduce new people to the sport. But if I stick with the SCCA long enough, maybe I will continue writing about it.
+It will be a lot of fun! Ultimately, I want to get a win on time someday but it definitely won't be this coming Sunday. Right now, I have all the opportunities to learn how to drive better. I'll make the mistakes and bad moments now to mitigate the ones in the future. I had a lot to figure out on my own and don't think it's the best way to introduce new people to the sport. But if I stick with the SCCA long enough, I will continue writing about it.
