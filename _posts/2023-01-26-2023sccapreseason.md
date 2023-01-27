@@ -38,15 +38,15 @@ I know I have some skill in driving, but I know I'll get humbled real quick when
 There was a lot more reading in car prep than I thought! Read the rules and regulations for your local region. For the Hawaii region, this is what I did:
 
 1. Read the rules and requirements for the Jan 29, 2022 race: [Solo Race #1 2023](https://www.motorsportreg.com/events/scca-hawaii-solo-race-1-01-29-2023-aloha-stadium-lower-halawa-lot-795398)
-   1. Prepare all event requirements (registration, confirm check-in times, proof of license)
-   2. Pay for registration, $50 
-   3. Car prep
-      1. Make sure you can pass [tech inspection](https://dl.motorsportreg.com/bffc18f6-c10f-4697-a957-48bb4351c4b1/)
-      2. Top off fluids
-      3. Read the rules - [Solo Rule Book (2022 at time of writing)](https://cdn.connectsites.net/user_files/scca/downloads/000/060/877/2022_Solo_Rule_Bookv8.pdf?1661354272)
-   4. Required equipment
-      1. SCCA-Approved Helmet
-      2. Rulebook-compliant driver numbers (no painter's tape!)
+2. Prepare all event requirements (registration, confirm check-in times, proof of license)
+3. Pay for registration, $50 
+4. Car prep
+  1. Make sure you can pass [tech inspection](https://dl.motorsportreg.com/bffc18f6-c10f-4697-a957-48bb4351c4b1/)
+  2. Top off fluids
+  3. Read the rules - [Solo Rule Book (2022 at time of writing)](https://cdn.connectsites.net/user_files/scca/downloads/000/060/877/2022_Solo_Rule_Bookv8.pdf?1661354272)
+5. Required equipment
+  1. SCCA-Approved Helmet
+  2. Rulebook-compliant driver numbers (no painter's tape!)
 
 You will be putting in a bunch of time to make sure you do all of these steps correctly. Reading the rules, confirming my class for the first time, trying to find the correct helmet, and researching what other things are recommended is where you can spend as little or as much time as you need.
 
