@@ -28,7 +28,9 @@ To get back to stock I would need to order the following parts:
 
 As parts, it comes out to about $200-300 on estimate... but $500+ for shipping! I'll have to order locally.
 
-## Honda Windward, they've ruined me with great service
+## Honda Windward, best customer service I've had at a dealership
 
 Wonderful guys out here. I appreciate my local Honda Windward.
+
+I requested a quote from my local Honda dealerships because shipping here is out of the question. 
 
