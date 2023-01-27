@@ -56,8 +56,6 @@ Of course, buying new tools would make this cheap project go up real quick. This
 
 Lastly, body condition and other pieces you need to buy and replace will be a variable.
 
-The car is something I want to enjoy driving and it seems to be fine for now.
-
 ## The Process: Expedited
 
 
@@ -126,7 +124,7 @@ Your seatbelts are held in by a single bolt, unfortunately, I can't tell you the
 The doors (should) have plastic sheeting behind each door card, this is a moisture barrier and should be reinstalled or refreshed. I used a 3mm plastic sheet with household butyl cord to seal it back up. Not complicated, just takes time.
 
 ### Removing the old carpet and anything that was rotting underneath
-
+![Old carpet removed](https://sudoyashi.github.io/Joshis-Garage/assets/img/carpet/nocarpet.JPG)
 WOO. The main event. Time to see all the damage from previous owners, the elements, and time.
 
 If it's like most VW Golfs, the carpet is in two pieces for easier installation. I would recommend installing it this way. I gave up trying to install a single piece because my replacement carpet was not the correct shape.
@@ -152,6 +150,9 @@ To remove the old black sound deadener, use dry ice. I got 10 lbs for the entire
 Repeat until mostly clean.
 
 This will identify the flaws in your metal. Find the rust and grind it away. Paint it and confirm your work. This is the last time you will get to see a bare floor. Inspect from front to back.
+
+
+![Old carpet removed](https://sudoyashi.github.io/Joshis-Garage/assets/img/carpet/nocarpet-2.JPG)
 
 ### Clean, remove and patch any holes
 ### Repainting to prevent rust
