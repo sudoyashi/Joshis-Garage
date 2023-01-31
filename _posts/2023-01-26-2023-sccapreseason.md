@@ -16,10 +16,8 @@ You think that just because you watched all the videos and saw what mistakes oth
 
 Are you really balls-to-the-wall mad? Or a goddamn weenie. Driving a motorcycle for the first time. Competing solo in the North Shore Swim Series. Volunteering in a foreign country. It's all the same adrenaline-pumping sensation filled with fear and nervous excitement. This is my prep for my first SCCA event.
 
-
-
 ## Why are you racing, stupid?
-![Bad Driver]()
+
 Who doesn't want to drive a racecar? I want to be a better driver and take my own win in motorsports.
 
 There aren't many other ways to legally learn and drive at the limit other than the track, especially on O'ahu. I only got into racing recently since I started watching Formula 1 (F1) and World Rallycross (WRC) in 2020. Since then, I've appreciated the ability to drive with precision and speed; at the limit of grip. It's not enough for me to just see it, I want to experience it. I don't think you can truly appreciate anything until you have personally experienced something as impactful as performance and competition. In competition, it will be very clear where I stand once the checkered flag comes down.
@@ -55,7 +53,6 @@ You will be putting in a bunch of time to make sure you do all of these steps co
 This might look over-the-top but I need to write it all down, for my own sake.
 
 ### Tool prep
-![Tool Bag]()
 
 - Portal tire inflator
 - Chalk 
@@ -76,7 +73,7 @@ This might look over-the-top but I need to write it all down, for my own sake.
   - Spare bucket to just hold stuff
 
 ### Car prep
-![Car STH Setup]()
+
 - Wheels, tires, suspension
   - Wheels - OEM, OK
   - Tires - Because mines were closing in on the tread wear bars, I decided to put some new tires on. I went with BFG Comp-2 A/S PLUS (not Sport comps) for the year and hopefully, they will serve me well. 
@@ -115,7 +112,6 @@ This might look over-the-top but I need to write it all down, for my own sake.
 
 ### Equipment and data prep
 
-![Equipment Prep]()
 - iPhone with suction cup mount
 - TrackAddict App
 - Camera for pictures around the pits
