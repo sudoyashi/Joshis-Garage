@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "From STH to GS class"
+title: "From STH to GS class"
 author: "Joshua Domingo"
 date:   2023-02-02 00:00:00 -1000
 tags: race prep scca solo  
@@ -8,29 +8,50 @@ categories: cars
 image: 
 ---
 
-Modding this car back to stock.
+Parts won't make me faster, I need to be faster.
 
-## Wait why, the whole point is to mod your car. What happened?
+### 
 
-I'm not against modding cars at all! As long as it makes it better or improves the performance. Otherwise, it seems like an excessive amount of money to blow. Not a big fan of cosmetics, especially if the performance gains are negligible. Sure, I would love to gain 10 HP on my car any day, but at the cost of $500+? I'll spend that money on gas and driving.
+ First Event Resources
 
-## What's the modifications that you want to change?
+https://www.wtrscca.org/tracktips
+https://kcrscca.org/solo/AutocrossHandbook.pdf
+https://www.scca.com/articles/2013114-rallycross-course-walk-techniques
 
-The cosmetics. It makes me feel 19 and not in the good way.
+[https://redhillsscca.com/event-first.html](https://redhillsscca.com/event-first.html)
 
-I was not a fan of the bumper holes and rear gurney flap extension because I am 99% certain is has no major effect on my car's performance. It's aesthetically okay, but I'd rather go big wing and big diffuser than these little mods.
+Rally Notation - (Personally this is what I'm used to, probably won't work if you aren't already primed for rally notes. If this sentence:
 
-To get back to stock I would need to order the following parts:
+> 6 right long narrows 30 into 3 left caution don't cut into 2 right opens...
+>
+> Possibly noted as:
+> 6 -> || > 30 INTO 3 <- !0 INTO 2 -> < ...
+DOES NOT equate to driving instructions to you, then skip this.
 
-- Part No.: 71510-TBJ-A00; Diffuser Assy., RR. Bumper
-- Part No.: 71508-TBG-A00; Garnish, L. RR. Bumper Side
-- Part No.: 71503-TBG-A00; Garnish, R. RR. Bumper Side
 
-As parts, it comes out to about $200-300 on estimate... but $500+ for shipping! I'll have to order locally.
+For future events, I'll try to post some driving notes, both for myself and for reference IF I want to ever simulate a track layout again ahah. I just want to rally :')
 
-## Honda Windward, best customer service I've had at a dealership
+ Personal Rally Notation:
 
-Wonderful guys out here. I appreciate my local Honda Windward.
-
-I requested a quote from my local Honda dealerships because shipping here is out of the question. 
+| Written Symbol           | Typed Symbol             | Definition                                                   | Usage                                                        |
+| ------------------------ | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **←**                    | <-                       | Left                                                         |                                                              |
+| **→**                    | ->                       | Right                                                        |                                                              |
+| ( )                      | ( )                      | Chicane                                                      |                                                              |
+| \|\|                     | \|\|                     | Long                                                         | Long stretch                                                 |
+| 🏁                        | #                        | Finish                                                       |                                                              |
+| 6                        | 6                        | Nearly straight                                              |                                                              |
+| 5                        | 5                        | Slight turn                                                  |                                                              |
+| 4                        | 4                        | Moderate turn                                                |                                                              |
+| 3                        | 3                        | 90 turn                                                      |                                                              |
+| 2                        | 2                        | Hard turn                                                    |                                                              |
+| 1                        | 1                        | U-turn                                                       |                                                              |
+| Distance (10, 20, etc..) | Distance (10, 20, etc..) | Use any number in METERS to describe the distance of an important section |                                                              |
+| !                        | !                        | Caution                                                      | Dangerous part of course, slippy                             |
+| Ø                        | DC                       | Don't cut                                                    | Don't cut! Don't hit a cone! This would be for every cone, but extra attention to this turn. More likely to hit a cone |
+| >                        | >                        | Narrows                                                      | Track narrows down                                           |
+| <                        | <                        | Opens                                                        | Track opens up                                               |
+| <>                       | <>                       | Opens-tightens                                               | Tricky sections                                              |
+| ><                       | ><                       | Tightens-opens, or mad                                       | Tricky sections                                              |
+| + or -                   | + or -                   | Plus or minus                                                | Increase or decrease severity in-between numbers             |
 
