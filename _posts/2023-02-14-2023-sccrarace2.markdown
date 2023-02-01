@@ -1,0 +1,116 @@
+---
+layout: post
+title: "Preparing for 2023 SCCA Race 2 - Be faster and don't spend more money"
+author: "Joshua Domingo"
+date:   2023-01-30 00:00:00 -1000
+tags: race scca solo  
+categories: cars scca
+image: 
+---
+I love spending money to solve my problems but spending money won't make me faster. My problem is that I am new to racing and I don't have a good baseline of my limit in autocross. Let's figure out how I can be faster by racing on a budget.
+
+## Spending money to solve my problems
+![ARK DT-S Exhaust would be nice](https://cdn.shopify.com/s/files/1/0605/4101/0167/products/SM0605-0217D_01_468x312.jpg?v=1641228804)
+If I were to go crazy again and want to spend money on this car, this is what I came up with.
+
+| Price              | Parts to be "faster" ($4,500)                                         | Data analysis to be "faster" ($440-1,300)                                 | Most likely make me faster ($31)                          |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------- |
+| $1500              | ARK Performance DT-S Exhaust                                 |                                                              |                                             |
+| $200-500 per wheel | Lightweight wheels, anything lighter than stock wheels at 27lbs. |                                                              |                                             |
+| $150+0x4             | 200TW Tires                                                  |                                                              |                                             |
+| $150-1000          |                                                              | Racing Telemetry, AiM Solo 2, Apex Pro Gen II, etc.  |                                             |
+| $10-20                |                                                              | Racing App                                              |                                             |
+| $130               |                                                              | OBDLink Bluetooth OBD II reader                              |                                             |
+| $150               |                                                              | 10Hz minimum GPS (possibly integrated with telemetry readers above)                              |                                             |
+| $0                 |                                                              |                                                              | 10-20 hours of dedicated FWD practice on AC |
+| $30                |                                                              |                                                              | Flush brakes + couple hours                 |
+| $0                 |                                                              |                                                              | Playing DiRT Rally 2 with FWD               |
+| $1                 |                                                              |                                                              | Books: You Suck at Racing, Optimum Drive    |
+
+Parts: $4,500+ to maybe be faster
+
+Data Analytics: I'll probably spend closer to $1,000 for a setup
+
+Actually faster: $31
+
+## Wait, what are my driving problems?
+
+Good. Question. idk.
+
+The way I see it, driving more is the only way I should approach this right now. Once I really get a feel for the limits of my car and the limits of my driving skills are, then I can start to think seriously about my next move.
+
+In the past, I've distracted myself before with "I need data to grow!" arguments with running, swimming, League of Legends, etc... but I don't think I've ever figured out the problems I needed to be on the competitive level where I truly needed the data. It is a battle between I don't know enough about my issues, therefore I need data and I have enough data but don't know how to solve my issues. The obvious next step is to just get a teacher or a coach. If I get to that step, usually that's where hobbies end and obsessions begin. 
+
+The closest I have come to that in my hobbies was swimming, but even so, I'm still a novice. Data nerds, myself included, are attracted to progress for the sake of numbers more than real progress as an athlete. Any little improvement on our beginner's path is a confidence booster and looking at data supports that. It is a moderate way of improving, when I became too focused on improving the numbers and not improving my skills, I started to hate it. Obviously, they are related. More skills will bring better numbers, but not the other way around. 
+
+So, my driving problems? Hard to say, let's just keep driving!
+
+## Why are you doing this again?
+
+[If you've read my other post on SCCA pre-season prep](https://sudoyashi.github.io/Joshis-Garage/2023-sccapreseason), I'm racing because this is so damn fun. 
+
+Have you ever been permitted to send anything and it was the most liberating thing in the world? Go crazy. Go stupid. Do whatever you want. Enabled and free. 
+
+
+## What's the budget going to be like then, stupid?
+
+Mind you, I am REALLY, REALLY fighting the urge to buy things. I am not so different from you guys. I will buy useless shit. But I'm trying to resist the urge and justify saving my money. 
+
+Racing on a budget sounds stupid, it's idealistic to nickel and dime the most expensive sports industry in the world, but setting my bar on local competition will get me started. It's not an international racing division, it's the homies in town that want to feel better than other people. It's not a race without some competition.
+
+### There's no such thing as budget racing
+
+Budget racing is something that you could say is something a college student could afford. Thinking a 20-hour part-time job near minimum wage kind of money. It was shitty. 
+
+Subjective, I know. Defining this a bit more, let's bring up the three categories again:
+
+| Parts                                          | Data                                                         | Training                                          |
+| ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------- |
+| $0. Maintenance items only, strictly from OEM. | $120 or less - Base 10Hz GPS<br /> $20 - 1 paid app like RaceChrono Pro, Track Addict, or Harry's Lap Time.<br /> $40 Decent phone mount for video feedback<br /> | $310 - Used Logitech Simulator rig, Assetto Corsa |
+
+ That comes out to about $500 to get on a training special to improve my novice autocross days. With my previous Starbucks budget of $800 a month, that'll be 5 months of saving 13% every paycheck. This was the reality of my days in 2014 when I bought my first $1200 camera and I still use it to this day. If I was racing back then, this is a piece of cake.
+
+## Remember, it's a hobby.
+
+Don't let this consume you. It's more of a reminder for myself than for anyone else.
+
+I have gone crazy spending time before now that I'm an adult child with money and time to spend on other things, but this time is different, I swear! Call it maturity or call it "yeah, it's time to save money now" guilt, I'm trying my best to not buy too many things.  Thankfully, I already have a racing rig and Assetto Corsa, the remaining things I would want are the GPS and an app. I have my phone to record video and my phone mount isn't the best, but it works.
+
+## What's the plan chief
+
+Pole position in rookie class and a top 10 PAX time. Lofty and over my head? Absolutely, but don't settle. Expect more from yourself, you're capable. I'll get there somehow.
+
+From the last race here's a few numbers:
+
+- Fastest RAW time: 36.467 (-6.987)
+- 10th fastest RAW time: 38.627 (-4.827)
+- Fastest Rookie RAW: 38.884 (-4.57)
+- 2nd Fastest: 39.020 (-4.434)
+- 3rd Fastest: 40.398 (-1.514)
+- ... 
+- 63rd RAW, My personal best: 43.454 (+4.57)
+
+I'm talking almost 5 seconds of improvement, which is close to 12% faster. That's A LOT to ask for. The margins and difficulty are not linear the higher we go.
+
+ Here's my plan.
+
+### Training Plan Rules
+- No new parts (barring maintenance items)
+- Budget telemetry
+- Budget simulation training
+
+### Simulator Training
+- Weekly, 2 hours of skidpad training to practice entry, exit, and yaw with trail-braking
+- NA Golf 2 defaults on Brands Hatch course
+- Taking an instructor at least once per SCCA race
+- Core and neck training emphasis
+
+### Getting feedback
+- SCCA instructors
+- Asking the guys faster than me in non-performance cars how to get faster
+- Asking the other Civic guys at SCCA Hawaii
+- Asking the fastest drivers to drive my car
+
+## Summary - It's a race, but also not, but it is!
+
+There is nothing super crazy about taking 1st in rookie class but I will absolutely want to aim for it. The top guys from race #1 were way faster than I could have gone. I'm not trying to beat the next fastest driver, I want to beat one of those guys. They have years and years of experience over me but this is where I can start. One second faster and that's 7th place in Rookies.
