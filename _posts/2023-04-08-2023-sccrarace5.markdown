@@ -2,7 +2,7 @@
 layout: post
 title: "2023 SCCA Race 1 - Not as terrible as I thought!"
 author: "Joshua Domingo"
-date:   2023-01-30 00:00:00 -1000
+date:   2023-04-08 00:00:00 -1000
 tags: race scca solo  
 categories: cars scca
 image: 
