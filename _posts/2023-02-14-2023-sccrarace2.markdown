@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Preparing for 2023 SCCA Race 2 - Be faster and don't spend more money"
+title: "Be faster and don't spend more money"
 author: "Joshua Domingo"
 date:   2023-01-30 00:00:00 -1000
 tags: race scca solo  
 categories: cars scca
 image: 
 ---
-I love spending money to solve my problems but spending money won't make me faster. My problem is that I am new to racing and I don't have a good baseline of my limit in autocross. Let's figure out how I can be faster by racing on a budget.
+I enjoy spending money to solve my problems but spending money won't make me faster. My problem is that I am new to racing and I don't have a good baseline of my limit in autocross. Let's figure out how I can be faster by racing on a budget.
 
 ## Spending money to solve my problems
 ![ARK DT-S Exhaust would be nice](https://cdn.shopify.com/s/files/1/0605/4101/0167/products/SM0605-0217D_01_468x312.jpg?v=1641228804)
@@ -64,15 +64,17 @@ Budget racing is something that you could say is something a college student cou
 
 Subjective, I know. Defining this a bit more, let's bring up the three categories again:
 
-| Parts                                          | Data                                                         | Training                                          |
-| ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------- |
-| $0. Maintenance items only, strictly from OEM. | $120 or less - Base 10Hz GPS<br /> $20 - 1 paid app like RaceChrono Pro, Track Addict, or Harry's Lap Time.<br /> $40 Decent phone mount for video feedback<br /> | $310 - Used Logitech Simulator rig, Assetto Corsa |
+| Parts                                          | Data                                                         | Training (Free)                 |
+| ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------- |
+| $0. Maintenance items only, strictly from OEM. | $160 XGPS160 10Hz GPS <br /> $20  1 paid app like RaceChrono Pro, Track Addict, or Harry's Lap Time.<br /> $20 Decent phone mount for video feedback<br />$140 OBDLink MX+ OBD2 Bluetooth Scanner | Assetto Corsa Autocross courses |
 
- That comes out to about $500 to get on a training special to improve my novice autocross days. With my previous Starbucks budget of $800 a month, that'll be 5 months of saving 13% every paycheck. This was the reality of my days in 2014 when I bought my first $1200 camera and I still use it to this day. If I was racing back then, this is a piece of cake.
+That comes out to about $340 to get on a training special to improve my novice autocross days. Let's say I didn't have a simulation rig to practice on, we'll add on another $320 ($300 for Logitech rig and $20 for AC). With my previous Starbucks budget of $800 a month, that'll take 3-5 months depending on how aggressive I'm saving.
+
+In 2014 when it took me about 8 months to save for a $1200 camera and I still use it to this day. If I was racing back then, saving that money would be no problem.
 
 ## Remember, it's a hobby.
 
-Don't let this consume you. It's more of a reminder for myself than for anyone else.
+Don't let this consume you. It's more of a reminder for myself than for anyone else. 
 
 I have gone crazy spending time before now that I'm an adult child with money and time to spend on other things, but this time is different, I swear! Call it maturity or call it "yeah, it's time to save money now" guilt, I'm trying my best to not buy too many things.  Thankfully, I already have a racing rig and Assetto Corsa, the remaining things I would want are the GPS and an app. I have my phone to record video and my phone mount isn't the best, but it works.
 
@@ -114,3 +116,17 @@ I'm talking almost 5 seconds of improvement, which is close to 12% faster. That'
 ## Summary - It's a race, but also not, but it is!
 
 There is nothing super crazy about taking 1st in rookie class but I will absolutely want to aim for it. The top guys from race #1 were way faster than I could have gone. I'm not trying to beat the next fastest driver, I want to beat one of those guys. They have years and years of experience over me but this is where I can start. One second faster and that's 7th place in Rookies.
+
+
+- **Going Faster! Mastering the Art of Race Driving** – Basically the textbook from the Skip Barber school. Nuff said
+- **Ultimate Speed Secrets** – It’s one of the best book on performance driving. I’ve read it cover to cover several times. Get the kindle version so you can read it wherever you are.
+- **Optimum Drive** – My latest favorite driving book and the best thing you can listen to while driving to work. That’s right, it’s available as an audio book.
+- **Tire Pressure Gauge** – Everyone needs a high quality tire pressure gauge. The simple analog ones from Joes Racing and Longacre are excellent.
+- **Brake Bias Adjuster** – One of the cheapest and most educational performance modifications you can make for your car is to install a prop valve. They don’t cost much but installing could be expensive if you have someone else do it.
+
+
+
+- **Bluetooth GPS Receiver** – Your phone can be used as a lap timer, but with 1 Hz GPS updates, it’s not accurate enough for comparing telemetry data between runs or between drivers. With a 10 Hz antenna, you’ll get acceptable performance.
+  - I could go the budget route but overall I'd be spending closer to $1000 if I get a cheap and expensive unit. So maybe I'll just save for the expensive one AND be able to sell it after. 
+  - XGPS 160 - $200
+  - AiM Solo 2 used $500-700
