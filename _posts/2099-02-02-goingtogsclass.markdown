@@ -1,35 +1,25 @@
 ---
 layout: post
-title: "From STH to GS class"
+title: "Rally Notation to Figure out the Autocross Track"
 author: "Joshua Domingo"
 date:   2023-02-02 00:00:00 -1000
 tags: race prep scca solo  
 categories: cars
-image: 
+image: /scca/rally-sample.jpg)
 ---
+I love playing DiRT Rally 2 and have watched a ton of rally on-boards to see the massive balls it takes to win those races. I've watched and learned enough that I've picked up how to read and speak out rally pacenotes and found it to be a lot more useful. I tried it out for my first autocross session and it was surprisingly helpful! Here's a quick breakdown on pacenotes. 
 
-Parts won't make me faster, I need to be faster.
-
-### 
-
- First Event Resources
-
-https://www.wtrscca.org/tracktips
-https://kcrscca.org/solo/AutocrossHandbook.pdf
-https://www.scca.com/articles/2013114-rallycross-course-walk-techniques
-
-[https://redhillsscca.com/event-first.html](https://redhillsscca.com/event-first.html)
-
-Rally Notation - (Personally this is what I'm used to, probably won't work if you aren't already primed for rally notes. If this sentence:
+Read the following and see if it makes sense!
 
 > 6 right long narrows 30 into 3 left caution don't cut into 2 right opens...
 >
 > Possibly noted as:
 > 6 -> || > 30 INTO 3 <- !0 INTO 2 -> < ...
-DOES NOT equate to driving instructions to you, then skip this.
 
 
-For future events, I'll try to post some driving notes, both for myself and for reference IF I want to ever simulate a track layout again ahah. I just want to rally :')
+![Rank 10](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/rally-sample.jpg)
+
+DOES NOT make sense to you, you could skip or learn it down below!
 
  Personal Rally Notation:
 
@@ -55,3 +45,7 @@ For future events, I'll try to post some driving notes, both for myself and for 
 | ><                       | ><                       | Tightens-opens, or mad                                       | Tricky sections                                              |
 | + or -                   | + or -                   | Plus or minus                                                | Increase or decrease severity in-between numbers             |
 
+## But why...
+
+1) I would love to try a rallycross course someday
+2) It's way easier to understand the fast and slow parts of the course than drawing a map
