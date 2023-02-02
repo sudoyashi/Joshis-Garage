@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-02-02 00:00:00 -1000
 tags: race prep scca solo  
 categories: cars
-image: /scca/rally-sample.jpg)
+image: scca/rally-sample.jpg
 ---
 I love playing DiRT Rally 2 and have watched a ton of rally on-boards to see the massive balls it takes to win those races. I've watched and learned enough that I've picked up how to read and speak out rally pacenotes and found it to be a lot more useful. I tried it out for my first autocross session and it was surprisingly helpful! Here's a quick breakdown on pacenotes. 
 
