@@ -7,11 +7,12 @@ tags: race scca solo
 categories: cars scca
 image: 
 ---
-I enjoy spending money to solve my problems but spending money won't make me faster. My problem is that I am new to racing and I don't have a good baseline of my limit in autocross. Let's figure out how I can be faster by racing on a budget.
+I enjoy spending money to solve my problems but spending money won't make me faster. I'm new to racing and I don't have a good baseline of my limit in autocross, so instead of going down the spending rabbit hole, let's figure out how I can be faster by racing on a budget.
 
 ## Spending money to solve my problems
 ![ARK DT-S Exhaust would be nice](https://cdn.shopify.com/s/files/1/0605/4101/0167/products/SM0605-0217D_01_468x312.jpg?v=1641228804)
-If I were to go crazy again and want to spend money on this car, this is what I came up with.
+
+It would be nice to be agnostic of price and not worry about the cost of parts and maintenance. But in the real world, it's a challenge we have to address. New and shiny parts would make driving easier, but it won't necessarily make me a fast driver.
 
 | Price              | Parts to be "faster" ($4,500)                                         | Data analysis to be "faster" ($440-1,300)                                 | Most likely make me faster ($31)                          |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------- |
@@ -33,15 +34,28 @@ Data Analytics: I'll probably spend closer to $1,000 for a setup
 
 Actually faster: $31
 
-## Wait, what are my driving problems?
+## Defining a Fast Driver
 
-Good. Question. idk.
+Reading through *Optimum Drive: The Road Map to Driving Greatness*, the author Paul F. Gerrard brought up an interesting point, what is a fast driver? There are a lot of definitions of the *qualities* of a great driver: good tire management, one that brakes later and on the gas better, one that balances a car, but to the layman that doesn't really define a great driver.
 
-The way I see it, driving more is the only way I should approach this right now. Once I really get a feel for the limits of my car and the limits of my driving skills are, then I can start to think seriously about my next move.
+The book hits it from many directions, but I wasn't quite satisfied with the takeaway, that a great driver is one that drives with a superhuman level of precision. 
 
-In the past, I've distracted myself before with "I need data to grow!" arguments with running, swimming, League of Legends, etc... but I don't think I've ever figured out the problems I needed to be on the competitive level where I truly needed the data. It is a battle between I don't know enough about my issues, therefore I need data and I have enough data but don't know how to solve my issues. The obvious next step is to just get a teacher or a coach. If I get to that step, usually that's where hobbies end and obsessions begin. 
+In our everyday lives, a great driver inspires confidence and safety. The passengers and others on the road know where they are going and will do it without incident.
 
-The closest I have come to that in my hobbies was swimming, but even so, I'm still a novice. Data nerds, myself included, are attracted to progress for the sake of numbers more than real progress as an athlete. Any little improvement on our beginner's path is a confidence booster and looking at data supports that. It is a moderate way of improving, when I became too focused on improving the numbers and not improving my skills, I started to hate it. Obviously, they are related. More skills will bring better numbers, but not the other way around. 
+But in the professional world, a great driver is the fastest and most effortless driver on the track. Doing just enough to move the car where it needs to go. Perfectly efficient, balancing on the edge of danger and speed. 
+
+Professional athletes alike are skilled in their own disciplines, and the ones at the top 1% all can perform relatively close. But the very best make it look easy, they are the gold standard of perfection that we compare everyone to. It is subjective, in the eyes of the beholder, and to the beholder, they see the performance of the impossible.
+
+At our local track, the great drivers were the ones that made the course look easy and simple.
+ 
+## How can we be great drivers?
+
+Drive more, drive faster.
+
+I am at the bottom of the pyramid, just starting to get into precision driving so I just need to get more experience behind the wheel. Once I really get a feel for the limits of my car and the limits of my driving skills are, then I can start to think seriously about my next move.
+
+In the past, I've distracted myself before with "I need data to grow! I need more information!" This goes with music, running, canoe paddling, swimming, League of Legends, etc... but data never solved my issue of non-performance. I needed more practice. I never reached that tier where we needed the data to squeeze in just a bit more performance. Amateur athletes lack the basics to perform and that's what will always hold them back.
+It was always a battle between not enough talent and not enough information. When the talent is there, that's when we can start to look at the data, but if I'm just starting out, git gud kid.
 
 So, my driving problems? Hard to say, let's just keep driving!
 
@@ -49,18 +63,17 @@ So, my driving problems? Hard to say, let's just keep driving!
 
 [If you've read my other post on SCCA pre-season prep](https://sudoyashi.github.io/Joshis-Garage/2023-sccapreseason), I'm racing because this is so damn fun. 
 
-Have you ever been permitted to send anything and it was the most liberating thing in the world? Go crazy. Go stupid. Do whatever you want. Enabled and free. 
-
+Have you ever been permitted to just fucking send it? It was the most liberating thing in the world. Go crazy. Go stupid. Do whatever you want. Enabled and free. 
 
 ## What's the budget going to be like then, stupid?
 
-Mind you, I am REALLY, REALLY fighting the urge to buy things. I am not so different from you guys. I will buy useless shit. But I'm trying to resist the urge and justify saving my money. 
+Mind you, I am REALLY, REALLY fighting the urge to buy things. I am not so different from you guys. I will buy useless shit to fuel my hobbies. But I'm trying to resist the urge and justify saving my money. 
 
-Racing on a budget sounds stupid, it's idealistic to nickel and dime the most expensive sports industry in the world, but setting my bar on local competition will get me started. It's not an international racing division, it's the homies in town that want to feel better than other people. It's not a race without some competition.
+Racing on a budget sounds stupid, to nickel and dime the most expensive sports industry in the world sounds ridiculous. But I'm not an international racing division, I'm racing with the homies in town that want to feel better than other people.
 
 ### There's no such thing as budget racing
 
-Budget racing is something that you could say is something a college student could afford. Thinking a 20-hour part-time job near minimum wage kind of money. It was shitty. 
+We'll define budget racing as something a college student could afford. Thinking of a "20-hour part-time job near minimum wage" kind of money. Shitty!
 
 Subjective, I know. Defining this a bit more, let's bring up the three categories again:
 
