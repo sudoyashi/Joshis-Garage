@@ -1,6 +1,6 @@
 # Da_Cabby and other writeups about my projects
 
-Jekyll build for the website Link: https://sudoyashi.github.io/Joshis-Garage/
+Jekyll build for the website Link: https://www.sudoyashi.com
 
 A collection of my project notes on cars, design, and other hobbies that I decided to spend a stupid amount of money and time into. Why?
 
