@@ -18,7 +18,7 @@ It would be nice to be agnostic of price and not worry about the cost of parts a
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------- |
 | $1500              | ARK Performance DT-S Exhaust                                 |                                                              |                                             |
 | $200-500 per wheel | Lightweight wheels, anything lighter than stock wheels at 27lbs. |                                                              |                                             |
-| $150+0x4             | 200TW Tires                                                  |                                                              |                                             |
+| $150x4             | 200TW Tires                                                  |                                                              |                                             |
 | $150-1000          |                                                              | Racing Telemetry, AiM Solo 2, Apex Pro Gen II, etc.  |                                             |
 | $10-20                |                                                              | Racing App                                              |                                             |
 | $130               |                                                              | OBDLink Bluetooth OBD II reader                              |                                             |
