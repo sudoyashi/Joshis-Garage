@@ -15,7 +15,7 @@ Refuse to give up, and you shall be rewarded... probably. It worked for me.
 
 ## Engine
 
-![1985 Golf Mk1 convertible](/assets/img/engine.JPG)
+![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/engine.JPG)
 
 **Factory numbers:** the numbers that the car is supposed to give.. but it probably doesn't lol
 

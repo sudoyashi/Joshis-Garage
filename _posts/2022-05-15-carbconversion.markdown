@@ -29,7 +29,7 @@ We can break the conversion into these major steps:
 Ideally, this is how the project build would go. Pretty simple! But, this is a project car. You will break stuff. You will find other parts that need repairs. You will remember that you wanted to buy a new door handle because it says, Porsche. But if it all does happen as smoothly as possible, wonderful. But let's not get our hopes up. Let's begin with planning.
 
 ## Introduction: Carbs are wonderfully imperfect
-![Carburetors on head](https://sudoyashi.github.io/Joshis-Garage/assets/img/enginehead/head.JPG)
+![Carburetors on head](https://www.sudoyashi.com/assets/img/enginehead/head.JPG)
 
 A bike carb conversion is not very common and doesn't seem to get too much good coverage. So why would you do it? I can only really think of two reasons why you should even go through with this:
 1. As a proof-of-concept on a shitty car you don't care about
@@ -203,7 +203,7 @@ Add a filter before the fuel pump, install the fuel pump, and fasten it to a bra
 
 ### Engine bay: filter, gauge, and carburetors
 
-![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets/img/engine.JPG)
+![Carb Conversion](https://www.sudoyashi.com/assets/img/engine.JPG)
 
 In the engine bay, find the fuel feed line which comes from our fuel pump we just installed. Add an in-line pressure gauge and the final line that leads to the fuel inlet for the carburetors. Be VERY mindful if any lines that are running near hot areas like the exhaust manifold, if so, sheathe the lines with heat protection to prevent heat soak or blowing up in a ball of flames from a leak. Connect to your carburetors.
 
@@ -219,7 +219,7 @@ From the engine head, you will need to connect your carbs to those intake ports.
 
 ### DIY Intake
 
-![CAD Draft](https://sudoyashi.github.io/Joshis-Garage/assets/img/cad-intakezx6r.png)
+![CAD Draft](https://www.sudoyashi.com/assets/img/cad-intakezx6r.png)
 
 Remove the original intake manifold. We need to create an intake manifold that can hold our carburetors. Measure and draft the intake manifold's mating surface to create the flange that will bolt to the head. You can also take the original gasket and trace that out for the bolt pattern of your new flange. It can be an integrated flange where the intake manifold and connection to carburetors are one piece, or a two-piece flange which is what I have. One piece bolt to the head, then another piece that will connect the head to the carbs. Personally, I'm not sure which design I would go with. I would have simplified and gone with the all-in-one piece, but the two-piece may be easier to service. It also means two times the fasteners and gaskets.
 
@@ -229,23 +229,23 @@ There is a science to the length of intake runners with airflow (CFM) calculatio
 
 If you don't really care for calculating the optimum length, just get some tubing and make sure it fits. After all, these aren't going to be race engines, so I'm not concerned with peak performance. As far as intake angle, it seems negligent from what I've read on the forums, but I can't touch on it further.
 
-![DanST Premade Kit](https://sudoyashi.github.io/Joshis-Garage/assets/img/enginehead/vacuumbalance.JPG)
+![DanST Premade Kit](https://www.sudoyashi.com/assets/img/enginehead/vacuumbalance.JPG)
 
 Connect the runners that start from the intake manifold and connects to the carburetor using fluoro-lined hoses. This special rubber hose is specifically made for fuel and can be quite pricey. My hoses are 45mm ID hoses which came with the kit. Optionally, you can include ports on the runners for vacuum. Adding ports from the four intake cylinders into one hose also allows you to connect it to the vacuum booster or other vacuum-based applications.
 
 
 #### Materials
 
-![Custom Flange](https://sudoyashi.github.io/Joshis-Garage/assets/img/flange.JPG)
+![Custom Flange](https://www.sudoyashi.com/assets/img/flange.JPG)
 
 For all of these parts, I'd recommend 5052 or 6061 aluminum, depending on your budget. For gaskets, repeat the CAD drawing of the mating surfaces and get those parts made of cork. You could do stainless steel, but it's added weight and may rust quicker than aluminum. For the intake hose, stick with fluoro-lined hoses and for vacuum hoses, any silicone or rubber hose for vacuum will do. If you are doing a DIY build, buy extras, test, draft, and test again! If you think you're saving money making it on your own, think again!
 
-![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets/img/cork-1.jpg)
+![Carb Conversion](https://www.sudoyashi.com/assets/img/cork-1.jpg)
 Keep in mind these components will be getting hot, I recommend using heat shields for body parts, rubber, or other sensitive parts  and wire sheath to protect any wires.
 
 ### Premade Kit
 
-![DanST Premade Kit](https://sudoyashi.github.io/Joshis-Garage/assets/img/zx6r.JPG)
+![DanST Premade Kit](https://www.sudoyashi.com/assets/img/zx6r.JPG)
 
 A premade kit with a manifold and carburetor set will resolve most of the engineering issues, all you have to do is install them! I can't give specific notes here other than go through the installation slowly and understand the engineering design of it all.
 
@@ -399,7 +399,7 @@ Last is the main jets, these are for WOT tuning so rip that goddamn project and 
 ## 9. Final adjustments
 The final step is to perfect your setup! Projects will never be "finished", but there will be a point where you won't be breaking down every other time you drive it. And that my friend is the time to celebrate. This is where you can truly enjoy your car with only minor maintenance issues.
 
-![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets/img/dashboard.jpg)
+![Carb Conversion](https://www.sudoyashi.com/assets/img/dashboard.jpg)
 
 Depending on how far of a modification you have gone, most likely, you made the car worse off in some ways, haha. This rings true across almost all aftermarket modifications. Reliability and drivability are dependent on your ability to engineer and solve mechanical issues.
 
@@ -448,7 +448,7 @@ Further down the line when we want to keep the car driving healthy, also ask you
 ### Is there a hissing noise when you use the starter?
 - **Check for vacuum leaks.** The hissing could be the air coming in through a small hole or leak. This is known as unmetered air. While we do want more air for the engine to create more power, unmetered air is unaccounted for and will through your AFR out of balance. Let's start the car on a good note.
 
-![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets/img/leak.jpg)
+![Carb Conversion](https://www.sudoyashi.com/assets/img/leak.jpg)
 
 ### Car starts, then die, then starts again?
 - This could be because of several issues. Fueling, air leaks, alternator failing, cold engine, etc. You need to start broader and look at the five elements. Narrow down which system is failing then reference those issues as your new starting point.
@@ -485,4 +485,4 @@ Your car may not even run at all!
 
 But when your car is on the road, cruising along in the end, you can own up to this car. It's something that you have modified and changed, for better or worse. Take pride in your work.
 
-![Carb Conversion](https://sudoyashi.github.io/Joshis-Garage/assets/img/driveway1.jpg)
+![Carb Conversion](https://www.sudoyashi.com/assets/img/driveway1.jpg)

@@ -7,7 +7,7 @@ permalink: /cad_parts/
 ## Intake Manifold Flange (DO NOT USE holes)
 ![Custom Intake Flange](/assets/img/cad_flange.jpg)
 
-[Custom Intake Flange Post](https://sudoyashi.github.io/Joshis-Garage/fixleakscad)
+[Custom Intake Flange Post](https://www.sudoyashi.com/fixleakscad)
 
 ![JH Intake Manifold to ZX6R](/assets/img/cad-intakezx6r.png)
 Intake gaskets, JH head to ZX6R carburetors

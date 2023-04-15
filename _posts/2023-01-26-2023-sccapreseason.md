@@ -94,9 +94,9 @@ This might look over-the-top but I need to write it all down, for my own sake.
 ### Driver prep
 
 - **Required!** Helmet
-![Helmet and Number](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/helmet2023.jpg)
+![Helmet and Number](https://www.sudoyashi.com/assets/img/scca/helmet2023.jpg)
 - **Required!** Driver Number and Class Letters
-![Finished vinyl cutouts](https://sudoyashi.github.io/Joshis-Garage/assets/img/scca/finishedvinyldecals.jpg)
+![Finished vinyl cutouts](https://www.sudoyashi.com/assets/img/scca/finishedvinyldecals.jpg)
   - (x2) 44 - Magnetic Vinyl Number 44 for 2023
   - (x2) STH - Magnetic Vinyl Honda Civic Si Sport Touring Hatchback, (STH) as rookie (RK). I used this site to figure out my class: [SCCA Classifier](https://www.scca-classifier.com/)
   - (x2) RK - Magnetic Vinyl, wasn't sure if I needed to put my driving class in? R for rookie, or RK. Also had a hard time finding that detail.
@@ -133,9 +133,9 @@ The aftermarket intake was the one thing I liked and kept it. Compliant with ST 
 
 ### Before changes, not STH compliant
 
-![Not STH Compliant](https://sudoyashi.github.io/Joshis-Garage/assets/img/civic/civic-sth-noncompliant-front.JPG)
+![Not STH Compliant](https://www.sudoyashi.com/assets/img/civic/civic-sth-noncompliant-front.JPG)
 
-![Not STH Compliant](https://sudoyashi.github.io/Joshis-Garage/assets/img/civic/civic-sth-noncompliant-rear.JPG)
+![Not STH Compliant](https://www.sudoyashi.com/assets/img/civic/civic-sth-noncompliant-rear.JPG)
 
 ### After changes, STH compliant
 
