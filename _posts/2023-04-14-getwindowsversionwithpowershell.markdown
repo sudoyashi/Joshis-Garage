@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-04-14 00:00:00 -1000
 tags: it-admin
 categories: it
-image: 
+image: /it-admin/getwindowsversion.jpg
 ---
 
 *Note: I believe I borrowed this code from somewhere but I can't find the original source. Parameters were adapted to our environment and preferences.*
