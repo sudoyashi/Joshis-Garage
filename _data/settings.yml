@@ -17,8 +17,8 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'instagram', link:  'https://instagram.com/sudoyashi'}
-- {icon: 'instagram', link:  'https://instagram.com/da_cabby'}
+- {icon: 'instagram', link:  'https://instagram.com/joshi.tsunami'}
+#- {icon: 'instagram', link:  'https://instagram.com/da_cabby'}
 
 # Customize site text
 pagination:

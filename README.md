@@ -18,7 +18,7 @@ With about $300 in starter tools like basic hand tools for the normal project ca
 
 My 2007 Audi A3 is not technically a project car, but it's definitely a car that I want to keep around to modify in the end. Acquired in June 2022, I was and still am attracted to the drivability of a car, with the benefits of interior space of an SUV, hence the wagon. I don't have too much to say about it yet, but I will be writing more about it soon!
 
-WELL. I sold it. Haha.
+Update... I sold it. LMAO.
 
 #3. CAD - Where Cardboard and Computers Collide
 

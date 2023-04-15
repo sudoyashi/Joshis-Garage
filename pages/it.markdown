@@ -6,5 +6,4 @@ permalink: /it/
 
 Posts about administrative tasks for Windows and Linux environments.
 
-1. [Get Windows Version with Powershell]()
-2. 
+1. [Get Windows Version with Powershell](https://www.sudoyashi.com/getwindowsversionwithpowershell)

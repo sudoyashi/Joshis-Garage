@@ -4,7 +4,7 @@ title: Home
 ---
 <center><h2>Cars and other obsesions.</h2>
 <p>
-A person home for all of my hobbies that I end up writing notes about. This includes my project cars, IT adminstration, cooking, and whatever other hobbies I'm working on. Most people might be here for my [cabby](https://sudoyashi.com/dacabby). But explore around, maybe you'll find something cool!
+A person home for all of my hobbies that I end up writing notes about. This includes my project cars, IT adminstration, cooking, and whatever other hobbies I'm working on. Most people might be here for my <a href="https://sudoyashi.com/dacabby">cabby</a>. But explore around, maybe you'll find something cool!
 <br><br>
 Otherwise, checkout my posts below.
 </p>
