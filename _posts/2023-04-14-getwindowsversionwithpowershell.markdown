@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Get Windows Version with Powershell"
+author: "Joshua Domingo"
+date:   2023-04-14 00:00:00 -1000
+tags: it-admin
+categories: it
+image: 
+---
+
 *Note: I believe I borrowed this code from somewhere but I can't find the original source. Parameters were adapted to our environment and preferences.*
 
 ## The issue: wth is 19045
@@ -160,7 +170,7 @@ $ScriptBlock = {
 
 Here we declare the script for `Invoke-Command` for the parameter `-ScriptBlock` as `$ScriptBlock`.
 
-Within the script block, we create an array that stores all the values of the Windows versions as key pairs to its recognizable Windows version.
+Within the script block, we create an array that stores all the values of the Windows versions as key pairs so it's a recognizable Windows version.
 
 ### Get-CimInstance
 
@@ -168,7 +178,7 @@ Within the script block, we create an array that stores all the values of the Wi
 Get-CimInstance -Class Win32_OperatingSystem | select BuildNumber,@{n='Version';e={$ver.($_.BuildNumber)}} 
 ```
 
-Next, we run `Get-CimInstance...` which will dig up the Windows build information for us. It will then `|` pipe the information to select the correct build number, by referencing the declared `@{...}` [hashtable](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7.3).
+Next, we run `Get-CimInstance...` which will dig up the Windows build information for us. Then we `|` pipe the information to select the correct build number, by referencing the `@{...}` [hashtable](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_hash_tables?view=powershell-7.3).
 
 ### Close the Script
 

@@ -3,7 +3,8 @@ layout: page
 title: About the Build
 permalink: /dacabby/
 ---
-Roughly $10,000.
+![Da Cabby](https://www.sudoyashi.com/assets/img/driveway1.jpg)
+Roughly $10,000 in sunk costs :')
 
 This is my first project car and since getting my own beginner socket and wrench set in 2020, until now, I have spent roughly $10,000 inclusive of the fees, maintenance costs, custom parts, and other useless things I shouldn't have bought. It's probably more, but I stopped counting at 5 figures for this hunk  of metal lol. 
 
