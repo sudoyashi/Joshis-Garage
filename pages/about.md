@@ -5,7 +5,7 @@ permalink: /about/
 image: about.jpg
 ---
 
-![Itsme](https://www.sudoyashi.com/assets/img/si-audi-cabby2.jpg)
+![Itsme](https://www.sudoyashi.com/assets/img/2022-update.jpg)
 
 Joshua P Domingo
 
