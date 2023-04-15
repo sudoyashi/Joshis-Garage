@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-02-06 00:00:00 -1000
 tags: race scca solo  
 categories: cars scca
-image: 
+image: /scca/race2/2023civicrace2-1.jpg
 ---
 I enjoy spending money to solve my problems but spending money won't make me faster. I'm new to racing and I don't have a good baseline of my limit in autocross, so instead of going down the spending rabbit hole, let's figure out how I can be faster by racing on a budget.
 
