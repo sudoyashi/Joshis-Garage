@@ -87,6 +87,17 @@ Many possibilities to use this information or adapt it to your environment
 }
 ```
 
+### How to use
+
+Once the above script is loaded, run the following command:
+```
+Get-Build -Computername VM-JoshuaD
+
+CSName       BuildNumber  OSArchitecture Version
+------       -----------  -------------- -------
+VM-JOSHUAD   19045        64-bit         Windows 10 22H2
+```
+
 If you are not using Powershell profiles, you can still copy and paste the code above into your shell, but you need to do that every time you want to run the function `Get-Build`.
 
 ### Quick and Dirty Version (no Powershell Profiles)
