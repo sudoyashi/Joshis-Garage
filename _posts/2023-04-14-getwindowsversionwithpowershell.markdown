@@ -79,7 +79,7 @@ Many possibilities to use this information or adapt it to your environment
             10586 = 'Windows 10 1511'
             10240 = 'Windows 10 1507'
         }
-        Get-CimInstance -Class Win32_OperatingSystem | select BuildNumber,@{n='Version';e={$ver.($_.BuildNumber)}} 
+        Get-CimInstance -Class Win32_OperatingSystem | select CSName,BuildNumber,OSArchitecture,@{n='Version';e={$ver.($_.BuildNumber)}} 
 
     }
 
