@@ -9,15 +9,19 @@ image: about.jpg
 
 Joshua P Domingo
 
-Hey, I'm Josh! Professionally, I’m an IT administrator and I enjoy it enough in order to fund my non-professional array of hobbies like project cars.
+Hey, I'm Josh! Professionally, I’m an IT administrator and I enjoy it enough in order to fund my non-professional hobbies like cars, crafts, sports, and cooking.
 
-This website is meant to house my projects and other side ventures I want to talk about that are too long to post on social media. I worked as a Peace Corps Volunteer for Uganda from 2019-2020 in business and agriculture. Alongside my fieldwork, I worked as a web designer because of my experience using WordPress, Jekyll, and web hosting administration. 
+I made this website to write about my hobbies because they usually end up being too long to post on social media. Consolidating everything here will also make it easier to reference on my projects and reference materials. 
 
-But other than cars, I haven’t gone totally crazy over the automotive world mostly because I don’t have enough money for that, there are other things I enjoy. Swimming, skating, and anything that I can DIY fills up the rest of my time.
+Other things about me: I worked as a Peace Corps Volunteer for Uganda from 2019-2020 in business and agriculture. I worked as a web designer because of my experience using WordPress, Jekyll, and web hosting administration. I also farmed for a hot minute while I was there, so it was pretty nice. Unfortunately, we got evacuated due to the COVID-19 pandemic.
+
+Besides cars, I like swimming, skating, and anything else I can afford to spend my money on. Hobbies aren't cheap.
 
 Got a question? Let me know on social media!
 https://www.instagram.com/joshi.tsunami/
 
 
 Cheers,
-Josh
+Joshua
+
+January 2022

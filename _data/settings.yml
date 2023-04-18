@@ -9,7 +9,7 @@ google-ID: 'UA-112060364-2'
 menu:
 # - {name: 'Cars',  url: 'cars'}
 # - {name: 'Ocean', url: 'ocean'}
-# - {name: 'Home Economics', url: 'home-economics'}
+- {name: 'cooking', url: 'cooking'}
 - {name: 'Car Gallery', url: 'cargallery'}
 - {name: 'IT', url: 'it'}
 # - {name: 'Downloads', url: 'downloads'}
