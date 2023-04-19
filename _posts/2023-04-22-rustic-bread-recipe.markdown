@@ -10,7 +10,7 @@ image: /cooking/appetizers/rustic-bread-recipe.jpg
 *Adapted from this King Arthur Baking recipe: https://www.kingarthurbaking.com/recipes/the-easiest-loaf-of-bread-youll-ever-bake-recipe*
 
 
-**## Instructions**
+## Instructions
 
 1. Prep
    - Measure ingredients in a large bowl
@@ -26,7 +26,7 @@ image: /cooking/appetizers/rustic-bread-recipe.jpg
    - Flour your hands and kneading surface
    - Knead by scooping and pressing with the palms of your hands
    - Rotate the dough ball, repeat
-   - Too sticky, add flour
+   - Dough SHOULD be tacky, not too sticky; try your best not to add extra flour
    - Too dry, ok. Keep kneading, dust away extra flour
 5. First rise (1-2 hours, depends on humidity)
    - Lightly grease your large bowl
@@ -69,7 +69,7 @@ Longer? Airtight preferred.
 
 ## Notes on baking bread
 
-You can find decent success on your first few tries, but don't expect it to be bakery bangers off the start. There are LOTS of ways to modify, improve, and degrade your dough-making skills. This is a simple recipe to get you making bread. 
+You can find decent success on your first few tries, but don't expect it to be bakery bangers off the start. There are LOTS of ways to modify, improve, and degrade your dough-making skills. This is just a simple recipe to get you making bread. 
 
 ### Shitty dough
 - Dough can be too wet and never rise to its optimum size, slow down adding water so you don't add too much
@@ -78,3 +78,9 @@ You can find decent success on your first few tries, but don't expect it to be b
 - Water too hot or too cold
 - Bad yeast
 - Not rising enough, knead more, more rising time
+
+### Improvements
+- Bread is too dense: https://www.busbysbakery.com/bread-too-dense-how-to-improve-bread/
+- Dough kneading for better dough: https://www.busbysbakery.com/hand-knead-dough-techniques/
+- Sticky dough handling: https://www.foodtoimpress.com/bread/why-is-my-dough-sticky-and-how-to-handle-it/
+
