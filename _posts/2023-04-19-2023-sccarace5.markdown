@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-04-19 00:00:00 -1000
 tags: race prep scca solo  
 categories: cars
-image: /scca/race5/2023race5-civic1.JPG
+image: /scca/race5/2023race5-civic1.jpg
 ---
 
 ## SCCA Race 5 Results: I DIDN'T GET LAST. WHAT A NICE DAY.
