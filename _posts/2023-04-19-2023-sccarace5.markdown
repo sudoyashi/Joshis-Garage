@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2023 SCCA Race 5 - Rain session"
+title: "2023 - Why is racing important to us?"
 author: "Joshua Domingo"
 date:   2023-04-19 00:00:00 -1000
 tags: race prep scca solo  
@@ -8,14 +8,31 @@ categories: cars
 image: /scca/race5/2023race5-civic1.JPG
 ---
 
-I DIDN'T GET LAST. WHAT A NICE DAY.
-
-## Results: 9th in Rookies
+## SCCA Race 5 Results: I DIDN'T GET LAST. WHAT A NICE DAY.
 ![Race 5 Results](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-9th.jpg)
 I'd be lying if I said I wasn't upset about my results but looking back, it's okay. I was kind of hungover and did not get the best amount of sleep LOL. It's all for fun and I'm not in the competitive zone, yet.
 
-The field of cars varies from race to race in the Rookie SCCA lineup. Other competitive cars include the Hellcat, Giulia, AMG GT, Focus RS, tuned and modified cars, the list goes on! Practically, any of us can win because the course mostly balances the power differential. It helps to have enough power that the driver can handle and I've come to that conclusion as each race goes on. 
+The field of cars varies from race to race in the Rookie SCCA lineup. Other competitive cars include the Hellcat, Giulia, AMG GT, Focus RS, tuned and modified cars, the list goes on! Practically, any of us can win because the course mostly balances the power differential. It helps to have enough power that the driver can handle and I've come to that conclusion as each race goes on. But what's the deal, why does any of this matter?
 
+## Why is racing important to us?
+
+- What's the point of buying a fast car if you can't drive it to speed in Hawaii?
+- Who cares if you can get there 1 second faster? As long as you get there it's fine!
+- All these fancy and fast cars is just a waste of money, why does it matter?
+
+Racing won't put food on the table. Racing won't cure people of illness. Nor will racing resolve world conflict and struggle. So what gives, who the hell cares about being faster than someone else? 
+
+Everyone.
+
+In almost everyone's childhood, there was always an opportunity to give it your best shot. Whether that was racing to the end of the fence, jumping over the highest rock, climbing the tallest tree, look better, be better, or perform better, competition is at the heart of all of it. Everyone believes in their own special talents whether they are impressive or not, there is a string of belief that ties their world together and that is what sparks a decent fire for all of us.
+
+## Racing is a challenge to be completed
+
+Racing in any discipline is something boys end up doing when there is free time. Competition and sport made up a lot my per
+
+Doing something that we're decently good at and going just a little bit further, it's a flex contest. And everyone wants to flex, modest or verbose. It's not a diss to anyone, it's normal!
+
+Most of the goals that we can achieve are just within reach, where it's just within grasp. We can visualize our success and see that it's possible, it's just a matter of executing. 
 ## Civic friends
 
 ![Race 5 Comparison](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-compare.jpg)
@@ -23,26 +40,29 @@ Bryce and Christian are fellow Civic Si owners and I've come to enjoy the platfo
 
 These guys are also running in Rookie class and aren't people to sleep on. Bryce is an excellent driver within the class where he pulled a P1 last race weekend (race 4)! Whereas Christian and I are always battling for position from weekend to weekend. It's a good fight to be in!
 
-## Rain, missing cones and over-slowing
+
+## Self-Analysis with Racing
+
+### Rain, missing cones and over-slowing
 ![Race 5 in the rain](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
 After driving around the track with fun run laps, I figured out where I was slow. First, I SUCK AT RAIN DRIVING. This was the first race where we had a straight downpour on the track and it made me drive slower haha. I hit a couple of cones here and there and realized I was over-slowing the car. But it took me a while to figure out what was going on! Reviewing the race footage from TrackAddict, that's when I figured out what was wrong.
 
 I was frustrated with my first couple of laps during the timed session because I couldn't figure out what I was doing wrong. Then the rain came down. Then the grip came down. Frustration is up. You get the cycle.
 
 
-## Driving Improvements 
+### Driving Improvements 
 - Better turn-in point on hairpins
 - Closing the gap on cones, just barely clipping some!
 - Did not get lost on the course
 
-## Driving Errors
+### Driving Errors
 - Hitting the SAME cone over and over and not noticing
 - Over-slowing on corner entry, I should not go below 17MPH on the hairpin
 - Understeer in the wet
 - Too much speed on the straight with a chicane
 - Too much brake, not enough speed management
 
-## Logistical issues
+### Logistical issues
 - Some of my camera angles sucked. I want to get a second GoPro dedicated to my footwork OR
 - Instead of a second camera, I can get a GPS module to track my progress better. Looking at an XGPS 160 for Track Addict
 - Hoping for a ride-along! I want to ride along with another driver to see/feel what other drivers are doing differently.
