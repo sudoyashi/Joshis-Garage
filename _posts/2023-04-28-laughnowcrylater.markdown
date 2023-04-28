@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-04-22 00:00:00 -1000
 tags: cooking recipe bread  
 categories: cars, project car
-image: /cabby/cabby-2023-checker.jpg
+image: /cabby/cabby-2023-sandys.jpg
 ---
 If it's worth getting emotional over it now, it's probably worth it.
 
@@ -39,6 +39,8 @@ Taking on this project and sharing my experience with everyone around me, both o
 I hate this car. I love this car. And owning up to my decisions is one of the most empowering things I've done in the last few years.
 
 ## Do something for yourself.
+
+![It me with cabby 2023](https://www.sudoyashi.com/assets/img/cabby/cabby-2023-checker.jpg)
 
 It was my birthday this month and each year I do a review of what I've done over the last year. And my only goal in doing that review is to firmly agree that I did things for myself.
 
