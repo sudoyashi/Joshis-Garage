@@ -7,13 +7,13 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-# - {name: 'Cars',  url: 'cars'}
+- {name: 'cars',  url: 'cars'}
 # - {name: 'Ocean', url: 'ocean'}
 - {name: 'cooking', url: 'cooking'}
-- {name: 'Car Gallery', url: 'cargallery'}
+- {name: 'gallery', url: 'cargallery'}
 - {name: 'IT', url: 'it'}
 # - {name: 'Downloads', url: 'downloads'}
-- {name: 'About',              url: 'about'}
+- {name: 'about',              url: 'about'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:

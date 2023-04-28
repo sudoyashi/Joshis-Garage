@@ -18,8 +18,9 @@ permalink: /cars/
 ## 2019 Honda Civic Si
 
 ![Civic Front](https://www.sudoyashi.com/assets/img/pages/cars/civic-full.jpg)
-![Civic Front](https://www.sudoyashi.com/assets/img/pages/cars/civic-rear.jpg)
-![Civic Front](https://www.sudoyashi.com/assets/img/pages/cars/civic-side.jpg)
+![Civic Headlights](https://www.sudoyashi.com/assets/img/scca/race2/2023civicrace2-1.jpg)
+![Civic Rear](https://www.sudoyashi.com/assets/img/pages/cars/civic-rear.jpg)
+![Civic Side](https://www.sudoyashi.com/assets/img/pages/cars/civic-side.jpg)
+![Civic Rain](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic1.jpg)
 
-## Civic Links
 

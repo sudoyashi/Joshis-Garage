@@ -3,7 +3,7 @@ layout: post
 title: "Laugh now, cry later. Get a project car."
 author: "Joshua Domingo"
 date:   2023-04-22 00:00:00 -1000
-tags: cooking recipe bread  
+tags: cars, volkswagen, golf
 categories: cars, project car
 image: /cabby/cabby-2023-sandys.jpg
 ---
