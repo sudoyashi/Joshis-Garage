@@ -2,7 +2,7 @@
 layout: post
 title: "Laugh now, cry later. Get a project car."
 author: "Joshua Domingo"
-date:   2099-04-22 00:00:00 -1000
+date:   2023-04-22 00:00:00 -1000
 tags: cooking recipe bread  
 categories: cars, project car
 image: /cabby/cabby-2023-checker.jpg
@@ -12,7 +12,8 @@ If it's worth getting emotional over it now, it's probably worth it.
 There is no doubt that I have a lot of regrets about getting this project car. The amount of time, money, and effort I've lost because of this car getting me stranded, the heartbreak of things not working properly, and the stupid amounts of money I've spent on non-working solutions. There are opportunity costs with getting a project car. But with that said, this car is irreplaceable and I don't mind the shit it put me through.
 
 ## Why bad decisions aren't so bad
-
+![Test Drive Cab x Friends](https://www.sudoyashi.com/assets/img/cabby/friends-x-cabby.jpg)
+*Little did they know this was the first test drive after fixing it, bwahaha*
 Like everyone, we just want to justify our stupidity.
 
 I don't think we are designed to make bad decisions because at the moment we really thought it was the right thing to do! Decisions at the moment because it resonated with what we wanted. Emotionally charged with making ALL of our decisions, we'll definitely end up downbad in debt and despair. So how do we walk the fine line of downbad in debt and emotionally strained? For me, the best way to figure out how to make a decision was to separate the emotion from the choice. Sleep on it.
@@ -24,6 +25,8 @@ Do I have bills to pay? Do I have food to eat? Do I really need something new, o
 I have a lot of ideas for the future and what I want to achieve and acquire, and for many of us, I really don't think that money is the biggest object to cross, it's our decision.
 
 ## Decision-making is a top-tier skill
+
+![Why is this car always in repair](https://www.sudoyashi.com/assets/img/cabby-gallery-5.jpg)
 
 Excluding extreme and dire cases, we can maneuver around our debts and credits with some mindful savings and spending. Most people who have jobs can eventually turn it around in due time. I don't believe that we should sink into that mindset that debt is forever and we should say "fuck it, I'm dying anyways!" because there are things to look forward to and it's never too late to say never.
 
