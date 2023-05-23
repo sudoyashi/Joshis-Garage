@@ -6,7 +6,7 @@ A collection of my project notes on cars, design, and other hobbies that I decid
 
 Ya never know!
 
-If there's something valuable I want to take away from trying something new, then motherfucka I am going to make sure I can walk away from it as a champ. Some entries may not have anything, but it probably means I'm too lazy to write about it.
+If there's something valuable I want to take away from trying something new, then I'll be damned to make sure I can walk away from it as a champ. Some entries may not have anything, but it probably means I'm too lazy to write about it.
 
 #1. Da Cabby - The Lil Carbureted Convertible
 
