@@ -4,13 +4,16 @@ title: Cloud Computing
 permalink: /cloud/
 ---
 
-I like cars and I like working with tech. But I've always been financially limited in this hobby because it's a never-ending cycle of parts, expendables, and getting the next best thing. Therefore, to be able to invest more into my hobby, I need to start with my career. I've worked on and off in IT for about 4 years now and in that time, I've learned enough to feel confident to step up to work in cloud computing. 
+## From IT professional to Cloud Computing Professional
 
-Cloud computing in 2023 is here to stay, with the advantage of resiliency, availabilty, and accessibility, it's a technology that I believe most, if not all, companies should invest in. But the biggest issue with cloud services comes from implementation.
+I've worked on and off in IT for about 4 years now and in that time, I've learned enough to feel confident to step up to work in cloud computing. Cloud computing is a technology that I believe most, if not all, companies should invest in. But the biggest issue with cloud services comes from implementation.
 
-It's not the most intuitive technology to work with and seasoned on-prem professionals may not find the need to  still untapped potential  because of its barrier to entry in terms of comprehension on how cloud computing actually works and how to get started.
+It's not the most intuitive technology to work with and seasoned on-prem professionals may not find the need to  still untapped potential  because of its barrier to entry in terms of comprehension on how cloud computing actually works and how to get started. But it shouldn't be so complicated to implement in their business solution and I hope to make that transition a little bit easier.
 
-Cloud computing shouldn't be so complicated to implement in their business solution and I hope to make that transition a little bit easier. Welcome to my cloud journey!
+To start this off, I'm going through [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/), and to my relief, I've done most of these tasks before in my experience as an IT specialist or admin before. I've set a soft deadline of 1 month (July 13, 2023) to finish this project
+
+I've setup numerous websites and testing environments via Docker (with Docker compose) and Jekyll. I've also worked with HTTPS, DNS, Javascript, troubleshooting APIs and Python every now and then through my Help Desk role. The latter third of the steps like Infrastructure as Code (IaC), Source Control, and CI/CD are the the topics I'm most unfamiliar with. But like all things in IT, you have to adapt to new tech eventually. And of course, blogging is something I've been doing for quite some time.
+
 
 ## Starting goal: Complete The Cloud Resume Challenge
 
@@ -34,16 +37,6 @@ Checklist:
 - [ ] 14. CI/CD (Back end)
 - [ ] 15. CI/CD (Front end)
 - [ ] 16. Blog post
-
-
-
-### Background
-
-To my relief, I've done most of these tasks before in my previous work as an IT specialist or admin so this won't be terribly painful to complete. I've set a soft deadline of 1 month (July 13, 2023) to finish this project
-
-I've setup numerous websites and testing environments via Docker (with Docker compose) and Jekyll. I've also worked with HTTPS, DNS, Javascript, troubleshooting APIs and Python every now and then through my help desk role. However, the latter third of the steps like Infrastructure as Code (IaC), Source Control, and CI/CD are the the topics I'm most unfamiliar with. But like all things in IT, you have to adapt to new tech eventually. And of course, blogging is something I've been doing for quite some time.
-
-
 
 ### 1. Certification - DONE.
 
