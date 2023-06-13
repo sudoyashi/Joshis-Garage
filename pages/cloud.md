@@ -4,19 +4,52 @@ title: Cloud Computing
 permalink: /cloud/
 ---
 
-I like cars and I like working with tech. But I've always been financially limited in this hobby because it's a never-ending cycle of parts, expendables, and getting the next best thing. Therefore, to be able to invest more into my hobby, I need to start with my career. I've worked in IT for 6 years now and I want to step up to a technology I really believe in. Cloud computing is part of our reality, but for most it's still untapped potential and I want to show others that cloud computing shouldn't be so complicated to implement in their business solution.
+I like cars and I like working with tech. But I've always been financially limited in this hobby because it's a never-ending cycle of parts, expendables, and getting the next best thing. Therefore, to be able to invest more into my hobby, I need to start with my career. I've worked on and off in IT for about 4 years now and in that time, I've learned enough to feel confident to step up to work in cloud computing. 
 
-Welcome to my cloud journey.
+Cloud computing in 2023 is here to stay, with the advantage of resiliency, availabilty, and accessibility, it's a technology that I believe most, if not all, companies should invest in. But the biggest issue with cloud services comes from implementation.
+
+It's not the most intuitive technology to work with and seasoned on-prem professionals may not find the need to  still untapped potential  because of its barrier to entry in terms of comprehension on how cloud computing actually works and how to get started.
+
+Cloud computing shouldn't be so complicated to implement in their business solution and I hope to make that transition a little bit easier. Welcome to my cloud journey!
 
 ## Starting goal: Complete The Cloud Resume Challenge
 
-Based on The Cloud Resume Challenge, my goal is to complete these 16 steps to learn and show what I can do with Azure.
+Based on [The Cloud Resume Challenge for Azure](https://cloudresumechallenge.dev/docs/the-challenge/azure/), my goal is to complete these 16 steps to learn and show what I can do with Azure.
+
+Checklist:
+
+- [x] 1. Certification
+- [ ] 2. HTML
+- [ ] 3. CSS
+- [ ] 4. Static Website
+- [ ] 5. HTTPS
+- [ ] 6. DNS
+- [ ] 7. Javascript
+- [ ] 8. Database
+- [ ] 9. API
+- [ ] 10. Python
+- [ ] 11. Tests
+- [ ] 12. Infrastructure as Code
+- [ ] 13. Source Control
+- [ ] 14. CI/CD (Back end)
+- [ ] 15. CI/CD (Front end)
+- [ ] 16. Blog post
+
+
+
+### Background
+
+To my relief, I've done most of these tasks before in my previous work as an IT specialist or admin so this won't be terribly painful to complete. I've set a soft deadline of 1 month (July 13, 2023) to finish this project
+
+I've setup numerous websites and testing environments via Docker (with Docker compose) and Jekyll. I've also worked with HTTPS, DNS, Javascript, troubleshooting APIs and Python every now and then through my help desk role. However, the latter third of the steps like Infrastructure as Code (IaC), Source Control, and CI/CD are the the topics I'm most unfamiliar with. But like all things in IT, you have to adapt to new tech eventually. And of course, blogging is something I've been doing for quite some time.
+
+
 
 ### 1. Certification - DONE.
 
-~Your resume needs to have the AZ-900 certification on it. This is an introductory certification that orients you on the Azure cloud – if you have a more advanced Azure cert, that’s fine but not expected. You can sit this exam online for $100 USD. A Cloud Guru offers exam prep resources.~
+Your resume needs to have the AZ-900 certification on it. This is an introductory certification that orients you on the Azure cloud – if you have a more advanced Azure cert, that’s fine but not expected. You can sit this exam online for $100 USD. A Cloud Guru offers exam prep resources.
 
-(AZ-900 received on June 10, 2023)[https://www.credly.com/badges/0c8be48a-c34a-45af-bc69-1f6a8ca1acbb/public_url]
+[AZ-900 received on June 10, 2023](https://www.credly.com/badges/0c8be48a-c34a-45af-bc69-1f6a8ca1acbb/public_url)
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="0c8be48a-c34a-45af-bc69-1f6a8ca1acbb" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
