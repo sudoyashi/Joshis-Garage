@@ -7,10 +7,11 @@ tags: cars, supra, life
 categories: cars, IT
 image: /it-admin/jackie-ding-supra.jpg
 ---
-
-I want a Supra and I'll make it happen.
+That's Jackie Ding's A90 Supra. Asian Driver, No Survivor.
 
 ## Ok dummy, why. You JUST bought a car last year.
+![Civic Si](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
+Yeah... I know LOL. But let me finish!
 
 The MK4 Supra isn't necessarily my dream, iconic car from my childhood days. I admire its heritage and everything... but it also just seemed too mythical to even fathom. However, the A90 MK5 Supra is something that got me interested. Mostly from a racecar driver named Jackie Ding.
 
@@ -23,7 +24,7 @@ Here's Jackie getting podiums each time in a car that obliterated the competitio
 At that point, the Supra became an icon to me. It is an embodiment of all the hard work, struggle, and effort to reach the top and do something that you enjoy. And at the core of it all, it's a pretty good-looking ship.
 
 ## How can you afford it?
-
+![Loan clipart](https://www.sudoyashi.com/assets/img/it-admin/supra-cloud2.jpg)
 Retirement first, toys second. This is why I'm trying to get a cloud job.
 
 I stepped into the IT career because I can do it and I know I'll be able to make a good living out of it. I wasn't sure what specific job I wanted yet when I was studying in college, but just recently, cloud computing looked like the place I wanted to be. After all, buying the Supra or any luxury isn't the first money move I'd make. I won't be that irresponsible. Hehe.
@@ -40,12 +41,12 @@ That's the general cost of a new A90 Supra. Buying it used or brand new, we'll g
 
 ## Wait, so how much do cloud jobs even pay?
 
-The average salary for the role I'm going for, Cloud Solutions Architect is about $140,000 a year.
+The average salary for the role I'm going for, Cloud Solutions Architect can range from $100,000-140,000+ a year.
 
 Getting this job won't be easy, nor is any of this a guarantee. But with a goal in mind and a lot of potential to achieve it. I know it won't be easy and it won't be as simple as the YouTube videos lay it out, but I know I can do it. 
 
 ## Why not save for a property with that money?
-
+![Hawaii house](https://www.sudoyashi.com/assets/img/it-admin/supra-cloud3.jpg)
 You're quite right. But life is short and I want to make the most of it. You could substitute "The Supra" for anything in your situation in your quest for attainable luxury. And even if I don't get the Supra, I would have still achieved a good-paying job with a lot of experience to boot and saved enough money in the meantime to put towards a property.
 
 This whole goal, it's a vision for me that is easy to explain and easy to understand. The housing market in Hawaii is a lot more pricey and complex for me to stay motivated. Maybe in the next few years, I'll give it more thought, but for now, the Supra is the goal.
