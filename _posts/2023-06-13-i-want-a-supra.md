@@ -31,6 +31,7 @@ Before even trying to buy a new car, I'd need to take care of my retirement acco
 
 Once that's taken care of, the target number is $60,000. That means, let's find a way to afford to drop AT LEAST $12,000 and afford a $48,000 loan. Then we get into registration and other legal fees with the dealership and DoT, loan costs, etc. and we're looking at dropping $17,000 upfront. Monthly costs to own with insurance and loan at 5 years at 5%? That's $1,200 monthly. In some people's cases, that's rent money.
 
+This is going to be ON TOP of my regular expenses too!
 - I still have the Civic to pay off.
 - I still have my finances to deal with.
 - This is a ridiculous amount of money to purchase a car.
