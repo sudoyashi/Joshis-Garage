@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I want a Supra. This is how I'm going to get it."
+title: "I want a Supra and I've got a plan!"
 author: "Joshua Domingo"
 date:   2023-06-13 10:00:00 -1000
 tags: cars, supra, life
