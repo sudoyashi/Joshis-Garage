@@ -13,7 +13,8 @@ menu:
 - {name: 'gallery', url: 'cargallery'}
 - {name: 'IT', url: 'it'}
 # - {name: 'Downloads', url: 'downloads'}
-- {name: 'about',              url: 'about'}
+- {name: 'Cloud Resume', url: 'cloud-computing'}
+- {name: 'about', url: 'about'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
