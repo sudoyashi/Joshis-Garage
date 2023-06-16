@@ -46,13 +46,13 @@ Getting this job won't be easy, nor is any of this a guarantee. But with a goal 
 
 ## Why not save for a property with that money?
 ![Hawaii house](https://www.sudoyashi.com/assets/img/it-admin/supra-cloud3.jpg)
-You're quite right. But life is short and I want to make the most of it. You could substitute "The Supra" for anything in your situation in your quest for attainable luxury. And even if I don't get the Supra, I would have still achieved a good-paying job with a lot of experience to boot and saved enough money in the meantime to put towards a property.
+You're quite right! But life is short and I want to make the most of it. You could substitute "The Supra" for anything in your situation in your quest for attainable luxury. And even if I don't get the Supra, I would have still achieved a good-paying job with a lot of experience to boot and saved enough money in the meantime to put towards a property.
 
 This whole goal, it's a vision for me that is easy to explain and easy to understand. The housing market in Hawaii is a lot more pricey and complex for me to stay motivated. Maybe in the next few years, I'll give it more thought, but for now, the Supra is the goal.
 
 
 ## Conclusion: Work smart. Don't settle.
 
-I could easily stay at my current job and live moderately with the Civic. But I believe that if you have the opportunities and skills to do more that you should take advantage of it. I am in a privileged position financially with a lot of freedom of choice. I want to use this position to go further and share that path so others can do the same if not more. It's not the smartest financial goal but I haven't spent the money yet, haha.
+I could easily stay at my current job and live moderately with the Civic. But I believe that if you have the opportunities and skills to do more that you should take advantage of it. I am in a privileged position financially with a lot of freedom of choice. I want to use this position to go further and share that path so others can do the same if not more. It's not the smartest financial goal but I haven't spent the money yet, haha. 
 
 Also, the Supra will not replace the cabby. That's a whole separate thing, lol.
