@@ -104,6 +104,9 @@ az storage account show -n $storageAccount `
 -g $resourceGroup `
 --query "primaryEndpoints.web" `
 --output tsv
+
+# Setup metrics
+az monitor metrics 
 ```
 
 Visit the current site here: [Cloud Static Website](https://cloudresume619.z22.web.core.windows.net/)
