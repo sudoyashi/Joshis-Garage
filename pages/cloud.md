@@ -22,10 +22,10 @@ Based on [The Cloud Resume Challenge for Azure](https://cloudresumechallenge.dev
 Checklist:
 
 - [x] 1. Certification
-- [ ] 2. HTML
-- [ ] 3. CSS
+- [x] 2. HTML
+- [x] 3. CSS
 - [ ] 4. Static Website
-- [ ] 5. HTTPS
+- [x] 5. HTTPS
 - [ ] 6. DNS
 - [ ] 7. Javascript
 - [ ] 8. Database
@@ -49,16 +49,66 @@ Your resume needs to have the AZ-900 certification on it. This is an introductor
 
 ### 2. HTML
 Your resume needs to be written in HTML. Not a Word doc, not a PDF. Here is an example of what I mean.
-- *Status: Not started.*
+
+HTML seems to be fine. Using a template from [StyleShout](https://styleshout.com/free-templates/ceevee/). Why use a template? The amount of time saved from reinventing a custom HTML site isn't the main goal, it's to deploy a static website on Azure. There are TONS of resources that are already made so that you don't have to speend time making everything from scratch.
+
+- *Status: Started 6/19/2023, 5:06PM*
 
 
 ### 3. CSS
 Your resume needs to be styled with CSS. No worries if you’re not a designer – neither am I. It doesn’t have to be fancy. But we need to see something other than raw HTML when we open the webpage.
-- *Status: Not started.*
+
+Same with HTML, less effort in modifying existing code than to remake everything on your own. Again, save time from doing the general tasks and focus on the ones that we need to do: deploy a static website on Azure.
+
+- *Status: Started 6/19/2023, 5:06PM*
 
 ### 4. Static Website
 Your HTML resume should be deployed online as an Azure Storage static website. Services like Netlify and GitHub Pages are great and I would normally recommend them for personal static site deployments, but they make things a little too abstract for our purposes here. Use Azure Storage.
-- *Status: Not started.*
+
+Following the guide from Microsoft: [Host a static website in Azure Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-how-to?tabs=azure-portal) using Powershell.
+
+```powershell
+# Login to Azure
+Connect-AzAccount
+
+# Setup new rg, if does not exist already
+$resourceGroup = 'cloud-resume'
+$location = "westus"
+$storageAccount = "cloudresume619"
+az account set --subscription 'Training subscription'
+az group list -otable
+az group create --name $resourceGroup --location $location --tags "Env=dev"
+
+# Setup storage account
+
+az storage account create `
+--name $storageAccount `
+--resource-group $resourceGroup `
+--location $location `
+--sku Standard_LRS `
+--kind StorageV2
+
+
+# Enable static web hosing
+az storage blob service-properties update `
+--account-name $storageAccount `
+--static-website `
+--404-document "404.html" `
+--index-document "index.html"
+
+# Navigate to website files root directory if needed
+az storage blob upload-batch -s "C:\Users\joshu\Documents\git\cloud-resume\" -d '$web' --account-name $storageAccount
+
+# Print public URL
+az storage account show -n $storageAccount `
+-g $resourceGroup `
+--query "primaryEndpoints.web" `
+--output tsv
+```
+
+Visit the current site here: [Cloud Static Website](https://cloudresume619.z22.web.core.windows.net/)
+
+- *Status: Started 6/19/2023 8:12PM*
 
 ### 5. HTTPS
 The Azure Storage website URL should use HTTPS for security. You will need to use Azure CDN to help with this.
