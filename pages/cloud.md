@@ -115,7 +115,10 @@ Visit the current site here: [Cloud Static Website](https://cloudresume619.z22.w
 
 ### 5. HTTPS
 The Azure Storage website URL should use HTTPS for security. You will need to use Azure CDN to help with this.
-- *Status: Not started.*
+
+
+
+- *Status: 6/19/2023 10:37PMs.*
 
 ### 6. DNS
 Point a custom DNS domain name to the Azure CDN endpoint, so your resume can be accessed at something like my-c00l-resume-website.com. You can use Azure DNS or any other DNS provider for this. A domain name usually costs about ten bucks to register.
