@@ -6,7 +6,7 @@ categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/badrad/cruise12.jpg
 
 ---
-Unfortunately, the cab faced its first road failure-- we blew the radiator lol. We were expecting a fun cruise with the boys, but the cab had other plans.
+Unfortunately, the cab faced its first road failure of 2023-- we blew the radiator lol. We were expecting a fun cruise with the boys, but the cab had other plans.
 
 ![Cruise photos](https://www.sudoyashi.com/assets/img/cabby/badrad/cruise3.jpg)
 
