@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Repairs and 'while I'm in there!' Syndrome"
-date:   2023-07-03 00:00:00 -1000
+date:   2023-07-13 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/badrad/badrad1.jpg
 ---
