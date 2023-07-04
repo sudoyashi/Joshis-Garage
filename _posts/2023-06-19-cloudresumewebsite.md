@@ -2,7 +2,7 @@
 layout: post
 title: "Cloud resume, Toyotas, and maxing at 65MPH uphill."
 author: "Joshua Domingo"
-date:   2023-06-23 12:00:00 -1000
+date:   2099-06-23 12:00:00 -1000
 tags: technology, it, cloud
 categories: cloud
 image: 
