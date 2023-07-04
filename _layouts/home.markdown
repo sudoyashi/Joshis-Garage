@@ -4,7 +4,7 @@ title: Home
 ---
 <center><h2>Cars and other obsesions.</h2>
 <p>
-A home for all of my hobbies that I end up writing notes about. This includes my project cars, IT administration, cooking, and whatever other hobbies I'm working on. Most people might be here for my <a href="https://sudoyashi.com/dacabby">cabby</a>. But explore around, maybe you'll find something cool!
+A home for my notes. I like to write technical stuff but I'll try to keep it interesting. This includes my project car work, IT stuff, and whatever other hobbies I'm working on. My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
 <br><br>
 Otherwise, checkout my posts below.
 </p>

@@ -4,7 +4,7 @@ title: Cloud Computing
 permalink: /cloud/
 ---
 
-## From IT professional to Cloud Computing Professional
+## Cloud is probably the future
 
 I've worked on and off in IT for about 4 years now and in that time, I've learned enough to feel confident to step up to work in cloud computing. Cloud computing is a technology that I believe most, if not all, companies should invest in. But the biggest issue with cloud services comes from implementation.
 
@@ -12,7 +12,7 @@ It's not the most intuitive technology to work with and seasoned on-prem profess
 
 To start this off, I'm going through [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/), and to my relief, I've done most of these tasks before in my experience as an IT specialist or admin before. I've set a soft deadline of 1 month (July 13, 2023) to finish this project
 
-I've setup numerous websites and testing environments via Docker (with Docker compose) and Jekyll. I've also worked with HTTPS, DNS, Javascript, troubleshooting APIs and Python every now and then through my Help Desk role. The latter third of the steps like Infrastructure as Code (IaC), Source Control, and CI/CD are the the topics I'm most unfamiliar with. But like all things in IT, you have to adapt to new tech eventually. And of course, blogging is something I've been doing for quite some time.
+I've setup numerous websites and testing environments via Docker (with Docker compose) and Jekyll. I've also worked with HTTPS, DNS, Javascript, troubleshooting APIs and Python every now and then through my Help Desk role. The latter third of the steps like Infrastructure as Code (IaC), Source Control, and CI/CD are the the topics I'm most unfamiliar with. But like all things in IT, you have to adapt to new tech eventually. This is like the 9th website I've made for myself so it ain't my first rodeo in blogging!
 
 
 ## Starting goal: Complete The Cloud Resume Challenge
@@ -24,7 +24,7 @@ Checklist:
 - [x] 1. Certification
 - [x] 2. HTML
 - [x] 3. CSS
-- [ ] 4. Static Website
+- [x] 4. Static Website
 - [x] 5. HTTPS
 - [ ] 6. DNS
 - [ ] 7. Javascript
@@ -116,13 +116,16 @@ Visit the current site here: [Cloud Static Website](https://cloudresume619.z22.w
 ### 5. HTTPS
 The Azure Storage website URL should use HTTPS for security. You will need to use Azure CDN to help with this.
 
-
+The official website (link above) is HTTPS secured!
 
 - *Status: 6/19/2023 10:37PMs.*
 
 ### 6. DNS
 Point a custom DNS domain name to the Azure CDN endpoint, so your resume can be accessed at something like my-c00l-resume-website.com. You can use Azure DNS or any other DNS provider for this. A domain name usually costs about ten bucks to register.
-- *Status: Not started.*
+
+I'll purchase this in a bit.
+
+- *Status: Saving money*
 
 ### 7. Javascript
 Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen. Here is a helpful tutorial to get you started in the right direction.

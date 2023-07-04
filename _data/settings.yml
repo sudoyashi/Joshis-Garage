@@ -9,11 +9,11 @@ google-ID: 'UA-112060364-2'
 menu:
 - {name: 'cars',  url: 'cars'}
 # - {name: 'Ocean', url: 'ocean'}
-- {name: 'cooking', url: 'cooking'}
+# - {name: 'cooking', url: 'cooking'}
 - {name: 'gallery', url: 'cargallery'}
-- {name: 'IT', url: 'it'}
+# - {name: 'IT', url: 'it'}
 # - {name: 'Downloads', url: 'downloads'}
-- {name: 'Cloud Resume', url: 'cloud'}
+- {name: 'cloud resume', url: 'cloud'}
 - {name: 'about', url: 'about'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
@@ -28,6 +28,6 @@ pagination:
 
 sharing_button_prompt: 'Feel free to share!'
 
-related_posts: 'Other posts...'
+related_posts: 'Other silly posts...'
 
 post_date_prefix: 'Written on'
