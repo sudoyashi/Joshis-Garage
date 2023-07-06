@@ -10,7 +10,7 @@ image: /scca/race2/2023civicrace2-1.jpg
 I enjoy spending money to solve my problems but spending money won't make me faster. I'm new to racing and I don't have a good baseline of my limit in autocross, so instead of going down the spending rabbit hole, let's figure out how I can be faster by racing on a budget.
 
 ## Spending money to solve my problems
-![ARK DT-S Exhaust would be nice](https://cdn.shopify.com/s/files/1/0605/4101/0167/products/SM0605-0217D_01_468x312.jpg?v=1641228804){width=100%}
+![ARK DT-S Exhaust would be nice](https://cdn.shopify.com/s/files/1/0605/4101/0167/products/SM0605-0217D_01_468x312.jpg?v=1641228804) {: width="100%" }
 
 It would be nice to be agnostic of price and not worry about the cost of parts and maintenance. But in the real world, it's a challenge we have to address. New and shiny parts would make driving easier, but it won't necessarily make me a fast driver.
 

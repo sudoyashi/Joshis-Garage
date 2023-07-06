@@ -12,7 +12,7 @@ I DIDN'T GET LAST. WHAT A NICE DAY.
 
 ## Results: 10th in Rookies
 
-![Rank 10](https://www.sudoyashi.com/assets/img/scca/race1/2023race1-rank11.PNG){width=100%}
+![Rank 10](https://www.sudoyashi.com/assets/img/scca/race1/2023race1-rank11.PNG) {: width="100%" }
 [Official Times SCCA Hawaii 2023 - Race 1](https://www.sccahawaii.org/wp-content/uploads/2023/01/2023_race_1_fin.pdf)
 
 
@@ -22,7 +22,7 @@ I actually was unofficially 11th, but I'm not sure why I'm 10th. Anyways, that's
 
 Watching the seasoned guys driving in the heat before we made me realize the skill gap may not be so out of reach. I didn't get any DNFs, hit only one cone, and recovered from my mistakes pretty well. Each lap was an improvement over my last one, whether by technical skill or time, and that was what boosted my confidence the most.
 
-![Race Times](https://www.sudoyashi.com/assets/img/scca/race1/2023race1-times.PNG){width=100%}
+![Race Times](https://www.sudoyashi.com/assets/img/scca/race1/2023race1-times.PNG) {: width="100%" }
 
 ## Reflection Time; learn how to drive FWD
 
@@ -55,7 +55,7 @@ SCCA Hawaii made me feel safe in how they conducted the races and with everyone 
 
 ## Conclusion, I'm coming after you, my Prius friend
 
-![Race Times](https://www.sudoyashi.com/assets/img/scca/race1/2023race1-vertical.JPG){width=100%}
+![Race Times](https://www.sudoyashi.com/assets/img/scca/race1/2023race1-vertical.JPG) {: width="100%" }
 
 To my friend Jeremy who beat me in the Prius, you're a cool dude and healthy competition. Unfortunately, I'm too competitive with my friends, and hope to see you next time around because I'm planninng to catch up next race. You have a year of experience over me but still, I'm going to do everything I can to figure out how to cut one more second off my time.
 
