@@ -7,8 +7,8 @@ disqus:
 google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'cars',  url: 'cars'}
 # - {name: 'cooking', url: 'cooking'}
+- {name: 'cars',  url: 'an-car'}
 - {name: 'gallery', url: 'gallery'}
 - {name: 'cloud', url: 'cloud'}
 - {name: 'about', url: 'about'}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: cars
-permalink: /cars/
+permalink: /an-car/
 ---
 
 Currently, I own a Golf Mk1 Cabriolet and a 10th generation Civic Si. I don't plan to build either of these fast, mostly for handling and decent fun. In the future, I'm planning for a Supra and with this platform I'm planning to build it faster. Mostly permitted by my budget, lol.
