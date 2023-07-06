@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cars
+title: cars
 permalink: /cars/
 ---
 
