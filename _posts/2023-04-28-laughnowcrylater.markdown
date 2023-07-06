@@ -12,7 +12,7 @@ If it's worth getting emotional over it now, it's probably worth it.
 There is no doubt that I have a lot of regrets about getting this project car. The amount of time, money, and effort I've lost because of this car getting me stranded, the heartbreak of things not working properly, and the stupid amounts of money I've spent on non-working solutions. There are opportunity costs with getting a project car. But with that said, this car is irreplaceable and I don't mind the shit it put me through.
 
 ## Why bad decisions aren't so bad
-![Test Drive Cab x Friends](https://www.sudoyashi.com/assets/img/cabby/friends-x-cabby.jpg){: width="100%" }
+![Test Drive Cab x Friends](https://www.sudoyashi.com/assets/img/cabby/friends-x-cabby.jpg)
 *Little did they know this was the first test drive after fixing it, bwahaha*
 Like everyone, we just want to justify our stupidity.
 
@@ -26,7 +26,7 @@ I have a lot of ideas for the future and what I want to achieve and acquire, and
 
 ## Decision-making is a top-tier skill
 
-![Why is this car always in repair](https://www.sudoyashi.com/assets/img/cabby-gallery-5.jpg){: width="100%" }
+![Why is this car always in repair](https://www.sudoyashi.com/assets/img/cabby-gallery-5.jpg)
 
 Excluding extreme and dire cases, we can maneuver around our debts and credits with some mindful savings and spending. Most people who have jobs can eventually turn it around in due time. I don't believe that we should sink into that mindset that debt is forever and we should say "fuck it, I'm dying anyways!" because there are things to look forward to and it's never too late to say never.
 
@@ -40,7 +40,7 @@ I hate this car. I love this car. And owning up to my decisions is one of the mo
 
 ## Do something for yourself.
 
-![It me with cabby 2023](https://www.sudoyashi.com/assets/img/cabby/cabby-2023-checker.jpg){: width="100%" }
+![It me with cabby 2023](https://www.sudoyashi.com/assets/img/cabby/cabby-2023-checker.jpg)
 
 It was my birthday this month and each year I do a review of what I've done over the last year. And my only goal in doing that review is to firmly agree that I did things for myself.
 
