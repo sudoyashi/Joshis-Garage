@@ -12,16 +12,17 @@ permalink: /:categories/:title/
   {% if site.hide_post_date != true %}
     {% include post-date.html %}
   {% endif %}
-  {% if page.image %}
-    <div class="featured-image">
-      <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
-    </div>
+    {% if page.image %}
+      <div class="featured-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+      </div>
   {% endif %}
 
   <article>
     {% if page.image %}
       {% include image.html max-width="100%" %}
-    {{ content }}
+      {{ content }}
+    {% endif %}
   </article>
 
   {% if site.hide_post_share != true %}
