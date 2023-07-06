@@ -10,7 +10,7 @@ image: /it-admin/jackie-ding-supra.jpg
 That's Jackie Ding's A90 Supra. Asian Driver, No Survivor.
 
 ## Ok dummy, why. You JUST bought a car last year.
-![Civic Si](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
+![Civic Si](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG){width=100%}
 Yeah... I know LOL. But let me finish!
 
 The MK4 Supra isn't necessarily my dream, iconic car from my childhood days. I admire its heritage and everything... but it is too much money just for the nostalgia of it. The performance of the MK4 is only comparable to modern tech with enough money, well over the cost of the newest Supra. For me, the A90 MK5 Supra is something that got me interested. Mostly from a racecar driver named Jackie Ding.
@@ -22,7 +22,7 @@ I remember watching a video of Jackie's POV with PhD Racing race on the Circuit 
 Yes, his car is modified to the fullest extent, but it was still a Supra. The image was still there. His videos felt relatable in his struggle to go faster, do better, and worked endlessly year or year to be a Global Time Attack champion. At that point, the Supra became an icon to me. It is an embodiment of all the hard work, struggle, and effort to reach the top and do something that you enjoy. At the core of it all, taking away all of the racing and story away, it's still a pretty good-looking ship!
 
 ## How can you afford it?
-![Loan clipart](https://www.sudoyashi.com/assets/img/it-admin/supra-cloud2.jpg)
+![Loan clipart](https://www.sudoyashi.com/assets/img/it-admin/supra-cloud2.jpg){width=100%}
 Retirement first, toys second. This is why I'm trying to get a cloud job.
 
 I stepped into the IT career because I can do it and I know I'll be able to make a good living out of it. I wasn't sure what specific job I wanted yet when I was studying in college, but just recently, cloud computing looked like the place I wanted to be. After all, buying the Supra or any luxury isn't the first money move I'd make. I won't be that irresponsible. Hehe.
@@ -45,7 +45,7 @@ The average salary for the role I'm going for, Cloud Solutions Architect can ran
 Getting this job won't be easy, nor is any of this a guarantee. But with a goal in mind and a lot of potential to achieve it. I know it won't be easy and it won't be as simple as the YouTube videos lay it out, but I know I can do it. 
 
 ## Why not save for a property with that money?
-![Hawaii house](https://www.sudoyashi.com/assets/img/it-admin/supra-cloud3.jpg)
+![Hawaii house](https://www.sudoyashi.com/assets/img/it-admin/supra-cloud3.jpg){width=100%}
 You're quite right! But life is short and I want to make the most of it. You could substitute "The Supra" for anything in your situation in your quest for attainable luxury. And even if I don't get the Supra, I would have still achieved a good-paying job with a lot of experience to boot and saved enough money in the meantime to put towards a property.
 
 This whole goal, it's a vision for me that is easy to explain and easy to understand. The housing market in Hawaii is a lot more pricey and complex for me to stay motivated. Maybe in the next few years, I'll give it more thought, but for now, the Supra is the goal.
