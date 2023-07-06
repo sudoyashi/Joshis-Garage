@@ -96,7 +96,7 @@ The part that I've invested in the most since owning the car and what was stoppi
 - Thermostat: 
 - Fan thermoswitch range: 
 - Stock head temperature switch:
-- [CAD Radiator shield, improve air ducting by blocking air overflow](https://www.sudoyashi.com/cadradiatorshield)
+- [CAD Radiator shield, improve air ducting by blocking air overflow](https://www.sudoyashi.com/radiatorshield)
 
 <hr>
 

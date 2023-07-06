@@ -19,7 +19,7 @@ Intake gaskets, JH head to ZX6R carburetors
 ## Radiator shroud
 ![Radiator shroud draft, drawing not to scale](/assets/img/cad_radiatorshroud.jpg)
 
-[Radiator Shroud Post]({% link _posts/2022-02-13-cadradiatorshield.markdown%})
+[Radiator Shroud Post]({% link _posts/2022-02-13-radiatorshield.markdown%})
 
 - Draft 1 results: Mostly works! Needs a bit of bending, holes need to be drilled.
 
