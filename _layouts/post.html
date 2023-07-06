@@ -2,9 +2,6 @@
 layout: default
 permalink: /:categories/:title/
 ---
-
-
-
 <div class="post-content">
   <h1>
     {{ page.title }}
@@ -14,17 +11,17 @@ permalink: /:categories/:title/
   {% endif %}
     {% if page.image %}
       <div class="featured-image">
-        <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+        <img src="{{ site.github.url }}/assets/img/{{ page.image }}" width="100%">
       </div>
   {% endif %}
-
   <article>
     {% if page.image %}
-      {% include image.html max-width="100%" %}
-      {{ content }}
+      <div class="featured-image">
+        <img src="{{ site.github.url }}/assets/img/{{ page.image }}" width="100%">
+      </div>
     {% endif %}
+      {{ content }}
   </article>
-
   {% if site.hide_post_share != true %}
     {% include post-share.html %}
   {% endif %}
