@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CAD Parts
-permalink: /cad_parts/
+permalink: /cad/
 ---
 
 ## Intake Manifold Flange (DO NOT USE holes)
