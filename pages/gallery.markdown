@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Car gallery
-permalink: /cargallery/
+title: gallery
+permalink: /gallery/
 ---
 
 ## 1985 Volkswagen Golf Cabriolet
