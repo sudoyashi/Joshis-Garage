@@ -11,11 +11,6 @@ permalink: /cars/
 ![Cabby rear](https://www.sudoyashi.com/assets/img/cabby-rear-1.jpg)
 ![Wheel](https://www.sudoyashi.com//assets/img/cabby-gallery-7.jpg)
 
-## Cabby Links
-
-1. [Bike Carb Conersion Guide](https://www.sudoyashi.com//carbconversion)
-2. [Carpet Replacement](https://www.sudoyashi.com/carpet)
-
 ## 2019 Honda Civic Si
 
 ![Civic Front](https://www.sudoyashi.com/assets/img/pages/cars/civic-full.jpg)
