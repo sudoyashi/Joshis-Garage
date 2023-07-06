@@ -37,7 +37,7 @@ Refuse to give up, and you shall be rewarded... probably. It worked for me.
   - **Intake open @0.50"** -4.2° BTDC 	
   - Camshaft came on 1.7-1.8L std U.S. spec heads
 
-- Engine Code: 
+- Engine Code: JH
 - Modifications:
   - Decked 0.04" by Ted's Automotive Shop
 
@@ -60,19 +60,20 @@ The part that I've invested in the most since owning the car and what was stoppi
   - Main jet per cylinder 1-2-3-4:
     - 155-160-160-155
   - Idle/Pilot Jet: 50 @ 2.5 turns out (02.18.2022 - 11.6 AFR, very rich)
-  - Needle  jet, stock size @ position 4
+  - ~~Needle  jet, stock size @ position 4~~
+  - Update: 7/6/2023, needle jet, 3 and 4 have lightly bent needles. Stock size jet @ position 3 to lean AFR from 1/8-3/4 throttle
   - AFR Estimates
 
-| Idle                  | 1/4 Throttle | 1/2 Throttle | Full Throttle |
-| --------------------- | ------------ | ------------ | ------------- |
-| 11.4-11.7 (VERY RICH) | 13.5 (ok)    | 14.2-6       | 14.4-15.3     |
-| Goal: 13.5            | 14.5-15.0    | 14.0         | 13.5          |
+| Date     | Idle                     | 1/4 Throttle                 | 1/2 Throttle | Full Throttle | Last Service |
+| -------- | ------------------------ | ---------------------------- | ------------ | ------------- | ------------ |
+| -        | 11.4-11.7 (VERY RICH)    | 13.5 (ok)                    | 14.2-6       | 14.4-15.3     | -            |
+| 7/6/2023 | 13.2-15.1 (RICH->STOICH) | 12.2-13.1 (lean it out more) | 14.2-6       | 14.4-15.3     | 7/6/2023     |
 
 ### Air and Exhaust
 
 ![1985 Golf Mk1 convertible](/assets/img/cabby-rear-1.jpg)
 
-- Carbureted air intake with picross carb air filter
+- Carbureted air intake with Picross carb air filter
 - Techtonics Tuning  (TT) 4-to-1 headers, made for an ABA/JH mod, but for now I am full JH. No clearance issues. Removed the front sway bar.
 - Techtonics Tuning (TT) ex cat-back exhaust system
 
@@ -81,10 +82,29 @@ The part that I've invested in the most since owning the car and what was stoppi
 ![1985 Golf Mk1 convertible](/assets/img/cabby-gallery-6.jpg)
 
 - Solowerks Coilovers, front and rear
-- 15x6.5 BBS RM on 185/55 R15 Arroyo Grand Sport
-- Slight rub on bumps, but otherwise decent setup.
+- 15x6.5 BBS RM on 185/55 R15 Arroyo Grand Sport; installed
+- Slight rub on bumps, but otherwise decent setup
 
 ![1985 Golf Mk1 convertible](/assets/img/suspension-1.jpg)
+
+## Cooling
+
+- VW GL 13 Pink Coolant, about 1.5 jugs (gal)
+- Aluminum radiator with dual fans
+  - $280 [FSMoto Racing Radiator + Shroud + Fans for VW Golf GTI 1.8]()
+- Dorman Coolant Temperature Sensor, fitted to upper radiator hose
+- Thermostat: 
+- Fan thermoswitch range: 
+- Stock head temperature switch:
+- [CAD Radiator shield, improve air ducting by blocking air overflow](https://www.sudoyashi.com/cadradiatorshield)
+
+<hr>
+
+## Drive belts
+[Other reference from Cabby Info](https://www.cabby-info.com/Files/Belts.pdf)
+- Power steering:  9.5x730mm belt
+- AC: none
+- Alternator: 11.2x866mm belt
 
 ## Story Time: How I bought my car for $800
 
