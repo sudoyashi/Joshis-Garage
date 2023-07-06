@@ -5,6 +5,7 @@ permalink: /gallery/
 ---
 
 ## 1985 Volkswagen Golf Cabriolet
+
 1. [Bike Carb Conversion Guide](https://www.sudoyashi.com/carbconversion)
 2. [Carpet Replacement](https://www.sudoyashi.com/carpet)
 
@@ -31,10 +32,6 @@ permalink: /gallery/
 ![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/cabby-gallery-3.jpg) Brake fluid job, November 2020
 
 ![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/cab.jpg) First drive to Target, October 2020
-
-
-
-
 
 ## 2019 Honda Civic Si
 
