@@ -11,12 +11,12 @@ permalink: /:categories/:title/
   {% endif %}
     {% if page.image %}
       <div class="featured-image">
-        <img src="{{ site.github.url }}/assets/img/{{ page.image }}" width="100%">
+        <img src="{{ site.github.url }}/assets/img/{{ page.image }}" width="600">
       </div>
   {% endif %}
   <article>
-    {% if post.image %}
-        <img width="100%">
+    {% if page.image %}
+        <img width="600">
     {% endif %}
       {{ content }}
   </article>
