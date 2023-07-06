@@ -8,12 +8,9 @@ google-ID: 'UA-112060364-2'
 
 menu:
 - {name: 'cars',  url: 'cars'}
-# - {name: 'Ocean', url: 'ocean'}
 # - {name: 'cooking', url: 'cooking'}
 - {name: 'gallery', url: 'gallery'}
-# - {name: 'IT', url: 'it'}
-# - {name: 'Downloads', url: 'downloads'}
-- {name: 'cloud resume', url: 'cloud'}
+- {name: 'cloud', url: 'cloud'}
 - {name: 'about', url: 'about'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

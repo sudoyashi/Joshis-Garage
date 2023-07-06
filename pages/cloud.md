@@ -4,13 +4,20 @@ title: Cloud Computing
 permalink: /cloud/
 ---
 
-## Cloud is probably the future
+## Cloud is forever
 
-I've worked on and off in IT for about 4 years now and in that time, I've learned enough to feel confident to step up to work in cloud computing. Cloud computing is a technology that I believe most, if not all, companies should invest in. But the biggest issue with cloud services comes from implementation.
+I've worked on and off in IT for about 4 years now and in that time, I've learned enough to feel confident to step up to work in cloud computing. Cloud computing is a technology that I believe most, if not all, companies should invest in. Cloud is not a new idea, but the implementation to reap the benefits is where the transition for most businesses are struggling.
 
-It's not the most intuitive technology to work with and seasoned on-prem professionals may not find the need to  still untapped potential  because of its barrier to entry in terms of comprehension on how cloud computing actually works and how to get started. But it shouldn't be so complicated to implement in their business solution and I hope to make that transition a little bit easier.
+It's not intuitive technology to work with and seasoned on-prem professionals may not find the need to  still untapped potential because it's fundamentally different than how you would treat a physical machine. The ideas behind the computer setup are not different, but the provisioning, licensing, price optimization, decisions between storage modes, and so on is the new challenge with cloud.
 
-To start this off, I'm going through [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/), and to my relief, I've done most of these tasks before in my experience as an IT specialist or admin before. I've set a soft deadline of 1 month (July 13, 2023) to finish this project
+But it shouldn't be so complicated to implement in their business solution and I hope to make that transition a little bit easier.
+
+I'm going through [The Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/azure/) to learn more about Cloud computing to eventually become a Cloud Solutions Architect or Cloud Engineer.
+
+To my relief with this challenge, I've done most of these tasks before in my experience as an IT specialist or admin before. I've set a soft deadline of 1 month (July 13, 2023) to finish this project.
+
+Update: July 6, 2023. WELL LIFE GOT IN THE WAY.
+Because of my recent breakdown, personal stuff, and going down a long rabbit hole of cybersecurity with XSS, I've gotta push this deadline back to August 5, 2023.
 
 I've setup numerous websites and testing environments via Docker (with Docker compose) and Jekyll. I've also worked with HTTPS, DNS, Javascript, troubleshooting APIs and Python every now and then through my Help Desk role. The latter third of the steps like Infrastructure as Code (IaC), Source Control, and CI/CD are the the topics I'm most unfamiliar with. But like all things in IT, you have to adapt to new tech eventually. This is like the 9th website I've made for myself so it ain't my first rodeo in blogging!
 
