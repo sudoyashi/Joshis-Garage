@@ -13,6 +13,16 @@ I believe I started with about $300 in tools, basic hand tools for the normal pr
 Refuse to give up, and you shall be rewarded... probably. It worked for me.
 
 <hr>
+## Table of Contents
+
+- [Engine](https://www.sudoyashi.com/dacabby/#engine)
+- [Fuel System](https://www.sudoyashi.com/dacabby/#fuel-system)
+- [Air and Exhaust](https://www.sudoyashi.com/dacabby/#air-and-exhaust)
+- [Wheels and Suspension](https://www.sudoyashi.com/dacabby/#wheels-and-suspension)
+- [Cooling](https://sudoyashi.com/dacabby#cooling)
+- [Drive Belts](https://www.sudoyashi.com/dacabby/#drive-belts)
+- [Story](https://www.sudoyashi.com/dacabby/#story-time-how-i-bought-my-car-for-800)
+
 
 ## Engine
 
@@ -105,6 +115,12 @@ The part that I've invested in the most since owning the car and what was stoppi
 - Power steering:  9.5x730mm belt
 - AC: none
 - Alternator: 11.2x866mm belt
+
+## Cabby Links
+
+1. [Bike Carb Conversion Guide](https://www.sudoyashi.com//carbconversion)
+2. [Carpet Replacement](https://www.sudoyashi.com/carpet)
+
 
 ## Story Time: How I bought my car for $800
 
