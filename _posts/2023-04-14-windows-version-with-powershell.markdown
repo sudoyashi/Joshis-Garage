@@ -2,7 +2,7 @@
 layout: post
 title: "Get Windows Version with Powershell"
 author: "Joshua Domingo"
-date:   2023-04-14 00:00:00 -1000
+date:   2099-04-14 00:00:00 -1000
 tags: it-admin
 categories: it
 image: /it-admin/getwindowsversion.jpg
