@@ -39,11 +39,11 @@ The main benefit that comes from a carb conversion is the ability to revive a dy
 
 For this conversion to go well, there will be many failures, and finding the right solution to those failures will take more than what this guide can provide. The principles behind the setup are like any other internal combustion engine, provide air and fuel at the correct ratio to combust. The big problem with this swap is it's not exactly the most popular swap in the world. This isn't engine swap complexity, but it can get close if you are building your own air/fuel system. So, as someone that has done a bike carburetor swap, don't do this swap LOL.
 
-Stick with your current fuel system and only do a carburetor swap when you don't have any options to fix your fuel injection (FI) setup. Otherwise, I would use any mainstream carburetor setup such as Holleys or Webers, or any other reputable DCOE carbs. There are no specific positives that warrant a bike swap as your primary option. Are there any advantages to doing it?
+Stick with your current fuel system and only do a carburetor swap as your last resort. I would use any mainstream carburetor setup such as Holleys or Webers, or any other reputable DCOE carbs just because of serviceability and it's tried and true. There are no specific positives that warrant a bike swap as your primary option, honestly. 
 
-**One hell of an engine noise.** 
+But are there any advantages to doing it? If you're not fast, you better sound good and bike carbs don't disappoint.
 
-{% include youtube.html id="RTLLoKO4Q1Y" %}
+{% include youtube.html id="eqlHluckxQI" %}
 
 And there weren't many options to get a used set of DCOE carbs when I first started this project! I sometimes have a hard time finding parts for this car, and the accompanying intake manifold for a DCOE setup wasn't readily available at the time. But the main reason: it looked like a pretty fun challenge! I guess I'm a masochist for problems.
 
