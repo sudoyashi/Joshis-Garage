@@ -129,9 +129,9 @@ I'll purchase this in a bit.
 
 - *Status: Saving money*
 
-### 7. Javascript
+### 7. Javascript - not functioning properly
 
-Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen. Here is a helpful tutorial to get you started in the right direction.
+Your resume webpage should include a visitor counter that displays how many people have accessed the site. You will need to write a bit of Javascript to make this happen. Here is a helpful tutorial to get you started in the right direction. Code adapted from: [How to Build Website visitor counter](https://contactmentor.com/build-website-visitor-counter-javascript/?expand_article=1)
 
 Update file in: `/js/main.js`
 
@@ -173,7 +173,7 @@ Update file in: `/index.html`
 <span class="website-counter"></span>
 ```
 
-- *Status: Completed July 7, 2023*
+- *Status: Work in progress July 7, 2023. Using either `localStorage` or `sessionStorage` does not persist the cookies between different origins. Find a new solution.*
 
 ### 8. Database
 
