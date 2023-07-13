@@ -4,13 +4,12 @@ title: Cars
 permalink: /cars/
 ---
 
-I own a Golf Mk1 Cabriolet and a 10th generation Civic Si. I don't plan to build either of these fast, mostly for handling and decent fun. In the future, I'm planning for a Supra and with this platform I'm planning to build it faster. Mostly permitted by my budget, lol.
-
-[1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/cars/#1985-volkswagen-golf-cabriolet)
-[2019 Honda Civic Si](https://www.sudoyashi.com/cars/#2019-honda-civic-si)
+I own a [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/cars/#1985-volkswagen-golf-cabriolet) and a [2019 Honda Civic Si (10th gen)](https://www.sudoyashi.com/cars/#2019-honda-civic-si). I don't plan to build either of these fast, mostly for handling and decent fun. In the future, I'd like to build a Supra with speed in mind.
 
 ## [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/dacabby)
 
+The Golf, coloquially known as the cabby, is the sketchy project car that hasn't caught on fire yet.
+ 
 ![Cabby](https://www.sudoyashi.com/assets/img/driveway1.jpg)
 ![Interior Cabby](https://www.sudoyashi.com/assets/img/cabbyinterior-1.jpg)
 ![Cabby rear](https://www.sudoyashi.com/assets/img/cabby-rear-1.jpg)
@@ -18,7 +17,9 @@ I own a Golf Mk1 Cabriolet and a 10th generation Civic Si. I don't plan to build
 
 ## 2019 Honda Civic Si
 
-![Civic Front](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
+The Civic is my reliable and fun daily driver.
+
+![Civic Race hihglight](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
 ![Civic Headlights](https://www.sudoyashi.com/assets/img/scca/race2/2023civicrace2-1.jpg)
 ![Civic Rear](https://www.sudoyashi.com/assets/img/pages/cars/civic-rear.jpg)
 ![Civic Side](https://www.sudoyashi.com/assets/img/pages/cars/civic-side.jpg)
