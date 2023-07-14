@@ -8,8 +8,6 @@ image: /cabby/fuelsystem/anline-complete.jpg
 
 My goal was to update the fuel system to take 6AN lines. This would help with more options for adding or selecting parts with AN compatibility. This is my poorly executed plan that I'm trying to finish before summer ends LOL.
 
-
-
 ## Why not PTFE?
 
 Honestly, it was just too expensive and it was a lot harder to get the parts now. A lack of research, understanding, and laziness in the past could have solved this as well! I was aware of the advantages that PTFE has over rubber-lined AN hoses, and if I could do it over again 6 months ago, then I would go PTFE. It's the best of all worlds.
