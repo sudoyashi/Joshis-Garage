@@ -17,7 +17,7 @@ Estimated time: 3 hours
 
 Not a bad look for an old car, I'd say.
 
-*Radiator vs Heat exchanger: A radiator is a type of heat exchanger used to cool something. It's not only found in cars but has various applications. Heat exchangers can both cool or heat depending on their purpose. While engines need to be heated up to reach their optimal temperature, we usually don't pay much attention to the heating aspect in everyday cars, unless they are high-performance vehicles.*
+*A pedantic note on semantics. Radiator vs Heat exchanger: A radiator is a type of heat exchanger used to cool something. It's not only found in cars but has various applications. Heat exchangers can both cool or heat depending on their purpose. While engines need to be heated up to reach their optimal temperature, we usually don't pay much attention to the heating aspect in everyday cars, unless they are high-performance vehicles.*
 
 ### 12V, the reason why I overheated
 
