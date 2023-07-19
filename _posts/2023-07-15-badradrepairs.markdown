@@ -21,10 +21,11 @@ Not a bad look for an old car, I'd say.
 
 ### 12V, the reason why I overheated
 
-![No power at the red wire](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-5.jpg)
-I waited until I got a proper diagnosis to finish up this post, and it was a problem that I've had before. Saddened, but welp, we're going to fix it now.
+The radiator failed. Overheating caused the radiator burst. But what caused the overheating? My only fan should have kept it cool in the traffic temperature, so let's inspect the fan circuit and what do you know, my constant 12V power wire (red) was not powering anything! The entire circuit never closed and my fans never came on. I've remade a new 12AWG wire to supply constant 12V to the fan switch.
 
-The radiator was the point of failure. Overheating was the cause. But what caused the overheating? My only fan should have kept it cool in the traffic temperature, so let's inspect the fan circuit and what do you know, my constant 12V power wire (red) was not powering anything! The entire circuit never closed and my fans never came on. I've remade a new 12AWG wire to supply constant 12V to the fan switch. I also replaced the fan switch with a lower-rated one at ~165F to turn the fans on. Originally, I also had the 165F thermostat, but I didn't replace both at the same time. I guess I learned my lesson on that too.
+![No power at the red wire](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-5.jpg)
+
+Well there's your problem, there wasn't any power going to my cooling fans!
 
 ## Alu radiator for the shitty racecar
 
@@ -32,7 +33,9 @@ The radiator was the point of failure. Overheating was the cause. But what cause
 
 *This car is comically slow.*
 
-Along with a new fan switch, I got an aluminum radiator, a new fan shroud, and two fans. In an A/C configuration, the dual fan setup would run separately, but because cooling for this car is paramount, and I'm just paranoid about overheating again, I wired them in line so both fans will run at the same time. 
+I got an aluminum radiator, a new fan shroud and two fans. I also replaced the fan switch with a lower-rated one at ~165F to turn the fans on. Originally, I also had the 165F thermostat, but I didn't replace both at the same time. I guess I learned my lesson on that too.
+
+In an A/C configuration, the dual fan setup would run separately, but because cooling for this car is paramount, and I'm just paranoid about overheating again, I wired them in line so both fans will run at the same time.
 
 For anyone running the same universal fan, you want to fuse this with a 15A or 20A fuse, which will depend if you're running additional parts on the same circuit. I will be running a 15A fuse as the power that is accessing this will be relayed, therefore, isolated from other circuits.
 
@@ -66,16 +69,17 @@ The size difference between the two radiators meant the mounting points to hold 
 I also had the chance to get a lower temp thermoswitch. I actually already had a lower temp thermostat (this 165F range) but got too lazy to buy the matching switch. One bad rad later and we've fixed the mismatch.
 
 ![New Radiator thermoswitch](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-3.jpg)
-
-The new thermoswitch opens around 165F instead of 188F. As always, TEST YOUR PARTS and make sure your critical components are built to its spec. It'll bite you sooner than later.
+As always, TEST YOUR PARTS and make sure your critical components are built to its spec. It'll bite you sooner than later.
 
 ![New Radiator thermoswitch](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-4.jpg)
 
-Testing is straightforward!
+*The new thermoswitch opens around 165F instead of 188F.*
+
+Testing is straightforward! We have 3 pins, looking with the notch up, from left to right we designate each pin as pin 1, 2 and 3.
 
 1. Heat the sensor up to the specified temperature range and see if the circuit opens at 2 of the pins. Which two pins? Pick 2 and find out with your multimeter.
-2. Thermoswitches are Normally Open (NO), which means that the circuit is not complete until the condition is met. If you measure resistance, it will be infinite because they are not connected. When the sensor reaches the correct temperature, the condition will be met and the circuit will close. So, once the circuit closes, we will see that resistance is 0 and the circuit is complete. 
-3. One is 12V power, always on and one is the NO end. Connect this pin to the 12V wire on the fans.
+2. Thermoswitches are Normally Open (NO), which means that the circuit is not complete until the condition is met. If you measure resistance, it will be infinite because they are not connected. When the sensor reaches the correct temperature, the condition will be met and the circuit will close. So, once the circuit closes, we will see that resistance is 0 and the circuit is complete.
+3. Connect pin 1 to 12V always on, connect pin 2 to switched end, connect this pin to the 12V wire on the fans. Pin 3 will not be used in this configuration, otherwise it would be powering the second fan in an A/C setup.
 
 Tldr, the fans will turn on once the condition is met; the thermoswitch must read 160F to close. Done!
 
@@ -116,10 +120,8 @@ A short parts list to calculate the damage.
     - Clean cooling system
     - Fill with new coolant
 
+## Conclusion: Take your time, but not without trying
 
+I don't want to rush the build process just to get it on the road. My skills and approach toward fixing and rebuilding a project have come settled down into my rhythm.  I want to do the work more responsibly, so I'm taking my time and spending a bit more money to get the job done safer.
 
-## Summary - Take your time, but not without trying
-
-My skills and approach toward fixing and rebuilding a project have come settled down into my rhythm. I don't want to rush the build process just to get it on the road. I want to do at least some of the work more responsibly so I'm taking my time and spending a bit more money to get the job done safer.
-
-Back when I started on my project car, I didn't have as much money or know-how to fix or diagnose anything.  My work was less than average at best and I don't know how I got by with the work I put in before. I like to believe I'm a little smarter now and I'm writing more notes for future me. Hopefully, this helps me out and maybe some other people too.
+When I started on my project car, I didn't have as much money or know-how to fix or diagnose anything.  My work was less than average at best and I don't know how I got by with the work I put in before. I like to believe I'm a little smarter now and I'm writing more notes for future me. Hopefully, this helps me out and maybe some other people too.
