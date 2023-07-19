@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "New aluminum radiator for the Cabby"
-date:   2023-07-19 00:00:00 -1000
+date:   2023-07-18 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/badrad/badrad1.jpg
 ---
