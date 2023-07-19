@@ -13,20 +13,22 @@ After a couple of weeks of work installing new parts and refurbishing old ones, 
 
 Estimated time: 3 hours
 
-![New parts](https://www.sudoyashi.com/assets/img/cabby/badrad3.jpg)
+![New parts](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-6.jpg)
+
+Not a bad look for an old car, I'd say.
 
 *Radiator vs Heat exchanger: A radiator is a type of heat exchanger used to cool something. It's not only found in cars but has various applications. Heat exchangers can both cool or heat depending on their purpose. While engines need to be heated up to reach their optimal temperature, we usually don't pay much attention to the heating aspect in everyday cars, unless they are high-performance vehicles.*
 
 ### 12V, the reason why I overheated
 
-![No power at the red wire]()
+![No power at the red wire](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-5.jpg)
 I waited until I got a proper diagnosis to finish up this post, and it was a problem that I've had before. Saddened, but welp, we're going to fix it now.
 
 The radiator was the point of failure. Overheating was the cause. But what caused the overheating? My only fan should have kept it cool in the traffic temperature, so let's inspect the fan circuit and what do you know, my constant 12V power wire (red) was not powering anything! The entire circuit never closed and my fans never came on. I've remade a new 12AWG wire to supply constant 12V to the fan switch. I also replaced the fan switch with a lower-rated one at ~165F to turn the fans on. Originally, I also had the 165F thermostat, but I didn't replace both at the same time. I guess I learned my lesson on that too.
 
 ## Alu radiator for the shitty racecar
 
-![New aluminum radiator](https://www.sudoyashi.com/assets/img/cabby/badrad4.jpg)
+![New aluminum radiator](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-1.jpg)
 
 *This car is comically slow.*
 
@@ -50,12 +52,21 @@ Fuse = 14.663 > 15A... I really hope this is correct.
 
 I might separate them later on if it's too much cooling. I connected them with quick disconnects, so if two fans provide too much cooling, I can re-configure my circuit later on. The fans were wired in series to the ground and switched power. With the shroud and the fan connected with M6 bolts and rivet nuts, mount it in the car and we're good to go.
 
+![New parts](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-2.jpg)
+
 The size difference between the two radiators meant the mounting points to hold the radiator in place changed. I made some brackets out of scrap metal around my house to hold in place. The factory part is also known as a Radiator Top Retaining Bracket, or Radiator retaining bracket and they are fastened with M6 x 1.0 x 15mm bolts.
 
-![New Radiator thermoswitch]()
+I also had the chance to get a lower temp thermoswitch. I actually already had a lower temp thermostat (this 165F range) but got too lazy to buy the matching switch. One bad rad later and we've fixed the mismatch.
+
+![New Radiator thermoswitch](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-3.jpg)
+
 The new thermoswitch opens around 165F instead of 188F. As always, TEST YOUR PARTS and make sure your critical components are built to its spec. It'll bite you sooner than later.
 
+![New Radiator thermoswitch](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-4.jpg)
 
+Testing is straightforward: heat the sensor up to the specified temperature range and see if the circuit opens at 2 of the pins. These switches are Normally Open (NO), which means that the circuit is not complete until the condition is met. For a thermoswitch, when the sensor reaches the correct temperature, the condition will be met and the circuit will close. So, once the circuit closes, we will see that resistance is 0 and the circuit is complete between the two pins. One is 12V power, always on and one is the NO end. Connect this pin to the 12V wire on the fans.
+
+Hence, the fans will turn on once the condition is met; the thermoswitch must read 160F to close. Done!
 
 ## Cooling system part list
 
@@ -71,9 +82,6 @@ The new thermoswitch opens around 165F instead of 188F. As always, TEST YOUR PAR
 | Miscellaneous fittings, clamps, etc.                         |           | $30                     |
 |                                                              |           |                         |
 |                                                              | **Total** | $432.34                 |
-
-
-
 
 ### Cooling System summary
 
