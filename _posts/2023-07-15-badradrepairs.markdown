@@ -3,7 +3,7 @@ layout: post
 title:  "New aluminum radiator for the Cabby"
 date:   2023-07-18 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
-image: /cabby/badrad/badrad1.jpg
+image: /cabby/badrad/badrad-1.jpg
 ---
 With obvious repairs needed, I might as well take this chance to upgrade some parts! The cooling system takes the highest priority and from there we can do some necessary changes to the fuel system and steering components. Some of these changes were long overdue, and this is the cab inadvertently telling me it needs my attention.
 
@@ -57,6 +57,8 @@ To get the fuse we need, we want the amp rating + 10%, then round it to the near
 
 I might separate them later on if it's too much cooling. I connected them with quick disconnects, so if two fans provide too much cooling, I can re-configure my circuit later on. The fans were wired in series to the ground and switched power. With the shroud and the fan connected with M6 bolts and rivet nuts, mount it in the car and we're good to go.
 
+## Like my self-care regimen, the aluminum radiator fitment needs work
+
 ![New parts](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-2.jpg)
 
 The size difference between the two radiators meant the mounting points to hold the radiator in place changed. I made some brackets out of scrap metal around my house to hold in place. The factory part is also known as a Radiator Top Retaining Bracket, or Radiator retaining bracket and they are fastened with M6 x 1.0 x 15mm bolts.
@@ -69,11 +71,17 @@ The new thermoswitch opens around 165F instead of 188F. As always, TEST YOUR PAR
 
 ![New Radiator thermoswitch](https://www.sudoyashi.com/assets/img/cabby/badrad/badrad-4.jpg)
 
-Testing is straightforward: heat the sensor up to the specified temperature range and see if the circuit opens at 2 of the pins. These switches are Normally Open (NO), which means that the circuit is not complete until the condition is met. For a thermoswitch, when the sensor reaches the correct temperature, the condition will be met and the circuit will close. So, once the circuit closes, we will see that resistance is 0 and the circuit is complete between the two pins. One is 12V power, always on and one is the NO end. Connect this pin to the 12V wire on the fans.
+Testing is straightforward!
 
-Hence, the fans will turn on once the condition is met; the thermoswitch must read 160F to close. Done!
+1. Heat the sensor up to the specified temperature range and see if the circuit opens at 2 of the pins. Which two pins? Pick 2 and find out with your multimeter.
+2. Thermoswitches are Normally Open (NO), which means that the circuit is not complete until the condition is met. If you measure resistance, it will be infinite because they are not connected. When the sensor reaches the correct temperature, the condition will be met and the circuit will close. So, once the circuit closes, we will see that resistance is 0 and the circuit is complete. 
+3. One is 12V power, always on and one is the NO end. Connect this pin to the 12V wire on the fans.
+
+Tldr, the fans will turn on once the condition is met; the thermoswitch must read 160F to close. Done!
 
 ## Cooling system part list
+
+A short parts list to calculate the damage.
 
 | Item                                                         | Quantity  | Cost (shipping + taxes) |
 | ------------------------------------------------------------ | --------- | ----------------------- |
@@ -111,8 +119,6 @@ Hence, the fans will turn on once the condition is met; the thermoswitch must re
 
 
 ## Summary - Take your time, but not without trying
-
-![Smarter josh, probably]()
 
 My skills and approach toward fixing and rebuilding a project have come settled down into my rhythm. I don't want to rush the build process just to get it on the road. I want to do at least some of the work more responsibly so I'm taking my time and spending a bit more money to get the job done safer.
 
