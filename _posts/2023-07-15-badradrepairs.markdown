@@ -39,16 +39,21 @@ For anyone running the same universal fan, you want to fuse this with a 15A or 2
 ### Calculating my fuse for the new fan circuit
 
 To get the amp rating of our circuit, you need the voltage and watt rating of our equipment:
-One fan: 12V at 80W
-Two fans: 12V at 80W * 2
+
+- One fan: 12V at 80W
+- Two fans: 12V at 80W * 2
 
 **Amps = Watts/Volts**
-Amps = 80*2/12
-Amps = 13.33A
+
+- Amps = 80*2/12
+- Amps = 13.33A
 
 To get the fuse we need, we want the amp rating + 10%, then round it to the nearest available fuse:
-Fuse = 1.1 * 13.33
-Fuse = 14.663 > 15A... I really hope this is correct.
+
+- Fuse = 1.1 * 13.33
+- Fuse = 14.663 > 15A blue fuse
+
+... I'm pretty sure this is correct!
 
 I might separate them later on if it's too much cooling. I connected them with quick disconnects, so if two fans provide too much cooling, I can re-configure my circuit later on. The fans were wired in series to the ground and switched power. With the shroud and the fan connected with M6 bolts and rivet nuts, mount it in the car and we're good to go.
 
