@@ -1,10 +1,6 @@
 ---
 layout: post
-<<<<<<< HEAD
-title:  "Repairs and 'while I'm in there!' Syndrome"
-=======
 title:  "New aluminum radiator for the Cabby"
->>>>>>> draft
 date:   2023-07-19 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/badrad/badrad1.jpg
