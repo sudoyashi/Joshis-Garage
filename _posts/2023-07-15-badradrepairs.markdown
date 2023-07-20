@@ -85,7 +85,7 @@ Tldr, the fans will turn on once the condition is met; the thermoswitch must rea
 
 ## Cooling system part list
 
-A short parts list to calculate the damage.
+**Total damage: $432.34**
 
 | Item                                                         | Quantity  | Cost (shipping + taxes) |
 | ------------------------------------------------------------ | --------- | ----------------------- |
@@ -100,25 +100,27 @@ A short parts list to calculate the damage.
 |                                                              |           |                         |
 |                                                              | **Total** | $432.34                 |
 
+Bonus damage to my confidence in safety with this car. I'll probably take it easy again before I bring a passenger lol.
+
 ### Cooling System summary
 
 - Parts:
-  - Replacement aluminum radiator
-  - Replacement radiator shroud
-  - New radiator fans
-  - Lower temperature thermoswitch; tested and opened ~160F. Closed around ~150F
-  - Temperature gauge adapter for 32mm ID hose
-  - Electric temperature gauge
-  - Retaining brackets
-  - Coolant
-  - Distilled water
+  - Install new radiator, shroud, fans
+  - Install lower temperature thermoswitch; tested and opened ~160F. Closed around ~150F
+  - Install new temperature gauge adapter for 32mm ID hose
+  - Install electric temperature gauge
+  - DIY Retaining brackets
+  - Flush with distilled water
+  - Finish with coolant
+
 - To do:
-    - Inspect coolant hoses
+    - Inspect coolant hoses and othre damage
     - Fit new coolant temp sensor adapter
     - Install new thermoswitch
+    - Install radiator assembly
     - Re-route wiring where needed
-    - Clean cooling system
-    - Fill with new coolant
+    - Flush cooling system
+    - Fill  new coolant
 
 ## Conclusion: Take your time, but not without trying
 
