@@ -14,7 +14,7 @@ Refuse to give up, and you shall be rewarded... probably. It worked for me.
 
 <hr>
 ## Table of Contents
-- [Guides and references](https://www.sudoyashi.com/dacabby/#guides))
+- [Guides and references](https://www.sudoyashi.com/dacabby/#guides)
 - [Engine](https://www.sudoyashi.com/dacabby/#engine)
 - [Fuel System](https://www.sudoyashi.com/dacabby/#fuel-system)
 - [Air and Exhaust](https://www.sudoyashi.com/dacabby/#air-and-exhaust)
@@ -22,11 +22,6 @@ Refuse to give up, and you shall be rewarded... probably. It worked for me.
 - [Cooling](https://sudoyashi.com/dacabby#cooling)
 - [Drive Belts](https://www.sudoyashi.com/dacabby/#drive-belts)
 - [Story](https://www.sudoyashi.com/dacabby/#story-time-how-i-bought-my-car-for-800)
-
-## Guides and References
-
-1. [Bike Carb Conversion Guide](https://www.sudoyashi.com/carbconversion)
-
 
 ## Engine
 

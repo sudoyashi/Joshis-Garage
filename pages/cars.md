@@ -23,7 +23,7 @@ The Golf, coloquially known as the cabby, is the sketchy project car that hasn't
 
 The Civic is my reliable and fun daily driver.
 
-![Civic Race hihglight](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
+![Civic Race highlight](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
 ![Civic Headlights](https://www.sudoyashi.com/assets/img/scca/race2/2023civicrace2-1.jpg)
 ![Civic Rear](https://www.sudoyashi.com/assets/img/pages/cars/civic-rear.jpg)
 ![Civic Side](https://www.sudoyashi.com/assets/img/pages/cars/civic-side.jpg)

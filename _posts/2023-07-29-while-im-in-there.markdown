@@ -123,15 +123,6 @@ Estimate time: 2+ hours
 
 Filling coolant is straightforward... fill the car with coolant. I bought a bunch of distilled water to make sure it's as clean as possible before moving it through the new radiator. I'm using G12 coolant to fill the system once the system is as clean as it gets.. From the local VW dealership, it was about $25 per gallon jug.
 
-## Electric
-
-I want buy better connectors and crimpers 
-Automotive connectors:
-- [Female connector](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE)
-- [Male connector](https://www.automotive-connectors.com/catalog/product/view/id/3114/category/312/)
-
-
-
 ## It never ends...
 
 I could have rushed this project to get it back up and running as soon as possible but life, finances, and choices get in the way when it's not your job. I'm taking my time trying to put together this car again and do it well. I'd kick myself again if I tried to hodge-podge a solution for some of the critical parts of this car, like the fuel system! I won't be regretting any of the issues I'm addressing here because they were long overdue. I got away with running away from maintenance issues for too long, one way or another the car was going to get fixed lol. 
@@ -140,6 +131,7 @@ I'm hoping to wrap this car up by the end of July so that I have a bit of time t
 
 
 ==== DRAFT ====
+
 ## Photograph these things
 
 
