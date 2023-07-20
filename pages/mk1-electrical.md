@@ -34,16 +34,17 @@ Wires are physically used and abused; we depend on them to work almost 100% of t
 
 ### Wire protection
 
-At the minimum, anything that can cover your wires is already a step above most DIY wiring projects. Here are a few and where they stand:
+Protect your willy. Anything that can cover your wires is already a step above most DIY wiring projects. Here are a few and where they stand:
 
-X = good!
-- = is aight
-blank = nah, not worth your time
+- X = good!
+
+- \- is aight
+- blank = nah
 
 | Material                      | Easy-to-use | Engine Bay | Cabin and Trunk | Undercarriage | Resistance to fluids |
 | ----------------------------- | ----------- | ---------- | --------------- | ------------- | -------------------- |
 |1. Electric tape                 | X           |            | X               |               |                      |
-|2. Tesa 51608, wire harness tape | -           | X          | X               | X             |                      |
+|2. Tesa 51036, wire harness tape | -           | X          | X               | X             |                      |
 |3. Split wire conduit            |             | X          |                 | X             | X                    |
 |4. Split wire loom               |             | X          | X               | X             | -                    |
 
@@ -51,7 +52,7 @@ When in doubt, Tesa tape is the answer. It's like 80% of what you need.
 
 1. Electric tape is your last resort for quick repair. However, electric tape is known for its weak adhesive, which can eventually melt out and make a sticky mess around the wires because it wasn't meant for the harsh car environment.
 
-2. Tesa tape is the premium alternative to electric tape. It's flexible, easy to use, and can withstand most applications.
+2. Tesa 51036 tape is the premium alternative to electric tape. It's flexible, easy to use, rated to 150C/302F and can withstand most applications. It's just better than electric tape in every way. Do not confuse it with 51608, that one is soft, flexible and it's not rated for high heat.
 
 3. Split wire conduit is very good at keeping dirt and grease out but at the cost of space and flexibility. It looks like plastic gutter stuff. This is the bulkiest item on the list, and while there are different diameters, it is stiff and can only bend so much. Use it where heavy protection is necessary, like the undercarriage.
 
