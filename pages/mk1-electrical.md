@@ -4,7 +4,7 @@ title: Volkswagen Mk1 Electrical Notes
 permalink: /mk1-electrical
 ---
 
-Elevate your project car skills by protecting your wiring!
+Elevate your project car skills by protecting your wiring! Do you have information or corrections? Message me on Instagram @da_cabby!
 
 ## Table of Contents
 
@@ -65,7 +65,23 @@ Tesa tape with the conduit will make for a very stiff loom where you need it, wh
 
 Did you know there are different terminal sizes? Most spade terminals are 6.3mm (1/4") wide. The wires inside a relay may be the standard 6.3mm or the smaller 2.8mm (1/8") wide terminal. Buy wisely; buy pricey. Good terminals will last if done well! 
 
-| Part Name | Image                                                        | Wire | VW Part number | Usage                   | Notes                    | Equivalent part                                              |
-| --------- | ------------------------------------------------------------ | ---- | -------------- | ----------------------- | ------------------------ | ------------------------------------------------------------ |
-|           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-female-receptacle.jpg) |      |                | Mk2 spotlights, sensors | You still need the boot! | [Delphi 15327868-PT](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE) |
-|           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-male-plug.jpg) |      | 025 906 231    |                         | You still need the boot! | [DeyTrade 282190-1-PT](https://www.automotive-connectors.com/full-assembled-tyco-106462-1-2-way-male-junior-power-timer-connector.html) |
+### Spade terminal specification
+
+| Terminal width (mm) | Terminal width (in) |
+| ------------------- | ------------------- |
+| 2.8mm               | 1/8"                |
+| 4.8mm               | 3/16"               |
+| 6.3mm               | 1/4"                |
+
+| Width | Size | Type | Usage | Notes | Equivalent Part |
+| ----- | ---- | ---- | ----- | ----- | --------------- |
+|       |      |      |       |       |                 |
+
+
+
+### Volkswagen parts and their replacements
+
+| Part Name        | Image                                                        | Wire size | VW Part number | Usage                   | Notes                    | Equivalent part                                              |
+| ---------------- | ------------------------------------------------------------ | --------- | -------------- | ----------------------- | ------------------------ | ------------------------------------------------------------ |
+| 2-pin receptacle | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-female-receptacle.jpg) |           |                | Mk2 spotlights, sensors | You still need the boot! | [Delphi 15327868-PT](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE) |
+| 2-pin plug       | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-male-plug.jpg) |           | 025 906 231    | Mk2 spotlights, sensors | You still need the boot! | [DeyTrade 282190-1-PT](https://www.automotive-connectors.com/full-assembled-tyco-106462-1-2-way-male-junior-power-timer-connector.html) |
