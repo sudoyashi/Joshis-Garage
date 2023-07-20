@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Volkswagen Mk1 Electrical Notes
-permalink: /vw-mk1-electrical-notes
+permalink: /mk1-electrical
 ---
 
 Elevate your project car skills by protecting your wiring!
@@ -63,9 +63,10 @@ Did you know there are different terminal sizes? Most spade terminals are 6.3mm 
 
 
 
-| Part Name | Image | Wire | VW Part number | Equivalent part                                              |
-| --------- | ----- | ---- | -------------- | ------------------------------------------------------------ |
+| Part Name | Image                                                        | Wire | VW Part number | Equivalent part                                              |
+| --------- | ------------------------------------------------------------ | ---- | -------------- | ------------------------------------------------------------ |
 |           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-female-receptacle.jpg) |      |                | [Delphi 15327868-PT](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE) |
+|           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-male-plug.jpg) |      |                | [DeyTrade 282190-1-PT](https://www.automotive-connectors.com/full-assembled-tyco-106462-1-2-way-male-junior-power-timer-connector.html) |
 
 Automotive connectors:
 
