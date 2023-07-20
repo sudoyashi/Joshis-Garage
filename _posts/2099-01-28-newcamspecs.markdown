@@ -26,7 +26,9 @@ This is the work I'm doing to prepare the 8v head adjustments to improve the car
 - Fix my constant valve cover leak without having to add a bunch of RTV 
 - New camshaft!
 
-## Parts and costs
+## New camshaft and other important parts
+
+**Total potential damage: $537**
 
 Everyone's favorite category on whether or not you should do something. Who cares about the benefits if it costs too much?
 
@@ -47,7 +49,7 @@ $537 isn't too hard to swallow, but it's never convenient to drop hundreds of do
 
 ## Checking the clearances on my engine head
 
-This is on a 1.8 JH solid lifter head (5 bearing caps, 4 bearing caps would mean hydraulic). Checking the clearances is a routine maintenance item at around 15,000 miles if you didn't know.
+This is on a 1.8 JH solid lifter head (5 bearing caps, 4 bearing caps would mean hydraulic). Checking the clearances is a routine maintenance item at around 15,000 miles.
 
 ### Specifications
 
@@ -60,6 +62,13 @@ And here it is in a cleaner table:
 ### Actual measurements
 
 From left to right, I'm marking each valve from 1 through 8 where 1 is starts closest to the camshaft pulley and 8 ends at the opposite end of the pulley.
+
+|                      | Cylinder 1 | Cylinder 1 | Cylinder 2 | Cylinder 1 | Cylinder 3 | Cylinder 1 | Cylinder 4 | Cylinder 4 |
+| -------------------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+|                      | Intake     | Exhaust    | Intake     | Exhaust    | Intake     | Exhaust    | Intake     | Exhaust    |
+| Shim, before         |            |            |            |            |            |            |            |            |
+| Difference from spec |            |            |            |            |            |            |            |            |
+| Shim, after          |            |            |            |            |            |            |            |            |
 
 ### Instructions
 
