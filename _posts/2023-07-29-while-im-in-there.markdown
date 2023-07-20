@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "While I'm in there! Carbs, parking brake, and Steering"
-date:   2023-07-29 00:00:00 -1000
+date:   2023-07-23 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/while-im-in-there/fuelsystem-1.jpg
 ---
@@ -93,7 +93,7 @@ I... am not looking forward to this one because I haven't touched a steering col
 
 ## Brakes - Just the parking brake!
 
-![New parking brake cables](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/parking-brake1.jpg)
+![New parking brake cables](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/parking-brake-1.jpg)
 Estimated time: 1.5 hours
 
 This is going to be the simplest of all the issues that I have, I just have to install these new parking brake cables. The ones on the car are probably the original cables. These cables aren't doing their job that well anymore, I have to yank that brake to its highest click setting in order to lock my car down, not ideal.
@@ -102,11 +102,11 @@ This is going to be the simplest of all the issues that I have, I just have to i
 
 New cables will just need to be fed through the bottom, hooked up to the parking brake lever in the drum brake system, and then fastened down from the cabin to ensure proper tension. I'll probably have to make more adjustments after the cables stretch into its normal position.
 
-![Parking brake cable to lever](![Crank that brake](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/parking-brake3.jpg))
+![Crank that brake](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/parking-brake3.jpg)
 
 ## Fluids - Transmission and Cooling
 
-![Transmission fluid draining]()
+![Transmission fluid draining](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/transmission-maintenance-1.jpg)
 Estimated time: 3 hours or more (depends on bleeding)
 
 ### Transmission fluid
@@ -132,8 +132,31 @@ Automotive connectors:
 
 
 
-## Summary: Projects cars are never meant to be finished
+## It never ends...
 
 I could have rushed this project to get it back up and running as soon as possible but life, finances, and choices get in the way when it's not your job. I'm taking my time trying to put together this car again and do it well. I'd kick myself again if I tried to hodge-podge a solution for some of the critical parts of this car, like the fuel system! I won't be regretting any of the issues I'm addressing here because they were long overdue. I got away with running away from maintenance issues for too long, one way or another the car was going to get fixed lol. 
 
 I'm hoping to wrap this car up by the end of July so that I have a bit of time to enjoy it in August and September. Once the Fall and Winter months start to roll in, we're going for my very first performance mod--a new camshaft.
+
+
+==== DRAFT ====
+## Photograph these things
+
+
+
+| Image                                          | Name                           |
+| ---------------------------------------------- | ------------------------------ |
+|                                                | fuelsystem-1.jpg               |
+| Cleaned fuel system parts                      | fuelsystem-2.jpg               |
+| Fuel system diagram 2023                       | fuelsystem-3.jpg               |
+| Needle jet adjustment                          | fuelsystem-4.jpg               |
+| New throttle cable                             | throttle-cable-1.jpg           |
+| Idle adjustment screws and notes               | fuelsystem-5.jpg               |
+| Return line in engine bay with cutter          | fuelsystem-6.jpg               |
+| Wix filter in-line to 1/4"                     | fuelsystem-7.jpg               |
+| Coolant splashed on everything                 | damage3.jpg                    |
+| New parking brake cables                       | parking-brake-1.jpg            |
+| Parking brake cable to drum                    | parking-brake-2.jpg            |
+| Crank that brake. Parking brake cable to lever | parking-brake-3.jpg            |
+| Transmission fluid draining                    | transmission-maintenance-1.jpg |
+| It never ends                                  | maintenance-never-ends.jpg     |

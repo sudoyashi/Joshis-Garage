@@ -8,6 +8,10 @@ I own a [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/cars/#1985-vo
 
 ## [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/dacabby)
 
+### Guides and References
+
+1. [Bike Carb Conversion Guide](https://www.sudoyashi.com/carbconversion)
+2. [Volkswagen electrical notes](https://www.sudoyashi.com/vw-mk1-electrical-notes)
 The Golf, coloquially known as the cabby, is the sketchy project car that hasn't caught on fire yet.
  
 ![Cabby](https://www.sudoyashi.com/assets/img/driveway1.jpg)

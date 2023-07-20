@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A new camshaft and overdue maintenance"
-date:   2023-07-30 00:00:00 -1000
+date:   2023-08-30 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/badrad/badrad1.jpg
 ---
