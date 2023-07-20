@@ -7,21 +7,18 @@ image: about.jpg
 
 ![Itsme](https://www.sudoyashi.com/assets/img/2022-update.jpg)
 
-Joshua P Domingo
+hi, i'm josh.
 
-Hey, I'm Josh! Professionally, I’m an IT administrator and I enjoy it enough in order to fund my non-professional hobbies like cars, crafts, sports, and cooking.
+I made this website to write about my hobbies because they end up too wordy to post on social media. Consolidating everything here will also make it easier to reference my projects and reference materials.
 
-I made this website to write about my hobbies because they usually end up being too long to post on social media. Consolidating everything here will also make it easier to reference on my projects and reference materials. 
+So what does "sudoyashi" mean anyways?
 
-Other things about me: I worked as a Peace Corps Volunteer for Uganda from 2019-2020 in business and agriculture. I worked as a web designer because of my experience using WordPress, Jekyll, and web hosting administration. I also farmed for a hot minute while I was there, so it was pretty nice. Unfortunately, we got evacuated due to the COVID-19 pandemic.
+It's a combination of two things: sudo and my name Josh.
 
-Besides cars, I like swimming, skating, and anything else I can afford to spend my money on. Hobbies aren't cheap.
+I learned about computers and machines when I stepped into the Linux world. I was the only IT staff at an elementary school and learned to do more with the `sudo` command on the MacOS machines. The `sudo` command originally stood for "superuser do, " giving you temporary admin permissions to do anything you wanted.
 
-Got a question? Let me know on social media!
-https://www.instagram.com/joshi.tsunami/
+Josh or Joshi. I studied abroad in Korea, and it was much easier to say Joshi because of how language works. I liked how it sounded, maybe because a cute Korean girl first said it to me, but I generally liked it, haha. While in Korea, I was trying to improve my Korean literacy and stumbled on the International Phonetic Alphabet (IPA) to help figure out the pronunciation of some words. Looking at the [IPA chart](https://www.ipachart.com/), the letter *j* represented the Palatal Approximant sound--essentially the sound of the letter "y." Sudoyashi sounded better than sudoyjoshi for obvious reasons.
 
+Sudowoodo also was my favorite Pokemon at this time because the 'mon is ridiculous and funny to look at.
 
-Cheers,
-Joshua
-
-January 2022
+To me, sudoyashi means to do anything and do everything; it became my guiding principle to keep trying and do everything I can for the things I enjoy. I like to do a lot of things myself, so naturally, the DIY mentality of solving my problems is something I take pride in. I can't do everything I want, and some things I found out I am awful at, like sewing. But you live and learn. Life is short, and I want to make the most of it.

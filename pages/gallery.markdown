@@ -3,11 +3,15 @@ layout: page
 title: gallery
 permalink: /gallery/
 ---
+A not really reverse-chronological view of car ownership.
 
 ## 1985 Volkswagen Golf Cabriolet
 
-1. [Bike Carb Conversion Guide](https://www.sudoyashi.com/carbconversion)
-2. [Carpet Replacement](https://www.sudoyashi.com/carpet)
+![Front of the cabin by Sandy Beach Park](https://www.sudoyashi.com/assets/img/cabby/sandys-1.jpg)
+*View of the cabin. March 5, 2023*
+
+![Front view of the Cab at Sandy Beach Park](https://www.sudoyashi.com/assets/img/cabby/sandys-2.jpg)
+*Front view of the Cab at Sandy Beach Park. March 5, 2023*
 
 ![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/driveway1.jpg) After the new carpet install, November 2022
 
