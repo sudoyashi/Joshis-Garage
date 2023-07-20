@@ -9,9 +9,9 @@ image: about.jpg
 
 hi, i'm josh.
 
-I made this website to write about my hobbies because they end up too wordy to post on social media. Consolidating everything here will also make it easier to reference my projects and reference materials. Thanks for looking :)
+I made this website to write about my hobbies because they end up too wordy to post on social media. Consolidating everything here will also make it easier to reference my projects and reference materials.
 
-What does "sudoyashi" mean anyways?
+So what does "sudoyashi" mean anyways?
 
 It's a combination of two things: sudo and my name Josh.
 
