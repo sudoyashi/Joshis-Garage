@@ -8,10 +8,11 @@ Got a Volkswagen? Check your fucking grounds.
 
 ## Table of Contents
 
-- [Electrical Terms](https://www.sudoyashi.com/mk1-electrical#electrical-terms)
-- [Concentric twisting](https://www.sudoyashi.com/mk1-electrical#concentric-twisting)
-- [Wire protection](https://www.sudoyashi.com/mk1-electrical#wire-protection)
-- [Volkswagen connectors, terminals, and other parts](https://www.sudoyashi.com/mk1-electrical#volkswagen-connectors-terminals-and-other-parts)
+- [Electrical Terms](https://www.sudoyashi.com/electrical#electrical-terms)
+- [Tools](https://www.sudoyashi.com/electrical#tools)
+- [Concentric twisting](https://www.sudoyashi.com/electrical#stronger-wires-concentric-twisting)
+- [Wire protection](https://www.sudoyashi.com/electrical#wire-protection)
+- [Volkswagen connectors, terminals, and other parts](https://www.sudoyashi.com/electrical#volkswagen-connectors-terminals-and-other-parts)
 
 ## Terms
 
@@ -22,6 +23,18 @@ Got a Volkswagen? Check your fucking grounds.
 - **Cable**, a group of conductors. Four wires twisted together to make a cable.
 - **Gauge** refers to the size of a wire. In America, we use the [AWG standard](https://www.powerstream.com/Wire_Size.htm) for sizes. The smaller the number, the larger the wire. The larger the number, the smaller the wire. Example: Size 0 wires are usually used for cables connected directly to the battery. Size 16 wires can be used for sensors and other small applications. Size is dependent on the amps needed to carry over a distance. Guess what, there's a chart for that too: [Wire sizing chart](https://info.waytekwire.com/wire_sizing).
 - **Crimp**, a solderless cold connection that clamps the wires to other wires or connectors. Or both! Some might argue they are less secure than soldered joints, but I'll argue GOOD crimps can outlast soldered connections, but you need to use the right tools and parts to make a reliable crimp. Remember to add heat shrink before you put the terminal on! Soldered joints, even proper ones, are subject to cracking over time.
+
+## Tools
+
+- Hozan P-707 open barrel crimper; per SuperFastMatt recommendation.
+- Titan automotive crimpers
+- [Klein Tools 11063W Wire Stripper/Cutter](https://www.kleintools.com/catalog/combination-cutting-tools/katapult-wire-stripper-and-cutter-solid-and-stranded-wire)
+- [Klein tools 11065](https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter) 
+- Scissors, you always need them
+- 6" pliers
+- 6" wire cutters
+- Assortment of alligator jumpers
+- Assortment of jumper wires
 
 ## Stronger wires, concentric twisting
 
@@ -74,16 +87,3 @@ Buy wisely; buy pricey. Good terminals will last if done well.
 | --------- | ------------------------------------------------------------ | ---- | -------------- | ----------------------- | ------------------------ | ------------------------------------------------------------ |
 |           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-female-receptacle.jpg) |      |                | Mk2 spotlights, sensors | You still need the boot! | [Delphi 15327868-PT](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE) |
 |           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-male-plug.jpg) |      | 025 906 231    |                         | You still need the boot! | [DeyTrade 282190-1-PT](https://www.automotive-connectors.com/full-assembled-tyco-106462-1-2-way-male-junior-power-timer-connector.html) |
-
-
-## Tools
-
-- Hozan P-707 open barrel crimper; per SuperFastMatt recommendation.
-- Titan automotive crimpers
-- [Klein Tools 11063W Wire Stripper/Cutter](https://www.kleintools.com/catalog/combination-cutting-tools/katapult-wire-stripper-and-cutter-solid-and-stranded-wire)
-- [Klein tools 11065](https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter) 
-- Scissors, you always need them
-- 6" pliers
-- 6" wire cutters
-- Assortment of alligator jumpers
-- Assortment of jumper wires
