@@ -4,7 +4,7 @@ title: Volkswagen Mk1 Electrical Notes
 permalink: /mk1-electrical
 ---
 
-Elevate your project car skills by protecting your wiring! Do you have information or corrections? Message me on Instagram @da_cabby!
+Elevate your project car skills by protecting your wiring!
 
 ## Table of Contents
 
@@ -34,25 +34,24 @@ Wires are physically used and abused; we depend on them to work almost 100% of t
 
 ### Wire protection
 
-Protect your willy. Anything that can cover your wires is already a step above most DIY wiring projects. Here are a few and where they stand:
+At the minimum, anything that can cover your wires is already a step above most DIY wiring projects. Here are a few and where they stand:
 
-- X = good!
-
-- \- is aight
-- blank = nah
+X = good!
+- = is aight
+blank = nah, not worth your time
 
 | Material                      | Easy-to-use | Engine Bay | Cabin and Trunk | Undercarriage | Resistance to fluids |
 | ----------------------------- | ----------- | ---------- | --------------- | ------------- | -------------------- |
-|1. Electric tape                 | X           |            | X               |               |                      |
-|2. Tesa 51036, wire harness tape | -           | X          | X               | X             |                      |
-|3. Split wire conduit            |             | X          |                 | X             | X                    |
-|4. Split wire loom               |             | X          | X               | X             | -                    |
+|Electric tape                  | X           |            | X               |               |                      |
+|Tesa 51608, wire harness tape  | -           | X          | X               | X             |                      |
+|Split wire conduit             |             | X          |                 | X             | X                    |
+|Split wire loom                |             | X          | X               | X             | -                    |
 
 When in doubt, Tesa tape is the answer. It's like 80% of what you need.
 
 1. Electric tape is your last resort for quick repair. However, electric tape is known for its weak adhesive, which can eventually melt out and make a sticky mess around the wires because it wasn't meant for the harsh car environment.
 
-2. Tesa 51036 tape is the premium alternative to electric tape. It's flexible, easy to use, rated to 150C/302F and can withstand most applications. It's just better than electric tape in every way. Do not confuse it with 51608, that one is soft, flexible and it's not rated for high heat.
+2. Tesa tape is the premium alternative to electric tape. It's flexible, easy to use, and can withstand most applications.
 
 3. Split wire conduit is very good at keeping dirt and grease out but at the cost of space and flexibility. It looks like plastic gutter stuff. This is the bulkiest item on the list, and while there are different diameters, it is stiff and can only bend so much. Use it where heavy protection is necessary, like the undercarriage.
 
@@ -64,25 +63,9 @@ Tesa tape with the conduit will make for a very stiff loom where you need it, wh
 
 ## Volkswagen connectors, terminals, and other parts
 
-Did you know there are different terminal sizes? Most spade terminals are 6.3mm (1/4") wide. The wires inside a relay may be the standard 6.3mm or the smaller 2.8mm (1/8") wide terminal. Buy wisely; buy pricey. Good terminals will last if done well! 
+Did you know there are different terminal sizes? Most spade terminals are 6.3mm (1/4") wide. The wires inside a relay may be the standard 6.3mm or the smaller 2.8mm (1/8") wide terminal. Buy wisely; buy pricey. Good terminals will last if done well!
 
-### Spade terminal specification
-
-| Terminal width (mm) | Terminal width (in) |
-| ------------------- | ------------------- |
-| 2.8mm               | 1/8"                |
-| 4.8mm               | 3/16"               |
-| 6.3mm               | 1/4"                |
-
-| Width | Size | Type | Usage | Notes | Equivalent Part |
-| ----- | ---- | ---- | ----- | ----- | --------------- |
-|       |      |      |       |       |                 |
-
-
-
-### Volkswagen parts and their replacements
-
-| Part Name        | Image                                                        | Wire size | VW Part number | Usage                   | Notes                    | Equivalent part                                              |
-| ---------------- | ------------------------------------------------------------ | --------- | -------------- | ----------------------- | ------------------------ | ------------------------------------------------------------ |
-| 2-pin receptacle | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-female-receptacle.jpg) |           |                | Mk2 spotlights, sensors | You still need the boot! | [Delphi 15327868-PT](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE) |
-| 2-pin plug       | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-male-plug.jpg) |           | 025 906 231    | Mk2 spotlights, sensors | You still need the boot! | [DeyTrade 282190-1-PT](https://www.automotive-connectors.com/full-assembled-tyco-106462-1-2-way-male-junior-power-timer-connector.html) |
+| Part Name | Image                                                        | Wire | VW Part number | Usage                   | Notes                    | Equivalent part                                              |
+| --------- | ------------------------------------------------------------ | ---- | -------------- | ----------------------- | ------------------------ | ------------------------------------------------------------ |
+|           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-female-receptacle.jpg) |      |                | Mk2 spotlights, sensors | You still need the boot! | [Delphi 15327868-PT](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE) |
+|           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-male-plug.jpg) |      | 025 906 231    |                         | You still need the boot! | [DeyTrade 282190-1-PT](https://www.automotive-connectors.com/full-assembled-tyco-106462-1-2-way-male-junior-power-timer-connector.html) |
