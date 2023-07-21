@@ -74,3 +74,16 @@ Buy wisely; buy pricey. Good terminals will last if done well.
 | --------- | ------------------------------------------------------------ | ---- | -------------- | ----------------------- | ------------------------ | ------------------------------------------------------------ |
 |           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-female-receptacle.jpg) |      |                | Mk2 spotlights, sensors | You still need the boot! | [Delphi 15327868-PT](https://www.automotive-connectors.com/delphi-15327868-pt-full-assembled-037-906-240-2-way-black-2-8-timer-sealed-female-connector-assembly.html?___store=english&gclid=CjwKCAjwkYDbBRB6EiwAR0T_-rnlYzVOibuWk0x1E-h-TN55IqMm1N_qt_1sTWyExnTHmwYaYYxWJBoCcksQAvD_BwE) |
 |           | ![](https://sudoyashi.com/assets/img/cabby/electrical/vw-male-plug.jpg) |      | 025 906 231    |                         | You still need the boot! | [DeyTrade 282190-1-PT](https://www.automotive-connectors.com/full-assembled-tyco-106462-1-2-way-male-junior-power-timer-connector.html) |
+
+
+## Tools
+
+- Hozan P-707 open barrel crimper; per SuperFastMatt recommendation.
+- Titan automotive crimpers
+- [Klein Tools 11063W Wire Stripper/Cutter](https://www.kleintools.com/catalog/combination-cutting-tools/katapult-wire-stripper-and-cutter-solid-and-stranded-wire)
+- [Klein tools 11065](https://www.kleintools.com/catalog/combination-cutting-tools/solid-and-stranded-copper-wire-stripper-and-cutter) 
+- Scissors, you always need them
+- 6" pliers
+- 6" wire cutters
+- Assortment of alligator jumpers
+- Assortment of jumper wires
