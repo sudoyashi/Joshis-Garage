@@ -4,7 +4,7 @@ title: Volkswagen Mk1 Electrical Notes
 permalink: /electrical
 ---
 
-Elevate your project car skills by protecting your wiring!
+Got a Volkswagen? Check your fucking grounds.
 
 ## Table of Contents
 
@@ -20,30 +20,30 @@ Elevate your project car skills by protecting your wiring!
 - **Connector**, end pieces that connect multiple wires/cables to a component. For example, a 3-wire hall sensor needs a 3-wire connector. There are MANY types of them, from cheap to expensive. Cheap ones have too much tolerance, making for a loose connection. Premium connectors are a better fit and can come with insulation and weatherproofing options that won't degrade quickly.
 - **Wire**, a single conductor usually copper and insulated. Wires come in many sizes (gauges).
 - **Cable**, a group of conductors. Four wires twisted together to make a cable.
-- **Gauge**refers to the size of a wire. In America, we use the AWG standard for sizes. The smaller the number, the larger the wire. The larger the number, the smaller the wire. Example: Size 0 wires are usually used for cables connected directly to the battery. Size 16 wires can be used for sensors and other small applications. Size is dependent on the amps needed to carry over a distance.
-- **Crimp**, a solderless cold connection that clamps the wires to other wires or connectors. Or both! Some might argue they are less secure than soldered joints, but GOOD crimps can outlast soldered connections, but you need to use the right tools and parts to make a reliable crimp. Remember to add heat shrink before you put the terminal on! Soldered joints, even proper ones, are subject to cracking over time.
+- **Gauge** refers to the size of a wire. In America, we use the [AWG standard](https://www.powerstream.com/Wire_Size.htm) for sizes. The smaller the number, the larger the wire. The larger the number, the smaller the wire. Example: Size 0 wires are usually used for cables connected directly to the battery. Size 16 wires can be used for sensors and other small applications. Size is dependent on the amps needed to carry over a distance. Guess what, there's a chart for that too: [Wire sizing chart](https://info.waytekwire.com/wire_sizing).
+- **Crimp**, a solderless cold connection that clamps the wires to other wires or connectors. Or both! Some might argue they are less secure than soldered joints, but I'll argue GOOD crimps can outlast soldered connections, but you need to use the right tools and parts to make a reliable crimp. Remember to add heat shrink before you put the terminal on! Soldered joints, even proper ones, are subject to cracking over time.
 
 ## Stronger wires, concentric twisting
 
 Wire twisting, concentric wiring, and twisted pairs. These terms are the same: it means twisting multiple wires together for strength and flexibility. [HPA has a video explaining it all](https://www.youtube.com/watch?v=dsgUhNH7F7k), where I learned it from.
 
-Wires are physically used and abused; we depend on them to work almost 100% of the time. Twisting is a preventative measure to improve the durability of wires. It works similarly to making rope; braiding individual strands together will make them work together, evenly distributing tension between wires. The cable will stretch as a unit and not just a single strand. Doing it's as simple as twisting a few wires together. For more consistent twisting, put one end of the cables in a drill, hold the end down and spin away.
+Wires are physically used and abused; we depend on them to work almost 100% of the time. Twisting is a preventative measure to improve the durability of wires. Similar to braiding rope, braiding or twisting individual strands together will make them work together, evenly distributing tension between wires. The cable will stretch as a unit and not just a single strand. And it is as simple as twisting a few wires together. For more consistent twisting, put one end of the cables in a drill, hold the end down and spin to win.
 
 ## Wire protection
 
 Protecting your wires is a step above most DIY wiring projects. Here are a few material options and where they stand:
 
-X = good!
-- = is aight
-blank = nah, not worth your time
+- X = good!
+\- = is aight
+- blank = nah, not worth your time
 
 | Material                                | Easy-to-use | Engine Bay | Cabin and Trunk | Undercarriage | Resistance to fluids |
 | --------------------------------------- | ----------- | ---------- | --------------- | ------------- | -------------------- |
 | Electric tape                           | X           |            |                 |               |                      |
-| Tesa 51036, high-temp wire harness tape | -           | X          | X               | X             |                      |
-| Tesa 51068, wire harness tape           | -           |            | X               |               |                      |
-| Split wire conduit                      |             | X          |                 | X             | X                    |
-| Split wire loom                         |             | X          | X               | X             | -                    |
+| Tesa 51036 | -           | X          | X               | X             |                      |
+| Tesa 51068           | -           |            | X               |               |                      |
+| Split wire plastic loom                      |             | X          |                 | X             | X                    |
+| Split wire braided loom                         |             | X          | X               | X             | -                    |
 
 **When in doubt, Tesa tape is the answer.** It's that good.
 
@@ -51,7 +51,7 @@ blank = nah, not worth your time
 
 2. [Tesa tape 51036](https://www.tesa.com/en-us/industry/tesa-supersleeve-51036-pv6.html) is the premium alternative to electric tape. It's flexible, easy to use, and can withstand most applications. Don't get it confused with the softer, fuzzy Tesa tape 51068. Use this tape inside the car and in other softer environments.
 
-3. Split wire conduit is very good at keeping dirt and grease out but at the cost of space and flexibility. It looks like plastic gutter stuff. This is the bulkiest item on the list, and while there are different diameters, it is stiff and can only bend so much. Use it where heavy protection is necessary, like the undercarriage.
+3. Split wire plastic conduit or loom is very good at keeping dirt and grease out but at the cost of space and flexibility. It looks like plastic gutter stuff. This is the bulkiest item on the list, and while there are different diameters, it is stiff and can only bend so much without opening the crack. Use it where heavy protection is necessary, like the undercarriage.
 
 4. The split wire braided loom is the premium alternative to the conduit. Similar to the loom above, but this one is more flexible! It's easier to manipulate since it's braided strands instead of plastic tubing. Still, fluids could permeate the loom because of its fabric. 
 
