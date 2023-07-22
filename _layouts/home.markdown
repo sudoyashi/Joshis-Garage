@@ -4,17 +4,16 @@ title: Home
 ---
 <center><h2>Cars and other obsesions.</h2>
 <p>
-A home for my notes. I like to write technical stuff but I'll try to keep it interesting. This includes my project car work, IT stuff, and whatever other hobbies I'm working on. My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
-<br><br>
-Otherwise, checkout my posts below.
-</p>
+A home for my notes. I like to write technical stuff about project car adventures and
 
+My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
+<br><br>
 
 </center>
 
 <hr>
 <br>
-<h2> Most recent posts...</h2>
+<h2>Read something!</h2>
 
 {% for post in paginator.posts %}
   {% include featured-post.html %}
