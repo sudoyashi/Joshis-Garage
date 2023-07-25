@@ -86,7 +86,7 @@ I didn't get to meet all the owners, but I got to know a few. Showing face in an
 *My favorite brand with the three palms.*
 
 ![Jason the MR2 guy](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-10.jpg)
-*The MR2-Guy's, aka J's Garage*
+*The MR2-Guy's AW11, aka J's Garage*
 
 ![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-11.jpg)
 
