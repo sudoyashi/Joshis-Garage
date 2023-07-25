@@ -37,15 +37,23 @@ I like it when my car is photographed, so why wouldn't others? It's always nice 
 
 Since I used to work in the photo lab developing film back in University and own too many cameras for one person, I might as well use what I got. Using my Polaroid 600 has been my current go-to format because I don't have to develop and print anything; I can do it one step! Case in point, I gave one to Johnny, one of the owners that checked on me when my Volkswagen's radiator blew back in Waikiki on our last cruise.  Come to find out afterwawrds, when I was with some of the guys at the cruise and then they found out the Cab broke down, they were almost going to turn around and help me out. That's crazy to me! I called the tow truck already so everything was good. So, for them to remember the cab and ask about how everything's going was really cool of them. Polaroids are an easy way to show my appreciation for other people. Not cheap on it's own, but also a lot cheaper than buying someone else a drink LOL.
 
-![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid.JPG)
+![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-1.JPG)
 
 Polaroids don't last forever; the print won't last without further protection from dust and UV. But the dated and aging nature of the print is part of its charm. Polaroid film costs about $2.25 a shot, but again, they're worth it.
 
+![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-2.JPG)
+
+![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-3.JPG)
+
+![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-4.JPG)
+
+![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-5.JPG)
+
 Unfortunately, my beat-up digital camera didn't fare that well that day! It has a massive scratched area, and I keep forgetting about it, it causes the left part of the image to get a little obscured with extra light, making a ghosting effect on the final image. I try to avoid the sun when possilbe, but sometimes it's inevitable.
 
-Most of the meet went by smoothly, lots of talking story and just hanging out for a bit. Afterwards, Mike started to line up the gang. He was arranging everyone together with a few of the other guys and once the cars got were parked, it looked pretty dang good. Everyone wanted to take a picture. Why not, the setup was solid. The trouble was that there were so many cars, you couldn't see everyone's whip! 
+Most of the meet went by smoothly, lots of talking story and just hanging out for a bit. Afterwards, Mike started to line up the gang. He was arranging everyone together with a few of the other guys and once the cars got were parked, it looked pretty dang good. Everyone wanted to take a picture. Why not, the setup was solid. The trouble was that there were so many cars, you couldn't see everyone's whip!
 
-![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-1.jpg)
+![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-13.jpg)
 
 But thanks to the help of a fellow stranger named Lance in his blue Toyota Tacoma, he offered to let us stand on his truck bed to get a better viewing angle. I didn't catch his name, but we appreciated that he offered to let us get a top-down view.
 
