@@ -2,7 +2,7 @@
 layout: post
 title:  "MR2uesday / July 2023"
 date:   2023-07-24 00:00:00 -1000
-categories: toyota mr2 cars midship
+categories: toyota mr2 cars midship projectcar
 image: /mr2/july2023/mr2-july2023-1.jpg
 ---
 
@@ -81,7 +81,7 @@ I didn't get to meet all the owners, but I got to know a few. Showing face in an
 *My favorite brand with the three palms.*
 
 ![Jason the MR2 guy](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-10.jpg)
-*The MR2-Guy MR2*
+*The MR2-Guy's, aka J's Garage*
 
 ![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-11.jpg)
 
