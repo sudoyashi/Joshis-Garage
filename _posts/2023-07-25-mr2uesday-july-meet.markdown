@@ -33,7 +33,7 @@ Frankly, I'm new to the Hawaii car scene because I only got the Volkswagen runni
 
 I like it when my car is photographed, so why wouldn't others? It's always nice to have your car's picture taken haha.
 
-![I think this is Jeff](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-3.jpg)
+![JDM AW11](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-19.jpg)
 
 Since I used to work in the photo lab developing film back in University and own too many cameras for one person, I might as well use what I got. Using my Polaroid 600 has been my current go-to format because I don't have to develop and print anything; I can do it one step! Case in point, I gave one to Johnny, one of the owners that checked on me when my Volkswagen's radiator blew back in Waikiki on our last cruise.  Come to find out afterwawrds, when I was with some of the guys at the cruise and then they found out the Cab broke down, they were almost going to turn around and help me out. That's crazy to me! I called the tow truck already so everything was good. So, for them to remember the cab and ask about how everything's going was really cool of them. Polaroids are an easy way to show my appreciation for other people. Not cheap on it's own, but also a lot cheaper than buying someone else a drink LOL.
 
