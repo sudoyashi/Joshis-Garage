@@ -22,20 +22,21 @@ Yes, there was also an NB Miata. But I'm also just counting the MR2s haha.
 ## Josh, why were you even there? You don't even have an MR2.
 
 ![I'll get you a pic next time Johnny](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-5.jpg)
+*We'll get you another Polaroid LOOL.*
 
 I'll get one, eventually! I dunno, they ain't as cheap as they used to be lol.
 
-Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out so I thought why not take photos and send it to them. Being part of a good just feels good. We all know that feeling when we're out of place with a bunch of new kids back from our school days. But it's when you meet people that are just like you, with the same kind of mentality that's a good feeling right there. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
+Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out so I thought why not take photos and send it to them. Being part of a good group just feels good, haha. We all know that feeling when we're out of place with a bunch of new kids back from our school days. But it's when you meet people that are just like you, that will wrench out till 3am to get your shit done, hanging with anyone with the same kind of mentality that's a good feeling right there. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
 
-Frankly, I'm new to the Hawaii car scene because I only got the Volkswagen running basically last year and didn't start taking it out until this year. Even then, there aren't that many Golf MK1 guys out there so it was really nice to be able to hang with a crew even if we don't have the same car. But I'm sure if I hang around them long enough, I'll eventually buy my own. Will I keep the Golf at the same time? Only time will tell I guess lol.
+Frankly, I'm new to the Hawaii car scene because I only got the Volkswagen running basically last year and didn't start taking it out until this year. Even then, there aren't that many Golf MK1 guys out there so it was really nice to be able to hang with a crew even if we don't have the same car. But I'm sure if I hang around them long enough, I'll eventually buy my own. Will I keep the Golf at the same time? Only my bank account will tell.
 
 ## Why were you taking their pictures? Are you even a photographer?
 
-I like it when my car is photographed, so why wouldn't others? It's always nice to have your car's picture taken haha.
+Nah bro, that's too much work for a job LOL. I like it when my car is photographed, so why wouldn't others? It's always nice to have your car's picture taken haha.
 
 ![JDM AW11](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-19.jpg)
 
-Since I used to work in the photo lab developing film back in University and own too many cameras for one person, I might as well use what I got. Using my Polaroid 600 has been my current go-to format because I don't have to develop and print anything; I can do it one step! Case in point, I gave one to Johnny, one of the owners that checked on me when my Volkswagen's radiator blew back in Waikiki on our last cruise.  Come to find out afterwawrds, when I was with some of the guys at the cruise and then they found out the Cab broke down, they were almost going to turn around and help me out. That's crazy to me! I called the tow truck already so everything was good. So, for them to remember the cab and ask about how everything's going was really cool of them. Polaroids are an easy way to show my appreciation for other people. Not cheap on it's own, but also a lot cheaper than buying someone else a drink LOL.
+I used to work in the photo lab developing film back in University and own too many cameras for one person, I might as well use what I got. Using my Polaroid 600 has been my current go-to format because I don't have to develop and print anything; I can do it one step! Case in point, I gave one to Johnny, one of the owners that checked on me when my Volkswagen's radiator blew back in Waikiki on our last cruise.  Come to find out afterwawrds, when I was with some of the guys at the cruise and then they found out the Cab broke down, they were almost going to turn around and help me out. That's crazy to me! I called the tow truck already so everything was good. I wasn't expecting something like that until Euler mentioned that to me and that's dope. Polaroids are an easy way to show my appreciation for other people. Not cheap on it's own, but also a lot cheaper than buying someone else a drink LOL.
 
 ![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-1.JPG)
 
@@ -59,9 +60,9 @@ But thanks to the help of a fellow stranger named Lance in his blue Toyota Tacom
 
 His son eventually got to look at the cars up close and I hope they had a blast seeing the MR2 group out there. I know I did.
 
-## Gallery
+## Gallery and download
 
-I didn't get to meet all the owners, but I got to know a few. Showing face in any group is worth something because your time is everything. Hopefully, the owners will find their pictures someday, and maybe I'll get to meet them and know their cars soon.
+I didn't get to meet all the owners, but I got to know a few. Showing face in any group is worth something because your time is everything. Hopefully, the owners will find their pictures someday, and maybe I'll get to meet them and know their cars soon. [If you wanna download the pics, click here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sudoyashi/sudoyashi.github.io/tree/gh-pages/assets/img/mr2/july2023) or copy and paste: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/sudoyashi/sudoyashi.github.io/tree/gh-pages/assets/img/mr2/july2023.
 
 ![I think this is Jeff](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-2.jpg)
 
