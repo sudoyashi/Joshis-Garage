@@ -25,25 +25,29 @@ Yes, there was also an NB Miata. But I'm also just counting the MR2s haha.
 
 I'll get one, eventually! I dunno, they ain't as cheap as they used to be lol.
 
-Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out so I thought why not take photos and send it to them. It's not like I have a car to bring up the numbers, but it was good to meet some familiar faces. Good to see Matteo, Johnny, Jesse, Euler, and Mike. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
+Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out so I thought why not take photos and send it to them. Being part of a good just feels good. We all know that feeling when we're out of place with a bunch of new kids back from our school days. But it's when you meet people that are just like you, with the same kind of mentality that's a good feeling right there. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
 
 Frankly, I'm new to the Hawaii car scene because I only got the Volkswagen running basically last year and didn't start taking it out until this year. Even then, there aren't that many Golf MK1 guys out there so it was really nice to be able to hang with a crew even if we don't have the same car. But I'm sure if I hang around them long enough, I'll eventually buy my own. Will I keep the Golf at the same time? Only time will tell I guess lol.
 
-## Why were you taking their pictures?
+## Why were you taking their pictures? Are you even a photographer?
 
-I mean shiiet, I like my car and I always want my car photographed. It's always nice to have your car photographed, so I figured they'd feel the same whether I knew them or not.
+I like it when my car is photographed, so why wouldn't others? It's always nice to have your car's picture taken haha.
 
 ![I think this is Jeff](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-3.jpg)
 
-Since I used to work in the photo lab developing film back in University and own too many cameras for one person, I might as well use what I got. Using my Polaroid 600 has been my current go-to format because I don't have to develop and print anything; I can do it one step! Case in point, I gave one to Johnny, one of the owners that checked on me when my Volkswagen's radiator blew back in Waikiki on our last cruise. Polaroids are an easy way to show my appreciation for the people that took care of me.
+Since I used to work in the photo lab developing film back in University and own too many cameras for one person, I might as well use what I got. Using my Polaroid 600 has been my current go-to format because I don't have to develop and print anything; I can do it one step! Case in point, I gave one to Johnny, one of the owners that checked on me when my Volkswagen's radiator blew back in Waikiki on our last cruise.  Come to find out afterwawrds, when I was with some of the guys at the cruise and then they found out the Cab broke down, they were almost going to turn around and help me out. That's crazy to me! I called the tow truck already so everything was good. So, for them to remember the cab and ask about how everything's going was really cool of them. Polaroids are an easy way to show my appreciation for other people. Not cheap on it's own, but also a lot cheaper than buying someone else a drink LOL.
 
 ![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid.JPG)
 
-Polaroids don't last forever; the print won't last without further protection from dust and UV. But the dated and aging nature of the print is part of its charm. Polaroid film costs about $2.25 a shot, but they are worth the price.
+Polaroids don't last forever; the print won't last without further protection from dust and UV. But the dated and aging nature of the print is part of its charm. Polaroid film costs about $2.25 a shot, but again, they're worth it.
 
 Unfortunately, my beat-up digital camera didn't fare that well that day! It has a massive scratched area, and I keep forgetting about it, it causes the left part of the image to get a little obscured with extra light, making a ghosting effect on the final image. I try to avoid the sun when possilbe, but sometimes it's inevitable.
 
-Most of the meet went by smoothly. Then we lined up for a shoot of the gang. Mike was arranging everyone together with a few of the other guys and as the final cars got in order, everyone wanted to take a picture. Why not, the setup was solid. The trouble was that there were so many cars, you couldn't see everyone. But thanks to the help of a fellow stranger in his blue Toyota Tacoma, he offered to let us stand on his truck bed to get a better viewing angle. I didn't catch his name, but we appreciated that he offered to let us get a top-down view.
+Most of the meet went by smoothly, lots of talking story and just hanging out for a bit. Afterwards, Mike started to line up the gang. He was arranging everyone together with a few of the other guys and once the cars got were parked, it looked pretty dang good. Everyone wanted to take a picture. Why not, the setup was solid. The trouble was that there were so many cars, you couldn't see everyone's whip! 
+
+![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-1.jpg)
+
+But thanks to the help of a fellow stranger named Lance in his blue Toyota Tacoma, he offered to let us stand on his truck bed to get a better viewing angle. I didn't catch his name, but we appreciated that he offered to let us get a top-down view.
 
 His son eventually got to look at the cars up close and I hope they had a blast seeing the MR2 group out there. I know I did.
 

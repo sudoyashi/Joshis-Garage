@@ -15,10 +15,11 @@ So what does "sudoyashi" mean anyways?
 
 It's a combination of two things: sudo and my name Josh.
 
-I learned about computers and machines when I stepped into the Linux world. I was the only IT staff at an elementary school and learned to do more with the `sudo` command on the MacOS machines. The `sudo` command originally stood for "superuser do, " giving you temporary admin permissions to do anything you wanted.
+## "sudo"
 
-Josh or Joshi. I studied abroad in Korea, and it was much easier to say Joshi because of how language works. I liked how it sounded, maybe because a cute Korean girl first said it to me, but I generally liked it, haha. While in Korea, I was trying to improve my Korean literacy and stumbled on the International Phonetic Alphabet (IPA) to help figure out the pronunciation of some words. Looking at the [IPA chart](https://www.ipachart.com/), the letter *j* represented the Palatal Approximant sound--essentially the sound of the letter "y." Sudoyashi sounded better than sudoyjoshi for obvious reasons.
+I learned about computers and machines when I stepped into the Linux world. I was the only IT staff at an elementary school and learned to do more with the `sudo` command on the MacOS machines. The `sudo` command originally stood for "superuser do, " giving you temporary admin permissions to do anything you wanted. Sudowoodo also was my favorite Pokemon at this time because the 'mon is ridiculous and funny to look at.
 
-Sudowoodo also was my favorite Pokemon at this time because the 'mon is ridiculous and funny to look at.
+## "-yashi" 
+Josh or Joshi. I studied abroad in Korea, and it was much easier to say Joshi because of how language works. I liked how it sounded, maybe because a cute Korean girl first said it to me, but I generally liked it, haha. While in Korea, I was trying to improve my Korean literacy and stumbled on the International Phonetic Alphabet (IPA) to help figure out the pronunciation of some words. Looking at the [IPA chart](https://www.ipachart.com/), the letter *j* represented the Palatal Approximant sound--essentially the sound of the letter "y." So Joshi became yashi.
 
-To me, sudoyashi means to do anything and do everything; it became my guiding principle to keep trying and do everything I can for the things I enjoy. I like to do a lot of things myself, so naturally, the DIY mentality of solving my problems is something I take pride in. I can't do everything I want, and some things I found out I am awful at, like sewing. But you live and learn. Life is short, and I want to make the most of it.
+To me, sudoyashi means to refuse to give up; I encourage everyone that we can do anything and do everything and it became my guiding principle to keep trying everything I can for the things I enjoy. I like to do a lot of things myself, so naturally, the DIY mentality of solving my problems is something I take pride in. I can't do everything I want, and some things I found out I am awful at, like sewing. But you live and learn. Life is short, and I want to make the most of it.
