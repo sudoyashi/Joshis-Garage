@@ -6,6 +6,8 @@ categories: toyota mr2 cars midship
 image: /mr2/july2023/mr2-july2023-1.jpg
 ---
 
+A Saturday meet with the MR2 crew in Honolulu, Hawaii.
+
 ## Roll call AW11, SW20, ZZW30
 
 ![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-16.jpg)
@@ -15,13 +17,13 @@ image: /mr2/july2023/mr2-july2023-1.jpg
 - ZZW30, MR-S / Generation 3: 3
 - **Total: 20**
 
-Yes, there was also an NB Miata, MATTEO. But I'm also just counting the MR2s haha.
+Yes, there was also an NB Miata. But I'm also just counting the MR2s haha.
 
 ## Josh, why were you even there?" You don't even have an MR2.
 
 ![I'll get you a pic next time Johnny](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-5.jpg)
 
-Cause they're fucking cool.
+I'll get one, eventually! I dunno, they ain't as cheap as they used to be lol.
 
 Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out and tried to oblige by photographing. It's not like I have a car to bring up the numbers, but it was good to meet some familiar faces! Good to see Matteo, Johnny, Jesse, Euler, and Mike. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
 
@@ -37,7 +39,7 @@ Since I used to work in the photo lab developing film back in University and own
 
 Polaroids don't last forever; the print won't last without further protection from dust and UV. But the dated and aging nature of the print is part of its charm. Polaroid film costs about $2.25 a shot, but they are worth the price.
 
-Unfortunately, my beat-up digital camera didn't fare that well that day! It has a massive scratched area, and I keep forgetting about it, since the lens flare issues get worse when the sun is out. I managed to shoot around it for the most part, but I need to trade away this lens asap.
+Unfortunately, my beat-up digital camera didn't fare that well that day! It has a massive scratched area, and I keep forgetting about it, it causes the left part of the image to get a little obscured with extra light, making a ghosting effect on the final image. I try to avoid the sun when possilbe, but sometimes it's inevitable.
 
 Most of the meet went by smoothly. Then we lined up for a shoot of the gang. Mike was arranging everyone together with a few of the other guys and as the final cars got in order, everyone wanted to take a picture. Why not, the setup was solid. The trouble was that there were so many cars, you couldn't see everyone. But thanks to the help of a fellow stranger in his blue Toyota Tacoma, he offered to let us stand on his truck bed to get a better viewing angle. I didn't catch his name, but we appreciated that he offered to let us get a top-down view.
 
@@ -48,15 +50,22 @@ His son eventually got to look at the cars up close and I hope they had a blast 
 I didn't get to meet all the owners, but I got to know a few. Showing face in any group is worth something because your time is everything. Hopefully, the owners will find their pictures someday, and maybe I'll get to meet them and know their cars soon.
 
 ![I think this is Jeff](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-2.jpg)
+*I think this is Jeff??*
 
 ![Josh Klee](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-4.jpg)
+*Fellow SCCA homie and his 3rd white gen*
 
 ![Mike, Jason, Euler](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-6.jpg)
+*AW11 front shot*
 
 ![AW11 and ZZW30](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-7.jpg)
+*Blue ZZW30 with the AW11s*
 
-![3 palms under the 2nd generation](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-3.jpg)
-*Three SW20s under the palms*
+![Yellow and magenta](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-3.jpg)
+*Yellow and Magenta MR2. I really hope that's Magenta LOL*
+
+![3 palms](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-8.jpg)
+*My favorite brand with the three palms.*
 
 ![Jason the MR2 guy](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-10.jpg)
 *The MR2-Guy MR2*
@@ -64,5 +73,4 @@ I didn't get to meet all the owners, but I got to know a few. Showing face in an
 ![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-11.jpg)
 
 ![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-20.jpg)
-
-Until the next meet.
+*Toyota throws shade on the white midship*
