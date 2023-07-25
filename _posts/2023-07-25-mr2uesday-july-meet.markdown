@@ -19,7 +19,7 @@ A Saturday meet with the MR2 crew in Honolulu, Hawaii.
 
 Yes, there was also an NB Miata. But I'm also just counting the MR2s haha.
 
-## Josh, why were you even there?" You don't even have an MR2.
+## Josh, why were you even there? You don't even have an MR2.
 
 ![I'll get you a pic next time Johnny](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-5.jpg)
 
