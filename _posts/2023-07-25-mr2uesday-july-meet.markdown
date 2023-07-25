@@ -75,7 +75,7 @@ I didn't get to meet all the owners, but I got to know a few. Showing face in an
 *Blue ZZW30 with the AW11s*
 
 ![Yellow and magenta](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-3.jpg)
-*Yellow and Magenta MR2. I really hope that's Magenta LOL*
+*Yellow SW20 on VS-KFs and Magenta SW20. I really hope that's Magenta LOL*
 
 ![3 palms](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-8.jpg)
 *My favorite brand with the three palms.*
