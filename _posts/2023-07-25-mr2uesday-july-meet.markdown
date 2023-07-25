@@ -8,6 +8,12 @@ image: /mr2/july2023/mr2-july2023-1.jpg
 
 A Saturday meet with the MR2 crew in Honolulu, Hawaii.
 
+**Table of contents**
+[Roll call AW11, SW20, ZZW30](https://www.sudoyashi.com/mr2uesday-july-meet#roll-call-aw11-sw20-zzw30)
+[Boy you ain't got an MR2](https://www.sudoyashi.com/mr2uesday-july-meet#josh-why-were-you-even-there-you-dont-even-have-an-mr2)
+[Taking pictures](https://www.sudoyashi.com/mr2uesday-july-meet#why-were-you-taking-their-pictures-are-you-even-a-photographer)
+[Gallery and Download](https://www.sudoyashi.com/mr2uesday-july-meet#gallery-and-download)
+
 ## Roll call AW11, SW20, ZZW30
 
 ![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-16.jpg)
@@ -19,14 +25,14 @@ A Saturday meet with the MR2 crew in Honolulu, Hawaii.
 
 Yes, there was also an NB Miata. But I'm also just counting the MR2s haha.
 
-## Josh, why were you even there? You don't even have an MR2.
+## Josh, why were you even there? You don't even have an MR2!
 
 ![I'll get you a pic next time Johnny](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-5.jpg)
-*We'll get you another Polaroid LOOL.*
+*Honestly, any of these cars would look sick on a Polaroid.*
 
-I'll get one, eventually! I dunno, they ain't as cheap as they used to be lol.
+I'll get one, eventually! I dunno. You see, the way my bank account works...
 
-Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out so I thought why not take photos and send it to them. Being part of a good group just feels good, haha. We all know that feeling when we're out of place with a bunch of new kids back from our school days. But it's when you meet people that are just like you, that will wrench out till 3am to get your shit done, hanging with anyone with the same kind of mentality that's a good feeling right there. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
+Mike invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out so I thought why not take photos and send it to them. And not gonna lie, being part of a group just feels good. It's when you meet people like minded people, people that will go to all kinds of lengths to wrench out till 3am and skip lunch or dinner just to get your shit done, hanging with anyone with the same kind of mentality that's a good feeling right there. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
 
 Frankly, I'm new to the Hawaii car scene because I only got the Volkswagen running basically last year and didn't start taking it out until this year. Even then, there aren't that many Golf MK1 guys out there so it was really nice to be able to hang with a crew even if we don't have the same car. But I'm sure if I hang around them long enough, I'll eventually buy my own. Will I keep the Golf at the same time? Only my bank account will tell.
 
@@ -56,9 +62,9 @@ Most of the meet went by smoothly, lots of talking story and just hanging out fo
 
 ![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-13.jpg)
 
-But thanks to the help of a fellow stranger named Lance in his blue Toyota Tacoma, he offered to let us stand on his truck bed to get a better viewing angle. I didn't catch his name, but we appreciated that he offered to let us get a top-down view.
+But thanks to the help of a fellow stranger named Lance in his blue Toyota Tacoma, he offered to let us stand on his truck bed to get a better viewing angle. Really appreciated that he offered to let us get a top-down view.
 
-His son eventually got to look at the cars up close and I hope they had a blast seeing the MR2 group out there. I know I did.
+His son eventually got to look at the cars up close and I hope him and the family had a blast seeing the MR2 group out there. I know I did.
 
 ## Gallery and download
 
