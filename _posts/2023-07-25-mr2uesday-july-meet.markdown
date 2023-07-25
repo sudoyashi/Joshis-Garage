@@ -1,38 +1,68 @@
 ---
 layout: post
-title:  "July MR2uesday 2023"
+title:  "MR2uesday / July 2023"
 date:   2023-07-24 00:00:00 -1000
 categories: toyota mr2 cars midship
 image: /mr2/july2023/mr2-july2023-1.jpg
 ---
 
-Before this, I kind of wanted an MR2. But after this meet, I really want an MR2.
+## Roll call AW11, SW20, ZZW30
 
-## Role call AW11, SW20, ZZW30
+![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-16.jpg)
 
 - AW11 / Generation 1: 5
 - SW20 / Generation 2: 12
 - ZZW30, MR-S / Generation 3: 3
+- **Total: 20**
 
 Yes, there was also an NB Miata, MATTEO. But I'm also just counting the MR2s haha.
 
-## Josh, why were you even there. You don't even have an MR2.
+## Josh, why were you even there?" You don't even have an MR2.
+
+![I'll get you a pic next time Johnny](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-5.jpg)
 
 Cause they're fucking cool.
 
-Mike, currently running the MR2 group who formed the group a few years ago with Euler, invited me to come out to the meet since I knew a few of the guys from a previous meet and SCCA. Again, Mike was really generous to invite me out and tried to oblige by photographing. I mean, not like I have a car to bring up attendance lol. But it was good to meet some familiar faces! There was Matteo, Johnny, Jesse, Euler, and Mike. I met a few others there but I may have forgotten your names... but all around nice people.
+Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out and tried to oblige by photographing. It's not like I have a car to bring up the numbers, but it was good to meet some familiar faces! Good to see Matteo, Johnny, Jesse, Euler, and Mike. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
 
 ## Why were you taking their pictures?
 
-I mean shiiet, I like my car and I was always my car photographed. I figure other car guys would be the same!
+I mean shiiet, I like my car and I always want my car photographed. It's always nice to have your car photographed, so I figured they'd feel the same whether I knew them or not.
 
-Since I used to work in the photo lab developing film back in University and own way too many cameras for one person, I figure I might as well use what I got. Using my Polaroid 600 has been current go-to format because I don't have to develop and print anything, I can do it one step! I actually gave one to Johnny, who checked on me when my Volkswagen's radiator blew back in Waikiki. Polaroids are an easy way to give my appreciation, and also being an nice token to have around.
+![I think this is Jeff](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-3.jpg)
 
-Polaroids don't last forever, the print won't last without further protection from dust and UV. But the dated and aging nature of the print is part of its charm. Normally, I'd hate to say that the film or vintage look is cool when it's less than perfect because you can definitely get good looking photos with most film cameras if you understand how to use it. But pedantics aside, while Poloaroid film is expensive at about $2.25 a shot, they are most certainly worth their weight.
+Since I used to work in the photo lab developing film back in University and own too many cameras for one person, I might as well use what I got. Using my Polaroid 600 has been my current go-to format because I don't have to develop and print anything; I can do it one step! Case in point, I gave one to Johnny, one of the owners that checked on me when my Volkswagen's radiator blew back in Waikiki on our last cruise. Polaroids are an easy way to show my appreciation for the people that took care of me.
 
-Unfortantely, my beat-up digital camera didn't fare that well that day! It has a massive scratched area on it and I keep forgetting about it, sens the lens flare issues get worse when the sun is out. I managed to shoot around it for the most part, but I need to trade away this lens asap.
+![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid.JPG)
+
+Polaroids don't last forever; the print won't last without further protection from dust and UV. But the dated and aging nature of the print is part of its charm. Polaroid film costs about $2.25 a shot, but they are worth the price.
+
+Unfortunately, my beat-up digital camera didn't fare that well that day! It has a massive scratched area, and I keep forgetting about it, since the lens flare issues get worse when the sun is out. I managed to shoot around it for the most part, but I need to trade away this lens asap.
+
+Most of the meet went by smoothly. Then we lined up for a shoot of the gang. Mike was arranging everyone together with a few of the other guys and as the final cars got in order, everyone wanted to take a picture. Why not, the setup was solid. The trouble was that there were so many cars, you couldn't see everyone. But thanks to the help of a fellow stranger in his blue Toyota Tacoma, he offered to let us stand on his truck bed to get a better viewing angle. I didn't catch his name, but we appreciated that he offered to let us get a top-down view.
+
+His son eventually got to look at the cars up close and I hope they had a blast seeing the MR2 group out there. I know I did.
 
 ## Gallery
 
-I didn't get to meet all the owners, but through the group's generosity, I got to know a few of them. I think showing face, in any group, is worth something because your time is everything. Hopefully the owners find their pictures someday.
+I didn't get to meet all the owners, but I got to know a few. Showing face in any group is worth something because your time is everything. Hopefully, the owners will find their pictures someday, and maybe I'll get to meet them and know their cars soon.
 
+![I think this is Jeff](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-2.jpg)
+
+![Josh Klee](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-4.jpg)
+
+![Mike, Jason, Euler](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-6.jpg)
+
+![AW11 and ZZW30](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-7.jpg)
+
+![3 palms under the 2nd generation](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-3.jpg)
+*Three SW20s under the palms*
+
+![Jason the MR2 guy](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-10.jpg)
+*The MR2-Guy MR2*
+
+![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-11.jpg)
+
+![Front](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-20.jpg)
+
+Until the next meet.

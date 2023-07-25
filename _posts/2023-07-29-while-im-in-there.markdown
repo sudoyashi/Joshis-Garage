@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "While I'm in there! Carbs, parking brake, and Steering"
-date:   2023-07-23 00:00:00 -1000
+date:   2023-07-30 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/while-im-in-there/fuelsystem-1.jpg
 ---
