@@ -25,7 +25,9 @@ Yes, there was also an NB Miata. But I'm also just counting the MR2s haha.
 
 I'll get one, eventually! I dunno, they ain't as cheap as they used to be lol.
 
-Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out and tried to oblige by photographing. It's not like I have a car to bring up the numbers, but it was good to meet some familiar faces! Good to see Matteo, Johnny, Jesse, Euler, and Mike. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
+Mike, currently running the MR2 group, who formed the group a few years ago with Euler, invited me to the meet since I knew a few of the guys from a previous meeting and SCCA. Again, Mike was generous to invite me out so I thought why not take photos and send it to them. It's not like I have a car to bring up the numbers, but it was good to meet some familiar faces. Good to see Matteo, Johnny, Jesse, Euler, and Mike. I met a few others there, but I may have forgotten your names, sorry! All around, the MR2 guys are a good crew.
+
+Frankly, I'm new to the Hawaii car scene because I only got the Volkswagen running basically last year and didn't start taking it out until this year. Even then, there aren't that many Golf MK1 guys out there so it was really nice to be able to hang with a crew even if we don't have the same car. But I'm sure if I hang around them long enough, I'll eventually buy my own. Will I keep the Golf at the same time? Only time will tell I guess lol.
 
 ## Why were you taking their pictures?
 
@@ -50,7 +52,6 @@ His son eventually got to look at the cars up close and I hope they had a blast 
 I didn't get to meet all the owners, but I got to know a few. Showing face in any group is worth something because your time is everything. Hopefully, the owners will find their pictures someday, and maybe I'll get to meet them and know their cars soon.
 
 ![I think this is Jeff](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-2.jpg)
-*I think this is Jeff??*
 
 ![Josh Klee](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-4.jpg)
 *Fellow SCCA homie and his 3rd white gen*
