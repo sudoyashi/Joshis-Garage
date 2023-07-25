@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MR2uesday / July 2023"
+title:  "MR2 Meet / July 2023"
 date:   2023-07-24 00:00:00 -1000
 categories: toyota mr2 cars midship projectcar
 image: /mr2/july2023/mr2-july2023-1.jpg
