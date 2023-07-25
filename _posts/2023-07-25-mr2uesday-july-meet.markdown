@@ -50,8 +50,6 @@ Polaroids don't last forever; the print won't last without further protection fr
 
 ![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-3.JPG)
 
-![Polaroid 5](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-5.JPG)
-
 ![Polaroid](https://www.sudoyashi.com/assets/img/mr2/july2023/mr2-july2023-polaroid-4.JPG)
 
 Unfortunately, my beat-up digital camera didn't fare that well that day! It has a massive scratched area, and I keep forgetting about it, so it causes the left part of the image to get a blurry extra light, making a ghosting effect on the final image. I try to avoid the sun when possilbe, but sometimes it's inevitable.
