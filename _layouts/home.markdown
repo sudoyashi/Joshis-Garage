@@ -4,9 +4,7 @@ title: Home
 ---
 <center><h2>Cars and other obsesions.</h2>
 <p>
-A home for my notes. I like to write technical stuff about project car adventures and
-
-My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
+My notes, photos, and other thoughts on DIY and other techincal stuff around cars. My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
 <br><br>
 
 </center>
