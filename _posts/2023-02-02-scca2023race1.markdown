@@ -4,7 +4,7 @@ title: "2023 SCCA Race 1 - Not as terrible as I thought!"
 author: "Joshua Domingo"
 date:   2023-01-30 00:00:00 -1000
 tags: race prep scca solo  
-categories: cars
+categories: cars scca
 image: /scca/race1/2023race1-civicsupra.JPG
 ---
 
