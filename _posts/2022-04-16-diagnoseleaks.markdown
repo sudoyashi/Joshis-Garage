@@ -2,7 +2,7 @@
 layout: post
 title:  "Diagnosing vacuum leaks"
 date:   2022-04-16 00:00:00 -1000
-categories: carburetor
+categories: carburetor projectcar cabby
 image: leak.jpg
 ---
 

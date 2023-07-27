@@ -2,7 +2,7 @@
 layout: post
 title:  "CAD Radiator Shield"
 date:   2022-03-04 00:00:00 -1000
-categories: cad
+categories: cad projectcar
 image: cad-customshroud.png
 ---
 This piece is meant to prevent incoming air from escaping above the radiator. Not tested for aerodynamic (drag) improvements. It should allow for less "air leaks" in the flow of air coming into the grille, improving the cooling slightly.

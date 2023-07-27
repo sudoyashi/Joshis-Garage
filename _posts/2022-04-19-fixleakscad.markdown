@@ -2,7 +2,7 @@
 layout: post
 title:  "Fixing my vacuum leaks with technology (CAD)"
 date:   2022-04-19 00:00:00 -1000
-categories: cad
+categories: cad projectcar cabby
 image: flange.JPG
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Dual round grille, new power steering linees and G13 coolant"
 date:   2022-03-04 00:00:00 -1000
-categories: lights
+categories: lights projectcar cabby
 image: dualround.jpg
 ---
 
