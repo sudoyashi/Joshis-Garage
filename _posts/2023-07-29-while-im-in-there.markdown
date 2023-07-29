@@ -181,6 +181,9 @@ I'm hoping to wrap this car up by the end of July so that I have a bit of time t
 
 ## Photograph these things
 
+file:///C:/Users/joshuad/Downloads/AW11%20Tachometer%20Conversion%20-%20v3.pdf
+
+https://www.mr2oc.com/attachments/aw11-tachometer-conversion-v3-pdf.84782/
 
 
 | Image                                          | Name                           |
