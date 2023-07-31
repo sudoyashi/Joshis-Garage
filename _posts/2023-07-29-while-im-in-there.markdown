@@ -119,6 +119,8 @@ The work itself was not difficult, but sourcing the parts since almost all of th
   - Crankcase vent filter
   - Any applicable fittings
   - Throttle cable
+  - Fuel Pressure Regulator
+  - AIr filter
 - Cleaned and Inspected:
   - Inspect fuel bowls
   - Inspect jets
