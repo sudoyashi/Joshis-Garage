@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Oh baby got back"
-date:   2023-07-30 00:00:00 -1000
+date:   2023-08-01 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/while-im-in-there/fuelsystem-1.jpg
 ---
@@ -22,38 +22,34 @@ I checked everything that I could without doing a full teardown. Compression, ho
 
 Estimated time: 6-8 hours
 ![Cleaned fuel system parts](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-2.jpg)
-You may be surprised to know that my fuel system doesn't have a return line. Why? Because I was lazy... and I also broke the return line's fitting LOL. Other than cleaning them up, I can also make adjustments to the actual carb setup. Since the car is down, I'm making some adjustments to my fuel system.
+You may be surprised to know that my fuel system doesn't have a return line. Why? Because I didn't want to spend money on the fuel pressure regulator for it. $200 later and we will be installing an FPR shortly :)
 
 ### Issue: Intermittent car pops on idle - not the good kind
 
 **Solution: Needle jet position leaned out by 1 step. New throttle cable.
 
-When I blip the throttle from a stop, there is a backfire from the intake side. The cause is probably the excess dump of fuel on blip that the car surges and doesn't combust in the engine, so the only way is out the intake in this scenario. Usually, we'd expect it in the rear so I can spit flames! Sadly, not the case. [source1 on diagnosing throttle blips](https://www.vulcanforums.com/threads/lean-popping-from-carb-at-idle-blipping-the-throttle.304374/) [source2 on diagnosing throttle blips](https://www.chopcult.com/forum/showthread.php?t=39845). To fix this, I'm changing the needle jet clip position.
+When I blip the throttle from a stop, there is a backfire from the intake side. The cause is probably the excess dump of fuel on blip that the car surges and doesn't combust in the engine, so the only way is out the intake in this scenario. Usually, we'd expect it in the rear so I can spit flames! Sadly, not the case. [source1 on diagnosing throttle blips](https://www.vulcanforums.com/threads/lean-popping-from-carb-at-idle-blipping-the-throttle.304374/) [source2 on diagnosing throttle blips](https://www.chopcult.com/forum/showthread.php?t=39845). To fix this, I'm changing the needle jet position. It was actually shimmed by one washer to enrich the mixture, so I removed the shim for now. My last setup had my needle at position 3 plus a shim, so effectively, my needle jet height was in position 4 which leans towards a richer mixture. I'll remove the shim to lower the needle jet. It's roughly equivalent to a 1.0 AFR increase.
 
 ![Needle jet adjustment](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-4.jpg)
 
-Jet adjustments should be made in parts, adjusting one system at a time to keep your sanity when tuning. However, I was running rich for a while with these carbs from 1/8 - 3/4 throttle. We can correct this with a needle jet adjustment. My last setup had my needle at position 3 plus a shim, so effectively, my needle jet height was in position 4 which leans towards a richer mixture. I'll remove the shim to lower the needle jet.
-
-![New throttle cable](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/throttle-cable-1.jpg)
-
-The throttle cable also got burnt in some spots of the cable, which caused issues with the cable action. This was an easy replacement and just got another motorocycle cable replacement kit. It comes with all the tiny parts to complete the cable. This includes the cable ends, cable length adjustments, and cable sheathe. The new cable took about 40 minutes to put together, scavenging some parts from the old throttle cable to hold down the cable from the factory positions. The smarter idea would be to make a line with exact routing to the throttle actuator, but I don't have time for that!
+The throttle cable also got burnt in some spots of the cable, which caused issues with the cable action. This was a simple replacement and just got another motorocycle cable replacement kit. The issue is that the original cable had special accoutrements that helped with the adjustments. Since throttle cables are another $30 or so, instead, I took parts from the old one and fitted it to the new one. It kind of works. The new cable took about 40 minutes to put together, but the real struggle was fitting this to the throttle pedal.
 
 ### Issue: My idle was screwing around
 
-**Solution: Set idle screws back to 2.5 turns out"
+**Solution: Set all idle screws back to 3.5 turns out"
 
 ![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-5.jpg)
 
-To my surprise, my idle adjustment screws were all over the place! From carb 1 through 4, it went from 2, 2.5, 4.5, and then 3.75. They should all be the SAME. Not sure if I was making adjustments or if they got lost. I set them back to 2.5 turns.
+To my surprise, my idle adjustment screws were all over the place! From carb 1 through 4, it went from 2, 2.5, 4.5, and then 3.75. They should all be the SAME. Not sure if I was making adjustments or if they got lost. I set them back to 3.5 turns.
 
 **Idle adjustment screw turns out**
 
 |        | Carb 1 | Carb 2 | Carb 3 | Carb 4 |
 | ------ | ------ | ------ | ------ | ------ |
 | Before | 3.75   | 4.5    | 2.5    | 2      |
-| After  | 2.5      | 2.5      | 2.5 turns | 2..5 turns |
+| After  | 3.5      | 3.5      | 3.5 | 3.5 |
 
-The current jet settings for my ZX6R carburetors are:
+Taking the average of the previous config, is about 3.18 turns out per carb. This can be a good guideline to figure out my new configuration! I turned it out to 3.5 and will tune backward. The current jet settings for my ZX6R carburetors are:
 
 **ZX6R Carburetor settings**
 
@@ -62,12 +58,11 @@ The current jet settings for my ZX6R carburetors are:
 | Pilot           | 38                             | 38                             | 38                             | 38                             |
 | Main            | 160                            | 165                            | 165                            | 160                            |
 | Needle          | 3rd position, (middle) no shim | 3rd position, (middle) no shim | 3rd position, (middle) no shim | 3rd position, (middle) no shim |
-| Idle Adjustment | 2.5 turns                      | 2.5 turns                      | 2.5 turns                      | 2.5 turns                      |
+| Idle Adjustment | 3.5 turns                      | 3.5 turns                      | 3.5 turns                      | 3.5 turns                      |
 
+Intended tune: slightly lean idle, closer to 15AFR than 14.7AFR. I'll inspect idle speed, idle RPM, and vacuum after driving some more.
 
-Intended tune: slightly lean idle, closer to 15AFR than 14.7AFR. I'll inspect idle speed and vacuum to see how it likes it.
-
-### Issue: Vapor lock - I want to be alive! Installing a return line
+### Issue: Vapor lock - I want to be alive! Setup for a return line
 
 **Solution: Install a return line.**
 
@@ -77,25 +72,26 @@ I opened up the metal return line with a [tiny metal hose cutter](https://www.ho
 
 Initially, I bought a whole $200 AN hose kit to redo my whole fuel system, but later on, I decided to return most of the parts and just used regular fuel hose. AN hose that is NOT PTFE I felt was more money for less return. This isn't a fuel injected car so running the rubber hose would be ok. Carbureted applications don't run much fuel pressure. I'll buy the PTFE hose set if it comes to it. AN lines would be great for other applications, but not for this use case.
 
-![Wix filter in-line to 1/4"](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-7.jpg)
-In engine bay, the fuel IN path is:
+Original plan did not work using the WIX 33040 fuel filter. I thought the extra port was a return line, but it's just another outlet and completely destroyed my fuel pressure from 3.7PSI to <1 PSI! I removed it and the car ran okay after. That's what you get for not spending the money on a real regulator. So, I reluctantly spent more money for a proper FPR which will be coming later in August.
 
+In the engine bay, the fuel IN path is:
 - Factory hardline with barbed end
 - 5/16" fuel hose
-- WIX 33040 fuel filter IN
+- Fuel Pressure regulator, set 3 PSI
 - 5/16" fuel hose
 - Aeromotive Fuel Pressure Gauge, 1-15 PSI
 - 5/16" fuel hose
 - Carburetors
 
 The fuel OUT or RETURN path is:
-- WIX 33040 fuel filter RETURN
-- 1/4" fuel hose
-- 1/4" to 5/16" brass adapter
+- Fuel Pressure regulator
+- 5/16" fuel hose
 - 5/16" barb to 6AN adapter to hardline (3 fittings tied together)
 - Factory return line
 
-The 5/16" barb will connect my return line to my new fuel filter, a [WIX 33040](https://www.amazon.com/WIX-Filters-Complete-Line-Filter/dp/B000C9UJAA). This routes extra fuel/vapors back to my fuel tank. This filter worked for my application because it had 5/16" inlet and outlet ports, though the return port was 1/4". Using 1/4" hose, I connected it with a 1/4" to 5/16" adapter, which returned to the newly adapted hardline.
+~~The 5/16" barb will connect my return line to my new fuel filter, a [WIX 33040](https://www.amazon.com/WIX-Filters-Complete-Line-Filter/dp/B000C9UJAA). This routes extra fuel/vapors back to my fuel tank. This filter worked for my application because it had 5/16" inlet and outlet ports, though the return port was 1/4". Using 1/4" hose, I connected it with a 1/4" to 5/16" adapter, which returned to the newly adapted hardline.~~
+
+We're installing a new Holley 12-879 Fuel Pressure Regulator bypass that will resolve a bunch of my fueling issues.
 
 Lastly, I reopened the return lines near the fuel tank return. Using the previously return lines, I connected this hose back to the fuel tank with 5/16" union barbs and secured the dangling hose with some good ol' zip ties.
 

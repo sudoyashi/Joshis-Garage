@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Nothing is forever - Time, Date, Location"
-date:   2023-07-29 00:00:00 -1000
+date:   2099-07-29 00:00:00 -1000
 categories: personal blog
 image: /mr2/july2023/mr2-july2023-1.jpg
 ---
