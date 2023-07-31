@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Refuse to give up #1"
-date:   2023-07-30 00:00:00 -1000
+date:   2099-07-30 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/badrad/cruise12.jpg
 ---
