@@ -32,14 +32,15 @@ Ideally, this is how the project build would go. Pretty simple! But, this is a p
 ![Carburetors on head](https://www.sudoyashi.com/assets/img/enginehead/head.JPG)
 
 A bike carb conversion is not very common and doesn't seem to get too much good coverage. So why would you do it? I can only really think of two reasons why you should even go through with this:
+
 1. As a proof-of-concept on a shitty car you don't care about
 2. Another way to revive your car's failing fuel system
 
-The main benefit that comes from a carb conversion is the ability to revive a dying fuel system. Carburetors are mechanical devices, so you got both the pros and cons of analog devices. For one thing, they are simple and that's great for someone who wants to start doing some tinkering on their own. But as simple as they are, it also means you have to be able to adjust every single detail of the carburetor to perform at its best. Working on carbs is easy, but figuring out what to fix is the challenge.
+The main benefit that comes from a carb conversion is that you basically have ITBS. Carburetors are mechanical devices, so you got both the pros and cons of analog devices. For one thing, they are simple and that's great for someone who wants to start doing some tinkering on their own. But as simple as they are, it also means you have to be able to adjust every single detail of the carburetor to perform at its best. Starting on carbs is easy, but fine tuning is hard.
 
 For this conversion to go well, there will be many failures, and finding the right solution to those failures will take more than what this guide can provide. The principles behind the setup are like any other internal combustion engine, provide air and fuel at the correct ratio to combust. The big problem with this swap is it's not exactly the most popular swap in the world. This isn't engine swap complexity, but it can get close if you are building your own air/fuel system. So, as someone that has done a bike carburetor swap, don't do this swap LOL.
 
-Stick with your current fuel system and only do a carburetor swap as your last resort. I would use any mainstream carburetor setup such as Holleys or Webers, or any other reputable DCOE carbs just because of serviceability and it's tried and true. There are no specific positives that warrant a bike swap as your primary option, honestly. 
+**Stick with your current fuel system and only do a carburetor swap as your last resort.** I would use any mainstream carburetor setup such as Holleys or Webers, or any other reputable DCOE carbs just because of serviceability and it's tried and true. There are no specific positives that warrant a bike swap as your primary option, honestly. 
 
 But are there any advantages to doing it? If you're not fast, you better sound good and bike carbs don't disappoint.
 
@@ -113,22 +114,20 @@ Here is a list of parts I can remember using. The number of combinations and sol
 - Hose cutters or new, sharp, blades
 - Zip ties and other quick solutions
 
-I would say a majority of these tools come pretty standard in a well-equipped DIY garage. You may need to buy or borrow other carburetor and tuning specific tools like:
+### Fine tuning
+
+You may need to buy or borrow other carburetor and tuning specific tools like:
 - A vacuum-mercury gauge
 - AFR gauge
 - CO2 gauge
 - Fuel pressure gauge *get a good one, like from [Aeromotive Inc](https://www.summitracing.com/parts/aei-15632?seid=srese1).*
 - Smoke tester
 
-May 15, 2022: I'll edit this more when I can remember more tools.
-
 You need to think about this fuel system change like an undocumented engine swap. There are probably a handful of people in the world that have done the same setup and goals. The more common your car, the more common the setup, and the easier it will be.
 
 Other builds may have a different camshaft,  exhaust, or carburetor. I cannot cover every iteration of carbs, chassis, and other bolt-ons. Use this guide as a base and build your car from there. You will have to do all of the tuning, carburetor jetting, vacuum adjustments, heat management, plumbing, and electrical work. Many shops won't be willing to take on this work because it's very custom and very tedious for not a lot of gain. If you have a shop that can do it, again, I strongly recommend you think twice about this. Once you remove the manufacturer's original design, you ruin the balance of drivability, power, and reliability.
 
-Most projects will fail because they ruin the ability to drive them. Don't be that guy.
-
-I urge people to reconsider repairing their current system over replacing it because it gets very frustrating to convert and diagnose the whole system. But if you're foolish enough to go through with a bike carb conversion like me, welcome!
+Specific to the Volkswagen Golf MK1/A1 chassis, there is A TON of information out there on carb conversions, either with tradiational DCOE carburetors or bike carburetors. However, most of it is scattered here and there without much cohesion. I intend to write a more definitive one on bike carburetors. Consider repairing their current system over replacing it because it can get overwhelming (and expensive) if you aren't sure what you're doing. But if you're foolish enough to go through with a bike carb conversion like me, welcome!
 
 ## 0. Drafting
 
@@ -138,15 +137,6 @@ Look at your current fuel system, vacuum, electrical, and mechanical components 
 
 Planning will get you 80% there with your final configuration, but you will obviously have to adjust for what is actually in front of you.
 
-Here are the plans that I made regarding my fuel system, vacuum system, and electrical components.
-
-### Fuel System Plan
-
-### Vacuum System Plan
-
-### Electrical Components Plan
-
-
 ## 1. Remove the current fuel injection system
 
 Removing the current system is pretty straightforward, but don't go ripping out every single component. We'll look at the process I went through with the Golf.
@@ -154,7 +144,6 @@ Removing the current system is pretty straightforward, but don't go ripping out 
 Let's start from the rear, the fuel tank, and you can assess what you need and don't need. 
 
 The internal fuel pump. This pulls up the fuel from the tank through a strainer and provides it to our external fuel pump. In the original design of the Golf, two fuel pumps exist the in-tank one and the pressurized one outside of the tank. I removed the pressurized one outside and replaced that with the bike fuel pump, this pumps at about PSI 3-7PSI versus the factory 43.5PSI. I kept the fuel line that goes to the engine, but currently do not have a return line. At the time, I was not sure what to do with the fuel return, so I just capped it off and both ends, keeping it there just in case for the future to add a fuel return to resolve heat soak issues.
-
 
 Components I removed:
 - Fuel filter before CIS fuel distributor
@@ -169,12 +158,12 @@ Components I removed:
 
 You may have more or less components than my setup.
 
-
 ## 2. Modify the fuel delivery system
 
 Starting from the tank, be positive you have a clean tank! We want to check the in-tank fuel pump, float, and hoses are okay. If you're positive it's fine, move on.
 
 ### The In-Tank Fuel Pump
+
 I checked my fuel tank to see if there was any debris in it... and there was a bit, but not too much that I'd be concerned with. What we really want to do is make sure that NONE of that debris makes it to our fuel pump. I made that mistake by forgetting to put the strainer on my fuel pump, not too long after that the fuel pump was no longer a pump. With debris lodged in the pump, I lost fuel pressure and got a major headache trying to resolve the issue, ignoring the part that I just replaced.
 
 Your in-tank fuel pump is comprised of two components: a fuel pump, which can be considered a transfer pump, and a fuel sending unit. A transfer pump transfers fuel from the tank to the next destination.
@@ -209,39 +198,39 @@ In the engine bay, find the fuel feed line which comes from our fuel pump we jus
 
 If everything works as normal, congratulations, you assembled a fuel system! Not everyone can say that now can they? Well, let's make sure this car will work, next up, are the air and vacuum systems.
 
-## 3. Air and Vacuum 
-
-The vacuum system is simple but can get tedious and complex when you start to add more components. I highly recommend having a smoke tester and a carburetor synchronizer tool.
+## 3. Air and Vacuum
 
 With your car's original intake system gone, let's draft up our system. Two options: DIY intake and premade.
 
-From the engine head, you will need to connect your carbs to those intake ports. You can either fabricate your own intake manifold or buy a premade one if you can find one. I bought my manifold from danstengineering.com. But the process of making an intake manifold can go like this.
+From the engine head, you will need to connect your carbs to those intake ports. You can either fabricate your own intake manifold or buy a premade one. I bought my manifold from danstengineering.com. But the process of making an intake manifold can go like this. Ideally, use metal, but some have made their intake/inlets out of high-temp plastic or composite.
 
-### DIY Intake
+### Fabricate your own intake
 
 ![CAD Draft](https://www.sudoyashi.com/assets/img/cad-intakezx6r.png)
 
-Remove the original intake manifold. We need to create an intake manifold that can hold our carburetors. Measure and draft the intake manifold's mating surface to create the flange that will bolt to the head. You can also take the original gasket and trace that out for the bolt pattern of your new flange. It can be an integrated flange where the intake manifold and connection to carburetors are one piece, or a two-piece flange which is what I have. One piece bolt to the head, then another piece that will connect the head to the carbs. Personally, I'm not sure which design I would go with. I would have simplified and gone with the all-in-one piece, but the two-piece may be easier to service. It also means two times the fasteners and gaskets.
+Remove the original intake manifold. We need to create an intake manifold that can hold our carburetors. Measure and draft the intake manifold's mating surface to create the flange that will bolt to the head. You can take the original gasket and trace that out for the bolt pattern of your new flange. You can either make a one-piece flange where you can bolt it on to the intake manifold and connect it to carburetors, or a two-piece flange where one piece bolts to the head, then another piece that will connect the head to the carbs, this also adds to the number of gaskets and parts, but it can make servicing easier.
+
+Personally, I'm not sure which design I would go with. I would have simplified and gone with the all-in-one piece, but the two-piece may be easier to service. It also means two times the fasteners and gaskets.
 
 With the mating surface drafted, create your flanged surface and draft out how long your intake runners will be.
 
-There is a science to the length of intake runners with airflow (CFM) calculations and finding the optimum length from the butterfly valve to the engine intake port, but I'm not covering that here. If you are going down this route, keep in mind your clearances, material thickness, and your engine's CFMs. I'm not going over it because I just don't have the ability to do that math lol.
-
-If you don't really care for calculating the optimum length, just get some tubing and make sure it fits. After all, these aren't going to be race engines, so I'm not concerned with peak performance. As far as intake angle, it seems negligent from what I've read on the forums, but I can't touch on it further.
+There is a science to the length of intake runners with airflow (CFM) calculations and finding the optimum length from the butterfly valve to the engine intake port, but I'm not covering that here. If you are going down this route, keep in mind your clearances, material thickness, and your engine's CFMs.  If you don't really care for calculating the optimum length, just get some tubing and make sure it fits. After all, these aren't going to be race engines, so I'm not concerned with peak performance. As far as intake angle, it seems negligent from what I've read on the forums, but I can't touch on it further.
 
 ![DanST Premade Kit](https://www.sudoyashi.com/assets/img/enginehead/vacuumbalance.JPG)
 
 Connect the runners that start from the intake manifold and connects to the carburetor using fluoro-lined hoses. This special rubber hose is specifically made for fuel and can be quite pricey. My hoses are 45mm ID hoses which came with the kit. Optionally, you can include ports on the runners for vacuum. Adding ports from the four intake cylinders into one hose also allows you to connect it to the vacuum booster or other vacuum-based applications.
 
 
-#### Materials
+### Manage your heat
 
 ![Custom Flange](https://www.sudoyashi.com/assets/img/flange.JPG)
 
-For all of these parts, I'd recommend 5052 or 6061 aluminum, depending on your budget. For gaskets, repeat the CAD drawing of the mating surfaces and get those parts made of cork. You could do stainless steel, but it's added weight and may rust quicker than aluminum. For the intake hose, stick with fluoro-lined hoses and for vacuum hoses, any silicone or rubber hose for vacuum will do. If you are doing a DIY build, buy extras, test, draft, and test again! If you think you're saving money making it on your own, think again!
+For all of these parts, I'd recommend **5052 or 6061 aluminum**, depending on your budget. For gaskets, repeat the CAD drawing of the mating surfaces and get those parts made of cork. You could do stainless steel, but it's added weight and may rust quicker than aluminum. For the intake hose, stick with fluoro-lined hoses and for vacuum hoses, any silicone or rubber hose for vacuum will do. If you are doing a DIY build, buy extras, test, draft, and test again! If you think you're saving money making it on your own, think again!
 
 ![Carb Conversion](https://www.sudoyashi.com/assets/img/cork-1.jpg)
-Keep in mind these components will be getting hot, I recommend using heat shields for body parts, rubber, or other sensitive parts  and wire sheath to protect any wires.
+Keep in mind these components will be getting hot, I recommend using **heat shields** for body parts, rubber, or other sensitive parts  and **wire sheath** to protect any wires.
+
+
 
 ### Premade Kit
 
@@ -266,15 +255,16 @@ Use the T-bolt clamps at the most crucial point: the intake manifold. In all oth
 Once the entire system is hooked up, we can almost start the car!
 
 Remember all other parts of your vehicle that utilize vacuum, think of your brake booster, charcoal emissions, vacuum-based systems like distributors, shift lights, and so on. There are many applications for the big air pump in your car we call the engine; therefore, the vacuum system needs to be completely sealed to be effective. Tracing a vacuum leak is quite difficult if you're not sure what happened. By using a smoke tester, you can push smoke through your vacuum system enough to see where a leak might occur! The smoke should reach the intake side of the fuel system, and if there are no more leaks, then you are all sealed from there. The hard part is getting there!
-## 4. Hook up parts of the old system
+
+## 4. Reinstall everything that isn't your fuel system
 
 This would mean anything that isn't part of the CIS. Engine control module, spark plugs, battery, etc.
-
 
 ## 5. Testing! Checks before the first start.
 
 To avoid damaging your engine you can temporarily disable the spark plugs by removing the center spark plug wire that goes to the distributor. At this moment, we do NOT want to fire the engine, we are checking for mechanical issues.
 
+- Check timeing
 - Prime your fuel pump, and fill the lines with fuel to get good pressure. Turn the car on and off to get fuel flowing through your fuel lines. Check for leaks.
 - Smoke the vacuum system, and double-check your vacuum system to see if there are any leaks. Smoke should only come out of your carburetors. Check for leaks.
 - Check your fuel pressure, be sure it's the correct fuel pressure for your carbs. If it's low, check your fuel filter and check for blockages or kinks in your hoses. If it's too high, you may need a regulator.
@@ -286,9 +276,9 @@ If everything goes smooth from here, attempt to start the car. Wire up all your 
 Check your throttle cable and other mechanical linkages. Pull your cable to make sure there is no binding across the throttle range. If you have a sticky throttle, you'll have a bad day.
 
 
-## 7. First drive to the gas station
+## 7. First start
 
-If everything passed and you have no leaks, start and drive the car.
+If everything passed and you have no leaks, start the car.
 
 FINALLY.
 
@@ -297,13 +287,12 @@ Driving your project car on the block is a validation that your car still works 
 I went to the gas station for my first trip since I really needed to fill up some gas to sub out the old gas. Get a feel for the suspension, brakes, mobility, and throttle response. See how the car changed. You could be faster too! But I'd say that you sound faster than you look with motorcycle carburetors.
 
 ## 8. Tuning sessions
-We have the car running and driving now, but we need to tune the car to reach our AFR targets. Carb heads will shine here, we're tuning the carburetors for the best performance across the throttle range.
 
-Tune for reliability first. We need to establish a proper baseline for the car before going crazy. With all this talk about the baseline, how do you actually get there?
+We have the car running and driving now, but we need to tune the car to reach our AFR targets. Carb heads will shine here, we're tuning the carburetors for the best performance across the throttle range. Tune for reliability first. We need to establish a proper baseline for the car before going crazy. With all this talk about the baseline, how do you actually get there?
 
 The process of tuning your carbs can go two ways: spark lug chops and AFR gauges. Of the two, I recommend buying an AFR gauge.
 
-#### Spark plug chops
+#### Spark plug chops - Old style
 
 This is an aged, tried-and-true method, but it's tedious and time consuming.
 
@@ -313,15 +302,15 @@ During an annual or semi-annual maintenance check with your car, you may pull th
 
 Checking spark plugs is a very tedious method of tuning but it is still something worth keeping in your back pocket during diagnosis! Use it to aid your findings, most people do not have the skill and expertise to simply use spark plugs to tune carburetors.
 
-#### Air Fuel Ratio (AFR) Gauge
+#### Air Fuel Ratio (AFR) Gauge - Do this one.
 
-The new age of tuning, with little drawbacks.
+Tuning with technology.
 
 A wideband AFR gauge is comprised of an O2 sensor and a gauge measuring small changes in voltage. The O2 sensor is different than your normal O2 sensor on factory cars. Factory sensors have a limited range of values they can measure. All it will say is if you're at ~14.7 or not! The factory's goal is to adhere to the 14.7 AFR as closely as possible throughout the RPM range for efficiency, power, and adherence to emissions. That is not the tuner's goal. Wideband O2 sensors are able to measure and output values outside of the 14.7 AFR range. This is what we want to see and how we want to tune.
 
 O2 sensors work like this: the car provides its energy (5V usually) to heat up its sensor. This sensor measures the oxygen levels wherever it is installed in your exhaust system. The sensor will produce a proportional amount of electrical output and that output is finally inputted to our gauge which will spew out some number that makes sense to us.
 
-The drawback? It's not the end all answer to everything. You may get a misleading lean or rich mixture when in fact you have a vacuum leak! There is nothing wrong with your AFR, it's your setup that has to be correct. If you are tuning on a vacuum leak or fuel pressure inadequacy, you will not be able to accurately tune. Confirm with a smoke test.
+The drawback? Your AFR readings are NOT the end all answer to everything. The majority of the time it is very accurate, but somteimes you may get a misleading lean or rich mixture when in fact you have a vacuum leak! There is nothing wrong with your AFR, it's your setup that has to be correct. If you are tuning on a vacuum leak or fuel pressure inadequacy, you will not be able to accurately tune. Confirm with a smoke test.
 
 Refer to this chart of preferred AFR values. We want a range between 12.2 and 16.5
 [https://www.safrtool.com/SAFR-AFR-values.asp](https://www.safrtool.com/SAFR-AFR-values.asp)
