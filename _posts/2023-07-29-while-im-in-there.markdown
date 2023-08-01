@@ -3,7 +3,7 @@ layout: post
 title:  "Oh baby got back"
 date:   2023-08-01 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
-image: /cabby/while-im-in-there/fuelsystem-1.jpg
+image: /cabby/while-im-in-there/while-im-in-there-3.jpg
 ---
 
 ## The Cabby lives again
@@ -12,16 +12,10 @@ Thankfully, no catastrophic damage.
 
 I checked everything that I could without doing a full teardown. Compression, hoses, and all seem healthy. A carbon buildup on the spark plugs but that's ok. The car is still on jack stands at the moment because I'm doing more maintenance items before getting back on the road. Don't want more shit breaking on me, now do we. Future Josh will appreciate it. As far as what has been done, this is the breakdown of the issues I found, my solutions, and a short description of what they are.
 
-## Table of Contents
-
-- 1. 
-
-<hr>
-
 ## Fuel system - Need an outie for my innie
 
 Estimated time: 6-8 hours
-![Cleaned fuel system parts](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-2.jpg)
+![Cleaned fuel system parts](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/carbs.jpg)
 You may be surprised to know that my fuel system doesn't have a return line. Why? Because I didn't want to spend money on the fuel pressure regulator for it. $200 later and we will be installing an FPR shortly :)
 
 ### Issue: Intermittent car pops on idle - not the good kind
@@ -30,7 +24,7 @@ You may be surprised to know that my fuel system doesn't have a return line. Why
 
 When I blip the throttle from a stop, there is a backfire from the intake side. The cause is probably the excess dump of fuel on blip that the car surges and doesn't combust in the engine, so the only way is out the intake in this scenario. Usually, we'd expect it in the rear so I can spit flames! Sadly, not the case. [source1 on diagnosing throttle blips](https://www.vulcanforums.com/threads/lean-popping-from-carb-at-idle-blipping-the-throttle.304374/) [source2 on diagnosing throttle blips](https://www.chopcult.com/forum/showthread.php?t=39845). To fix this, I'm changing the needle jet position. It was actually shimmed by one washer to enrich the mixture, so I removed the shim for now. My last setup had my needle at position 3 plus a shim, so effectively, my needle jet height was in position 4 which leans towards a richer mixture. I'll remove the shim to lower the needle jet. It's roughly equivalent to a 1.0 AFR increase.
 
-![Needle jet adjustment](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-4.jpg)
+![Needle jet adjustment](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/while-im-in-there-13.jpg)
 
 The throttle cable also got burnt in some spots of the cable, which caused issues with the cable action. This was a simple replacement and just got another motorocycle cable replacement kit. The issue is that the original cable had special accoutrements that helped with the adjustments. Since throttle cables are another $30 or so, instead, I took parts from the old one and fitted it to the new one. It kind of works. The new cable took about 40 minutes to put together, but the real struggle was fitting this to the throttle pedal.
 
@@ -38,7 +32,7 @@ The throttle cable also got burnt in some spots of the cable, which caused issue
 
 **Solution: Set all idle screws back to 3.5 turns out"
 
-![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-5.jpg)
+![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/while-im-in-there-12.jpg)
 
 To my surprise, my idle adjustment screws were all over the place! From carb 1 through 4, it went from 2, 2.5, 4.5, and then 3.75. They should all be the SAME. Not sure if I was making adjustments or if they got lost. I set them back to 3.5 turns.
 
@@ -62,40 +56,7 @@ Taking the average of the previous config, is about 3.18 turns out per carb. Thi
 
 Intended tune: slightly lean idle, closer to 15AFR than 14.7AFR. I'll inspect idle speed, idle RPM, and vacuum after driving some more.
 
-### Issue: Vapor lock - I want to be alive! Setup for a return line
-
-**Solution: Install a return line.**
-
-![Return line in engine bay with cutter](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/fuelsystem-6.jpg)
-
-I opened up the metal return line with a [tiny metal hose cutter](https://www.homedepot.com/p/RIDGID-1-4-in-to-1-1-8-in-101-Close-Quarters-Copper-Aluminum-Brass-and-Plastic-Tubing-Cutter-Multi-Use-Tubing-Tool-40617/100075014), the Ridgid tool was the perfect tool for the job because it was in such a hard to reach place. Then I used a -6 AN adapter to 5/16" hardline with a -6 AN to 5/16" barb end fitting. 
-
-Initially, I bought a whole $200 AN hose kit to redo my whole fuel system, but later on, I decided to return most of the parts and just used regular fuel hose. AN hose that is NOT PTFE I felt was more money for less return. This isn't a fuel injected car so running the rubber hose would be ok. Carbureted applications don't run much fuel pressure. I'll buy the PTFE hose set if it comes to it. AN lines would be great for other applications, but not for this use case.
-
-Original plan did not work using the WIX 33040 fuel filter. I thought the extra port was a return line, but it's just another outlet and completely destroyed my fuel pressure from 3.7PSI to <1 PSI! I removed it and the car ran okay after. That's what you get for not spending the money on a real regulator. So, I reluctantly spent more money for a proper FPR which will be coming later in August.
-
-In the engine bay, the fuel IN path is:
-- Factory hardline with barbed end
-- 5/16" fuel hose
-- Fuel Pressure regulator, set 3 PSI
-- 5/16" fuel hose
-- Aeromotive Fuel Pressure Gauge, 1-15 PSI
-- 5/16" fuel hose
-- Carburetors
-
-The fuel OUT or RETURN path is:
-- Fuel Pressure regulator
-- 5/16" fuel hose
-- 5/16" barb to 6AN adapter to hardline (3 fittings tied together)
-- Factory return line
-
-~~The 5/16" barb will connect my return line to my new fuel filter, a [WIX 33040](https://www.amazon.com/WIX-Filters-Complete-Line-Filter/dp/B000C9UJAA). This routes extra fuel/vapors back to my fuel tank. This filter worked for my application because it had 5/16" inlet and outlet ports, though the return port was 1/4". Using 1/4" hose, I connected it with a 1/4" to 5/16" adapter, which returned to the newly adapted hardline.~~
-
-We're installing a new Holley 12-879 Fuel Pressure Regulator bypass that will resolve a bunch of my fueling issues.
-
-Lastly, I reopened the return lines near the fuel tank return. Using the previously return lines, I connected this hose back to the fuel tank with 5/16" union barbs and secured the dangling hose with some good ol' zip ties.
-
-### Replace the burnt stuff
+### Replacing the burnt stuff
 
 **Solution: Replace all the shitty, burnt parts**
 
@@ -133,33 +94,35 @@ The work itself was not difficult, but sourcing the parts since almost all of th
   - Fuel return line, rear
   - Throttle cable
   - Replacement hoses
-
-
-## Future work for future Josh
+- New!
+  - New manual fan switch because I don't trust the internal wiring anymore
+  - New Equus analog water temperature gauge
+  - New gauge bezel in the center AC vent
 
 ### Brakes - Just the parking brake!
 
-![New parking brake cables](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/parking-brake-1.jpg)
+![New parking brake cables](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/while-im-in-there-2.jpg)
+*Old cable on the left, new one on the right.*
+
 Estimated time: 1.5 hours
 
 This is going to be the simplest of all the issues that I have, I just have to install these new parking brake cables. The ones on the car are probably the original cables. These cables aren't doing their job that well anymore, I have to yank that brake to its highest click setting in order to lock my car down, not ideal. But, I am tired and I really want to just finish the mandatory work. I swear I'll do this job when I make the time for it next week, haha.
 
-![Parking brake cable to drum](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/parking-brake2.jpg)
-
 New cables will just need to be fed through the bottom, hooked up to the parking brake lever in the drum brake system, and then fastened down from the cabin to ensure proper tension. I'll probably have to make more adjustments after the cables stretch into its normal position.
 
-![Crank that brake](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/parking-brake3.jpg)
 
 ## Fluids - Transmission and Cooling
 
-![Transmission fluid draining](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/transmission-maintenance-1.jpg)
+![Transmission fluid draining](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/while-im-in-there-11.jpg)
 Estimated time: 3 hours or more (depends on bleeding)
 
 ### Transmission fluid
 
-Estimated time: 1 hour
+Estimated time: 30 minutes
 
 Draining and filling transmission fluid is pretty straightforward. You need a 17mm hex socket (like a massive allen wrench). [Here's a VWVortex guide](https://vwgolfmk1.org.uk/forum/index.php?page=topicview&id=how-to_2%2Fguide-changing-your_6). I'm replacing it with 75W-90 Valvoline gear oil.
+
+![Transmission fluid draining](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/while-im-in-there-10.jpg)
 
 Cabby info compiled a wealth of information on everything related to the cab. Check out their write-up on [Transmission and Clutch](https://www.cabby-info.com/transmission.htm) here. I use this site for all my references and I'm hoping that my own sudoyashi.com can be a wealth of custom information some day too!
 
@@ -171,32 +134,8 @@ Filling coolant is straightforward... fill the car with coolant. I bought a bunc
 
 ## It never ends...
 
+![Transmission fluid draining](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/while-im-in-there-9.jpg)
+
 I could have rushed this project to get it back up and running as soon as possible but life and finances get in the way. It's okay, I'm taking my time trying to put together, I know I cut corners as my energy and motivation gets lowere and lower from sprinting to the end. This work was long overdue and I got away with running away from maintenance issues for too long. One way or another the car was going to get fixed lol. 
 
 I'm hoping to wrap this car up by the end of July so that I have a bit of time to enjoy it in August and September. Once the Fall and Winter months start to roll in, we're going for my very first performance mod--a new camshaft.
-
-==== DRAFT ====
-
-## Photograph these things
-
-file:///C:/Users/joshuad/Downloads/AW11%20Tachometer%20Conversion%20-%20v3.pdf
-
-https://www.mr2oc.com/attachments/aw11-tachometer-conversion-v3-pdf.84782/
-
-
-| Image                                          | Name                           |
-| ---------------------------------------------- | ------------------------------ |
-|                                                | fuelsystem-1.jpg               |
-| Cleaned fuel system parts                      | fuelsystem-2.jpg               | done
-| Fuel system diagram 2023                       | fuelsystem-3.jpg               |
-| Needle jet adjustment                          | fuelsystem-4.jpg               | done
-| New throttle cable                             | throttle-cable-1.jpg           | 
-| Idle adjustment screws and notes               | fuelsystem-5.jpg               |
-| Return line in engine bay with cutter          | fuelsystem-6.jpg               |
-| Wix filter in-line to 1/4"                     | fuelsystem-7.jpg               |
-| Coolant splashed on everything                 | damage3.jpg                    |
-| New parking brake cables                       | parking-brake-1.jpg            |
-| Parking brake cable to drum                    | parking-brake-2.jpg            |
-| Crank that brake. Parking brake cable to lever | parking-brake-3.jpg            |
-| Transmission fluid draining                    | transmission-maintenance-1.jpg |
-| It never ends                                  | maintenance-never-ends.jpg     |
