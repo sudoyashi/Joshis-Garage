@@ -186,9 +186,13 @@ Since I'm cheap, I went with 5/16" rubber lines. It fit most places and I didn't
 | Low PSI ratings (Carburetor) | High PSI ratings (Fuel Injection) |
 | Easy install                 | Hard install, needs extra tools   |
 
-Other than the in-tank fuel pump, this is a low PSI application, so it seemed fine to use the rubber fuel line versus the stainless steel braided line. Just make sure that you secured all the fuel lines VERY well.
+Other than the in-tank fuel pump, this is a low PSI application, about 3-6PSI, so it would be OK to use the rubber fuel line versus the stainless steel braided line. Secure your fuel lines.
 
-Add a filter before the fuel pump, install the fuel pump, and fasten it to a bracket. Run the fuel lines and tighten all of your clamps.
+Add a filter before the fuel pump, install the fuel pump, and fasten it to a bracket. Run the fuel lines and tighten all of your clamps. When you have the carburetors fitted to your engine, take your fuel in and route it where there will be the least amount of heat and add heat shielding where necessary. The reason for this is to minimize the chance of vapor lock in a deadhead setup. If you are running a return line, it further minimizes your risk of fire.
+
+### Fuel pressure regulator, bypass or deadhead
+
+I recommend bypass because return lines will allow full flow through the tank, ensuring fresh fuel all the time. Will add more information later...
 
 ### Engine bay: filter, gauge, and carburetors
 
@@ -208,7 +212,14 @@ From the engine head, you will need to connect your carbs to those intake ports.
 
 ![CAD Draft](https://www.sudoyashi.com/assets/img/cad-intakezx6r.png)
 
-Remove the original intake manifold. We need to create an intake manifold that can hold our carburetors. Measure and draft the intake manifold's mating surface to create the flange that will bolt to the head. You can take the original gasket and trace that out for the bolt pattern of your new flange. You can either make a one-piece flange where you can bolt it on to the intake manifold and connect it to carburetors, or a two-piece flange where one piece bolts to the head, then another piece that will connect the head to the carbs, this also adds to the number of gaskets and parts, but it can make servicing easier.
+Let's start with the intake.
+
+We need our carburetors to mate up to the intake side of our head as smooth as possible. To do that, we can replace the existing intake manifold, copy the mating surface, and create a new manifold with the same surface so you can bolt it to the head.
+
+Start with removing the stock manifold to measure and draft the intake manifold's mating surface. Confirm you have the correct measurements by looking at the existing intake manifold gasket. From here, you can take two routes:
+
+1. Make a one-piece flange where you can bolt it on to the intake manifold AND add pipes to connect our carbs directly
+2. Make a two-piece flange where one piece bolts to the head (pictured above), then another piece that will connect the carbs to our head flange. This adds to the number of gaskets and parts, but it can make servicing easier.
 
 Personally, I'm not sure which design I would go with. I would have simplified and gone with the all-in-one piece, but the two-piece may be easier to service. It also means two times the fasteners and gaskets.
 
@@ -216,21 +227,18 @@ With the mating surface drafted, create your flanged surface and draft out how l
 
 There is a science to the length of intake runners with airflow (CFM) calculations and finding the optimum length from the butterfly valve to the engine intake port, but I'm not covering that here. If you are going down this route, keep in mind your clearances, material thickness, and your engine's CFMs.  If you don't really care for calculating the optimum length, just get some tubing and make sure it fits. After all, these aren't going to be race engines, so I'm not concerned with peak performance. As far as intake angle, it seems negligent from what I've read on the forums, but I can't touch on it further.
 
-![DanST Premade Kit](https://www.sudoyashi.com/assets/img/enginehead/vacuumbalance.JPG)
+![Custom Flange](https://www.sudoyashi.com/assets/img/flange.JPG)
 
 Connect the runners that start from the intake manifold and connects to the carburetor using fluoro-lined hoses. This special rubber hose is specifically made for fuel and can be quite pricey. My hoses are 45mm ID hoses which came with the kit. Optionally, you can include ports on the runners for vacuum. Adding ports from the four intake cylinders into one hose also allows you to connect it to the vacuum booster or other vacuum-based applications.
 
 
-### Manage your heat
-
-![Custom Flange](https://www.sudoyashi.com/assets/img/flange.JPG)
+### Material notes
 
 For all of these parts, I'd recommend **5052 or 6061 aluminum**, depending on your budget. For gaskets, repeat the CAD drawing of the mating surfaces and get those parts made of cork. You could do stainless steel, but it's added weight and may rust quicker than aluminum. For the intake hose, stick with fluoro-lined hoses and for vacuum hoses, any silicone or rubber hose for vacuum will do. If you are doing a DIY build, buy extras, test, draft, and test again! If you think you're saving money making it on your own, think again!
 
 ![Carb Conversion](https://www.sudoyashi.com/assets/img/cork-1.jpg)
+
 Keep in mind these components will be getting hot, I recommend using **heat shields** for body parts, rubber, or other sensitive parts  and **wire sheath** to protect any wires.
-
-
 
 ### Premade Kit
 
@@ -246,7 +254,7 @@ An AFR Gauge or Air Fuel Ratio gauge will make this TREMENDOUSLY easier to diagn
 
 This was the most challenging part of my whole build. I could not find a way to seal my vacuum leaks without spending a good chunk of money refinishing, surfacing, and making new parts.
 
-Attach your carburetors to the engine head. Using good clamps will save you in the long run instead of the regular worm clamps. Worm clamps can work, but they aren't perfect as you can risk biting into your hoses if you go too far. Spring clamps are very good clamps but can be hard to use if they are going to be in tight spaces. The ones I recommend are T-Bolt clamps, functioning just like a worm clamp but with the security of a spring clamp. Instead of biting from the torque point, the entire inner ring clamps onto the hose.
+Attach your carburetors to the engine head. Using T-bolt clamps will save you in the long run instead of the regular worm clamps. Worm clamps can work, but they aren't perfect as you can risk biting into your hoses if you go too far. The ones I recommend are T-Bolt clamps, functioning just like a worm clamp but with the security of a spring clamp. Instead of biting from the torque point, the entire inner ring clamps onto the hose. Spring clamps are good clamps but can be hard to use if they are going to be in tight spaces and may have too much clamping force.
 
 ![T-Bolt Clamp](https://cdn.mishimoto.com/media/catalog/product/M/M/MMCLAMP-4_2_11.png)
 
@@ -254,7 +262,7 @@ Use the T-bolt clamps at the most crucial point: the intake manifold. In all oth
 
 Once the entire system is hooked up, we can almost start the car!
 
-Remember all other parts of your vehicle that utilize vacuum, think of your brake booster, charcoal emissions, vacuum-based systems like distributors, shift lights, and so on. There are many applications for the big air pump in your car we call the engine; therefore, the vacuum system needs to be completely sealed to be effective. Tracing a vacuum leak is quite difficult if you're not sure what happened. By using a smoke tester, you can push smoke through your vacuum system enough to see where a leak might occur! The smoke should reach the intake side of the fuel system, and if there are no more leaks, then you are all sealed from there. The hard part is getting there!
+Remember all other parts of your vehicle that utilize vacuum, think of your charcoal emissions, distributor, vacuum-based systems like shift lights, brake booster, fuel pressure regulator and so on. There are many applications for the big air pump in your car we call the engine; therefore, the vacuum system needs to be completely sealed to be effective. Tracing a vacuum leak is quite difficult if you're not sure what happened. By using a smoke tester, you can push smoke through your vacuum system enough to see where a leak might occur! The smoke should reach the intake side of the fuel system, and if there are no more leaks, then you are all sealed from there. The hard part is getting there!
 
 ## 4. Reinstall everything that isn't your fuel system
 
@@ -351,9 +359,9 @@ Carburetors will have a baseline setting from the factory for your float, idle a
 
 There may be reliable ways of guessing and checking, but with a lot of time and inconvenience to learn about the fuel and air inputs of your specific carb, I would say slap the carbs on first and test.
 
-- Pilot Jet: 45 jet at 2.5 turns out
+- Pilot Jet: 38 jet at 3.5 turns out
 - Main jet: Cylinders 1 & 4 (outer carbs) 160, cylinders 2 & 3 (inner carbs) 165 
-- Needle jet clip position: with the needle pointing down, the second position from the bottom. 
+- Needle jet clip position: with the needle pointing down, third position. No shims.
 
 ### Tuning Process
 
