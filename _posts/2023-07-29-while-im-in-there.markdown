@@ -3,7 +3,7 @@ layout: post
 title:  "Well deserved maintenance for the Cabby."
 date:   2023-07-31 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
-image: /cabby/while-im-in-there/while-im-in-there-3.jpg
+image: /cabby/while-im-in-there/parking-brake-interior.jpg
 ---
 
 ## The Cabby lives again
@@ -24,7 +24,7 @@ You may be surprised to know that my fuel system doesn't have a return line. Why
 
 ### Issue: Intermittent car pops on idle - not the good kind
 
-**Solution: Needle jet position leaned out by 1 step. New throttle cable.
+**Solution: Needle jet position leaned out by 1 step. New throttle cable.**
 
 When I blip the throttle from a stop, there is a backfire from the intake side. The cause is probably the excess dump of fuel on blip that the car surges and doesn't combust in the engine, so the only way is out the intake in this scenario. Usually, we'd expect it in the rear so I can spit flames! Sadly, not the case. [source1 on diagnosing throttle blips](https://www.vulcanforums.com/threads/lean-popping-from-carb-at-idle-blipping-the-throttle.304374/) [source2 on diagnosing throttle blips](https://www.chopcult.com/forum/showthread.php?t=39845). To fix this, I'm changing the needle jet position. It was actually shimmed by one washer to enrich the mixture, so I removed the shim for now. My last setup had my needle at position 3 plus a shim, so effectively, my needle jet height was in position 4 which leans towards a richer mixture. I'll remove the shim to lower the needle jet. It's roughly equivalent to a 1.0 AFR increase.
 
@@ -34,7 +34,7 @@ The throttle cable also got burnt in some spots of the cable, which caused issue
 
 ### Issue: My idle was screwing around
 
-**Solution: Set all idle screws back to 3.5 turns out"
+**Solution: Set all idle screws back to 3.5 turns out"**
 
 ![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/carb-adjustments.jpg)
 
@@ -120,8 +120,7 @@ New cables will just need to be fed through the bottom, hooked up to the parking
 
 ## Fluids - Transmission and Cooling
 
-![Transmission fluid draining](https://www.sudoyashi.com/assets/img/cabby/while-im-in-there/while-im-in-there-11.jpg)
-Estimated time: 3 hours or more (depends on bleeding)
+Total stimated time: 3 hours or more (depends on bleeding)
 
 ### Transmission fluid
 
@@ -137,16 +136,15 @@ Draining and filling transmission fluid is pretty straightforward. You need a 17
 
 I used Valvoline 80W-90 API GL-4 fluid to refill my transmission. There was some brass glitter in the fluid, so definitely worn and I really want to take care of this transmission eventually.
 
-I got this info from Cabby info. This site is a wealth of information on everything related to the cab. Check out their write-up on [Transmission and Clutch](https://www.cabby-info.com/transmission.htm) here. I use this site for all my references and I'm hoping that my own sudoyashi.com can be a wealth of custom information some day too! 
+I got this info from Cabby info. This site is a wealth of information on everything related to the cab. Check out their write-up on [Transmission and Clutch](https://www.cabby-info.com/transmission.htm) here. I use this site for all my references and I'm hoping that my own sudoyashi.com can be a wealth of custom information some day too!
+
 ### Water and coolant
 
 Estimate time: 2+ hours
 
-Filling coolant is straightforward... fill the car with coolant. I bought a bunch of distilled water to make sure it's as clean as possible before moving it through the new radiator. I'll be doing the initial coolant job with just the distilled water, maybe with Water Wetter, but once I'm satisfied with how clean the car is, I'll switch to coolant. I'm using G12 coolant to fill the system once the system is as clean as it gets.. From the local VW dealership, it was about $25 per gallon jug. 
+Currently, I've just filled up the cab with distilled water to make sure it's as clean as possible before moving it through the new radiator. Once I'm satisfied with how clean the car is, I'll switch to coolant. I'm using G12 coolant to fill the system once the system is as clean as it gets.. From the local VW dealership, it was about $25 per gallon jug.
 
 ## It never ends...
-
-
 
 I could have rushed this project to get it back up and running as soon as possible but life and finances get in the way. It's okay, I'm taking my time trying to put together, I know I cut corners as my energy and motivation gets lowere and lower from sprinting to the end. This work was long overdue and I got away with running away from maintenance issues for too long. One way or another the car was going to get fixed lol. 
 
