@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Oh baby got back"
-date:   2023-08-01 00:00:00 -1000
+title:  "Addressing vapor lock with a fuel return line"
+date:   2023-08-31 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/while-im-in-there/fuelsystem-1.jpg
 ---
