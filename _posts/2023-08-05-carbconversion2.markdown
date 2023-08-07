@@ -2,18 +2,76 @@
 layout: post
 title:  "Bike Carb Conversion Guide"
 author: "Joshua Domingo"
-date:   2022-05-23 00:00:00 -1000
+date:   2023-08-31 00:00:00 -1000
 categories: projectcar cabby
 tags: cars, audi, volkswagen, vag
 image: carbconversion-1.jpg
 ---
-Carburetors why? Because VRRRRRRRRRRRrrrr.
 
-### The Conversion Roadmap
+Individual throttle bodies, if you're not fast at least make it sound good!
 
-We can break the conversion into these major steps:
+## Revision Intro
 
-- Introduction and Parts List
+I've written an intro guide back in 2022 and it was good... but I'm BETTER now. I've learned a lot more and addressed a lot more of the issues with learning this setup long-term (longer than 1 year) so I wanted to share my experience with my bike carburetor (ITBS) conversion setup, moving forward from bike carbs, and applying this knowledge in the future. As this is a revision, you can read the original guide [here](https://www.sudoyashi.com/carbconversion) but trust me, this version 2.0 is going to be better.
+
+A carb conversion is nothing more than a fuel system modification. Similiarly with converting to a standalone ECU or converting to EFI, all of these are significant projects where if you don't know what you're doing you must be methodical and anal about what you do before you break an engine. Blowing an engine or causing a fire does not make you a better tuner from the "experience".
+
+Let's get started.
+
+## The Conversion Roadmap
+
+Like I mentioned earlier, fuel systems can get complicated fast! So let's hone in on the main concepts to tackle to avoid getting overwhelmed. These are my guidelines in fuel modifications:
+
+1. Prepere the fuel cell or fuel tank
+2. Choose a fuel pump and/or transfer pump
+3. Choose your fuel filters
+4. Route your lines towards the engine
+5. Install a pressure gauge, fuel pressure regulator, and AFR gauge
+6. Connect it to your fuel system of choice (carbs or EFI)
+7. Connect your fuel system to an ECU, distributor, or other ignition system
+8. Address your vacuum and intake systems
+9. Tune to your desired AFR specs
+
+### My Volkswagen diagrams for a carb conversion
+
+This is my real example of a working bike carb conversion and I think this will help to see what systems I've deleted, modified, and added based on my fueling requirements.
+
+#### Before modifications
+
+
+#### After modifications
+
+#### Parts I deleted, modified, and added
+
+Fuel System
+
+| Parts                                               | Deleted | Modified                                           | Added |
+| --------------------------------------------------- | ------- | -------------------------------------------------- | ----- |
+| CIS (Bosch's Constant Injection System) fuel system | X       |                                                    |       |
+| External fuel pump                                  | X       |                                                    |       |
+| Bike fuel pump                                      |         |                                                    | X     |
+| Fuel hardlines                                      |         | X - installed AN-6 hardline adapters to 5/16" barb |       |
+|                                                     |         |                                                    |       |
+
+
+
+Vacuum System
+
+| Parts             | Deleted / Not using | Modified | Added |
+| ----------------- | ------------------- | -------- | ----- |
+| Idle Air Control  | X                   |          |       |
+| Warm-up regulator | X                   |          |       |
+|                   |                     |          |       |
+
+Air Intake System
+
+| Parts                    | Deleted | Modified | Added |
+| ------------------------ | ------- | -------- | ----- |
+| Intake airbox and piping | X       |          |       |
+|                          |         |          |       |
+
+
+
 0. [Drafting](#0-drafting)
 1. [Remove the current fuel injection system](#1-remove-the-current-fuel-injection-system)
 2. [Adapt the fuel inlet and return, replace or install a pump, filters, and gauges to carbs](#2-modify-the-fuel-delivery-system)
@@ -29,7 +87,7 @@ We can break the conversion into these major steps:
 Ideally, this is how the project build would go. Pretty simple! But, this is a project car. You will break stuff. You will find other parts that need repairs. You will remember that you wanted to buy a new door handle because it says, Porsche. But if it all does happen as smoothly as possible, wonderful. But let's not get our hopes up. Let's begin with planning.
 
 ## Introduction: Carbs are wonderfully imperfect
-![Carburetors on head](https://www.sudoyashi.com/assets/img/enginehead/head.JPG)
+![Carburetors on head](https:/f/www.sudoyashi.com/assets/img/enginehead/head.JPG)
 
 A bike carb conversion is not very common and doesn't seem to get too much good coverage. So why would you do it? I can only really think of two reasons why you should even go through with this:
 
