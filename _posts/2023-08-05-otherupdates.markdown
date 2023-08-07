@@ -7,7 +7,7 @@ image: /cabby/returned/cabby-returned-6.jpg
 ---
 ## First drive and I lost my throttle pedal!
 
-![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/returend/returned-lostcablestop.jpg)
+![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/returned/returned-lostcablestop.jpg)
 
 So, I got too excited and didn't check if my throttle cable stop was screwed down enough, it wasn't lol. On my first official drive out with the new cooling system, I was going through the gears and my last mash of the throttle cable completely dropped my pedal. A clink clank later and I realized my throttle cable stop flew away, haha!
 
@@ -15,7 +15,7 @@ By a miracle, I found it up the street. Reinstalled it and carefully drove back 
 
 ## Interior is cleaned up!
 
-![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/returend/cabby-returned-5.jpg)
+![Idle adjustment screws and notes](https://www.sudoyashi.com/assets/img/cabby/returned/cabby-returned-5.jpg)
 
 I made a rough ABS cover plate with mounting holes for the AEM gauge and the water temp gauge. These are 52mm openings, with some additional holes for wires and screws for the AEM gauge.
 
@@ -25,7 +25,7 @@ I reconnected a loose ground for my oil pressure gauge's backlight, so hooray I 
 
 ## I messed up with fuel pressure so I spent more money to fix it
 
-![A bunch of AN fittings](https://www.sudoyashi.com/assets/img/cabby/returend/cabby-returned-7.jpg)
+![A bunch of AN fittings](https://www.sudoyashi.com/assets/img/cabby/returned/cabby-returned-7.jpg)
 
 I was... very frustrated lol with understanding fuel plumbing.
 
@@ -36,8 +36,6 @@ Gone with the AN line plan and I decided to simply add a return line. Simple, ri
 Then, using the WIX 33040 fuel filter, I figured I could cobble a return line, but because I lacked a fuel pressure regulator in the system and the second outlet was not meant for a return, my fuel pressure practically went to 0! I thought the extra port was a return line, but it's just another outlet and destroyed my fuel pressure from 3.7PSI to <1 PSI. I removed it and the car ran okay after. That's what you get for not spending the money on a real regulator. So, I reluctantly spent more money on a proper FPR which will be coming later in August.
 
 In the engine bay, the fuel IN path is:
-
-![Fuel system diagram](https://www.sudoyashi.com/assets/img/cabby/returend/cabby-returned-1.jpg)
 
 - Factory hardline with a barbed end
 - 5/16" fuel hose
@@ -53,25 +51,30 @@ Fuel OUT or RETURN path is:
 - 5/16" barb to 6AN adapter to hardline (3 fittings tied together)
 - Factory return line
 
+In a diagram, this is what it looks like with the correct fuel fiilers.
+
+![Fuel system diagram](https://www.sudoyashi.com/assets/img/cabby/returned/cabby-returned-1.jpg)
+
+
 I am also waiting for the correct fuel filters, but for now, the cheap paper filters at the rear and front are in place.
 
 ## Bad O-rings and a challenge for an island
 
-![Bad o-rings](https://www.sudoyashi.com/assets/img/cabby/returend/cabby-returned-8.jpg)
+![Bad o-rings](https://www.sudoyashi.com/assets/img/cabby/returned/cabby-returned-8.jpg)
 
 I was having a small fuel leak at the bowls and found out that my o-rings for my idle circuit went all crusty on me! I've got some new o-rings on the way.
 
 For those with idle circuit adjustment screws that also need new o-rings, I needed [005 o-rings](https://www.marcorubber.com/o-ring-size-chart-as568.htm), this is the industry standard name. Roughly, it is also close to a 3/32" ID o-ring with a 7/32" OD. Funny enough, no one sold them on the island on Sunday! The smallest that I found at my local hardware and parts stores had 006 o-rings. I ordered them online instead and should be installing them soon.
 
-![Good o-rings](https://www.sudoyashi.com/assets/img/cabby/returend/cabby-returned-3.jpg)
+![Good o-rings](https://www.sudoyashi.com/assets/img/cabby/returned/cabby-returned-3.jpg)
 
 In the meantime, I installed some used o-rings I had which were still in decent shape. They WILL need a replacement, so I'll hold off on fine-tuning until after that.
 
 ## Don't follow me, project cars suck lol.
 
-![My office for the past few weeks](https://www.sudoyashi.com/assets/img/cabby/returend/cabby-returned-4.jpg)
+![My office for the past few weeks](https://www.sudoyashi.com/assets/img/cabby/returned/cabby-returned-4.jpg)
 
-I've lost some weight. I've neglected other tasks. I've been eating less. I've been feeling irritable. 
+I've lost some weight. I've neglected other tasks. I've been eating less. I've been irritable. 
 
 There is a price to pay when you're in a sprint to finish and complete a project and I'm lucky that this time it hasn't consumed me. But it can get worse and I could have gone deeper into a rabbit hole. I'm proud of my work and I'm thankful I have the motivation and opportunity to do it.
 
