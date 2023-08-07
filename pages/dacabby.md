@@ -58,13 +58,13 @@ More information provided by [cabby-info.com](https://www.cabby-info.com/engine.
 
 The part that I've invested in the most since owning the car and what was stopping the car from moving in the first place.
 
-![1985 Golf Mk1 convertible](/assets/img/carbconversion-1.jpg)
+![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/carbconversion-1.jpg)
 
 **CIS is out. Carburetors are in.**
 
 - Originally manufactured with CIS (Continuous Injection System), the system was replaced with a simpler carburetor system. 
 - Manifold and head flange made by DanST Engineering. Made decently well. Carburetor adapter kit was great, though the head flange I will say is not so user-friendly with where the bolts were placed. I don't think there was much room but oh well, haha. 
-- ![1985 Golf Mk1 convertible](/assets/img/intake-manifold.JPG)
+- ![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/intake-manifold.JPG)
 - ~1997 ZX6R Carburetors for a ~600CC motorcycle
   - Main jet per cylinder 1-2-3-4:
     - 155-160-160-155
@@ -80,7 +80,7 @@ The part that I've invested in the most since owning the car and what was stoppi
 
 ### Air and Exhaust
 
-![1985 Golf Mk1 convertible](/assets/img/cabby-rear-1.jpg)
+![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/cabby-rear-1.jpg)
 
 - Carbureted air intake with Picross carb air filter
 - Techtonics Tuning  (TT) 4-to-1 headers, made for an ABA/JH mod, but for now I am full JH. No clearance issues. Removed the front sway bar.
@@ -88,13 +88,28 @@ The part that I've invested in the most since owning the car and what was stoppi
 
 ## Wheels and Suspension
 
-![1985 Golf Mk1 convertible](/assets/img/cabby-gallery-6.jpg)
+![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/cabby-gallery-6.jpg)
 
 - Solowerks Coilovers, front and rear
 - 15x6.5 BBS RM on 185/55 R15 Arroyo Grand Sport; installed
 - Slight rub on bumps, but otherwise decent setup
 
-![1985 Golf Mk1 convertible](/assets/img/suspension-1.jpg)
+![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/suspension-1.jpg)
+
+### Front suspension
+
+- Front suspension, SoloWerks coilovers
+- Polyurethane control arm bushings, all polyurethane
+- No sway bar, as of 8/7/2023
+- No upper strut bar, as of 8/7/2023
+
+### Rear suspension
+
+- 29mm Neuspeed sway bar with cut universal 29mm Prothane sway bar bushings
+- Rear axle beam bushings, rubber
+- Rear suspension, SoloWerks Coilovers with 100mm from bottom thread to bottom locking perch
+- Rear bushings, polyurethane strut tower bushings
+
 
 ## Cooling
 
