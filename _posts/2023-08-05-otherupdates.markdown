@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The cab is back on the road"
-date:   2023-08-07 00:00:00 -1000
+date:   2023-08-06 00:00:00 -1000
 categories: Volkswagen golf cabby projectcar bikecarburetors
 image: /cabby/returned/cabby-returned-6.jpg
 ---
