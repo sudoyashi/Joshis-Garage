@@ -34,6 +34,7 @@ Refuse to give up, and you shall be rewarded... probably. It worked for me.
 - 90HP at 5500 rpm
 - 105 lb ft torque at 3250 rpm
 - 8.5:1 compression
+- Generally, you will not make that much power above 5500RPM unless your cam was designed for it
 
 **Head:** no modifications, decked flat block
 
@@ -48,7 +49,9 @@ Refuse to give up, and you shall be rewarded... probably. It worked for me.
 
 - Engine Code: JH
 - Modifications:
-  - Decked 0.04" by Ted's Automotive Shop
+  - Face decked 0.04" by Ted's Automotive Shop
+
+- Issues: valve cover surface needs to be resurfaced. Studs need to be redone. Valves tapping, needs adjustment
 
 **Block:** Stock JH block, no modifications
 
@@ -62,29 +65,31 @@ The part that I've invested in the most since owning the car and what was stoppi
 
 **CIS is out. Carburetors are in.**
 
-- Originally manufactured with CIS (Continuous Injection System), the system was replaced with a simpler carburetor system. 
+- Originally manufactured with CIS (Continuous Injection System), the system was replaced with a motorcycle carburetor
 - Manifold and head flange made by DanST Engineering. Made decently well. Carburetor adapter kit was great, though the head flange I will say is not so user-friendly with where the bolts were placed. I don't think there was much room but oh well, haha. 
 - ![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/intake-manifold.JPG)
+- Redesigned manifold flange because the 1.8 DX, EX head did not account for the 5th hole
 - ~1997 ZX6R Carburetors for a ~600CC motorcycle
   - Main jet per cylinder 1-2-3-4:
-    - 155-160-160-155
-  - Idle/Pilot Jet: 50 @ 2.5 turns out (02.18.2022 - 11.6 AFR, very rich)
-  - ~~Needle  jet, stock size @ position 4~~
-  - Update: 7/6/2023, needle jet, 3 and 4 have lightly bent needles. Stock size jet @ position 3 to lean AFR from 1/8-3/4 throttle
+    - 160-165-165-160
+  - Idle/Pilot Jet: 38 @ 2.5 turns out (8/7/2023 - 12.5 AFR, rich)
+  - Needle jet, 3rd position. Carburetor 3 and 4 have lightly bent needles. 
   - AFR Estimates
 
 | Date     | Idle                     | 1/4 Throttle                 | 1/2 Throttle | Full Throttle | Last Service |
 | -------- | ------------------------ | ---------------------------- | ------------ | ------------- | ------------ |
 | -        | 11.4-11.7 (VERY RICH)    | 13.5 (ok)                    | 14.2-6       | 14.4-15.3     | -            |
 | 7/6/2023 | 13.2-15.1 (RICH->STOICH) | 12.2-13.1 (lean it out more) | 14.2-6       | 14.4-15.3     | 7/6/2023     |
+|8/7/2023  | 12.5-13.0 (RICH)         | 13.5-14.0 (good!)            | 14.0         | 15.0-16.5 (lean) | 8/7/2023 |
 
 ### Air and Exhaust
 
 ![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/cabby-rear-1.jpg)
 
-- Carbureted air intake with Picross carb air filter
+- Pipercross carb air filter
 - Techtonics Tuning  (TT) 4-to-1 headers, made for an ABA/JH mod, but for now I am full JH. No clearance issues. Removed the front sway bar.
 - Techtonics Tuning (TT) ex cat-back exhaust system
+- PCV vented to atmospher from valve cover
 
 ## Wheels and Suspension
 
@@ -100,7 +105,7 @@ The part that I've invested in the most since owning the car and what was stoppi
 
 - Front suspension, SoloWerks coilovers
 - Polyurethane control arm bushings, all polyurethane
-- No sway bar, as of 8/7/2023
+- No sway bar, as of 8/7/2023 because of clearance issues with 4-to-1 headers. Okay for now to make rear stiffer than front for better (perceived) rotation
 - No upper strut bar, as of 8/7/2023
 
 ### Rear suspension
@@ -113,14 +118,12 @@ The part that I've invested in the most since owning the car and what was stoppi
 
 ## Cooling
 
-- VW GL 13 Pink Coolant, about 1.5 jugs (gal)
+- VW GL 12evo Pink Coolant, about 1.5 jugs (gal), as of 8/7/2023
 - Aluminum radiator with dual fans
   - $280 [FSMoto Racing Radiator + Shroud + Fans for VW Golf GTI 1.8]()
-- Dorman Coolant Temperature Sensor, fitted to upper radiator hose
-- Thermostat: 
-- Fan thermoswitch range: 
-- Stock head temperature switch:
-- [CAD Radiator shield, improve air ducting by blocking air overflow](https://www.sudoyashi.com/radiatorshield)
+- Dorman Coolant Temperature Sensor, fitted to upper radiator hose to Equus mechanical water temperature gauge 
+- Thermostat: opens at 70C
+- Fan thermoswitch range: 85C (low), 93C (hi)
 
 <hr>
 
