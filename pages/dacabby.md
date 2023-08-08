@@ -120,8 +120,9 @@ The part that I've invested in the most since owning the car and what was stoppi
 
 - VW GL 12evo Pink Coolant, about 1.5 jugs (gal), as of 8/7/2023
 - Aluminum radiator with dual fans
-  - $280 [FSMoto Racing Radiator + Shroud + Fans for VW Golf GTI 1.8]()
-- Dorman Coolant Temperature Sensor, fitted to upper radiator hose to Equus mechanical water temperature gauge 
+  - $280 [FSMoto Racing Radiator + Shroud + Fans for VW Golf GTI 1.8](https://www.ebay.com/itm/275849398540)
+  - Note 8/7/2023: I have no idea why the price jumped up to $1200. You would be better off looking at comparable alternatives
+- [Equus mechanical water temperature gauge](https://www.amazon.com/Equus-6242-Mechanical-Water-Temperature/dp/B000EVU8X4) fitted to upper radiator hose
 - Thermostat: opens at 70C
 - Fan thermoswitch range: 85C (low), 93C (hi)
 
