@@ -7,9 +7,9 @@ image: about.jpg
 
 ![Itsme](https://www.sudoyashi.com/assets/img/2022-update.jpg)
 
-hi, i'm josh.
+hi, i'm josh!
 
-I made this website to write about my hobbies because they end up too wordy to post on social media. Consolidating everything here will also make it easier to reference my projects and reference materials.
+These are my learning experiences in my personal projects, mostly about cars. I made this website to write about my hobbies because they end up too wordy to post on social media. Consolidating everything here will also make it easier to reference my projects and reference materials.
 
 So what does "sudoyashi" mean anyways?
 
