@@ -4,7 +4,7 @@ title: Home
 ---
 <center><h2>Cars and other obsesions.</h2>
 <p>
-My notes, photos, and other thoughts on DIY and other techincal stuff around cars. My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
+A self-taught "mechanic". Through trial and error, here are my notes, photos, and other thoughts on my DIY work with my project cars and other personal endeavors! My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
 <br><br>
 
 </center>
