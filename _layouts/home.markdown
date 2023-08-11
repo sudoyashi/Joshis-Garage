@@ -4,7 +4,7 @@ title: Home
 ---
 <center><h2>Cars and other obsesions.</h2>
 <p>
-A self-taught "mechanic". Through trial and error, here are my notes, photos, and other thoughts on my DIY work with my project cars and other personal endeavors! My unfortunate pride and joy is my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
+Work hard and make mistakes, eventually it'll all work out! Through a mild amount of trial and error, I've come to own a mildly successful project car—my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
 <br><br>
 
 </center>
