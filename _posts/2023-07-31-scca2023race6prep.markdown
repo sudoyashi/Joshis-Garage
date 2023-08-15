@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SCCA Race 6 - Yeehaw, let's get a racing!"
+title: "SCCA Race 6 - Wait, I got 3rd?!"
 author: "Joshua Domingo"
 date:   2023-08-14 00:00:00 -1000
 tags: race prep scca solo civicsi  
@@ -8,47 +8,13 @@ categories: cars scca civic
 image: /scca/race6/civic-si-prep.jpg
 ---
 
-## Race Prep
-
-As always, I need to prepare the car for racing so I flushed the brakes, checked on the tires, and contemplated on my racing strategy. Well, not really the last part, but I did do general maintenance.
-
-### OEM Honda Brake Fluid
-
-A fresh brake flush will reset the Civic back to benchmark stats for performance. For this 2019 Honda Civic Si, I used two bottles of 12oz Genuine Honda Fluid 08798-9008 DOT 3 Brake Fluid, available at your local Honda dealership or somewhere similar. In the spirit of SCCA solo racing, we flushed it by ourselves.
-
-![Oil change](https://sudoyashi.com/assets/img/scca/race6/oilchange.jpg)
-
-Inittially, I had this trick vacuum bleeder tool ready to bleed breaks only to find out that I had the wrong hose ends to link the new adapter and my hand pump. We went back to the tried and true gatorade bottle.
-
-To bleed brakes by yourself, just make sure that the hose is submerged in fluid at all times.
-
-1. Connect the hose from your gatorade bottle to the bleed port. OK to have no fluid in the hose since we're just starting.
-2. Open the bleeder valve
-3. Pump your brakes slowly and continuously. A good 3-5 second push down to the floor, then return to the normal position
-4. Check your brake fluid gatorade bottle and inspect the color
-5. Check your brake reservoir and top up as needed
-6. Repeat until the brakes come out golden shower yellow, or whatever color your brake fluid is.
-
-By keeping the hose submerged in brake fluid and hooking up the other end to your bleeder valve, you can mitigate the chance of adding air to your brake system.
-
-## Tires, could be better
-
-These tires are about 8 months old now and they definitely don't have the same grip from the first few races. As much as I would love to buy new tires, we don't have the disposable income for that.
-
-## Changes from the first half of the season
-
-None! I will not be making any setup changes other than tire pressures
-
-Tire pressures, top-left is the driver, front-left tire, LHD.
-
-| 35   | 35   |
-| ---- | ---- |
-|  37    |  37    |
-
-## My Race Results
-
+According to the online results, I got 3rd?! I swear I hit a cone on my last lap and got a +1 (2 second penalty), but I guess it wasn't factored into the final tally. On paper, I've gotten my first podium, but I don't want to celebrate until I get a definitive 1st place. But in any case, it's Honda domination in the top 3 LOL.
 
 ## Racing is better with friends
+
+I'm grateful that I made friends throughout this racing forray. Between the MR2 guys with Euler, Mike, and Josh (aka Spyderman), Matteo in his NB Miata, Paul, Christian, Bryce, and a handful more, racing amongst friends was absolutely a blast. A new face, Dustin, is planning to bring his Aristo to the next race and I can't wait to see that thing rip.
+
+First coming out to the races, it was very hard to talk to the other drivers because everything seems 
 
 ## Is the cabby racing???
 
