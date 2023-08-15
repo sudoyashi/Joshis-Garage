@@ -76,8 +76,10 @@ In the meantime, past Josh stowed away some used o-rings I had which were still 
 
 I've lost about 5% bodyweight. My room and personal life went into a bit of disarray. I've been eating less. Less sleep. Everything just reminded me of finals week in college, lol.
 
-Your time is worth a lot and with every project, you have to consider the cost of money and time. Ideally, I'd love for someone else to do my work as long as I get to drive my car. There is a price to pay when you're in a sprint to finish and complete a project and I'm lucky that this time it hasn't consumed me. I'm proud of my work and I'm thankful I have the motivation and opportunity to do it, but my goodness this passion project really tests me, haha.
+Your time is worth a lot and with every project, you must consider your opporuntiy cost, the cost of money and time. Honestly, I'd love for someone else to do my work as long as I get to drive my car. There is a price to pay when you're in a sprint to finish and complete a project and I'm lucky that this time it hasn't consumed me. I'm proud of my work and I'm thankful I have the motivation and opportunity to do it, but my goodness this passion project really tests me, haha.
 
-I think everyone should find a project that is worth pushing their mental and physical abilities. Use it or lose it. We love to hate our projects, in the end, but at least my website will be proof it all happened. At the end of the day, when you do drive your project car. The pain is all but a memory and then something else happens, haha.
+But you have to ask yourself, what do you really value? What can you afford? Do you really want this? If the answer comes clear for any of these questions, it's a matter of logistics and planning. Everything is possible after that. But if you have doubts and question your motives and decisions, then reconsider why you're doing something in the first place. The world becomes a place of sufferring the moment you don't like it, but you'll power through that sufferring when you decide figure out it's important to you.
+
+Everyone should find a project that is worth pushing their mental and physical abilities. Use it or lose it. We love to hate our projects, in the end, but at least my website will be proof it all happened. At the end of the day, when you do drive your project car. The pain is all but a memory... and then something else happens, haha.
 
 Refuse to give up!
