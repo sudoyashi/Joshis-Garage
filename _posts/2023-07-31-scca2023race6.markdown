@@ -2,7 +2,7 @@
 layout: post
 title: "SCCA Race 6 - Wait, I got 3rd?!"
 author: "Joshua Domingo"
-date:   2023-08-18 00:00:00 -1000
+date:   2023-08-17 00:00:00 -1000
 tags: race prep scca solo civicsi  
 categories: cars scca civic
 image: /scca/race6/civic-si-prep.jpg
