@@ -7,19 +7,22 @@ image: about.jpg
 
 ![Itsme](https://www.sudoyashi.com/assets/img/2022-update.jpg)
 
-hi, i'm josh!
+Hi, i'm josh!
 
-These are my learning experiences in my personal projects, mostly about cars. I made this website to write about my hobbies because they end up too wordy to post on social media. Consolidating everything here will also make it easier to reference my projects and reference materials.
+These are my experiences with my projects and hobbies--but really it's mostly about cars LOL. I created this website to write about my hobbies because my posts tend to get too long for social media. Having everything in one place makes it easy to refer back to my projects and resources.
 
-So what does "sudoyashi" mean anyways?
+## So what does "sudoyashi" mean anyways?
 
-It's a combination of two things: sudo and my name Josh.
+A combination of my professional self and personal mentality.
 
-## "sudo"
+**"sudo"**
 
-I learned about computers and machines when I stepped into the Linux world. I was the only IT staff at an elementary school and learned to do more with the `sudo` command on the MacOS machines. The `sudo` command originally stood for "superuser do, " giving you temporary admin permissions to do anything you wanted. Sudowoodo also was my favorite Pokemon at this time because the 'mon is ridiculous and funny to look at.
+I didn't really start learning about computers and machines until I got my first professional job in 2018. As the sole IT staff at an elementary school, I got familiar with the sudo command on MacOS machines. I learned that `sudo` was short for "superuser do," granting temporary admin permissions, and I happened to use that command a lot. As an added bonus, Sudowoodo is also my favorite pokemon.
 
-## "-yashi" 
-Josh or Joshi. I studied abroad in Korea, and it was much easier to say Joshi because of how language works. I liked how it sounded, maybe because a cute Korean girl first said it to me, but I generally liked it, haha. While in Korea, I was trying to improve my Korean literacy and stumbled on the International Phonetic Alphabet (IPA) to help figure out the pronunciation of some words. Looking at the [IPA chart](https://www.ipachart.com/), the letter *j* represented the Palatal Approximant sound--essentially the sound of the letter "y." So Joshi became yashi.
+**"-yashi"**
 
-To me, sudoyashi means to refuse to give up; I encourage everyone that we can do anything and do everything and it became my guiding principle to keep trying everything I can for the things I enjoy. I like to do a lot of things myself, so naturally, the DIY mentality of solving my problems is something I take pride in. I can't do everything I want, and some things I found out I am awful at, like sewing. But you live and learn. Life is short, and I want to make the most of it.
+While studying abroad in Korea, I found it easier to go by "Joshi" due to language dynamics. I liked the sound of it. While improving my Korean, I encountered pronunciation challenges. This led me to the International Phonetic Alphabet (IPA), where the sound "yuh" is represented by the English letter j. So, "Joshi" became "yashi."
+
+When trying to come up with a cool name that actually meant something to me, this is what I came with--sudoyashi. Refuse to give up.
+
+I remember the times I was in Peace Corps where I was mentally and physically strained to my limits working with limited resources in Central Uganda. I remember the times working on my project cars, snapping rusty bolts, overheating, and literal fires. And I remember that I overcame those obstacles and came out better than I did before. I can't do everything I want, and often I find myself to know that I'm not naturally good at a lot of things, like sewing, but life is short. Whether the times are good or bad, you'll find a way to live through it, so let's make the most of it!
