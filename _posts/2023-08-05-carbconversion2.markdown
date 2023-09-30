@@ -2,7 +2,7 @@
 layout: post
 title:  "Bike Carb Conversion Guide"
 author: "Joshua Domingo"
-date:   2023-08-31 00:00:00 -1000
+date:   2099-08-31 00:00:00 -1000
 categories: projectcar cabby
 tags: cars, audi, volkswagen, vag
 image: carbconversion-1.jpg
@@ -10,13 +10,13 @@ image: carbconversion-1.jpg
 
 Individual throttle bodies, if you're not fast at least make it sound good!
 
-## Revision Intro
+## Revisions - Better
 
 I've written an intro guide back in 2022 and it was good... but I'm BETTER now. I've learned a lot more and addressed a lot more of the issues with learning this setup long-term (longer than 1 year) so I wanted to share my experience with my bike carburetor (ITBS) conversion setup, moving forward from bike carbs, and applying this knowledge in the future. As this is a revision, you can read the original guide [here](https://www.sudoyashi.com/carbconversion) but trust me, this version 2.0 is going to be better.
 
-A carb conversion is nothing more than a fuel system modification. Similiarly with converting to a standalone ECU or converting to EFI, all of these are significant projects where if you don't know what you're doing you must be methodical and anal about what you do before you break an engine. Blowing an engine or causing a fire does not make you a better tuner from the "experience".
+A carb conversion is just a shitty fuel system. Let me clear, you are far better off converting to a standalone ECU or converting to EFI because the end result is far more efficient, safer, and has more potential for power. If you don't know what you're doing you must be methodical and anal about what you do before you break an engine. Blowing an engine or causing a fire does not make you a better tuner from the "experience."
 
-Let's get started.
+But if you're silly like my and are a glutton for punishment, let's get started.
 
 ## The Conversion Roadmap for a Golf MK1
 
@@ -31,6 +31,18 @@ Like I mentioned earlier, fuel systems can get complicated fast! So let's hone i
 7. Connect your fuel system to an ECU, distributor, or other ignition system
 8. Address your vacuum and intake systems
 9. Tune to your desired AFR specs
+
+```
+flowchart TD
+    A[1. Prepare the fuel tank] -->|Get money| B[2. Choose a fuel pump]
+    B --> C[3. Choose your fuel filters]
+    C --> D[4. Adapt your fuel lines]
+    D --> |Optionally add AFR gauge| E[5. Install fuel pressure gauge, regulator]
+    E --> F[6. Install your EFI or Carbs]
+    F --> G[7. Tune to your desired AFR]
+    G --> H[8. Done]
+  
+```
 
 ### My Volkswagen diagrams for a carb conversion
 
