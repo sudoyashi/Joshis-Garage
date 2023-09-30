@@ -1,6 +1,14 @@
+---
+layout: post
+title:  "Brief Coolant Temperature Research"
+author: "Joshua Domingo"
+date:   2099-08-31 00:00:00 -1000
+categories: projectcar cabby
+tags: cars, audi, volkswagen, vag
+image: carbconversion-1.jpg
+---
+
 ## Brief Coolant Temperature Research
-
-
 
 What happens when an engine overheats or runs too hot?
 
