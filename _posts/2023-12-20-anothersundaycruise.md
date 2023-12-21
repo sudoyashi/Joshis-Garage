@@ -12,6 +12,7 @@ It's August 12, 2023, a nice and warm day.
 The last couple of cruises I've taken the cab has been well worth the work. The car never lives up to its mechanical prowess in its heyday, but the ability to fix the car with a few turns of a wrench is a quirk in its own right. But it's rewarding to see my hard work come to fruition.
 
 ## **The night before**
+![Quick repairs](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-6.jpg)
 
 I had to do a few repairs a few days before; my oil pressure light was blinking, and that's never a good sign, so I had to check it out and inspect the sensor and wiring. Fortunately, a new sensor and wire crimped onto the sender solved the issue. Off we go!
 
@@ -31,19 +32,16 @@ I cranked the car, and it was the dreaded sound of the starter turning repeatedl
 
 After many turns with my tiny wrench to get the clamps back on, the car starts like a dream. With the ITBS roaring, away we go.
 
-## **My backyard is someone else's vacation**.
-
-![Loose hose](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-2.jpg)
-
-I constantly remind myself that where I live is always someone else's vacation. It's a place where people might save for months just to come here, and here we are, just driving along on another Saturday. Life is pretty good, after all. We stopped to pick up food at Kahuku Farms and Romy's shrimp, then off to the beach. Clear skies, and the cab is still pushing on.
-
-![Loose hose](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-3.jpg)
+## **My backyard is someone else's vacation**
 
 ![Loose hose](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-4.jpg)
+
+I constantly remind myself that where I live is always someone else's vacation. It's a place where people might save for months just to come here, and here we are, just driving along on another Saturday. Life is pretty good, after all. We stopped to pick up food at Kahuku Farms and Romy's shrimp, then off to the beach. Clear skies, and the cab is still pushing on.
 
 I've been conflicted now and then about whether I should keep the car because of its lack of power, small community, and constant frustration and money; I've sunk into the car. But sometimes, the payoff comes from days like this day. It's nice.
 
 ## **Small wins and appreciating now**
+
 ![Loose hose](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-5.jpg)
 
 Growing up, I've always wanted to be the breadwinner, the undeniable winner or champion of something. I wanted the glory and satisfaction of being the best, but I always failed to achieve the top step. But in some cases, I was the undeniable winner in other circumstances. Surprisingly, winning big never gave me the satisfaction I thought I was seeking. The more I went through these kinds of experiences, the enjoyment of life was at its peak when I appreciated what I have now. But this is different than settling.
