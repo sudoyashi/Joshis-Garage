@@ -5,14 +5,14 @@ author: "Joshua Domingo"
 date:   2023-12-19 00:00:00 -1000
 tags: cruise cabby golfmk1 goflcabriolet vw 
 categories: cars
-image: /cabby/sunday-cruise/sunday-cruise-4.jpg
+image: /cabby/sunday-cruise/sunday-cruise-9.jpg
 ---
 It's August 12, 2023, a nice and warm day.
 
 The last couple of cruises I've taken the cab has been well worth the work. The car never lives up to its mechanical prowess in its heyday, but the ability to fix the car with a few turns of a wrench is a quirk in its own right. But it's rewarding to see my hard work come to fruition.
 
 ## **The night before**
-![Quick repairs](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-6.jpg)
+![Quick repairs](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-8.jpg)
 
 I had to do a few repairs a few days before; my oil pressure light was blinking, and that's never a good sign, so I had to check it out and inspect the sensor and wiring. Fortunately, a new sensor and wire crimped onto the sender solved the issue. Off we go!
 
