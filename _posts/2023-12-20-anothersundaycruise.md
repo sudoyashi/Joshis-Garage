@@ -2,7 +2,7 @@
 layout: post
 title: "Another Sunday Cruise"
 author: "Joshua Domingo"
-date:   2023-08-12 00:00:00 -1000
+date:   2023-12-19 00:00:00 -1000
 tags: cruise cabby golfmk1 goflcabriolet vw 
 categories: cars
 image: /cabby/sunday-cruise/sunday-cruise-4.jpg
