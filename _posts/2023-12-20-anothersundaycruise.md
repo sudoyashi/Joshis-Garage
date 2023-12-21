@@ -44,7 +44,7 @@ I've been conflicted now and then about whether I should keep the car because of
 
 ![Loose hose](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-5.jpg)
 
-Growing up, I've always wanted to be the breadwinner, the undeniable winner or champion of something. I wanted the glory and satisfaction of being the best, but I always failed to achieve the top step. But in some cases, I was the undeniable winner in other circumstances. Surprisingly, winning big never gave me the satisfaction I thought I was seeking. The more I went through these kinds of experiences, the enjoyment of life was at its peak when I appreciated what I have now. But this is different than settling.
+Growing up, I've always wanted to be the breadwinner, the undeniable winner or champion of something. I wanted the glory and satisfaction of being the best, but I always failed to achieve the top step. But every now and then, I am the winner. I get to be on the top step. Perfect. Unsurprisingly, winning big never gave me the satisfaction I thought I was seeking. The more I went through these kinds of experiences, the enjoyment of life was at its peak when I appreciated what I have now. But this is different than settling.
 
 Settling has a soft, negative connotation that one has given up and realized that this is the best we can do. But we must learn to settle and recognize where we want to go. Achieving something you want is a process, and settling is only a phase we must understand in the long run. It helps to see our situation's reality and realign what we can aim for next. From Robert E. Goodin's "On Settling," the world is complex, and for most people, we have to go through some level of settling to see where we want to go; it's the idea of striving.
 
