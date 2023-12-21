@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-12-19 00:00:00 -1000
 tags: cruise cabby golfmk1 goflcabriolet vw 
 categories: cars
-image: /cabby/sunday-cruise/sunday-cruise-9.jpg
+image: /cabby/sunday-cruise/sunday-cruise-4.jpg
 ---
 It's August 12, 2023, a nice and warm day.
 
