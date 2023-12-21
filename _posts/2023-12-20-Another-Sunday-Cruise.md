@@ -1,6 +1,13 @@
-# **A Sunday Cruise**
-
-August 12, 2023
+---
+layout: post
+title: "Another Sunday Cruise"
+author: "Joshua Domingo"
+date:   2023-08-12 00:00:00 -1000
+tags: cruise cabby golfmk1 goflcabriolet vw 
+categories: cars
+image: /cabby/sunday-cruise/sunday-cruise-4.jpg
+---
+It's August 12, 2023, a nice and warm day.
 
 The last couple of cruises I've taken the cab has been well worth the work. The car never lives up to its mechanical prowess in its heyday, but the ability to fix the car with a few turns of a wrench is a quirk in its own right. But it's rewarding to see my hard work come to fruition.
 
