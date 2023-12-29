@@ -5,7 +5,7 @@ author: "Joshua Domingo"
 date:   2023-12-19 00:00:00 -1000
 tags: cruise cabby golfmk1 goflcabriolet vw 
 categories: cars
-image: /cabby/sunday-cruise/sunday-cruise-4.jpg
+image: /cabby/sunday-cruise/sunday-cruise-5.jpg
 ---
 It's August 12, 2023, a nice and warm day.
 
@@ -42,14 +42,16 @@ We made our way down through Haleiwa, and as we passed through the swaths of tou
 
 I've been conflicted now and then about whether I should keep the car because of its lack of power, small community, and constant frustration and money; I've sunk into the car. But sometimes, the payoff comes from days like this day.
 
-## **Small wins and appreciating now**
+## **The car is shit, but I'm proud becaues it's mine**
 
-![Loose hose](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-5.jpg)
+Let's take the cabby, for example.
 
-Growing up, I've always wanted to be the breadwinner, the undeniable winner or champion of something. I wanted the glory and satisfaction of being the best, but I always failed to achieve the top step. But every now and then, I am the winner. I get to be on the top step. Perfect. Unsurprisingly, winning big never gave me the satisfaction I thought I was seeking. The more I went through these kinds of experiences, the enjoyment of life was at its peak when I appreciated what I have now. But this is different than settling.
+There were many days where I seriously could not wrap my head around a certain problem when diagnosing an issue on this Volkswagen. It's my first project car and there were so many little things that I did not have the experience to understand and work my way through the problems this car had. In my naivete, I fixed problems the wrong way and made more problems than I solved them. And if you worked on a project car, you can empathize with those struggles.
 
-Settling has a soft, negative connotation that one has given up and realized that this is the best we can do. But we must learn to settle and recognize where we want to go. Achieving something you want is a process, and settling is only a phase we must understand in the long run. It helps to see our situation's reality and realign what we can aim for next. From Robert E. Goodin's "On Settling," the world is complex, and for most people, we have to go through some level of settling to see where we want to go; it's the idea of striving.
+If you haven't worked on a project car, frankly, you won't get it. You can only get the same kind of relief or victorious feeling when your car, that you've worked on week after week to start and be able to drive if you worked on a project car. There is no way around that experience. Maybe you can empathize and respect it, but you cannot know it.
 
-![Loose hose](https://www.sudoyashi.com/assets/img/cabby/sunday-cruise/sunday-cruise-6.jpg)
+There are so many things that we attempt to live vicariously through others that we inevitably attempt to rationalize things in our own way. And I'm guilty of thinking I understand something because someone told me about it all the time! There's respect when you know something, but there's humility in not knowing something and being able to balance both of those things consciously is something that I think people ought do more often. While I have worked on cars for 3 years, many people have worked on cars for 5, 10, or 20 years.
 
-So, the cabby could be better. It's honestly a death trap, and I have high anxiety every time I drive it. But each problem and worry allows me to create a solution and learn. The ongoing process of breaking and fixing the car has tired me out, and I've gotten sick of it some days, but at the end of the day, I don't regret it. It let me learn first-hand what I can and cannot do. It's my life, and I'm okay with that. I don't have the fastest or most iconic JDM car; it's a Golf. But this car has given me more opportunities to talk, share, and enjoy what I have now. And that's all right with me.
+Okay, I'm off my box.
+
+The cabby could be better. It's honestly a death trap, and I have high anxiety every time I drive it. But each problem and worry allows me to create a solution and learn. The ongoing process of breaking and fixing the car has tired me out, and I've gotten sick of it some days, but at the end of the day, I don't regret it. The car literally caught on fire on me and while that is a shitty experience and I don't recommend that to everyone, it's something I can live with and tell others about. It's pretty funny now, haha. The car has given me more opportunities to talk, share, and enjoy what I have now. A rusty, crusty, ol' box that is adorable to look at and thrilling to drive.
