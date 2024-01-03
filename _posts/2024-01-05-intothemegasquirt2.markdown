@@ -29,10 +29,22 @@ Lets' breakdown the diagram into its logical parts
 5. MegaSquirt 2 ECU
 
 ## 1. Starter Circuit
+![Starter circuit](https://www.sudoyashi.com/assets/img/cabby/megasquirt/starter-circuit.jpg)
+
+The starter circuit features two major changes compared to the original wiring setup:
+
+1. Add 40A main relay
+2. Add starter relay
+
+The main relay is to give power to the fusebox that we will use for most of the newly installed engine management components. This includes the new fuel pump, ECU, lights, and cooling fan.
+
+The starter relay is to provide a safer route for electricity to pass from our ignition system. This will protect the fragile ignition switch which is prone to failure. I've replaced them three times and it's not that fun lol. The starter relay is always powered from pin 30. By switching the ignition using our key, we complete the the circuit between 85 and 86. This triggers that "click" you hear from relays and provides pin 87 with the power from pin 30. This triggers the solenoid, which attempts to start the car. 
 
 ## 2. Ignition circuit
 
+![Ignition circuit](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
+The ignition circuit is based off the Bosch 124 module, adapted to the MK1 ICM, where the two modules are very similar. However, the pinout is slightly different as seen below. Pinout tested on a 1985 Volkswagen Golf Cabriolet.
 
 | Pin   | Function  |      | Pin   | Function               |
 | ----- | --------- | ---- | ----- | ---------------------- |
@@ -47,11 +59,16 @@ Lets' breakdown the diagram into its logical parts
 | ICM/6 | Signal HE |      | ICM/6 | **DB37/36 IGN OUT**    |
 | ICM/7 |           |      | ICM/7 | -                      |
 
+The ignition circuit works like this:
+
+1. The VR sensor on the engine block detects engine speed from the crank, this is read from the 60-2 crank trigger wheel.
+2. The VR sensor sends a signal (DB37/24) to the MegaSquirt 2 (MS2) ECU, indicating the engine speed
+3. The ECU sends out a signal (DB37/36) to the ignition control module (ICM/6).
+4. The signal will trigger the ignition coil to ground at ICM/1, completing the trigger event and sends the high-current voltage to the distributor, which will send that to the spark plug.
+
 ## 3. Fusebox
 
 ## 4. Headlights
-
-
 
 ## 5. MegaSquirt 2 ECU
 
