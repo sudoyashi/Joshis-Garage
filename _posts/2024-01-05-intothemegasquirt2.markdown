@@ -13,6 +13,8 @@ This is part 1 of whatever amount of posts I'm making to put this car together. 
 
 ![Part 1 - ECU](https://www.sudoyashi.com/assets/img/cabby/megasquirt/part1-ecu.jpg)
 
+https://www.sudoyashi.com/assets/img/cabby/megasquirt/starter-circuit.jpg
+
 ## The Wiring Diagram
 ![Wiring diagram snip](https://www.sudoyashi.com/assets/img/cabby/megasquirt/mk1-aba-ms2-wiringdiagram.jpg)
 This is MY diagram, some things may not apply to you, so be cautious on copying my diagram lol. However, this should apply to most MK1 JH->ABA swaps using a MegaSquirt.
@@ -28,7 +30,7 @@ Lets' breakdown the diagram into its logical parts
 4. Headlights
 5. MegaSquirt 2 ECU
 
-## 1. Starter Circuit
+## Starter Circuit
 ![Starter circuit](https://www.sudoyashi.com/assets/img/cabby/megasquirt/starter-circuit.jpg)
 
 The starter circuit features two major changes compared to the original wiring setup:
@@ -40,7 +42,7 @@ The main relay is to give power to the fusebox that we will use for most of the 
 
 The starter relay is to provide a safer route for electricity to pass from our ignition system. This will protect the fragile ignition switch which is prone to failure. I've replaced them three times and it's not that fun lol. The starter relay is always powered from pin 30. By switching the ignition using our key, we complete the the circuit between 85 and 86. This triggers that "click" you hear from relays and provides pin 87 with the power from pin 30. This triggers the solenoid, which attempts to start the car. 
 
-## 2. Ignition circuit
+## Ignition circuit
 
 ![Ignition circuit](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
@@ -66,17 +68,21 @@ The ignition circuit works like this:
 3. The ECU sends out a signal (DB37/36) to the ignition control module (ICM/6).
 4. The signal will trigger the ignition coil to ground at ICM/1, completing the trigger event and sends the high-current voltage to the distributor, which will send that to the spark plug.
 
-## 3. Fusebox
+## Fusebox
 
-## 4. Headlights
+## Headlights
 
-## 5. MegaSquirt 2 ECU
+## MegaSquirt 2 ECU
+
+The MS2 ECU wiring diagram was used as a starting point for my wiring setup. Some components are not used as a result seen in the modified diagram.
 
 ### Original diagram for MS2
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
 ### Modified diagram for MS2 on ABA
+
+The main changes I made in my setup are removing the idle wiring, the relay and fuses were routed into a fusebox instead, and the VR sensor wiring is slightly different than what is depicted above.
 
 The DB37 pin #36 is an **output**, used to control an ignition module, or control a coil directly (if the high current ignition driver circuit is installed). It only needs to be connected if you are [controlling ignition timing and dwell](http://www.megamanual.com/ms2/Ignition.htm). The **ignition control signal** from MegaSquirt-II on DB37 pin#36 corresponds to the relay board pin **S5** of the 20 position terminal strip.
 
@@ -151,7 +157,7 @@ Lower temperatures, higher resistance. Higher temperatures, lower resistance. No
 
 We ground this wire to the ECU, if we ground to the body or battery, the voltage drop may affect our reading. Grounding to the ECU stabilizes the sensor reading. This will apply to all sensors.
 
-#### Calibrating the IAT
+##### Calibrating the IAT
 
 Calibrate the IAT using known ambient air temperature values and measure the resistance across the two pins. Using a heat gun, heat the sensor, and record the resistance with a multimeter.
 
@@ -165,7 +171,7 @@ In our case, we're using the GM IAT sensor calibrated with the following table o
 | 87 degrees F  | 1930 |
 | 146 degrees F | 560  |
 
-### 4. Engine Coolant Temperature Sensor
+#### 4. Engine Coolant Temperature Sensor
 
 Similar to the IAT, the Engine Coolant Temperature will change its resistance according to the physical change in temperature across the sensor. This signal is sent to the ECU, which will be converted to a real number.
 
