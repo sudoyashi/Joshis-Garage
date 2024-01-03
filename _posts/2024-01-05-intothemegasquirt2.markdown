@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing the Megasquirt 2 plan"
 author: "Joshua Domingo"
-date:   2023-01-05 00:00:00 -1000
+date:   2023-01-02 00:00:00 -1000
 tags: cabby golfmk1 goflcabriolet vw efi megasquirt ecu
 categories: cars cabby
 image: /cabby/megasquirt/megasquirt-1.jpg
@@ -12,8 +12,6 @@ Converting the Cabby from the bike carbs to EFI was going to be simple, but one 
 This is part 1 of whatever amount of posts I'm making to put this car together. I'm hoping just for five parts, but "while I'm in there syndrome" might hit.
 
 ![Part 1 - ECU](https://www.sudoyashi.com/assets/img/cabby/megasquirt/part1-ecu.jpg)
-
-https://www.sudoyashi.com/assets/img/cabby/megasquirt/starter-circuit.jpg
 
 ## The Wiring Diagram
 ![Wiring diagram snip](https://www.sudoyashi.com/assets/img/cabby/megasquirt/mk1-aba-ms2-wiringdiagram.jpg)
