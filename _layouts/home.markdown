@@ -2,9 +2,11 @@
 layout: default
 title: Home
 ---
-<center><h2>Cars and other obsesions.</h2>
+<center><h2>The pursuit of performance on a budget</h2>
 <p>
-Work hard and make mistakes, eventually it'll all work out! Through a mild amount of trial and error, I've come to own a mildly successful project car—my lil <a href="https://sudoyashi.com/dacabby">cabby</a>. I hate that car, but I love that car.
+Work hard and make mistakes. Eventually, it'll all work out! The pursuit of performance is decidedly moot; fast cars already exist. But I'm in it for the experience, and I hope to reveal to others that our personal projects won't solve your problems; they will only make new ones. It's all in fun, and maybe we'll get the result along the way.
+
+This is my website, dedicated to a life of projects and wonder. And this is my <a href="https://sudoyashi.com/dacabby">cabby</a>. It's not the fastest car, but it's my car.
 <br><br>
 
 </center>
