@@ -11,8 +11,7 @@ Converting the Cabby from the bike carbs to EFI was going to be simple, but one 
 
 This is part 1 of whatever amount of posts I'm making to put this car together. I'm hoping just for five parts, but "while I'm in there syndrome" might hit.
 
-
-
+![Part 1 - ECU](https://www.sudoyashi.com/assets/img/cabby/megasquirt/part1-ecu.jpg)
 
 ## The Wiring Diagram
 ![Wiring diagram snip](https://www.sudoyashi.com/assets/img/cabby/megasquirt/mk1-aba-ms2-wiringdiagram.jpg)
