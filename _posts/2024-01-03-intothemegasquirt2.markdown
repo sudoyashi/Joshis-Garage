@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing the Megasquirt 2 plan"
 author: "Joshua Domingo"
-date:   2023-01-02 00:00:00 -1000
+date:   2024-01-02 00:00:00 -1000
 tags: cabby golfmk1 goflcabriolet vw efi megasquirt ecu
 categories: cars cabby
 image: /cabby/megasquirt/megasquirt-1.jpg
