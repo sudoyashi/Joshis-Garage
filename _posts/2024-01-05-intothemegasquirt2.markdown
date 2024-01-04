@@ -2,7 +2,7 @@
 layout: post
 title: "Introducing the Megasquirt 2 plan"
 author: "Joshua Domingo"
-date:   2024-01-02 00:00:00 -1000
+date:   2024-01-05 00:00:00 -1000
 tags: cabby golfmk1 goflcabriolet vw efi megasquirt ecu
 categories: cars cabby
 image: /cabby/megasquirt/megasquirt-1.jpg
@@ -10,8 +10,6 @@ image: /cabby/megasquirt/megasquirt-1.jpg
 Converting the Cabby from the bike carbs to EFI was going to be simple, but one concern for me was the existing wiring for certain circuits. The fire damage left the headlights, starter, and engine harness damaged, so I'm redoing all of them and cleaning up the existing wiring. This is a look at the wiring diagram before I install it into the car, because of that, things might change once I actually install it.
 
 This is part 1 of whatever amount of posts I'm making to put this car together. I'm hoping just for five parts, but "while I'm in there syndrome" might hit.
-
-![Part 1 - ECU](https://www.sudoyashi.com/assets/img/cabby/megasquirt/part1-ecu.jpg)
 
 ## The Wiring Diagram
 ![Wiring diagram snip](https://www.sudoyashi.com/assets/img/cabby/megasquirt/mk1-aba-ms2-wiringdiagram.jpg)
@@ -44,8 +42,11 @@ The starter relay is to provide a safer route for electricity to pass from our i
 
 ![Ignition circuit](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
-The ignition circuit is based off the Bosch 124 module, adapted to the MK1 ICM, where the two modules are very similar. However, the pinout is slightly different as seen below. Pinout tested on a 1985 Volkswagen Golf Cabriolet.
+The ignition circuit diagram was modeled from the Bosch 124 module model but I adapted it to match the pinout of the MK1 ignition control module (ICM). The modules are very similar; however, the pinout is slightly different as seen below. Pinout tested on a 1985 Volkswagen Golf Cabriolet.
 
+*HE=hall-effect sensor; ICM=ignition control module*
+
+Modified ICM Pinout
 | Pin   | Function  |      | Pin   | Function               |
 | ----- | --------- | ---- | ----- | ---------------------- |
 | HE/1  | GND HE    |      | HE/1  | GND HE                 |
@@ -65,6 +66,7 @@ The ignition circuit works like this:
 2. The VR sensor sends a signal (DB37/24) to the MegaSquirt 2 (MS2) ECU, indicating the engine speed
 3. The ECU sends out a signal (DB37/36) to the ignition control module (ICM/6).
 4. The signal will trigger the ignition coil to ground at ICM/1, completing the trigger event and sends the high-current voltage to the distributor, which will send that to the spark plug.
+
 
 ## Fusebox
 
@@ -141,7 +143,7 @@ The final harness table looks like this:
 
 #### 1. Crank position sensor
 
-We will be using the ABA's stock crank position sensor, this is referred to as the engine speed sensor in the Bentley manual. In the MegaSquirt manual, we are referencing 5.2.10 and section 6, combining the VR sensor with the ignition coil.
+As mentioned above in the(ABA ignition circuit)[https://www.sudoyashi.com/intothemegasquirt2#ignition-circuit], we will be using the ABA's stock crank position sensor, this is referred to as the engine speed sensor in the Bentley manual but I refer to it as the VR sensor. VR or variable reluctance produces a sine wave, which gets converted into a square wave by the ECU. More info on this can be read elsewhere discussing VR sensors (here)[https://www.msgpio.com/manuals/vr.htm]. The MegaSquirt site is very tech heavy, it may take a few more websites to understand. In the (MS2V357 Hardware manual)[https://www.msextra.com/doc/pdf/MS2V357_Hardware-3.4.pdf], we are referencing 5.2.2 VR (magnetic sensor input), 5.2.10 Combined Ignition Module and section 6, combining the VR sensor with the existing ignition coil.
 
 #### 2. MAP Sensor
 
@@ -149,17 +151,19 @@ The on-board MS2 MAP sensor will be connected to our intake manifold with a 1/8"
 
 #### 3. Intake Air Calibration for GM IAT
 
-There are two wires for the IAT, ground and signal. The intake temperature is given to the ECU as some value generated from the sensor's thermistor, a variable resistor. As the temperature changes, the sensor mechanically reacts and creates a certain resistance. The ECU will read that resistance from the signal wire, convert that resistance, and assign a temperature value. 
+There are two wires for the IAT, ground and signal. The intake temperature is given to the ECU as some value generated from the sensor's thermistor, a variable resistor. As the temperature changes, the sensor mechanically reacts and generates a certain resistance. The sensor sends that signal to the ECU, where it will read that resistance as some temperature.
 
-Lower temperatures, higher resistance. Higher temperatures, lower resistance. Note that this is probably a non-linear function.
+Lower temperatures, higher resistance. Higher temperatures, lower resistance. It is usually a non-linear function.
 
 We ground this wire to the ECU, if we ground to the body or battery, the voltage drop may affect our reading. Grounding to the ECU stabilizes the sensor reading. This will apply to all sensors.
+
+The sensor will be in the intake manifold on cylinder 1 with a 3/8" NPT bung.
 
 ##### Calibrating the IAT
 
 Calibrate the IAT using known ambient air temperature values and measure the resistance across the two pins. Using a heat gun, heat the sensor, and record the resistance with a multimeter.
 
-In our case, we're using the GM IAT sensor calibrated with the following table of values:
+In our case, we're using the GM IAT sensor and it will be calibrated with the following table of values:
 
 **GM Intake Air Temperature (IAT) Sensor OE# 25036751 Calibration Values**
 
@@ -173,13 +177,24 @@ In our case, we're using the GM IAT sensor calibrated with the following table o
 
 Similar to the IAT, the Engine Coolant Temperature will change its resistance according to the physical change in temperature across the sensor. This signal is sent to the ECU, which will be converted to a real number.
 
-Lower temperatures, higher resistance. Higher temperatures, lower resistance. Note that this is probably a non-linear function.
+Lower temperatures, higher resistance. Higher temperatures, lower resistance. It is usually a non-linear function.
 
 We ground this wire to the ECU, if we ground to the body or battery, the voltage drop may affect our reading. Grounding to the ECU stabilizes the sensor reading. This will apply to all sensors.
 
-##### Calibrating the Coolant Temperature Sensor
+##### Calibrating the existing Coolant Temperature Sensor
 
-Calibrate the Engine Coolant Temperature (ECT) using known ambient water temperature values and measure the resistance across the two pins. Stick the sensor in some hot water and record the temperature and resistance across the two pins.
+We are using the VW OEM # ECT. This is the black body, yellow band, 4-pin sensor. The pinout, from what I've been reading and tested is as follows:
+
+ECT # Pinout, black body, yellow band
+
+| Pin  | Function |
+| ---- | -------- |
+| 1    |          |
+| 2    |          |
+| 3    |          |
+| 4    |          |
+
+Calibrate the Engine Coolant Temperature (ECT) using known ambient water temperature values and measure the resistance across the two pins. Put the sensor in some hot water and record the temperature and resistance across the two pins. A special note on the Volkswagen's 4-pin sensor, black body with yellow band, the pinout is as follows:
 
 In our case, the Bentley manual gave us the following table of temperature ranges.
 
@@ -187,11 +202,13 @@ In our case, the Bentley manual gave us the following table of temperature range
 
 The following table are the measured values from real testing. 
 
+**ECT Temperature and resistance**
+
 | Temperature | Actual Resistance (ohms) | Expected Resistance (ohms) |
 | ----------- | ------------------------ | -------------------------- |
-| 48F         | 7000                     | 7000 ()                    |
-| 87F         | 1930                     | 1930 ()                    |
-| 146F        | 560                      | 560 ()                     |
+|             |                          |                            |
+|             |                          |                            |
+|             |                          |                            |
 
 #### 5. TPS Sensor
 
