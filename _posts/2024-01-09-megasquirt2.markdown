@@ -11,6 +11,7 @@ The silly journey to put EFI on a 100HP car. This is long, so grab a cup of coff
 
 **Quick links.**
 You won't read this whole guide, it's long lol. So, here's the wiring diagram and parts list. Ya lazy bum.
+
 - [Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
 - [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
 
@@ -45,7 +46,7 @@ The final harness that I ended up with after removing wires I am not using looks
 
 ### Wire Harness Terminals DB-37 Connector Megasquirt II V3.0
 
-View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing.
+View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
 | Terminal or Pin | Color           | Function                                                     | IN/OUT  | Max Amps | Used? |
 | --------------- | --------------- | ------------------------------------------------------------ | ------- | -------- | ----- |
