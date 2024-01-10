@@ -9,6 +9,10 @@ image: /cabby/megasquirt/megasquirt-1.jpg
 ---
 The silly journey to put EFI on a 100HP car. This is a long one, so grab a cup of coffee and a notebook.
 
+**Quick links.** You probably won't read this whole guide, so here's the wiring diagram and parts list. Ya lazy bum.
+[Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
+[Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
+
 ![img](https://www.megamanual.com/ms2/v3components.gif)
 
 ## Introduction
@@ -153,6 +157,7 @@ After all of that, you should end up with something like this:
 
 The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper and you would find kits usually have the stamped terminals.
 
+**Stamped contacts**
 | Size | Socket (1062) | Pin (1060) | AWG | Material (XX) | PN | Qty | $ |
 | ---- | ------ | ---- | ------------ | -------- | ---- | ------------- | ------------- |
 | 12   | X      |      | 12           | Ni/Sn | 1062-12-0166 | 4 | $1 |
@@ -164,6 +169,7 @@ The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper a
 
 The premium option are usually solid contacts with gold would run me at least $106.99. This is also considering it's the UNIT cost, sometimes you can only buy some parts in bulk of 1000 or so, so this does not including shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
 
+**Solid Contacts**
 | Size | Socket (0462) | Pin (0460) | Expected AWG | Material (XX) | Part #        | Qty  | $      |
 | ---- | ------------- | ---------- | ------------ | ------------- | ------------- | ---- | ------ |
 | 12   | X             |            | 12           | Au            | 0462-210-1231 | 4    | $4.23  |
@@ -210,36 +216,29 @@ The plug side will be mounted on the firewall.
 
 #### Bulkhead Parts list
 
-| Item                                                         | Image                                                        | Description                                               | Part Number        | Quantity | Subtotal |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- | ------------------ | -------- | -------- |
-| Deutsch socket                                               | ![HDP24-24-29SE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5555/MFG_HDP24-24-29SE-L017.jpg) | Bulkhead plastic socket, 29-pin                           | HDP24-24-29SE-L017 | 1        |          |
-| Deutsch plug,                                                | ![HDP26-24-29PE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg) | Bulkhead plastic plug, 29-pin                             | HDP26-24-29PE-L017 | 1        |          |
-| Medium splice                                                | ![Medium splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg) | Splices for my 18-20AWG                                   | 63130-2            | 100      | $8.52    |
-| Large splice                                                 | ![Larger splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG) | Splices for my 14AWG                                      | 62357-1            | 100      | $11.25   |
-| Size 12 Receptacle pin (female)                              | ![12 pin](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG) |                                                           | 0460-XXX-12        |          |          |
-| Size 12 Plug pin (male)                                      | ![12 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                           | 0462-XXX-12        |          |          |
-| Size 16 Receptacle pin (female)                              | ![Size 16 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                           | 0460-XXX-16        |          |          |
-| Size 16 Plug pin (male)                                      | ![Size 16 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg) |                                                           | 0462-XXX-16        |          |          |
-| Size 20 Receptacle pin (female)                              | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg) | 16-20AWG, Gold, 0460-202-1631                             | 0460-XXX-20        |          |          |
-| Size 20 Plug pin (male)                                      | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG) | 16-20AWG, Gold, 0462-201-1631                             | 0462-XXX-20        |          |          |
-| Boot                                                         |                                                              | Protective boot                                           | HD30-24BT-BK       | 2        | $3.07    |
-| Terminal 2.8mm                                               |                                                              | General terminal for most pins and receptacles            |                    |          |          |
-| Terminal 6.8mm                                               |                                                              |                                                           |                    |          |          |
-| [Fuse holder terminal, at least 4.45mm](https://www.te.com/usa-en/plp/automotive-terminals/Y30g2.html?q=&n=127963&d=752372%20726177%20747739&type=products&samples=N&inStoreWithoutPL=false&instock=N) |                                                              | [5.8mm](https://www.te.com/usa-en/product-964203-5.html), |                    |          |          |
-|                                                              |                                                              |                                                           |                    |          |          |
+| Item                                  | Image                                                        | Description                                    | Part Number        | Quantity | Subtotal |
+| ------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------ | -------- | -------- |
+| Deutsch socket                        | ![HDP24-24-29SE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5555/MFG_HDP24-24-29SE-L017.jpg) | Bulkhead plastic socket, 29-pin                | HDP24-24-29SE-L017 | 1        |          |
+| Deutsch plug,                         | ![HDP26-24-29PE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg) | Bulkhead plastic plug, 29-pin                  | HDP26-24-29PE-L017 | 1        |          |
+| Medium splice                         | ![Medium splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg) | Splices for my 18-20AWG                        | 63130-2            | 100      | $8.52    |
+| Large splice                          | ![Larger splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG) | Splices for my 14AWG                           | 62357-1            | 100      | $11.25   |
+| Size 12 Solid Receptacle pin (female) | ![12 pin](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG) |                                                | (1060) 0460-XXX-12 |          |          |
+| Size 12 Solid Plug pin (male)         | ![12 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                | (1062) 0462-XXX-12 |          |          |
+| Size 16 Solid Receptacle pin (female) | ![Size 16 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                | (1060) 0460-XXX-16 |          |          |
+| Size 16 Solid Plug pin (male)         | ![Size 16 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg) |                                                | (1062) 0462-XXX-16 |          |          |
+| Size 20 Solid Receptacle pin (female) | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg) | 16-20AWG, Gold, 0460-202-1631                  | (1060) 0460-XXX-20 |          |          |
+| Size 20 Solid Plug pin (male)         | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG) | 16-20AWG, Gold, 0462-201-1631                  | (1062) 0462-XXX-20 |          |          |
+| Boot                                  | ![HD30 boot](https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220) | Protective boot                                | HD30-24BT-BK       | 2        | $3.07    |
+| Terminal 2.8mm                        |                                                              | General terminal for most pins and receptacles |                    |          |          |
+| Terminal 6.8mm                        |                                                              |                                                |                    |          |          |
+| Fuse holder with terminals            | ![DigiKey Fuseholder](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG) | Individual fuse holder                         | DigiKey, F5194-ND  |          |          |
+|                                       |                                                              |                                                |                    |          |          |
 
 ### Fuse and relay panel
 
 The Golf Mk1/Mk2 and Polo rally history is something that has always attracted me from my short time playing Dirt Rally 2.0. This is optional for most builds, but because I trust my Golf MK1 wiring as much as my parents with technology, I'm going to be rewiring some things to improve its reliability.
 
-#### Custom fusebox with fuse holders
-
-| Item                       |                                                              | Description | Part Number       | Quantity | Cost | Notes |
-| -------------------------- | ------------------------------------------------------------ | ----------- | ----------------- | -------- | ---- | ----- |
-| Individual fuse holder     | ![Fuseholder F5982-ND](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/404/178.6150.0001.jpg) |             | DigiKey, F5193-ND |          |      |       |
-| Fuse holder with terminals | ![DigiKey Fuseholder](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG) |             | DigiKey, F5194-ND |          |      |       |
-
-That's enough wiring techincalities, let's talk about the actual MegaSquirt now.
+That's enough wiring technicalities, let's talk about the actual MegaSquirt now.
 
 ## Defining the MegaSquirt functions
 
