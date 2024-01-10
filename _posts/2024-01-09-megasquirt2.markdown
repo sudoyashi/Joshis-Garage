@@ -46,6 +46,8 @@ The final harness that I ended up with after removing wires I am not using looks
 
 ### Wire Harness Terminals DB-37 Connector Megasquirt II V3.0
 
+![Wire Harness diagram](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-wiringdiagram.jpg)
+
 View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
 | Terminal or Pin | Color           | Function                                                     | IN/OUT  | Max Amps | Used? |
