@@ -101,7 +101,7 @@ The connector I plan on using is the Deutsch HDP connector. The parts list and c
 
 ### Bulkhead firewall (plug) pinout
 
-![Bulkhead pinout](https://www.sudoyashi.com/assets/img/cabby/megasquirt/bulkhead.jpg)
+![Bulkhead pinout](https://www.sudoyashi.com/assets/img/cabby/megasquirt/wiring-bulkhead.jpg)
 
 The plan is to take the wires from the MS2 harness and put it into the bulkhead connector. Since we know how many wires we want to use, this is how I decided on the 29-pin connector. If you need more pins and plan to include wiring for other components, factor that into your new connector. The table below shows the pins I'm using and what function from the MS2 or secondary fusebox it will provide. Find out what wire you want and if you plan to use wire splices.
 
@@ -143,7 +143,7 @@ The plan is to take the wires from the MS2 harness and put it into the bulkhead 
 
 #### The Deutsch Contact Size and you
 
-![image-20240105090623422](https://www.sudoyashi.com/assets/img/cabby/megasquirt/hdp29pinout-1.png)
+![HDP Pinout 1](https://www.sudoyashi.com/assets/img/cabby/megasquirt/hdp29pinout-1.jpg)
 
 Let's look into the Deutsch bulkhead connector. Do you know about the different materials and wire ranges between terminals? Here are 4 things to consider when choosing your connectors:
 
@@ -162,6 +162,7 @@ After all of that, you should end up with something like this:
 The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper, and you would find kits typically have the stamped terminals.
 
 **Stamped contacts**
+
 | Size | Socket (1062) | Pin (1060) | AWG | Material (XX) | PN | Qty | $ |
 | ---- | ------ | ---- | ------------ | -------- | ---- | ------------- | ------------- |
 | 12   | X      |      | 12           | Ni/Sn | 1062-12-0166 | 4 | $1 |
@@ -264,11 +265,11 @@ Most engines will use the following sensors:
 
 ### Manifold Absolute Pressure Sensor
 
-![image-20231212051946349](C:\Users\joshuad\Dropbox\cars\megasquirt-screenshots\megasquirt-screenshots-mapsensor.jpg.png)
+![MS MAP](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-map.jpg)
 
 ### Intake Air Calibration
 
-![image-20231212052009614](C:\Users\joshuad\Dropbox\cars\megasquirt-screenshots\megasquirt-screenshots-iatsensor.jpg)
+![MS IAT](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-iat.jpg)
 
 | Temperature | Ohms |
 | ----------- | ---- |
@@ -280,7 +281,7 @@ Most engines will use the following sensors:
 
 https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/
 
-![Coolant Temperature Sensor calibration](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-screenshots-clt.jpg)
+![Coolant Temperature Sensor calibration](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-clt.jpg)
 
 Pin 1 A
 
@@ -304,13 +305,13 @@ Pin 2 and 4 provide a temp readout to our gauge readout.
 
 ### TPS Sensor Calibration
 
-![Megasquirt TPS](Chttps://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-screenshots-tps.jpg)
+![Megasquirt TPS](Chttps://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-tps.jpg)
 
 
 
 ### O2 Sensor Notes
 
-![Megasquirt O2](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-screenshots-o2sensor.jpg)
+![Megasquirt O2](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-o2.jpg)
 
 ### Idle Air Control
 
@@ -329,7 +330,7 @@ This means:
 
 ### Ignition with the VR sensor
 
-![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-screenshots-vrsensor.png)
+![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.png)
 VR Sensor 021 907 319A
 https://www.msextra.com/forums/viewtopic.php?t=38492
 
