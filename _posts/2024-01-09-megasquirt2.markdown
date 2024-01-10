@@ -7,47 +7,45 @@ tags: cabby golfmk1 goflcabriolet vw efi megasquirt ecu
 categories: cars cabby
 image: /cabby/megasquirt/megasquirt-1.jpg
 ---
-The silly journey to put EFI on a 100HP car. This is a long one, so grab a cup of coffee and a notebook.
+The silly journey to put EFI on a 100HP car. This is long, so grab a cup of coffee and a notebook.
 
-**Quick links.** You probably won't read this whole guide, so here's the wiring diagram and parts list. Ya lazy bum.
-[Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
-[Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
+**Quick links.**
+You won't read this whole guide, it's long lol. So, here's the wiring diagram and parts list. Ya lazy bum.
+- [Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
+- [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
 
 ![img](https://www.megamanual.com/ms2/v3components.gif)
 
 ## Introduction
 
-This has been a project for months. After a couple of incidents with the Cabby's unappealing reliability, I've decided to try to give this car a newer life by introducing a standalone ECU, ITBS, and a whole bunch of wires and sensors to improve the drivability with a bit of power.
+My project for the last 3 months so far. After a couple of incidents with the Cabby's unappealing reliability, I've decided to give this car a newer life by introducing a standalone ECU, ITBS, and a whole bunch of wires and sensors to improve the drivability with a bit power.
 
 The Golf MK1 came with mechanical fuel injection that was reliable... when it worked. When it failed me back in 2021, I decided to try carburetors to simplify the fueling to something I can continue working on. I would inevitably continue working on it until a fuel bowl gasket failure caused a small fire. It ruined the carbs and part of the engine, I wanted to get rid of the car after that, but if there's any car that I wanted to learn how to add and work with a standalone ECU, might as well start now!
 
-## Megasquirt and the cab
-
 We are assembling the Megasquirt 2 DIY kit on the v3.0 PCB. I will not be using the following features:
 
-- Anything related to Idle Air control
+- Anything related to Idle Air Control
 - MS2 "CAN" bus
 
 ## The original MegaSquirt Wiring Diagram
 
 External Wiring with a V3.0 Main Board
 
-This is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than ones you could have seen before.
+This is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before.
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
-The MegaSquirt ECU is a mostly-DIY alternative to other aftermarket ECUs, as a way to make standalone setups cheaper. It is NOT easier, by any means, and takes a considerable amount of time to work through if you have not worked with an ECU before, let alone electronics. This is not to say that it's not accessible, with a dedicated amount of time and money, I believe anyone can work through the MS ECU if they are determined enough not to drop $1000 on other aftermarket ECUs.
+The MegaSquirt ECU is a DIY alternative to other aftermarket ECUs to make standalone setups cheaper. It is NOT easier by any means, and it takes considerable time to work through if you have not worked with an ECU before, let alone electronics. This is not to say that it's not accessible. With a dedicated amount of time and money, anyone can work through the MS ECU if they are determined not to drop $1000 on other aftermarket ECUs.
 
-Let's start with the wires and talk about what the ECU will control! The ECU will be controlling 
-The DB37 pin #36 is an **output**, used to control an ignition module, or control a coil directly (if the high current ignition driver circuit is installed). It only needs to be connected if you are [controlling ignition timing and dwell](http://www.megamanual.com/ms2/Ignition.htm). The **ignition control signal** from MegaSquirt-II on DB37 pin#36 corresponds to the relay board pin **S5** of the 20 position terminal strip.
+Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading the inputs from sensors on the car. The data read by the ECU will convert into its fuel and spark outputs, which will run and adjust to the car almost instantly.
+
+The DB37 pin #36 is an **output**, used to control an ignition module, or control a coil directly (if the high current ignition driver circuit is installed). It only needs to be connected if you are [controlling ignition timing and dwell](http://www.megamanual.com/ms2/Ignition.htm). The **ignition control signal** from MegaSquirt-II on DB37 pin#36 corresponds to the relay board pin **S5** of the 20-position terminal strip.
 
 The final harness that I ended up with after removing wires I am not using looks like this:
 
 ### Wire Harness Terminals DB-37 Connector Megasquirt II V3.0
 
-My diagram can be download [here](https://www.sudoyashi.com/assets/documents/ms2-golfmk1-hdp29-wiringdiagram.pdf)
-
-12/12/2023
+View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing.
 
 | Terminal or Pin | Color           | Function                                                     | IN/OUT  | Max Amps | Used? |
 | --------------- | --------------- | ------------------------------------------------------------ | ------- | -------- | ----- |
@@ -93,9 +91,9 @@ My diagram can be download [here](https://www.sudoyashi.com/assets/documents/ms2
 
 ![REC, 29P, BLK, E, RNG, 12/16/20, S-HDP24-24-29SE-L017](https://www.te.com/content/dam/te-com/catalog/part/HDP/242/429/HDP24-24-29SE-L017-t1.jpg/jcr:content/renditions/product-details.png)
 
-A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks cool and as far as reliability and durability, I wanted to give it a try.  I was very excited to find out that it would cost me less than $150 in parts. Wiring and putting together connectors is the easy part, the hard part is parts availability and planning.
+A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick and as far as reliability and durability, I wanted to give it a try. I was very excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is the easy part, the hard part is parts availability and planning.
 
-It's a challenge in planning and wiring that I wanted to take to prepare myself for future wiring jobs. Yes, it would be simpler to just crimp the MS2 harness directly to my components; but, I think automotive wiring is a challenge most people and if I can show others that if you can put in the time and work, it will pay dividends in reliability, consistency, and durability of the build. Mapping the diagram forces me to consider every wire going into my car and makes me understand what I'm doing.
+It's a challenge in planning and wiring that I wanted to take to prepare myself for future wiring jobs. Yes, it would be simpler to crimp the MS2 harness directly to my components, but I think automotive wiring is a challenge for most people, and if I can show others that if you can put in the time and work, it will pay dividends in reliability, consistency, and durability of the build. Mapping the diagram forces me to consider every wire going into my car and makes me understand what I'm doing.
 
 Wiring can be a frustrating process as a DIYer, but future Josh will definitely thank me multiple times over.
 
@@ -103,7 +101,13 @@ The connector I plan on using is the Deutsch HDP connector. The parts list and c
 
 ### Bulkhead firewall (plug) pinout
 
-The plan is to take the wires from the MS2 harness and put it into the bulkhead connector. Since we know how many wires we want to use, this is how I decided on the 29-pin connector. If you need more pins and plan to include wiring for other components, factor that into your new connector. The table below show the pins I'm using and what function from the MS2 or secondary fusebox it will provide. Find out what wire you want to use and if you plan to use wire splices.
+![Bulkhead pinout](https://www.sudoyashi.com/assets/img/cabby/megasquirt/bulkhead.jpg)
+
+The plan is to take the wires from the MS2 harness and put it into the bulkhead connector. Since we know how many wires we want to use, this is how I decided on the 29-pin connector. If you need more pins and plan to include wiring for other components, factor that into your new connector. The table below shows the pins I'm using and what function from the MS2 or secondary fusebox it will provide. Find out what wire you want and if you plan to use wire splices.
+
+[The bulkhead diagram](https://www.sudoyashi.com/assets/documents/ms2-bulkhead.pdf) or visit https://www.sudoyashi.com/assets/documents/ms2-bulkhead.pdf
+
+
 
 | Pin  | MS2 Function                                         | Color                | Fusebox                      | AWG    | Splice CMA |
 | ---- | ------------------------------------------------ | -------------------- | ---------------------------- | ------ | ---------- |
@@ -141,21 +145,21 @@ The plan is to take the wires from the MS2 harness and put it into the bulkhead 
 
 ![image-20240105090623422](https://www.sudoyashi.com/assets/img/cabby/megasquirt/hdp29pinout-1.png)
 
-Let's take a look into the Deutsch bulkhead connector, do you know about the different materials and wire ranges between pins? Here are 4 things to consider when choosing your connectors:
+Let's look into the Deutsch bulkhead connector. Do you know about the different materials and wire ranges between terminals? Here are 4 things to consider when choosing your connectors:
 
 1. What size pin or socket?
-   - You need both the pin and the socket. This creates the wire connection and the type of pin or socket depends on the connector you have. Refer to the specification ([Deutsch stamped contacts](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-151000%7FG%7Fpdf%7FEnglish%7FENG_SS_108-151000_G.pdf%7F1060-12-0222)) on what contact size you need. There are two types of terminals: stamped and solid. Stamped ones are cheap. Solid contacts are the pricy but durable option.
+   - You need both the pin and the socket. This creates the wire connection and the type of pin or socket depends on the connector you have. Refer to the specification ([Deutsch stamped contacts](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-151000%7FG%7Fpdf%7FEnglish%7FENG_SS_108-151000_G.pdf%7F1060-12-0222)) on what contact size you need. There are two types of terminals: stamped and solid. Stamped ones are cheap. Solid contacts are a pricy but durable option.
 2. What size AWG are you using?
-   - Now, the Deutsch contact size is NOT equal to the exact AWG size. You will see size 12, 16, and 20 contacts but they come in a variety of usable AWG, so there is some flexibility in the wire that you can use. Because of this flexibility, price and availability come into play. You need to know what size wires you are using. In my case, I am using AWG 12 and AWG 18 and AWG 20. AWG 12 is for more high-power applications like the main relay and fans, while AWG 18-20 is for low-power applications like the ECU, injectors, and sensors.
-   - Make sure that when you're buying your parts, the pins and sockets are of the same materials. There are gold (Au), tin (Sn), nickel (Ni), and silver (Ag)
+   - Now, the Deutsch contact size is NOT equal to the exact AWG size. You will see size 12, 16, and 20 contacts but they come in various usable AWG, so there is some flexibility in the wire that you can use. Because of this flexibility, price and availability come into play. You need to know what size wires you are using. In my case, I am using AWG 12 AWG 18 and AWG 20. AWG 12 is for more high-power applications like the main relay and fans, while AWG 18-20 is for low-power applications like the ECU, injectors, and sensors.
+   - Make sure that the pins and sockets are of the same materials when buying your parts. There are gold (Au), tin (Sn), nickel (Ni), and silver (Ag)
 3. What material?
-   - There are multiple to choose from. Consider Gold (Au), Nickel (Ni), Tin (Sn), and Silver (Ag). Let's focus on the most common ones, Gold and Tin. According to this [Molex article](https://www.molex.com/en-us/blog/gold-or-tin-vs-gold-and-tin), essentially gold connectors are more durable than tin, maintains a durable connection over time, and never mix the types of connectors while tin connectors are cheaper, do the job, but may not survive many mating cycles. **Tldr; buy what's available and never don't mix mating materials. Tin is cheap. Gold is high reliability.** Some connectors may be made of both (AU/SN).
+   - There are multiple to choose from. Consider Gold (Au), Nickel (Ni), Tin (Sn), and Silver (Ag). Let's focus on the most common ones, Gold and Tin. According to this [Molex article](https://www.molex.com/en-us/blog/gold-or-tin-vs-gold-and-tin), essentially gold connectors are more durable than tin, maintains a durable connection over time, and never mix the types of connectors while tin connectors are cheaper, do the job, but may not survive many mating cycles. **Tldr; buy what's available and never don't mix mating materials. Tin is cheap. Gold is highly reliable.** Some connectors may be made of both (AU/SN).
 4. Is it available to buy?
-   - Availability, the unspoken bane of car people. The parts EXIST, but your job is to find out who sells it and who has it for the cheapest. If a kit exists, it might be more expensive but it has all the parts you need. My advice, just buy the kit. Hunting for the same part after the fact will ruin your future days.
+   - Availability is the unspoken bane of car people. The parts exist, but your job is to find out who sells them and who has them for the cheapest price. **Tl;dr if a kit exists, buy the kit.** Hunting for the same part after the fact will ruin your future days.
 
 After all of that, you should end up with something like this:
 
-The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper and you would find kits usually have the stamped terminals.
+The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper, and you would find kits typically have the stamped terminals.
 
 **Stamped contacts**
 | Size | Socket (1062) | Pin (1060) | AWG | Material (XX) | PN | Qty | $ |
@@ -167,7 +171,7 @@ The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper a
 | 20   | X      |      | 18-20        | Sn            | 1062-20-0377 | 6 | $1.04 |
 | 20   |        | X    | 18-20        | Sn   | 1060-20-0177 | 6 | $0.45 |
 
-The premium option are usually solid contacts with gold would run me at least $106.99. This is also considering it's the UNIT cost, sometimes you can only buy some parts in bulk of 1000 or so, so this does not including shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
+The premium option is usually solid contacts with gold, which would run me at least $106.99. This is also considering the UNIT cost. Sometimes, you can only buy some parts in bulk of 1000 or so, so this does not include shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
 
 **Solid Contacts**
 | Size | Socket (0462) | Pin (0460) | Expected AWG | Material (XX) | Part #        | Qty  | $      |
@@ -183,7 +187,7 @@ XX / Tin(Sn)=309,Gold(Au)=31,Nickel(Ni)=90 or 141
 
 #### Splicing into existing wires
 
-These wire splices were introduced to me by this [article](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/) from High Performance Academy. There are three open-barrel splices, two of which I will be using. Splices, in this case won't be by the usual AWG size, but the CMA or Circular Mil Area. Each wire has a general density of wires that we can calculate as an area. More CMA, thicker wires. This chart is a general reference for wire CMA. This may NOT be an accurate representation of the wires you're using, but close enough for club-spec.
+These wire splices were introduced to me by this [article](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/) from High Performance Academy. There are three open-barrel splices, two of which I will be using. In this case, splices won't be by the usual AWG size but by the CMA or Circular Mil Area. Each wire has a general density of wires that we can calculate as an area. More CMA, thicker wires. This chart is a general reference for wire CMA. The chart is an average I found on wire CMA, but it's close enough to club-spec.
 
 | Wire size (AWG) | CMA  |
 | --------------- | ---- |
@@ -194,7 +198,7 @@ These wire splices were introduced to me by this [article](https://www.hpacademy
 | 20              | 1020 |
 | 22              | 642  |
 
-Larger wires have more CMA and smaller wires have less CMA. As we splice more wires together, we just want to add them up and then we can choose a splice.
+Larger wires have more CMA, and smaller wires have less CMA. As we splice more wires together, we want to add them up, and then we can choose a splice.
 
 1. 1500 CMA and less of combined wire area: [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header) These are a little too small for me.
 2. 1500 to 5000 CMA of combined wire area: TE [63130-2](https://www.te.com/usa-en/product-63130-2.html) Example: Two 20AWG wires or two 18AWG wires for ECU splicing.
@@ -205,7 +209,7 @@ Larger wires have more CMA and smaller wires have less CMA. As we splice more wi
 [Part number: **HDP24**-24-29SE-L017](https://www.te.com/usa-en/product-HDP24-24-29SE-L017.html)
 Housing for Female Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & Cable, Power & Signal, Panel Mount, Hybrid
 
-The receptacle, otherwise known as the socket or female end of the connector, is where we'll connect the Megasquirt harness to. This will be routed in the car then mounted on the firewall. As a tip from TE Connectivity, use the socket side as the hot-side (the one connected to the battery) so you don't shock yourself.
+The receptacle, the socket or female end of the connector, is where we'll connect the Megasquirt harness. This will be routed in the car and then mounted on the firewall. As a tip from TE Connectivity, use the socket side as the hot side (the one connected to the battery) so you don't shock yourself.
 
 #### Bulkhead Plug (the cold pokey side)
 
@@ -236,13 +240,13 @@ The plug side will be mounted on the firewall.
 
 ### Fuse and relay panel
 
-The Golf Mk1/Mk2 and Polo rally history is something that has always attracted me from my short time playing Dirt Rally 2.0. This is optional for most builds, but because I trust my Golf MK1 wiring as much as my parents with technology, I'm going to be rewiring some things to improve its reliability.
+The history of Golf Mk1/Mk2 and Polo rallies has always attracted me from my short time playing Dirt Rally 2.0. This is optional for most builds, but the Golf Mk1 factory wiring is pretty tired, so I'm rewiring some things for reliability.
 
-That's enough wiring technicalities, let's talk about the actual MegaSquirt now.
+That's enough wiring technicalities. Let's talk about the actual MegaSquirt now.
 
 ## Defining the MegaSquirt functions
 
-The MegaSquirt controls our engine by reading a bunch of inputs, it will figure out what's happening then output the correct fuel and spark accordingly. To do that we setup the sensors to collect the data, then wire up a way to control the fuel injectors and ignition coil.
+The MegaSquirt controls our engine by reading a bunch of inputs; it will figure out what's happening, then output the correct fuel and spark accordingly. To do that, we set up the sensors to collect the data, then wire up a way to control the fuel injectors and ignition coil.
 
 ## Sensors
 
@@ -288,9 +292,9 @@ Pin 4 B
 
 
 
-Measure resistance between pin 1 and 3 at three different temperatures.
+Measure resistance between pins 1 and 3 at three different temperatures.
 
-Pin 2 and 4 provide us with a temp readout to our gauge readout
+Pin 2 and 4 provide a temp readout to our gauge readout.
 
 | Temperature | Ohms |
 | ----------- | ---- |
@@ -310,7 +314,7 @@ Pin 2 and 4 provide us with a temp readout to our gauge readout
 
 ### Idle Air Control
 
-No idle air control will be modulated on the ITBS, this will only be handled by warm-up enrichment and wax idle mechanical enrichment. 
+No idle air control will be modulated on the ITBS. This will only be handled by warm-up enrichment and wax idle mechanical enrichment. 
 
 This means:
 
@@ -335,13 +339,15 @@ Pin 2 Ground
 
 Pin 3 Shield
 
-We are controlling the ABA using its OEM configuration, a 60-2 wheel and VR sensor. This wiring is SIMILAR to the Bosch 124 module, but not exact.
+We control the ABA using its OEM configuration, a 60-2 wheel, and a VR sensor. This wiring is SIMILAR to the Bosch 124 module, but not exact.
 
 In the case of the Golf, the wiring is slightly different:
 
+[Ignition MegaSquirt](https://www.sudoyashi.com/assets/documents/ms2-ignition.pdf)
+
 ![ignition](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
-Similiar to the Direct Ignition Coil Control with Bosch 124 (7-pin module), we can control ignition by tapping into the existing ICM. The current Ignition Control Module (ICM) is as follows:
+Similar to the Direct Ignition Coil Control with Bosch 124 (7-pin module), we can control ignition by tapping into the existing ICM. The current Ignition Control Module (ICM) is as follows:
 
 | Pin  | Function                  |
 | ---- | ------------------------- |
@@ -353,7 +359,7 @@ Similiar to the Direct Ignition Coil Control with Bosch 124 (7-pin module), we c
 | 6    | Hall-Effect signal        |
 | 7    | --unused--                |
 
-On the left are the original functions and wiring paths, on the right are the modified functions to include the MegaSquirt
+On the left are the original functions and wiring paths, and on the right are the functions adding the MegaSquirt.
 
 | Pin   | Function  |      | Pin   | Function               |
 | ----- | --------- | ---- | ----- | ---------------------- |
@@ -368,11 +374,11 @@ On the left are the original functions and wiring paths, on the right are the mo
 | ICM/6 | Signal HE |      | ICM/6 | **DB37/36 IGN OUT**    |
 | ICM/7 |           |      | ICM/7 | -                      |
 
-Well, if you aren't using the HE sensor, why not eliminate it completely? Tbh, idk, I'm scared to cut it out and find out I need it later LOL.
+Why not eliminate the HE sensor if you aren't using it? Idk; I'm scared to cut it out and find out I need it later, LOL.
 
-The original configuration uses the mechanical events from the trigger window in the distributor to create a signal to the ICM. With the MegaSquirt, the input is not the mechanical event from the trigger window, but from the VR sensor. This is more accurate and allows us to use that VR input to create an IGN output from the MS2. This output signal will trigger the ICM and allow us control over ignition.
+The original configuration uses the mechanical events from the trigger window in the distributor to create a signal to the ICM. With the MegaSquirt, we use the input from the VR sensor. This output signal will trigger the ICM and allow us to control the ignition.
 
-Similar to the Bosch 0 227 100 124 'igniter' module (called the "*Bosch 124*" here), the ICM is not a 'smart' module. That is, it DOES NOT control dwell. Because of this, we need to use the HEI settings in MegaSquirt-II to set the dwell, etc. The Bosch 124 fires the coil when the signal from MegaSquirt-II goes from high to low, just like the 7-pin HEI. We will attempt to use the following values as shown.
+Similar to the Bosch 0 227 100 124 'igniter' module (called the "*Bosch 124*" here), the ICM is not a 'smart' module. That is, it DOES NOT control dwell. Because of this, we need to use the HEI settings in MegaSquirt-II to set the dwell, etc. The Bosch 124 fires the coil when the signal from MegaSquirt-II goes from high to low, just like the 7-pin HEI. We will use the following values as shown.
 
 | *Parameter*            | *Value*                                                      |
 | ---------------------- | ------------------------------------------------------------ |
@@ -380,8 +386,6 @@ Similar to the Bosch 0 227 100 124 'igniter' module (called the "*Bosch 124*" he
 | Cranking trigger       | **Trigger Rise**                                             |
 | Coil Charging Scheme   | **Standard Coil Charge**                                     |
 | Spark Output           | **Going High (Inverted)** for production MS-II('Going High (Inverted)' *for MicroSquirt*) |
-
-
 
 ## Fuel System
 
