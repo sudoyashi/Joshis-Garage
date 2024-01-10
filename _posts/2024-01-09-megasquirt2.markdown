@@ -140,7 +140,7 @@ The plan is to take the wires from the MS2 harness and put it into the bulkhead 
 Let's take a look into the Deutsch bulkhead connector, do you know about the different materials and wire ranges between pins? Here are 4 things to consider when choosing your connectors:
 
 1. What size pin or socket?
-   1. You need both the pin and the socket. This creates the wire connection and the type of pin or socket depends on the connector you have. Refer to the specification ([Deutsch stamped contacts](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-151000%7FG%7Fpdf%7FEnglish%7FENG_SS_108-151000_G.pdf%7F1060-12-0222)) on what contact size you need. There are two types of terminals: stamped and solid. Stamped ones are cheap. Solid contacts are the pricy but durable option.
+   - You need both the pin and the socket. This creates the wire connection and the type of pin or socket depends on the connector you have. Refer to the specification ([Deutsch stamped contacts](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-151000%7FG%7Fpdf%7FEnglish%7FENG_SS_108-151000_G.pdf%7F1060-12-0222)) on what contact size you need. There are two types of terminals: stamped and solid. Stamped ones are cheap. Solid contacts are the pricy but durable option.
 2. What size AWG are you using?
    - Now, the Deutsch contact size is NOT equal to the exact AWG size. You will see size 12, 16, and 20 contacts but they come in a variety of usable AWG, so there is some flexibility in the wire that you can use. Because of this flexibility, price and availability come into play. You need to know what size wires you are using. In my case, I am using AWG 12 and AWG 18 and AWG 20. AWG 12 is for more high-power applications like the main relay and fans, while AWG 18-20 is for low-power applications like the ECU, injectors, and sensors.
    - Make sure that when you're buying your parts, the pins and sockets are of the same materials. There are gold (Au), tin (Sn), nickel (Ni), and silver (Ag)
@@ -153,25 +153,25 @@ After all of that, you should end up with something like this:
 
 The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper and you would find kits usually have the stamped terminals.
 
-| Size | Socket (1062) | Pin (1060) | AWG | Material (XX) | PN | Where to buy? | Qty | $ |
-| ---- | ------ | ---- | ------------ | -------- | ---- | ------------- | ------------- | ------------- |
-| 12   | X      |      | 12           | Ni/Sn | 1062-12-0166 |               | 4 | $1 |
-| 12   |        | X    | 12           | Ni/Sn | 1060-12-0166 |               | 4 | $ |
-| 16   | X      |      | 18-20        | Sn/Sn | 1062-16-0677 |               | 19 | $0.69 |
-| 16   |        | X    | 18-20        | Ni/Sn  | [1060-16-0622](https://www.te.com/usa-en/product-1060-16-0622.html) |               | 19 | $0.55 |
-| 20   | X      |      | 18-20        | Sn            | [1062-20-0377](https://www.te.com/usa-en/product-1062-20-0377.html?q=1062-20-&source=header) |  | 6 | $1.04 |
-| 20   |        | X    | 18-20        | Sn   | 1060-20-0177 |               | 6 | $0.45 |
+| Size | Socket (1062) | Pin (1060) | AWG | Material (XX) | PN | Qty | $ |
+| ---- | ------ | ---- | ------------ | -------- | ---- | ------------- | ------------- |
+| 12   | X      |      | 12           | Ni/Sn | 1062-12-0166 | 4 | $1 |
+| 12   |        | X    | 12           | Ni/Sn | 1060-12-0166 | 4 | $ |
+| 16   | X      |      | 18-20        | Sn/Sn | 1062-16-0677 | 19 | $0.69 |
+| 16   |        | X    | 18-20        | Ni/Sn  | 1060-16-0622 | 19 | $0.55 |
+| 20   | X      |      | 18-20        | Sn            | 1062-20-0377 | 6 | $1.04 |
+| 20   |        | X    | 18-20        | Sn   | 1060-20-0177 | 6 | $0.45 |
 
 The premium option are usually solid contacts with gold would run me at least $106.99. This is also considering it's the UNIT cost, sometimes you can only buy some parts in bulk of 1000 or so, so this does not including shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
 
-| Size | Socket (0462) | Pin (0460) | Expected AWG | Material (XX) | Part #        | Where to buy? | Qty  | $      |
-| ---- | ------------- | ---------- | ------------ | ------------- | ------------- | ------------- | ---- | ------ |
-| 12   | X             |            | 12           | Au            | 0462-210-1231 |               | 4    | $4.23  |
-| 12   |               | X          | 12           | Au            | 0460-220-1231 |               | 4    | $2.56  |
-| 16   | X             |            | 18-20        | PD/Ni/Au      | 0462-004-1631 |               | 19   | $2.04  |
-| 16   |               | X          | 18-20        | PD/Ni/Au      | 0460-002-1631 |               | 19   | $1.47  |
-| 20   | X             |            | 18-20        | Au            | 0462-201-2031 |               | 6    | $1.16  |
-| 20   |               | X          | 18-20        | Au            | 0460-202-2031 |               | 6    | $1.030 |
+| Size | Socket (0462) | Pin (0460) | Expected AWG | Material (XX) | Part #        | Qty  | $      |
+| ---- | ------------- | ---------- | ------------ | ------------- | ------------- | ---- | ------ |
+| 12   | X             |            | 12           | Au            | 0462-210-1231 | 4    | $4.23  |
+| 12   |               | X          | 12           | Au            | 0460-220-1231 | 4    | $2.56  |
+| 16   | X             |            | 18-20        | PD/Ni/Au      | 0462-004-1631 | 19   | $2.04  |
+| 16   |               | X          | 18-20        | PD/Ni/Au      | 0460-002-1631 | 19   | $1.47  |
+| 20   | X             |            | 18-20        | Au            | 0462-201-2031 | 6    | $1.16  |
+| 20   |               | X          | 18-20        | Au            | 0460-202-2031 | 6    | $1.030 |
 
 XX / Tin(Sn)=309,Gold(Au)=31,Nickel(Ni)=90 or 141
 
@@ -208,25 +208,25 @@ Housing for Male Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & C
 
 The plug side will be mounted on the firewall.
 
-#### Parts list
+#### Bulkhead Parts list
 
-| Item                                                         | Image                                                        | Description                                               | Part Number        | Quantity | Subtotal | Notes |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- | ------------------ | -------- | -------- | ----- |
-| Deutsch socket                                               | ![HDP24-24-29SE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5555/MFG_HDP24-24-29SE-L017.jpg) | Bulkhead plastic socket, 29-pin                           | HDP24-24-29SE-L017 | 1        |          |       |
-| Deutsch plug,                                                | ![HDP26-24-29PE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg) | Bulkhead plastic plug, 29-pin                             | HDP26-24-29PE-L017 | 1        |          |       |
-| Medium splice                                                | ![Medium splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg) | Splices for my 18-20AWG                                   | 63130-2            | 100      | $8.52    |       |
-| Large splice                                                 | ![Larger splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG) | Splices for my 14AWG                                      | 62357-1            | 100      | $11.25   |       |
-| Size 12 Receptacle pin (female)                              | ![12 pin](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG) |                                                           | 0460-XXX-12        |          |          |       |
-| Size 12 Plug pin (male)                                      | ![12 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                           | 0462-XXX-12        |          |          |       |
-| Size 16 Receptacle pin (female)                              | ![Size 16 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                           | 0460-XXX-16        |          |          |       |
-| Size 16 Plug pin (male)                                      | ![Size 16 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg) |                                                           | 0462-XXX-16        |          |          |       |
-| Size 20 Receptacle pin (female)                              | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg) | 16-20AWG, Gold, 0460-202-1631                             | 0460-XXX-20        |          |          |       |
-| Size 20 Plug pin (male)                                      | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG) | 16-20AWG, Gold, 0462-201-1631                             | 0462-XXX-20        |          |          |       |
-| Boot                                                         |                                                              | Protective boot                                           | HD30-24BT-BK       | 2        | $3.07    |       |
-| Terminal 2.8mm                                               |                                                              | General terminal for most pins and receptacles            |                    |          |          |       |
-| Terminal 6.8mm                                               |                                                              |                                                           |                    |          |          |       |
-| [Fuse holder terminal, at least 4.45mm](https://www.te.com/usa-en/plp/automotive-terminals/Y30g2.html?q=&n=127963&d=752372%20726177%20747739&type=products&samples=N&inStoreWithoutPL=false&instock=N) |                                                              | [5.8mm](https://www.te.com/usa-en/product-964203-5.html), |                    |          |          |       |
-|                                                              |                                                              |                                                           |                    |          |          |       |
+| Item                                                         | Image                                                        | Description                                               | Part Number        | Quantity | Subtotal |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------------- | ------------------ | -------- | -------- |
+| Deutsch socket                                               | ![HDP24-24-29SE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5555/MFG_HDP24-24-29SE-L017.jpg) | Bulkhead plastic socket, 29-pin                           | HDP24-24-29SE-L017 | 1        |          |
+| Deutsch plug,                                                | ![HDP26-24-29PE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg) | Bulkhead plastic plug, 29-pin                             | HDP26-24-29PE-L017 | 1        |          |
+| Medium splice                                                | ![Medium splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg) | Splices for my 18-20AWG                                   | 63130-2            | 100      | $8.52    |
+| Large splice                                                 | ![Larger splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG) | Splices for my 14AWG                                      | 62357-1            | 100      | $11.25   |
+| Size 12 Receptacle pin (female)                              | ![12 pin](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG) |                                                           | 0460-XXX-12        |          |          |
+| Size 12 Plug pin (male)                                      | ![12 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                           | 0462-XXX-12        |          |          |
+| Size 16 Receptacle pin (female)                              | ![Size 16 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                           | 0460-XXX-16        |          |          |
+| Size 16 Plug pin (male)                                      | ![Size 16 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg) |                                                           | 0462-XXX-16        |          |          |
+| Size 20 Receptacle pin (female)                              | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg) | 16-20AWG, Gold, 0460-202-1631                             | 0460-XXX-20        |          |          |
+| Size 20 Plug pin (male)                                      | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG) | 16-20AWG, Gold, 0462-201-1631                             | 0462-XXX-20        |          |          |
+| Boot                                                         |                                                              | Protective boot                                           | HD30-24BT-BK       | 2        | $3.07    |
+| Terminal 2.8mm                                               |                                                              | General terminal for most pins and receptacles            |                    |          |          |
+| Terminal 6.8mm                                               |                                                              |                                                           |                    |          |          |
+| [Fuse holder terminal, at least 4.45mm](https://www.te.com/usa-en/plp/automotive-terminals/Y30g2.html?q=&n=127963&d=752372%20726177%20747739&type=products&samples=N&inStoreWithoutPL=false&instock=N) |                                                              | [5.8mm](https://www.te.com/usa-en/product-964203-5.html), |                    |          |          |
+|                                                              |                                                              |                                                           |                    |          |          |
 
 ### Fuse and relay panel
 
