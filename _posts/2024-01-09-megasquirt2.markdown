@@ -50,6 +50,8 @@ The final harness that I ended up with after removing wires I am not using looks
 
 View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
+This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine, using most stock sensors.
+
 | Terminal or Pin | Color           | Function                                                     | IN/OUT  | Max Amps | Used? |
 | --------------- | --------------- | ------------------------------------------------------------ | ------- | -------- | ----- |
 | 1               | Black           | Crank sensor ground                                          | GND     | -        | YES   |
@@ -146,7 +148,7 @@ The plan is to take the wires from the MS2 harness and put it into the bulkhead 
 
 #### The Deutsch Contact Size and you
 
-![HDP Pinout 1](https://www.sudoyashi.com/assets/img/cabby/megasquirt/hdp29pinout-1.jpg)
+![HDP Pinout 1](https://www.sudoyashi.com/assets/img/cabby/megasquirt/wiring-hdp29pinout-1.jpg)
 
 Let's look into the Deutsch bulkhead connector. Do you know about the different materials and wire ranges between terminals? Here are 4 things to consider when choosing your connectors:
 
@@ -178,6 +180,7 @@ The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper, 
 The premium option is usually solid contacts with gold, which would run me at least $106.99. This is also considering the UNIT cost. Sometimes, you can only buy some parts in bulk of 1000 or so, so this does not include shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
 
 **Solid Contacts**
+
 | Size | Socket (0462) | Pin (0460) | Expected AWG | Material (XX) | Part #        | Qty  | $      |
 | ---- | ------------- | ---------- | ------------ | ------------- | ------------- | ---- | ------ |
 | 12   | X             |            | 12           | Au            | 0462-210-1231 | 4    | $4.23  |
@@ -244,7 +247,10 @@ The plug side will be mounted on the firewall.
 
 ### Fuse and relay panel
 
+![I like historic rally Volkswagens](https://collectingcars.imgix.net/011646/DSC-0317.jpeg?fit=clip&w=2000&auto=format,compress&cs=srgb&q=85)
 The history of Golf Mk1/Mk2 and Polo rallies has always attracted me from my short time playing Dirt Rally 2.0. This is optional for most builds, but the Golf Mk1 factory wiring is pretty tired, so I'm rewiring some things for reliability.
+
+I'll return to this when I'm done with wiring and mounting.
 
 That's enough wiring technicalities. Let's talk about the actual MegaSquirt now.
 
@@ -281,8 +287,7 @@ Most engines will use the following sensors:
 
 ### Coolant Temperature Sensor Calibration
 
-https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/
-
+[What does the Coolant Temp Sensor do?](https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/)
 ![Coolant Temperature Sensor calibration](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-clt.jpg)
 
 Pin 1 A
@@ -307,7 +312,7 @@ Pin 2 and 4 provide a temp readout to our gauge readout.
 
 ### TPS Sensor Calibration
 
-![Megasquirt TPS](Chttps://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-tps.jpg)
+![Megasquirt TPS](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-tps.jpg)
 
 
 
@@ -332,7 +337,7 @@ This means:
 
 ### Ignition with the VR sensor
 
-![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.png)
+![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.jpg)
 VR Sensor 021 907 319A
 https://www.msextra.com/forums/viewtopic.php?t=38492
 
