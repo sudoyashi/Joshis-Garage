@@ -7,42 +7,38 @@ tags: cabby golfmk1 goflcabriolet vw efi megasquirt ecu
 categories: cars cabby
 image: /cabby/megasquirt/megasquirt-1.jpg
 ---
-The silly journey to put EFI on a 100HP car. This is long, so grab a cup of coffee and a notebook.
+The silly journey to put EFI on a 100HP car.
 
 **Quick links.**
-You won't read this whole guide, it's long lol. So, here's the wiring diagram and parts list. Ya lazy bum.
+TLDR; here's the wiring diagram and parts list. Ya lazy bum.
 
 - [Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
 - [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
 
-![img](https://www.megamanual.com/ms2/v3components.gif)
-
 ## Introduction
 
-My project for the last 3 months so far. After a couple of incidents with the Cabby's unappealing reliability, I've decided to give this car a newer life by introducing a standalone ECU, ITBS, and a whole bunch of wires and sensors to improve the drivability with a bit power.
+![img](https://www.megamanual.com/ms2/v3components.gif)
 
-The Golf MK1 came with mechanical fuel injection that was reliable... when it worked. When it failed me back in 2021, I decided to try carburetors to simplify the fueling to something I can continue working on. I would inevitably continue working on it until a fuel bowl gasket failure caused a small fire. It ruined the carbs and part of the engine, I wanted to get rid of the car after that, but if there's any car that I wanted to learn how to add and work with a standalone ECU, might as well start now!
+The cab has overheated. The cab has caught on fire. These things made me sad. So, in the pursuit of reliability and not having to worry about breaking down on a car cruise, my goal is to make this car bulletproof reliable. This is the EFI conversion project I've been working on for the last 3 months so far. We're dropping in a MegaSquirt 2 ECU, a bulkhead connector, new fusebox, and future-proofing other wiring issues.
+
+The Golf MK1 came with mechanical fuel injection that was reliable... when it worked. When it failed me back in 2021 the cost to maybe fix the parts was too much to justfiy, so I decided to use bike carburetors as a cheap ITB setup. And it worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again, but it ruined the carbs and part of the engine. I wasn't sure what I wanted to do, but I figure I'm going to try once more and put an ECU into this car and see if I can save it one more time.
 
 We are assembling the Megasquirt 2 DIY kit on the v3.0 PCB. I will not be using the following features:
 
-- Anything related to Idle Air Control
-- MS2 "CAN" bus
+- Anything related to Idle Air Control, the ITBS come from a 2005 Honda CBR 600RR that uses a wax idle routed with coolant instead of an IAC. 
+- MS2 "CAN" bus, supposedly it's not good or not real CAN BUS? I'll get to that in another build or something.
 
 ## The original MegaSquirt Wiring Diagram
-
-External Wiring with a V3.0 Main Board
 
 This is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before.
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
-The MegaSquirt ECU is a DIY alternative to other aftermarket ECUs to make standalone setups cheaper. It is NOT easier by any means, and it takes considerable time to work through if you have not worked with an ECU before, let alone electronics. This is not to say that it's not accessible. With a dedicated amount of time and money, anyone can work through the MS ECU if they are determined not to drop $1000 on other aftermarket ECUs.
+The MegaSquirt (MS) ECU is a cheaper, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. Unfortunately, if you don't know what you are doing like, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup and it will take a considerable amount time to work and understand what you need to do, especially if you have not worked with an ECU or small electronics. It's not impossible, though. With time and patience, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs.
 
-Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading the inputs from sensors on the car. The data read by the ECU will convert into its fuel and spark outputs, which will run and adjust to the car almost instantly.
+Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading the inputs from sensors on the car. The data read by the ECU will convert into its fuel and spark outputs, which will dynamically adjust to the car and environment.
 
-The DB37 pin #36 is an **output**, used to control an ignition module, or control a coil directly (if the high current ignition driver circuit is installed). It only needs to be connected if you are [controlling ignition timing and dwell](http://www.megamanual.com/ms2/Ignition.htm). The **ignition control signal** from MegaSquirt-II on DB37 pin#36 corresponds to the relay board pin **S5** of the 20-position terminal strip.
-
-The final harness that I ended up with after removing wires I am not using looks like this:
+The ECU has a DB37 connector, meaning it has 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. Some pins are not present on the harness and some you might not need at all. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
 
 ### Wire Harness Terminals DB-37 Connector Megasquirt II V3.0
 
@@ -50,7 +46,15 @@ The final harness that I ended up with after removing wires I am not using looks
 
 View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
-This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine, using most stock sensors.
+This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine, using the following sensors. More info can be found in the Sensors section.
+
+- GM Intake Air Temperature sensor
+- ABA Engine Coolant Temperature sensor
+- Honda CBR 600RR throttle position sensor
+- AEM Wideband X-Series O2 Sensor
+- ABA VR Sensor
+- MS2 On-board MAP sensor to manifold
+
 
 | Terminal or Pin | Color           | Function                                                     | IN/OUT  | Max Amps | Used? |
 | --------------- | --------------- | ------------------------------------------------------------ | ------- | -------- | ----- |
