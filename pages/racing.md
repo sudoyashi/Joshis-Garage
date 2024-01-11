@@ -16,5 +16,5 @@ permalink: /racing/
 
 ## Race DIY
 
-![Civic with decal](https://www.https://www.sudoyashi.com/assets/img/civic-si-decal2.jpg)
+![Civic with decal](https://www.sudoyashi.com/assets/img/civic-si-decal2.jpg)
 - [DIY Decals](https://www.sudoyashi.com/diy-decal) - Making decals for less than $15 
