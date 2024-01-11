@@ -19,26 +19,26 @@ TLDR; here's the wiring diagram and parts list. Ya lazy bum.
 
 ![img](https://www.megamanual.com/ms2/v3components.gif)
 
-The cab has overheated. The cab has caught on fire. These things made me sad. So, in the pursuit of reliability and not having to worry about breaking down on a car cruise, my goal is to make this car bulletproof reliable. This is the EFI conversion project I've been working on for the last 3 months so far. We're dropping in a MegaSquirt 2 ECU, a bulkhead connector, new fusebox, and future-proofing other wiring issues.
+The cab has overheated. The cab has caught on fire. And these things made me very sad. So, let's do it again! In the pursuit of not having to worry about breaking down on a car cruise, the goal is to make this car bulletproof reliable. Like for real this time. This is the EFI conversion project I've been working on for the last 3 months so far and we're starting with the ECU. We're mapping out the MegaSquirt 2 ECU, a bulkhead connector, new fusebox, and future-proofing other wiring issues.
 
-The Golf MK1 came with mechanical fuel injection that was reliable... when it worked. When it failed me back in 2021 the cost to maybe fix the parts was too much to justfiy, so I decided to use bike carburetors as a cheap ITB setup. And it worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again, but it ruined the carbs and part of the engine. I wasn't sure what I wanted to do, but I figure I'm going to try once more and put an ECU into this car and see if I can save it one more time.
+The Golf MK1 came with mechanical fuel injection that was reliable... when it worked. When it failed me back in 2021 the cost to maybe fix the parts was too much to justfiy, so I decided to use bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again, but it ruined the carbs and part of the engine. Carbs are not inherently bad, but they leave a lot to be desired in tuning and control. Adding in the ECU will solve a lot of the imprecision from the carbs and hopefully save this car one more time.
 
 We are assembling the Megasquirt 2 DIY kit on the v3.0 PCB. I will not be using the following features:
 
 - Anything related to Idle Air Control, the ITBS come from a 2005 Honda CBR 600RR that uses a wax idle routed with coolant instead of an IAC. 
 - MS2 "CAN" bus, supposedly it's not good or not real CAN BUS? I'll get to that in another build or something.
 
-## The original MegaSquirt Wiring Diagram
+## What is a MegaSquirt ECU? The original MegaSquirt Wiring Diagram
 
-This is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before.
+The car's ECU is just a computer that tells it when to spark and when to squirt fuel. It's not magic, it's science. The MegaSquirt (MS) ECU is a cheaper, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. Unfortunately, if you don't know what you are doing like, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup and it can take a lot of work to figrue out what you want to do. It's not impossible, though. With time and determination, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs.
+
+This is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before. The diagram illustrates what the ECU will read (inputs) and what it will control (outputs), with this control on inputs and outputs (I/O) we can tune the engine to behave how we want it to.
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
-The MegaSquirt (MS) ECU is a cheaper, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. Unfortunately, if you don't know what you are doing like, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup and it will take a considerable amount time to work and understand what you need to do, especially if you have not worked with an ECU or small electronics. It's not impossible, though. With time and patience, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs.
+Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading sensors like air temperature, coolant temperature, and engine speed on the car. The data read by the ECU will read off a table of values and spit out some value to spray a certain amount of fuel and spark at a certain time, this dynamically adjusts to the car and environment and the cycle continues.
 
-Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading the inputs from sensors on the car. The data read by the ECU will convert into its fuel and spark outputs, which will dynamically adjust to the car and environment.
-
-The ECU has a DB37 connector, meaning it has 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. Some pins are not present on the harness and some you might not need at all. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
+The ECU has a DB37 connector, meaning it has 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
 
 ### Wire Harness Terminals DB-37 Connector Megasquirt II V3.0
 
@@ -46,15 +46,14 @@ The ECU has a DB37 connector, meaning it has 37 possible pins to give and retrie
 
 View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
-This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine, using the following sensors. More info can be found in the Sensors section.
+This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine, using the following sensors. More info can be found in the [Sensors](https://www.sudoyashi.com/megasquirt2#sensors) section.
 
+- MS2 On-board MAP sensor to manifold
 - GM Intake Air Temperature sensor
 - ABA Engine Coolant Temperature sensor
 - Honda CBR 600RR throttle position sensor
 - AEM Wideband X-Series O2 Sensor
 - ABA VR Sensor
-- MS2 On-board MAP sensor to manifold
-
 
 | Terminal or Pin | Color           | Function                                                     | IN/OUT  | Max Amps | Used? |
 | --------------- | --------------- | ------------------------------------------------------------ | ------- | -------- | ----- |
@@ -254,59 +253,80 @@ The plug side will be mounted on the firewall.
 ![I like historic rally Volkswagens](https://collectingcars.imgix.net/011646/DSC-0317.jpeg?fit=clip&w=2000&auto=format,compress&cs=srgb&q=85)
 The history of Golf Mk1/Mk2 and Polo rallies has always attracted me from my short time playing Dirt Rally 2.0. This is optional for most builds, but the Golf Mk1 factory wiring is pretty tired, so I'm rewiring some things for reliability.
 
-I'll return to this when I'm done with wiring and mounting.
+I couldn't find any fuse box I liked, so I'm making a custom mounted one. Using individual fuse holders, [178.6152.0001](http://d.digikey.com/dc/mn-w0iJh4uEE_bUitNCuXmOASUNxIUHHNt2ANEnMXZ_AG_WhgOqCceIg4XKIDiTGU5IpRQEyR1t2V-Puo8lFuHzTPtYX6bfJEClHe62PNrZkDz-UHKBnux6j6Cr0l8ucounb-wISKZM8WacqeDnNHnfIeGZ5XxGzspQ5d8Uh5FxYEeWcK4B7IXHW6B16Ip7g/MDI4LVNYSy01MDcAAAGQlqDFwJPDtEc8eI9npTdI25sL8hjJ6yozBRIZwzLlO--b-HK9nX_LRC97znpBDoLWE892rl0=), I'll mount the fuseholders behind an ABS faceplate and mount the fuses like the ones above. I might update this to include a few more goodies (*AHEM on-board rally intercom*). 
 
 That's enough wiring technicalities. Let's talk about the actual MegaSquirt now.
 
-## Defining the MegaSquirt functions
+## MegaSquirt Sensors and you
 
-The MegaSquirt controls our engine by reading a bunch of inputs; it will figure out what's happening, then output the correct fuel and spark accordingly. To do that, we set up the sensors to collect the data, then wire up a way to control the fuel injectors and ignition coil.
+We need your input!
 
-## Sensors
+Sensors give the ECU data so that it can do its job. If a sensor fails or malfunctions, the ECU will fail. Therefore, get the right sensors and get the right pinouts for your application. Sensors usually work by changing its physical properties to produce some resistance. It can be a bi-metallic metal, plate, resistance, and so on. Not sure where to start, follow my table here and swap out your sensors accordingly.
 
-Most engines will use the following sensors:
+| Sensor                           | MS Pin# | MegaSquirt Wire Color | Ground             | Connection                                                 | Existing or Buy       | Part Name or Number                                          | # Total wires | Wires                              |
+| -------------------------------- | ------- | --------------------- | ------------------ | ---------------------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------- | ---------------------------------- |
+| Manifold Absolute Pressure (MAP) | none    | none                  | none               | 1/8" vacuum line                                           | Existing, on-board MS | MPX4250                                                      | none          | none                               |
+| Intake Air Temperature (IAT)     | 20      | Orange                | Black White DB37/7 | 3/8" NPT                                                   | Buy                   | [GM IAT ](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/)25036751 | 2             | 5V, Signal                         |
+| Engine Coolant Temperature (ECT) | 21      | Yellow                | Black White DB37/7 | Four wire: 2 are ground, 1 PCM (ECU IN), 1 to gauge sender | Existing              | VW 357 919 501A                                              | 4             | Ground, signal, Ground, temp gauge |
+| Throttle Position (TPS)          | 22      | Light Blue            | Black White DB37/7 | Honda TPS                                                  | Buy (on ITBS)         | Honda 255478286857                                           | 3             | Ground, 5V, signal                 |
+| Exhaust Gas Oxygen (O2 or EGO)   | 23      | Pink                  | ECU                | AEM 30-3427                                                | Existing              | AEM 30-0300                                                  | 6             | Multiple, splice only              |
+| Ignition (VR)                    | 24      | White/Shield          | Black DB37/1       | ICM/6, replace existing Hall-Effect signal                 | Existing              | VW 021 907 319A                                              | 3             | Ground, Power, shield              |
 
-| Sensor                           | MS Pin#                      | MegaSquirt Wire Color        | Ground    | Connection                                                 | Existing or Buy | Part Name or Number                                          | # Total wires | Wires                              |
-| -------------------------------- | ---------------------------- | ---------------------------- | --------- | ---------------------------------------------------------- | --------------- | ------------------------------------------------------------ | ------------- | ---------------------------------- |
-| Manifold Absolute Pressure (MAP) | none                         | none                         | none      | 1/8" vacuum line                                           | Existing        | none                                                         | none          | none                               |
-| Intake Air Temperature (IAT)     | 20                           | Orange                       | ECU       | 3/8" NPT                                                   | Buy             | [GM IAT](https://www.diyautotune.com/product/gm-open-element-iat-sensor-with-pigtail/) | 2             | 5V, Signal                         |
-| Engine Coolant Temperature (ECT) | 21                           | Yellow                       | ECU       | Four wire: 2 are ground, 1 PCM (ECU IN), 1 to gauge sender | Existing        | VW Golf MK3 ECT                                              | 4             | Ground, signal, Ground, temp gauge |
-| Throttle Position (TPS)          | 22                           | Light Blue                   | ECU       | Honda TPS                                                  | Buy (on ITBS)   | Honda OEM TPS                                                | 3             | Ground, 5V, signal                 |
-| Exhaust Gas Oxygen (O2 or EGO)   | 23                           | Pink                         | ECU       |                                                            | Existing        | AEM Wideband X-Series                                        | 6             | Multiple, splice only              |
-| Ignition (VR)                    | 24                           | White/Shield                 | ICM       | Hall-effect signal splice                                  | Existing        | TACH IN                                                      | 3             | Ground, 5V, signal                 |
+### MS2 On-board MAP sensor to manifold
 
-### Manifold Absolute Pressure Sensor
+Part: [MPX4250 2.5 Bar MAP Sensor](https://www.diyautotune.com/product/mpx4250-2-5-bar-map-sensor/)
 
 ![MS MAP](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-map.jpg)
 
-### Intake Air Calibration
+The on-board MAP sensor is connected with a 1/8" vacuum hose to any vacuum port on the intake manifold. Air pressure is one way for the ECU to see engine load. More pressure means more load. Turbo or supercharger? You're definitely going to need this. NA, depends on ITBS or not. For NA with a big plenum, you'll also have something like this. For ITBS, you probably won't but doesn't hurt to add.
+
+Read more about how the sensor works here: [https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf](https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf). There is no pinout because it's already integrated on the ECU. If you're not using this type of sensor, follow your specific part diagram.
+
+### GM Intake Air Temperature sensor
+
+Part: [25036751](https://lowdoller-motorsports.com/products/intake-air-temp-sensor-iat-mat-25036751-25037225-25037034)
+
+
 
 ![MS IAT](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-iat.jpg)
 
-| Temperature | Ohms |
-| ----------- | ---- |
-| 48F         | 7000 |
-| 87F         | 1930 |
-| 146F        | 560  |
+The GM IAT is a universally accepted sensor that most aftermarket users will opt for if they don't already have an IAT sensor. The sensor only has two pins, sensor ground and temperature signal. Place the sensor in the intake manifold or plenum, wherever your car gets air.
 
-### Coolant Temperature Sensor Calibration
+**Table: IAT pinout**
+
+| IAT Sensor Pin       | MegaSquirt ECU Pin |
+| -------------------- | ------------------ |
+| 1 Signal ground      | Black White DB37/7 |
+| 2 Temperature signal | Orange DB37/20     |
+
+**Table: IAT expected temp resistance values**
+
+| Intake Air Temperature Temperature | Ohms |
+| ---------------------------------- | ---- |
+| 48F                                | 7000 |
+| 87F                                | 1930 |
+| 146F                               | 560  |
+
+### ABA Engine Coolant Temperature sensor
+Part: Golf MK3 ECT black body yellow ring, 357 919 501A
+Related part: Engine cooling fan switch (AC switch) 2-pin, 191 919 369A
 
 [What does the Coolant Temp Sensor do?](https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/)
 ![Coolant Temperature Sensor calibration](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-clt.jpg)
 
-Pin 1 A
-
-Pin 2 B
-
-Pin 3 A
-
-Pin 4 B
-
-
-
 Measure resistance between pins 1 and 3 at three different temperatures.
-
 Pin 2 and 4 provide a temp readout to our gauge readout.
+
+**Table: ECT pinout**
+
+| ECT Sensor Pin                | MegaSquirt ECU Pin |
+| ----------------------------- | ------------------ |
+| 1 Black White Signal ground   | Black White DB37/7 |
+| 2  Brown Blue Ground to block | --                 |
+| 3 Blue Signal ECU             | Yellow DB37/21     |
+| 4 Blue Dash gauge             | --                 |
+
+**Table ECT expected temp resistance values**
 
 | Temperature | Ohms |
 | ----------- | ---- |
@@ -314,15 +334,35 @@ Pin 2 and 4 provide a temp readout to our gauge readout.
 | 87F         | 1930 |
 | 146F        | 560  |
 
-### TPS Sensor Calibration
+### Honda CBR 600RR throttle position sensor
+Part: HONDA 255478286857
+Connector: Compatible with Sumitomo HX 040 6189-0887 receptacle
 
 ![Megasquirt TPS](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-tps.jpg)
 
+The ECU supplies the sensor with voltage and ground and completes a circuit. The sensor houses a potentiometer, a resistor that changes with position. The TPS is mounted on the throttle linkage and moves with the throttle plates. As the throttle plate opens and closes, the position modulates the resistance and creates a certain voltage output (pin 3). The ECU reads the voltage and digitally tells the ECU the throttle is at *x* position.
 
+| TPS Sensor Pin  | MegaSquirt ECU Pin |
+| --------------- | ------------------ |
+| 1 TPS VREF      | Grey DB37/26       |
+| 2 Sensor ground | Black White DB37/7 |
+| 3 TPS Signal    | Blue DB37/22       |
 
-### O2 Sensor Notes
+### AEM Wideband X-Series O2 Sensor
 
+Part: AEM 30-0300 X-Series Wideband UEGO Sensor, AEM 30-0300
+Harness: AEM 30-3427
 ![Megasquirt O2](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-o2.jpg)
+
+**Table: O2 pinout**
+
+| O2 Sensor Pin     | MegaSquirt ECU Pin |
+| ----------------- | ------------------ |
+| 1 Signal ground   | Black White DB37/7 |
+| 2 Ground to block | --                 |
+| 3 Signal ECU      | Yellow DB37/21     |
+| 4 Dash gauge      | --                 |
+
 
 ### Idle Air Control
 
@@ -339,17 +379,22 @@ This means:
   - IAC2B, DB37 pin 31
   - S12C to JS9
 
-### Ignition with the VR sensor
+### ABA VR Sensor
+
+Part: ABA VR sensor, 021 907 319A
+
+The original configuration uses the hall-effect with a trigger window in the distributor to create a signal to the ICM. Instead, with the MegaSquirt, we can use the input from the VR sensor, the given engine speed will allow MS to get some tach input and give us an ignition or spark output. This triggers the ICM and allow us to control the ignition.
 
 ![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.jpg)
-VR Sensor 021 907 319A
 https://www.msextra.com/forums/viewtopic.php?t=38492
 
-Pin 1 Signal
+**Table: O2 pinout**
 
-Pin 2 Ground
-
-Pin 3 Shield
+| VR Sensor Pin    | MegaSquirt ECU Pin |
+| ----------------- | ------------------ |
+| 1 Signal   | White DB37/24 |
+| 2 Sensor ground | Black DB37/1   |
+| 3 Shield | SHIELD DB37/2 |
 
 We control the ABA using its OEM configuration, a 60-2 wheel, and a VR sensor. This wiring is SIMILAR to the Bosch 124 module, but not exact.
 
@@ -359,7 +404,7 @@ In the case of the Golf, the wiring is slightly different:
 
 ![ignition](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
-Similar to the Direct Ignition Coil Control with Bosch 124 (7-pin module), we can control ignition by tapping into the existing ICM. The current Ignition Control Module (ICM) is as follows:
+Similar to the Direct Ignition Coil Control with Bosch 124 (7-pin module), we can control ignition by tapping into the existing ICM. The Golf's Ignition Control Module (ICM) is as follows:
 
 | Pin  | Function                  |
 | ---- | ------------------------- |
@@ -371,7 +416,7 @@ Similar to the Direct Ignition Coil Control with Bosch 124 (7-pin module), we ca
 | 6    | Hall-Effect signal        |
 | 7    | --unused--                |
 
-On the left are the original functions and wiring paths, and on the right are the functions adding the MegaSquirt.
+On the left are the original functions and wiring paths, partitioned, then on the right we change pin 6 for the MegaSquirt ignition output. This simulates the pulsing signal we get from the Hall-Effect, without needing an high-current ignition driver to directly power the coil.
 
 | Pin   | Function  |      | Pin   | Function               |
 | ----- | --------- | ---- | ----- | ---------------------- |
@@ -386,11 +431,7 @@ On the left are the original functions and wiring paths, and on the right are th
 | ICM/6 | Signal HE |      | ICM/6 | **DB37/36 IGN OUT**    |
 | ICM/7 |           |      | ICM/7 | -                      |
 
-Why not eliminate the HE sensor if you aren't using it? Idk; I'm scared to cut it out and find out I need it later, LOL.
-
-The original configuration uses the mechanical events from the trigger window in the distributor to create a signal to the ICM. With the MegaSquirt, we use the input from the VR sensor. This output signal will trigger the ICM and allow us to control the ignition.
-
-Similar to the Bosch 0 227 100 124 'igniter' module (called the "*Bosch 124*" here), the ICM is not a 'smart' module. That is, it DOES NOT control dwell. Because of this, we need to use the HEI settings in MegaSquirt-II to set the dwell, etc. The Bosch 124 fires the coil when the signal from MegaSquirt-II goes from high to low, just like the 7-pin HEI. We will use the following values as shown.
+The ICM is not a 'smart' module. That is, it DOES NOT control dwell. Because of this, we need to use the HEI settings in MegaSquirt-II to set the dwell, etc. We will attempt to use the following values as shown.
 
 | *Parameter*            | *Value*                                                      |
 | ---------------------- | ------------------------------------------------------------ |
@@ -399,10 +440,8 @@ Similar to the Bosch 0 227 100 124 'igniter' module (called the "*Bosch 124*" he
 | Coil Charging Scheme   | **Standard Coil Charge**                                     |
 | Spark Output           | **Going High (Inverted)** for production MS-II('Going High (Inverted)' *for MicroSquirt*) |
 
-## Fuel System
 
-Parts:
 
-- Fuel injectors:
-- Fuel pump:
-- Fuel pressure regulator:
+## Conclusion
+
+That covers just about everything ECU side! I'll be making changes retroactively as I run into issues during actual installation, but the theoretical portion is at least solved. Next post, I'll be working out the fuel system.
