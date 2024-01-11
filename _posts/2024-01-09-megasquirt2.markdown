@@ -396,11 +396,11 @@ https://www.msextra.com/forums/viewtopic.php?t=38492
 | 2 Sensor ground | Black DB37/1   |
 | 3 Shield | SHIELD DB37/2 |
 
-We control the ABA using its OEM configuration, a 60-2 wheel, and a VR sensor. This wiring is SIMILAR to the Bosch 124 module, but not exact.
-
-In the case of the Golf, the wiring is slightly different:
+We control the ABA using its OEM configuration, a 60-2 wheel, and a VR sensor. This wiring resmbles the Bosch 137 module.
 
 [Ignition MegaSquirt](https://www.sudoyashi.com/assets/documents/ms2-ignition.pdf)
+
+*inspecting further for ignition settings*
 
 ![ignition](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
@@ -431,7 +431,55 @@ On the left are the original functions and wiring paths, partitioned, then on th
 | ICM/6 | Signal HE |      | ICM/6 | **DB37/36 IGN OUT**    |
 | ICM/7 |           |      | ICM/7 | -                      |
 
-The ICM is not a 'smart' module. That is, it DOES NOT control dwell. Because of this, we need to use the HEI settings in MegaSquirt-II to set the dwell, etc. We will attempt to use the following values as shown.
+Apparently, according to forums, the module SHOULD be a smart module. Meaning it has dwell settings implemented. Why does this matter? If you don't know your dwell, you can cook your ICM or your ignition coil. Pricy mistake!
+
+The Bosch 137 module seems to be cross-listed with the VW part 191 905 351, which is what we have. The 137 is supposed to be like the 139 module, in that it's smart (sets dwell settings for us). 
+
+Reference:
+
+- [How to MegaSquirt your Water Cooled VW](https://www.diyautotune.com/support/tech/install/volkswagen/megasquirt-your-water-cooled/)
+
+  - **Trigger offset** = 60 (this will vary, depending on the distributor orientation, see notes at the end of the article)
+  - **Ignition Input Capture** to ‘Rising Edge’
+  - **Cranking Trigger** to ‘Trigger Return’
+  - **Coil Charging Scheme** to ‘Standard Coil Charging’
+  - **Spark Output** to ‘Going Low (Normal)’
+
+- [MegaSquirt Manual MS2/V3.57](https://www.msextra.com/doc/pdf/MS2V357_Hardware-3.4.pdf)
+
+  - *This single channel module can be used to drive a single high-current coil. Dwell is controlled by the Megasquirt. Set the Spark Output to Going High. Build circuit in 5.3.0.3*
+  - *Bosch 0 2227 100 137 This is very similar to the 124 but the spark input signal is on pin 6.*
+
+- [Using MSII to control the xxx 13modules](https://www.msextra.com/forums/viewtopic.php?t=8196)
+
+  - *137 Triggers when it's grounded, ie. from falling edge.*
+
+- [Sample trigger settings for ABA 2.0](137 Triggers when it's grounded, ie. from falling edge.)
+
+- [Another odd wheel](https://www.msextra.com/forums/viewtopic.php?t=16703)
+
+  - "Yes, a Bosch 137 'smart dwell' module together with one Volvo coil (COP type)"
+
+- [Bosch Ignition Modules components](https://www.pim-engineering.com/tiedostot/ignitionmodules.pdf)
+
+  - Max primary current, 8-10A
+  - Typee of trigger, hall effect
+
+- [Dwell on TCi ignition, smart dwell](https://www.vwvortex.com/threads/ignition-control-modules.9363575/)
+
+  - *However I think I located enough listings that I believe to be correct and came to the conclusion the ICM is in fact the same between the "knock box" and "non-knock" ignition systems for that period of VWs. Ha-ha, all of that to find out its the same.*
+
+    *The current part number that I believe to be the correct ICM is: Bosch= 227.100.137, and VW= 191.905.351.B.*
+
+- [Bosch Ign Module 0227 100 139](https://www.msextra.com/forums/viewtopic.php?t=18144)
+
+  - *it is labeled 'Hall Efect Module". Pin 6 is the input, Pin 5 is a 12V supply for a hall sensor and pin 3 is signal ground for the hall sensor if you wire your hall sensor supply to the module instead of MS.*
+
+- [How to tell if a Bosch ignition unit does dwell](https://www.msextra.com/forums/viewtopic.php?t=52201)
+
+  - *As far as I'm away the built-in dwell modules were only used standalone directly connected to a dizzy. Any module that was controlled by an ECU I would expect to require dwell control in Megasquirt.*
+    *Nothing wrong with keeping that module either - it should be perfectly matched to the coil.*
+    *James*
 
 | *Parameter*            | *Value*                                                      |
 | ---------------------- | ------------------------------------------------------------ |
@@ -439,8 +487,6 @@ The ICM is not a 'smart' module. That is, it DOES NOT control dwell. Because of 
 | Cranking trigger       | **Trigger Rise**                                             |
 | Coil Charging Scheme   | **Standard Coil Charge**                                     |
 | Spark Output           | **Going High (Inverted)** for production MS-II('Going High (Inverted)' *for MicroSquirt*) |
-
-
 
 ## Conclusion
 
