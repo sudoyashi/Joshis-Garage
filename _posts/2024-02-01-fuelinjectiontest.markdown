@@ -47,3 +47,7 @@ We have three Phillips-head screws, remove them. Get a flathead screwdriver and 
 Carefully unplug and remove the return, the feed hose, and 3-pin connector. This powers the fuel pump.
 
 Clean around the cover and put rags down for the gasoline. Lift up the pump and set it down. Cover the hole and now we can meander at the pump, but be clean about it.
+
+## ABA 2.0 Fuel Injectors
+
+## 2005 Honda CBR 600RR Fuel Injectors 
