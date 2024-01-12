@@ -379,11 +379,13 @@ This means:
   - IAC2B, DB37 pin 31
   - S12C to JS9
 
-### ABA VR Sensor
+### ABA VR Sensor and the Volkswagen Golf MK1 Ignition Control Module
 
 Part: ABA VR sensor, 021 907 319A
+Part: Golf MK1 ICM, VW part 191 905 351
+Part: Ignition coil, VW part 1 220 522 016
 
-The original configuration uses the hall-effect with a trigger window in the distributor to create a signal to the ICM. Instead, with the MegaSquirt, we can use the input from the VR sensor, the given engine speed will allow MS to get some tach input and give us an ignition or spark output. This triggers the ICM and allow us to control the ignition.
+Okay, so ignition is probably the most complicated and important section in any engine setup with an aftermarket ECU. Every setup is going to be slightly different so use this as a guide to get started.
 
 ![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.jpg)
 https://www.msextra.com/forums/viewtopic.php?t=38492
@@ -396,58 +398,114 @@ https://www.msextra.com/forums/viewtopic.php?t=38492
 | 2 Sensor ground | Black DB37/1   |
 | 3 Shield | SHIELD DB37/2 |
 
-We control the ABA using its OEM configuration, a 60-2 wheel, and a VR sensor. This wiring resmbles the Bosch 137 module.
+#### How it works
+
+We control the ABA by reading the signal from the 60-2 trigger wheel and a VR sensor.
+
+- There is a 60-2 missing tooth wheel for the crank; CRANK sensor to #24 TACH IN
+- Single ignition coil; MEGA #36 IGN to the ICM, Ignition Module; refer to amplifiers
+- ICM gets actuated by ignition signal; spark event to distributor
+- Distributor spark to spark plug
+
+The engine moves the crankshaft, where the VR sensor sees crankshaft movement. The original configuration uses the hall-effect with a trigger window in the distributor to create a signal to the ICM. Instead, with the MegaSquirt, we can use the input `ECU #24 TACH IN` from the VR sensor where it will condition the AC sine wave into a 5V DC square wave, output through `IGN signal (#36 IGN OUT)` to the ignition module. The ignition module (ICM) will ground the ignition coil's primary winding, collapsing the magnetic field and produce the high voltage spark at the secondary winding to the distributor.
+
+See full settings:
+
+- Toothed Wheel:
+  - Physical wheel: missing tooth on crank
+  - Trigger Angle/Offset: always zero
+  - Angle between main and return: n/a
+  - Secondary wheel: none
+  - Main wheel speed: Crank
+  - 2nd trig every rotation of: n/a
+  - GM HEI/DIS options: n/a
+  - 420A/NGC alternate cam: n/a
+  - Use cam signal if available: n/a
+  - Ignition input capture:
+  - Spark output
+  - Number of coils: 1
+  - Spark hardware in use
+  - Cam input
+  - Trigger wheel arrangement: single wheel with missing tooth
+  - Trigger wheel teeth: 60
+  - Missing teeth: 2
+  - Tooth #1 angle: 
+  - Main wheel speed: crankshaft
+  - Second trigger active on: no dual wheel
+  - Level for phase 1: no dual wheel
+  - And every rotation of: no dual wheel
+- Trigger
+  - Trigger Angle: 82-90
+  - 0 offset (for VR systems)
+  - Trigger A: 5
+  - Trigger return A: 14
+  - Trigger B: 35
+  - Trigger Return B:44
+  - TDC at 14th tooth; 84 degrees
+- Single coil and distributor
+- **Ignition Input Capture** to ‘Rising Edge’ or other way if you wired the VR sensor opposite
+- **Cranking Trigger** to ‘Trigger Return’
+- **Coil Charging Scheme** to ‘Standard Coil Charging’
+- **Spark Output** to ‘Going Low (Normal)
+
+#### In-depth on ignition wiring for the Bosch 137 module.
 
 [Ignition MegaSquirt](https://www.sudoyashi.com/assets/documents/ms2-ignition.pdf)
 
-*inspecting further for ignition settings*
-
 ![ignition](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
-Similar to the Direct Ignition Coil Control with Bosch 124 (7-pin module), we can control ignition by tapping into the existing ICM. The Golf's Ignition Control Module (ICM) is as follows:
+We can control ignition by tapping into the existing ICM. The Golf's Ignition Control Module (ICM) is as follows:
 
-| Pin  | Function                  |
-| ---- | ------------------------- |
-| 1    | Ground for ignition coil  |
-| 2    | ICM Ground                |
-| 3    | Hall-Effect sensor ground |
-| 4    | 12V for ignition coil     |
-| 5    | Hall-Effect sensor 12V    |
-| 6    | Hall-Effect signal        |
-| 7    | --unused--                |
+| Golf MK1 ICM Pin | Function                  |
+| ---------------- | ------------------------- |
+| 1                | Ground for ignition coil  |
+| 2                | ICM Ground                |
+| 3                | Hall-Effect sensor ground |
+| 4                | 12V for ignition coil     |
+| 5                | Hall-Effect sensor 12V    |
+| 6                | Hall-Effect signal        |
+| 7                | --unused--                |
 
-On the left are the original functions and wiring paths, partitioned, then on the right we change pin 6 for the MegaSquirt ignition output. This simulates the pulsing signal we get from the Hall-Effect, without needing an high-current ignition driver to directly power the coil.
+Since we aren't depending on the HE sensor to get a signal, we swipe that pin and use the MegaSquirt ignition output. Again, MegaSquirt will condition the VR sin wave into the expected (Hall-effect) square wave.
 
-| Pin   | Function  |      | Pin   | Function               |
-| ----- | --------- | ---- | ----- | ---------------------- |
-| HE/1  | GND HE    |      | HE/1  | GND HE                 |
-| HE/2  | Signal    |      | HE/2  | **-**                  |
-| HE/3  | Power     |      | HE/3  | Power HE               |
-| ICM/1 | GND Coil  |      | ICM/1 | GND Coil               |
-| ICM/2 | GND ICM   |      | ICM/2 | GND ICM                |
-| ICM/3 | GND HE    |      | ICM/3 | GND HE                 |
-| ICM/4 | 12V Coil  |      | ICM/4 | 12V Coil               |
-| ICM/5 | 12V HE    |      | ICM/5 | 12V Hall-Effect Sensor |
-| ICM/6 | Signal HE |      | ICM/6 | **DB37/36 IGN OUT**    |
-| ICM/7 |           |      | ICM/7 | -                      |
+| Hall-Effect (HE) and MK1 ICM Pin | Function  |      | Hall-Effect (HE) and ICM Pin | Function               |
+| -------------------------------- | --------- | ---- | ---------------------------- | ---------------------- |
+| HE/1                             | GND HE    |      | HE/1                         | GND HE                 |
+| HE/2                             | Signal    |      | HE/2                         | **-**                  |
+| HE/3                             | Power     |      | HE/3                         | Power HE               |
+| ICM/1                            | GND Coil  |      | ICM/1                        | GND Coil               |
+| ICM/2                            | GND ICM   |      | ICM/2                        | GND ICM                |
+| ICM/3                            | GND HE    |      | ICM/3                        | GND HE                 |
+| ICM/4                            | 12V Coil  |      | ICM/4                        | 12V Coil               |
+| ICM/5                            | 12V HE    |      | ICM/5                        | 12V Hall-Effect Sensor |
+| ICM/6                            | Signal HE |      | ICM/6                        | **DB37/36 IGN OUT**    |
+| ICM/7                            |           |      | ICM/7                        | -                      |
 
-Apparently, according to forums, the module SHOULD be a smart module. Meaning it has dwell settings implemented. Why does this matter? If you don't know your dwell, you can cook your ICM or your ignition coil. Pricy mistake!
+The VW ICM should be a smart module and has dwell settings implemented, otherwise known as closed loop control of dwell. The module will automatically adjust the dwell settings based on current. Auto-dwell is superior in that it won't break your shit, usually, and as a beginner in ECU tuning, this is great.
 
-The Bosch 137 module seems to be cross-listed with the VW part 191 905 351, which is what we have. The 137 is supposed to be like the 139 module, in that it's smart (sets dwell settings for us). 
+##### Some background info on ignition and dwell
 
-Reference:
+According to this article](https://web.archive.org/web/20170215145951/http://dtec.net.au/Tech%20Articles/Dwell%20Calibration.pdf), "dwell, or ‘dwell time’ in ignition systems refers to the period of time that the coil is turned on, ie that current is flowing through the primary winding and the magnetic field is building up in the coil." Well what does THAT mean? Simply, dwell is the time it takes for a coil to produce the spark for a spark plug. [If we cut the dwell time](https://www.denso-am.eu/news/deneur21_08_ignition-coil-charge-up), the primary winding does not get enough charge-up time and the spark is weak and shitty and your engine runs rough. If we prolong dwell, primary winding charges too much and can cause overheating, frying the coil.
+
+In addition, [dwell angle is the dwell time measured in degrees of rotation](https://docs.rs-online.com/fb75/0900766b800290e1.pdf), usually refers to distributor setups where the rotor and contact points are closed (spark event).
+
+Learn this stuff and you'll find you answer a lot easier on how to setup your ignition system. Let's continue with my setup.
+
+The Bosch 137 module seems to be cross-listed with the VW part 191 905 351, which is what we have. The 137 is like the 139 module, in that it's smart (sets dwell settings for us). Because of that, we'll use these settings in TunerStudio according to DIY AutoTune.
+
+##### Ignition references
 
 - [How to MegaSquirt your Water Cooled VW](https://www.diyautotune.com/support/tech/install/volkswagen/megasquirt-your-water-cooled/)
-
   - **Trigger offset** = 60 (this will vary, depending on the distributor orientation, see notes at the end of the article)
   - **Ignition Input Capture** to ‘Rising Edge’
   - **Cranking Trigger** to ‘Trigger Return’
   - **Coil Charging Scheme** to ‘Standard Coil Charging’
-  - **Spark Output** to ‘Going Low (Normal)’
+  - **Spark Output** to ‘Going Low (Normal)
+
+Read more: 
 
 - [MegaSquirt Manual MS2/V3.57](https://www.msextra.com/doc/pdf/MS2V357_Hardware-3.4.pdf)
 
-  - *This single channel module can be used to drive a single high-current coil. Dwell is controlled by the Megasquirt. Set the Spark Output to Going High. Build circuit in 5.3.0.3*
   - *Bosch 0 2227 100 137 This is very similar to the 124 but the spark input signal is on pin 6.*
 
 - [Using MSII to control the xxx 13modules](https://www.msextra.com/forums/viewtopic.php?t=8196)
@@ -463,7 +521,7 @@ Reference:
 - [Bosch Ignition Modules components](https://www.pim-engineering.com/tiedostot/ignitionmodules.pdf)
 
   - Max primary current, 8-10A
-  - Typee of trigger, hall effect
+  - Type of trigger, hall effect
 
 - [Dwell on TCi ignition, smart dwell](https://www.vwvortex.com/threads/ignition-control-modules.9363575/)
 
@@ -483,7 +541,7 @@ Reference:
 
 | *Parameter*            | *Value*                                                      |
 | ---------------------- | ------------------------------------------------------------ |
-| Ignition Input Capture | **Rising Edge** Signal through optoisolator (U4)('Falling Edge' *for MicroSquirt® if using the VR input circuit*) |
+| Ignition Input Capture | **Rising Edge** Signal through optoisolator (U4)             |
 | Cranking trigger       | **Trigger Rise**                                             |
 | Coil Charging Scheme   | **Standard Coil Charge**                                     |
 | Spark Output           | **Going High (Inverted)** for production MS-II('Going High (Inverted)' *for MicroSquirt*) |
