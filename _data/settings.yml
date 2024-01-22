@@ -9,9 +9,9 @@ google-ID: 'UA-112060364-2'
 menu:
 # - {name: 'cooking', url: 'cooking'}
 - {name: 'cars',  url: 'cars'}
-- {name: 'racing', url: 'racing'}
+- {name: 'it', url: 'it'}
 - {name: 'gallery', url: 'gallery'}
-- {name: 'cloud', url: 'cloud'}
+# - {name: 'cloud', url: 'cloud'}
 - {name: 'about', url: 'about'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

@@ -1,0 +1,67 @@
+---
+layout: post
+title:  "The Pratical MDM guide with Jamf Pro"
+date:   2024-01-30 00:00:00 -1000
+categories: jamf it phone mdm
+image: 
+---
+
+The Mobile Device Management (MDM) process is a not-so-straightforward way of managing company devices. While the setup starts off straightforward, there are a lot of ways that the setup can go wrong because of bad profiles, bad configuration, or incorrect setups that don't allow us to fully control a phone. MDM doesn't have to be hard, but it feels like a lot of company guides include a lot of fluff to convey the point of the process. This guide was made to be as straightforward as possible to get you started with using MDM in your business environment.
+
+## MDM is used by business to support and configure company devices
+
+The purpose of MDM is so that businesses can install apps, set usage rules, and push updates as needed. This is not a monitor-your-kids solution, these are work devices so treat them as such. If this is for kids, your school should be signed up for Apple School Manager. And if this is for your own kids, this is not the guide you are looking for.
+
+When I mention using MDM, I'm usually referring to the server that sets the configuration and rules. The server will send a Profile to install on a phone to communicate with it so that specific configurations and commands can be sent and received for a managed iPhone. While you can install a profile to almost any phone, you may not get full control until you do a full wipe for the full device configuration. To get full management, it's easiest to do with two iPhones to migrate the phone, otherwise you may run into the issue where restoring a backup will return you to the previous MDM. See this article on [Restoring Backups During MDM Enrollment](https://support.codeproof.com/mdm-device-enrollment/backup-restore-mdm-migration)'
+
+  >...it is important to note that the device being restored to **must be different from the device that the backup was created from**. This is because restoring a backup to the same device will restore everything, including the unsupervised state.
+
+Apple documentation is [here](https://support.apple.com/en-us/HT207516). It all starts with Apple. The basic flow of how the phone should be setup can go like this:
+
+1. Acquire a new phone
+2. Add the phone to Apple Business Manager
+3. In ABM, assign the phone a server
+4. In the server, assignn the phone some configuration
+5. Reset the iPhone and complete the setup with its new configuration.
+
+Apple does not manage your phone, Apple allows you to assign it to a server whereby the server will provide configurations and rules to manage the phone. Apple is the centralized hub where you can manage all of your devices, in case you have multiple servers. For most small businesses, you will just have one or two.
+
+## Flowchart of how to start with MDM
+
+The following is a mermaid flowchart to help with figuring out how to go on with the MDM process using Jamf and Apple Business Manager.
+
+```mermaid
+flowchart TD
+    Start(Phone setup)
+        
+
+        Start --> Prompt(Is this a new or replacement iPhone?)
+            Prompt --> New(New) --> F
+                Replacement --> Broken("#128683; Broken or Lost iPhone") --> F
+            Prompt --> Replacement(Replacement)
+                Replacement --> D2("Create #9729; iCloud backup of existing iPhone")
+            D2 --> FF(Setup New iPhone)
+    
+        FF --> F("New iPhone #128241;")
+        iCloud("Restore iCloud backup to new iPhone") --> F4
+
+
+        F -->|Add to ABM|F2(AC2 Prepare)
+        F2 --> |Device added to ABM| F3(Assign to Jamf Pro MDM Server)
+            F3  --> |Replacement| iCloud
+        F3 --> |New| F4(Login Apple ID)
+        F4 --> I2(Needs MFA?)
+            I2 --> I4(Yes, VPN User)
+                I4 --> I6(Duo, Fortitoken, Authenticator)
+                I6 --> X
+            I2 --> I5(Yes, Non-VPN User)
+                I5 --> I7(Duo)
+                I7 --> X
+
+
+        I2 --> I3(No MFA)
+            I3 --> X(Verify MDM, cellular plan, apps)
+            X --> X2("#128683; Issues? Check MDM Assignment")
+                X2 --> F3
+            X --> END(Done, distribute!)
+```
