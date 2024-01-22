@@ -10,7 +10,7 @@ image: /cabby/megasquirt/megasquirt-1.jpg
 The silly journey to put EFI on a 100HP car.
 
 **Quick links.**
-TLDR; here's the wiring diagram and parts list. Ya lazy bum.
+TLDR; here's the wiring diagram and parts list.
 
 - [Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
 - [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
@@ -19,26 +19,26 @@ TLDR; here's the wiring diagram and parts list. Ya lazy bum.
 
 ![img](https://www.megamanual.com/ms2/v3components.gif)
 
-The cab has overheated. The cab has caught on fire. And these things made me very sad. So, let's do it again! In the pursuit of not having to worry about breaking down on a car cruise, the goal is to make this car bulletproof reliable. Like for real this time. This is the EFI conversion project I've been working on for the last 3 months so far and we're starting with the ECU. We're mapping out the MegaSquirt 2 ECU, a bulkhead connector, new fusebox, and future-proofing other wiring issues.
+The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. This is the Cabby's EFI conversion project I've been working on for the last three months; today, let's start with wiring and the ECU. We're mapping out the MegaSquirt 2 ECU, a bulkhead connector, a new fusebox, and future-proofing other wiring issues.
 
-The Golf MK1 came with mechanical fuel injection that was reliable... when it worked. When it failed me back in 2021 the cost to maybe fix the parts was too much to justfiy, so I decided to use bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again, but it ruined the carbs and part of the engine. Carbs are not inherently bad, but they leave a lot to be desired in tuning and control. Adding in the ECU will solve a lot of the imprecision from the carbs and hopefully save this car one more time.
+The Golf MK1 came with mechanical fuel injection that was reliable, until it wasn't. When it failed me back in 2021, the cost to fix the parts ($700) was too much to justify a fix to an already archaic system, so I used bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again. It ruined the carbs and part of the engine. Carbs are not inherently bad, but they leave much to be desired in tuning and control. Changing towards EFI and a standalone ECU will solve many of the carbs' imprecision issues and hopefully save this car one more time.
 
 We are assembling the Megasquirt 2 DIY kit on the v3.0 PCB. I will not be using the following features:
 
 - Anything related to Idle Air Control, the ITBS come from a 2005 Honda CBR 600RR that uses a wax idle routed with coolant instead of an IAC. 
-- MS2 "CAN" bus, supposedly it's not good or not real CAN BUS? I'll get to that in another build or something.
+- MS2 "CAN" bus, supposedly it's not good or not real CAN BUS? CAN BUS will be set for another build as I still find CAN BUS very interesting.
 
 ## What is a MegaSquirt ECU? The original MegaSquirt Wiring Diagram
 
-The car's ECU is just a computer that tells it when to spark and when to squirt fuel. It's not magic, it's science. The MegaSquirt (MS) ECU is a cheaper, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. Unfortunately, if you don't know what you are doing like, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup and it can take a lot of work to figrue out what you want to do. It's not impossible, though. With time and determination, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs.
+The car's ECU is the computer that tells it when to spark and when to squirt fuel. It's not magic, it's science. The MegaSquirt (MS) ECU is a cheaper, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. Unfortunately, if you don't know what you are doing, like me, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup, and it can take a lot of work to figure out what you want to do. It's not impossible, though. With time and determination, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs. Just drop a few months of your time.
 
-This is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before. The diagram illustrates what the ECU will read (inputs) and what it will control (outputs), with this control on inputs and outputs (I/O) we can tune the engine to behave how we want it to.
+Below is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before. The diagram illustrates what the ECU will read (inputs) and what it will control (outputs), with this control on inputs and outputs (I/O) we can tune the engine to behave how we want it to.
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
-Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading sensors like air temperature, coolant temperature, and engine speed on the car. The data read by the ECU will read off a table of values and spit out some value to spray a certain amount of fuel and spark at a certain time, this dynamically adjusts to the car and environment and the cycle continues.
+Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading sensors on the car, like air temperature, coolant temperature, and engine speed. The data read by the ECU will read off a table of values and spit out some value to spray a certain amount of fuel and spark at a specific time. This dynamically adjusts to the car and environment, and the cycle continues.
 
-The ECU has a DB37 connector, meaning it has 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
+The ECU has a DB37 connector with 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
 
 ### Wire Harness Terminals DB-37 Connector Megasquirt II V3.0
 
@@ -46,7 +46,7 @@ The ECU has a DB37 connector, meaning it has 37 possible pins to give and retrie
 
 View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
-This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine, using the following sensors. More info can be found in the [Sensors](https://www.sudoyashi.com/megasquirt2#sensors) section.
+This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine using the following sensors. More info can be found in the [Sensors](https://www.sudoyashi.com/megasquirt2#sensors) section.
 
 - MS2 On-board MAP sensor to manifold
 - GM Intake Air Temperature sensor
@@ -99,11 +99,11 @@ This table references the terminals for the DB37 connector on the MegaSquirt 2 f
 
 ![REC, 29P, BLK, E, RNG, 12/16/20, S-HDP24-24-29SE-L017](https://www.te.com/content/dam/te-com/catalog/part/HDP/242/429/HDP24-24-29SE-L017-t1.jpg/jcr:content/renditions/product-details.png)
 
-A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick and as far as reliability and durability, I wanted to give it a try. I was very excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is the easy part, the hard part is parts availability and planning.
+A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick, and as far as reliability and durability are concerned, I wanted to give it a try. I was very excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is the easy part, and the hard part is parts availability and planning.
 
-It's a challenge in planning and wiring that I wanted to take to prepare myself for future wiring jobs. Yes, it would be simpler to crimp the MS2 harness directly to my components, but I think automotive wiring is a challenge for most people, and if I can show others that if you can put in the time and work, it will pay dividends in reliability, consistency, and durability of the build. Mapping the diagram forces me to consider every wire going into my car and makes me understand what I'm doing.
+It's a challenge in planning and wiring that I wanted to take to prepare myself for future wiring jobs. Crimping the MS2 harness directly to my components would be simpler, but a bulkhead connector would make it easier to service in the long run. Automotive wiring is a challenge for most people, and if I can show others that if you can put in the time and work, it will pay dividends in the build's reliability, consistency, and durability. Mapping the diagram forces me to consider every wire going into my car and makes me understand what I'm doing.
 
-Wiring can be a frustrating process as a DIYer, but future Josh will definitely thank me multiple times over.
+Wiring is a frustrating process as a DIYer, but future Josh will thank current Josh multiple times over.
 
 The connector I plan on using is the Deutsch HDP connector. The parts list and connections are at the end of this section. Let's simplify the Deutsch connector world, as I'll list the exact part numbers I used in this build, what they do, and how to plan your build.
 
@@ -153,23 +153,23 @@ The plan is to take the wires from the MS2 harness and put it into the bulkhead 
 
 ![HDP Pinout 1](https://www.sudoyashi.com/assets/img/cabby/megasquirt/wiring-hdp29pinout-1.jpg)
 
-Let's look into the Deutsch bulkhead connector. Do you know about the different materials and wire ranges between terminals? Here are 4 things to consider when choosing your connectors:
+Let's look into the Deutsch bulkhead connector. Do you know about the different materials and wire ranges between terminals? Here are four things to consider when choosing your connectors:
 
 1. What size pin or socket?
    - You need both the pin and the socket. This creates the wire connection and the type of pin or socket depends on the connector you have. Refer to the specification ([Deutsch stamped contacts](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-151000%7FG%7Fpdf%7FEnglish%7FENG_SS_108-151000_G.pdf%7F1060-12-0222)) on what contact size you need. There are two types of terminals: stamped and solid. Stamped ones are cheap. Solid contacts are a pricy but durable option.
 2. What size AWG are you using?
-   - Now, the Deutsch contact size is NOT equal to the exact AWG size. You will see size 12, 16, and 20 contacts but they come in various usable AWG, so there is some flexibility in the wire that you can use. Because of this flexibility, price and availability come into play. You need to know what size wires you are using. In my case, I am using AWG 12 AWG 18 and AWG 20. AWG 12 is for more high-power applications like the main relay and fans, while AWG 18-20 is for low-power applications like the ECU, injectors, and sensors.
-   - Make sure that the pins and sockets are of the same materials when buying your parts. There are gold (Au), tin (Sn), nickel (Ni), and silver (Ag)
+   - Now, the Deutsch contact size is NOT equal to the exact AWG size. You will see size 12, 16, and 20 contacts, but they come in various AWG, so there is some flexibility in the wire that you can use. Because of this flexibility, price and availability come into play. You need to know what size wires you are using. In my case, I am using AWG 12, AWG 18, and AWG 20. AWG 12 is for high-power applications like the main relay and fans, while AWG 18-20 is for low-power applications like the ECU, injectors, and sensors.
 3. What material?
    - There are multiple to choose from. Consider Gold (Au), Nickel (Ni), Tin (Sn), and Silver (Ag). Let's focus on the most common ones, Gold and Tin. According to this [Molex article](https://www.molex.com/en-us/blog/gold-or-tin-vs-gold-and-tin), essentially gold connectors are more durable than tin, maintains a durable connection over time, and never mix the types of connectors while tin connectors are cheaper, do the job, but may not survive many mating cycles. **Tldr; buy what's available and never don't mix mating materials. Tin is cheap. Gold is highly reliable.** Some connectors may be made of both (AU/SN).
+   - Make sure that the pins and sockets are of the same materials when buying your parts. There are gold (Au), tin (Sn), nickel (Ni), and silver (Ag)
 4. Is it available to buy?
    - Availability is the unspoken bane of car people. The parts exist, but your job is to find out who sells them and who has them for the cheapest price. **Tl;dr if a kit exists, buy the kit.** Hunting for the same part after the fact will ruin your future days.
 
-After all of that, you should end up with something like this:
+What does a budget look like for some parts?
 
-The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper, and you would find kits typically have the stamped terminals.
+Consider that sometimes you can't buy these parts individually and may need to be in bulk, prices deccrease commensurate with bulk and material choice. Cheaper options include tin or nickel option and are usually stamped contacts. This is good enough. You can find that some kits typically have stamped contacts.
 
-**Stamped contacts**
+**Stamped contacts are cheaper**
 
 | Size | Socket (1062) | Pin (1060) | AWG | Material (XX) | PN | Qty | $ |
 | ---- | ------ | ---- | ------------ | -------- | ---- | ------------- | ------------- |
@@ -180,9 +180,9 @@ The cheaper, tin or nickel option. Usually stamped contacts. Generally cheaper, 
 | 20   | X      |      | 18-20        | Sn            | 1062-20-0377 | 6 | $1.04 |
 | 20   |        | X    | 18-20        | Sn   | 1060-20-0177 | 6 | $0.45 |
 
-The premium option is usually solid contacts with gold, which would run me at least $106.99. This is also considering the UNIT cost. Sometimes, you can only buy some parts in bulk of 1000 or so, so this does not include shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
+The premium option is usually solid contacts with gold, which would run me at least $106.99. Sometimes, you can only buy some parts in bulk of 1000 or so, so this does not include shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
 
-**Solid Contacts**
+**Solid contacts gets expensive real quick**
 
 | Size | Socket (0462) | Pin (0460) | Expected AWG | Material (XX) | Part #        | Qty  | $      |
 | ---- | ------------- | ---------- | ------------ | ------------- | ------------- | ---- | ------ |
@@ -195,9 +195,13 @@ The premium option is usually solid contacts with gold, which would run me at le
 
 XX / Tin(Sn)=309,Gold(Au)=31,Nickel(Ni)=90 or 141
 
-#### Splicing into existing wires
+#### Splicing wires with CMA
 
-These wire splices were introduced to me by this [article](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/) from High Performance Academy. There are three open-barrel splices, two of which I will be using. In this case, splices won't be by the usual AWG size but by the CMA or Circular Mil Area. Each wire has a general density of wires that we can calculate as an area. More CMA, thicker wires. This chart is a general reference for wire CMA. The chart is an average I found on wire CMA, but it's close enough to club-spec.
+Bare-metal wire splices were introduced to me by this [article](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/) from High Performance Academy. There are three open-barrel splices. These kinds of splices don't go by the usual AWG size but by the CMA or Circular Mil Area. Each wire has an estimated density of wires, giving us a certain area. Thinner wires have smaller CMA, thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec. The advantage to these open-barrel types is that is doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
+
+The issue I had with butt connectors were that I couldn't inspect the crimp after the fact, just pulling on it and hoping it stays. The connectors are slightly bulkier by comparison, but when you have to splice multiple wires in an area, it can look messy. Using the open-barrel splices lets us resolve both issues!
+
+**Table of AWG and its relative CMA**
 
 | Wire size (AWG) | CMA  |
 | --------------- | ---- |
@@ -208,11 +212,11 @@ These wire splices were introduced to me by this [article](https://www.hpacademy
 | 20              | 1020 |
 | 22              | 642  |
 
-Larger wires have more CMA, and smaller wires have less CMA. As we splice more wires together, we want to add them up, and then we can choose a splice.
+As we splice more wires together, we want to add them up, and then we can choose a splice. These are the available splices below.
 
-1. 1500 CMA and less of combined wire area: [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header) These are a little too small for me.
+1. 1500 CMA and less of combined wire area: [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header) These are too small for me to use.
 2. 1500 to 5000 CMA of combined wire area: TE [63130-2](https://www.te.com/usa-en/product-63130-2.html) Example: Two 20AWG wires or two 18AWG wires for ECU splicing.
-3. 5000 to 10,000 CMA of combined wire area: TE [62357-1](https://www.te.com/usa-en/product-62357-1.html?q=62357-1&source=header) Example: One 14AWG wire to four 20AWG wires for fuel injection power.
+3. 5000 to 10,000 CMA of combined wire area: TE [62357-1](https://www.te.com/usa-en/product-62357-1.html?q=62357-1&source=header) Example: One 14AWG wire to four 20AWG wires for fuel injector wires.
 
 #### Bulkhead receptacle (the hot socket side)
 
@@ -230,28 +234,26 @@ The plug side will be mounted on the firewall.
 
 #### Bulkhead Parts list
 
-| Item                                  | Image                                                        | Description                                    | Part Number        | Quantity | Subtotal |
-| ------------------------------------- | ------------------------------------------------------------ | ---------------------------------------------- | ------------------ | -------- | -------- |
-| Deutsch socket                        | ![HDP24-24-29SE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5555/MFG_HDP24-24-29SE-L017.jpg) | Bulkhead plastic socket, 29-pin                | HDP24-24-29SE-L017 | 1        |          |
-| Deutsch plug,                         | ![HDP26-24-29PE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg) | Bulkhead plastic plug, 29-pin                  | HDP26-24-29PE-L017 | 1        |          |
-| Medium splice                         | ![Medium splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg) | Splices for my 18-20AWG                        | 63130-2            | 100      | $8.52    |
-| Large splice                          | ![Larger splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG) | Splices for my 14AWG                           | 62357-1            | 100      | $11.25   |
-| Size 12 Solid Receptacle pin (female) | ![12 pin](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG) |                                                | (1060) 0460-XXX-12 |          |          |
-| Size 12 Solid Plug pin (male)         | ![12 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                | (1062) 0462-XXX-12 |          |          |
-| Size 16 Solid Receptacle pin (female) | ![Size 16 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                                | (1060) 0460-XXX-16 |          |          |
-| Size 16 Solid Plug pin (male)         | ![Size 16 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg) |                                                | (1062) 0462-XXX-16 |          |          |
-| Size 20 Solid Receptacle pin (female) | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg) | 16-20AWG, Gold, 0460-202-1631                  | (1060) 0460-XXX-20 |          |          |
-| Size 20 Solid Plug pin (male)         | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG) | 16-20AWG, Gold, 0462-201-1631                  | (1062) 0462-XXX-20 |          |          |
-| Boot                                  | ![HD30 boot](https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220) | Protective boot                                | HD30-24BT-BK       | 2        | $3.07    |
-| Terminal 2.8mm                        |                                                              | General terminal for most pins and receptacles |                    |          |          |
-| Terminal 6.8mm                        |                                                              |                                                |                    |          |          |
-| Fuse holder with terminals            | ![DigiKey Fuseholder](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG) | Individual fuse holder                         | DigiKey, F5194-ND  |          |          |
-|                                       |                                                              |                                                |                    |          |          |
+| Item                                  | Image                                                        | Description                     | Part Number        | Quantity | Subtotal |
+| ------------------------------------- | ------------------------------------------------------------ | ------------------------------- | ------------------ | -------- | -------- |
+| Deutsch socket                        | ![HDP24-24-29SE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5555/MFG_HDP24-24-29SE-L017.jpg) | Bulkhead plastic socket, 29-pin | HDP24-24-29SE-L017 | 1        |          |
+| Deutsch plug,                         | ![HDP26-24-29PE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg) | Bulkhead plastic plug, 29-pin   | HDP26-24-29PE-L017 | 1        |          |
+| Medium splice                         | ![Medium splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg) | Splices for my 18-20AWG         | 63130-2            | 100      | $8.52    |
+| Large splice                          | ![Larger splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG) | Splices for my 14AWG            | 62357-1            | 100      | $11.25   |
+| Size 12 Solid Receptacle pin (female) | ![12 pin](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG) |                                 | (1060) 0460-XXX-12 |          |          |
+| Size 12 Solid Plug pin (male)         | ![12 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                 | (1062) 0462-XXX-12 |          |          |
+| Size 16 Solid Receptacle pin (female) | ![Size 16 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                 | (1060) 0460-XXX-16 |          |          |
+| Size 16 Solid Plug pin (male)         | ![Size 16 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg) |                                 | (1062) 0462-XXX-16 |          |          |
+| Size 20 Solid Receptacle pin (female) | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg) | 16-20AWG, Gold, 0460-202-1631   | (1060) 0460-XXX-20 |          |          |
+| Size 20 Solid Plug pin (male)         | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG) | 16-20AWG, Gold, 0462-201-1631   | (1062) 0462-XXX-20 |          |          |
+| Boot                                  | ![HD30 boot](https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220) | Protective boot                 | HD30-24BT-BK       | 2        | $3.07    |
+| Fuse holder with terminals            | ![DigiKey Fuseholder](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG) | Individual fuse holder          | DigiKey, F5194-ND  |          |          |
+|                                       |                                                              |                                 |                    |          |          |
 
 ### Fuse and relay panel
 
 ![I like historic rally Volkswagens](https://collectingcars.imgix.net/011646/DSC-0317.jpeg?fit=clip&w=2000&auto=format,compress&cs=srgb&q=85)
-The history of Golf Mk1/Mk2 and Polo rallies has always attracted me from my short time playing Dirt Rally 2.0. This is optional for most builds, but the Golf Mk1 factory wiring is pretty tired, so I'm rewiring some things for reliability.
+The history of Golf Mk1/Mk2 and Polo rallies has always attracted me from my short time playing Dirt Rally 2.0. This is optional for most builds, but the Golf Mk1 factory wiring is tired, so I'm rewiring some things for reliability.
 
 I couldn't find any fuse box I liked, so I'm making a custom mounted one. Using individual fuse holders, [178.6152.0001](http://d.digikey.com/dc/mn-w0iJh4uEE_bUitNCuXmOASUNxIUHHNt2ANEnMXZ_AG_WhgOqCceIg4XKIDiTGU5IpRQEyR1t2V-Puo8lFuHzTPtYX6bfJEClHe62PNrZkDz-UHKBnux6j6Cr0l8ucounb-wISKZM8WacqeDnNHnfIeGZ5XxGzspQ5d8Uh5FxYEeWcK4B7IXHW6B16Ip7g/MDI4LVNYSy01MDcAAAGQlqDFwJPDtEc8eI9npTdI25sL8hjJ6yozBRIZwzLlO--b-HK9nX_LRC97znpBDoLWE892rl0=), I'll mount the fuseholders behind an ABS faceplate and mount the fuses like the ones above. I might update this to include a few more goodies (*AHEM on-board rally intercom*). 
 
@@ -259,7 +261,7 @@ That's enough wiring technicalities. Let's talk about the actual MegaSquirt now.
 
 ## MegaSquirt Sensors and you
 
-We need your input!
+We need your inputs!
 
 Sensors give the ECU data so that it can do its job. If a sensor fails or malfunctions, the ECU will fail. Therefore, get the right sensors and get the right pinouts for your application. Sensors usually work by changing its physical properties to produce some resistance. It can be a bi-metallic metal, plate, resistance, and so on. Not sure where to start, follow my table here and swap out your sensors accordingly.
 
@@ -400,17 +402,18 @@ https://www.msextra.com/forums/viewtopic.php?t=38492
 
 #### How it works
 
-We control the ABA by reading the signal from the 60-2 trigger wheel and a VR sensor.
+We control the ABA by reading the incoming signal from the 60-2 trigger wheel and a VR sensor.
 
-- There is a 60-2 missing tooth wheel for the crank; CRANK sensor to #24 TACH IN
-- Single ignition coil; MEGA #36 IGN to the ICM, Ignition Module; refer to amplifiers
-- ICM gets actuated by ignition signal; spark event to distributor
+- The ABA uses 60-2 missing tooth wheel attached to the crank; this is the CRANK(VR) sensor to #24 TACH IN
+- Single ignition coil; MEGA #36 IGN to the ICM, Ignition Control Module; refer to amplifiers
+- The ignition signal (VR conditioned) Golf ICM gets actuated by ignition signal; spark event to distributor
 - Distributor spark to spark plug
 
-The engine moves the crankshaft, where the VR sensor sees crankshaft movement. The original configuration uses the hall-effect with a trigger window in the distributor to create a signal to the ICM. Instead, with the MegaSquirt, we can use the input `ECU #24 TACH IN` from the VR sensor where it will condition the AC sine wave into a 5V DC square wave, output through `IGN signal (#36 IGN OUT)` to the ignition module. The ignition module (ICM) will ground the ignition coil's primary winding, collapsing the magnetic field and produce the high voltage spark at the secondary winding to the distributor.
+As the engine turns runs, the crankshaft turns whereby the VR sensor sees crankshaft movement by reading the missing tooth wheel. The original configuration uses the hall-effect with a trigger window in the distributor to mark the spark events. We aren't using the hall-effect to control spark so we can disconnect this signal. Instead, with the MegaSquirt, we can use the input `ECU #24 TACH IN` from the VR sensor where it will condition the AC sine wave into a 5V DC square wave, output through `IGN signal (#36 IGN OUT)` to the ICM. The ICM will ground the ignition coil's primary winding, collapsing the magnetic field and produce the high voltage spark at the secondary winding to the distributor and finally send spark to our spark plug.
 
-See full settings:
+You got it?! If not, you can read on in-depth to learn more.
 
+**Tuner Studio settings**
 - Toothed Wheel:
   - Physical wheel: missing tooth on crank
   - Trigger Angle/Offset: always zero
@@ -443,18 +446,19 @@ See full settings:
   - Trigger Return B:44
   - TDC at 14th tooth; 84 degrees
 - Single coil and distributor
-- **Ignition Input Capture** to ‘Rising Edge’ or other way if you wired the VR sensor opposite
-- **Cranking Trigger** to ‘Trigger Return’
-- **Coil Charging Scheme** to ‘Standard Coil Charging’
-- **Spark Output** to ‘Going Low (Normal)
+- **Ignition Input Capture** to 'Rising Edge' or other way if you wired the VR sensor opposite
+- **Cranking Trigger** to 'Trigger Return'
+- **Coil Charging Scheme** to 'Standard Coil Charging'
+- **Spark Output** to 'Going Low (Normal)
 
-#### In-depth on ignition wiring for the Bosch 137 module.
+#### In-depth on ignition wiring for the Bosch 137 module
 
 [Ignition MegaSquirt](https://www.sudoyashi.com/assets/documents/ms2-ignition.pdf)
 
 ![ignition](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-ignition.jpg)
 
-We can control ignition by tapping into the existing ICM. The Golf's Ignition Control Module (ICM) is as follows:
+This is the theory behind the ignition system. I didn't officially test yet since the engine is still out of the car, but this will work for the 60-2 configuration. Probably.
+We can control ignition by tapping into the existing ICM and The Golf's Ignition Control Module (ICM) is as follows:
 
 | Golf MK1 ICM Pin | Function                  |
 | ---------------- | ------------------------- |
@@ -485,24 +489,24 @@ The VW ICM should be a smart module and has dwell settings implemented, otherwis
 
 ##### Some background info on ignition and dwell
 
-According to this article](https://web.archive.org/web/20170215145951/http://dtec.net.au/Tech%20Articles/Dwell%20Calibration.pdf), "dwell, or ‘dwell time’ in ignition systems refers to the period of time that the coil is turned on, ie that current is flowing through the primary winding and the magnetic field is building up in the coil." Well what does THAT mean? Simply, dwell is the time it takes for a coil to produce the spark for a spark plug. [If we cut the dwell time](https://www.denso-am.eu/news/deneur21_08_ignition-coil-charge-up), the primary winding does not get enough charge-up time and the spark is weak and shitty and your engine runs rough. If we prolong dwell, primary winding charges too much and can cause overheating, frying the coil.
+[According to this article](https://web.archive.org/web/20170215145951/http://dtec.net.au/Tech%20Articles/Dwell%20Calibration.pdf), "dwell, or 'dwell time' in ignition systems refers to the period of time that the coil is turned on, i.e. that current is flowing through the primary winding and the magnetic field is building up in the coil." Well what does THAT mean? *Dwell is the time it takes for a coil to produce the spark for a spark plug.* [If we shorten the dwell time too much](https://www.denso-am.eu/news/deneur21_08_ignition-coil-charge-up), the primary winding does not get enough charge-up time and the spark is weak and shitty and your engine runs rough. If we extend the dwell too long, primary winding charges too much and can cause overheating, frying the coil.
 
-In addition, [dwell angle is the dwell time measured in degrees of rotation](https://docs.rs-online.com/fb75/0900766b800290e1.pdf), usually refers to distributor setups where the rotor and contact points are closed (spark event).
+In addition, [dwell angle is the dwell time measured in degrees of rotation](https://docs.rs-online.com/fb75/0900766b800290e1.pdf), referring to distributor setups where the rotor and contact points are closed (spark event).
 
 Learn this stuff and you'll find you answer a lot easier on how to setup your ignition system. Let's continue with my setup.
 
-The Bosch 137 module seems to be cross-listed with the VW part 191 905 351, which is what we have. The 137 is like the 139 module, in that it's smart (sets dwell settings for us). Because of that, we'll use these settings in TunerStudio according to DIY AutoTune.
+The Bosch 137 module seems to be cross-listed with the VW part 191 905 351, which is what we have. The 137 is like the 139 module, in that it's smart and dynamically sets the dwell settings for us. Without needing to set dwell, we don't have to worry too much about having shitty spark or cooking our coil. So, we can use these settings in TunerStudio according to DIY AutoTune.
 
 ##### Ignition references
 
 - [How to MegaSquirt your Water Cooled VW](https://www.diyautotune.com/support/tech/install/volkswagen/megasquirt-your-water-cooled/)
   - **Trigger offset** = 60 (this will vary, depending on the distributor orientation, see notes at the end of the article)
   - **Ignition Input Capture** to ‘Rising Edge’
-  - **Cranking Trigger** to ‘Trigger Return’
-  - **Coil Charging Scheme** to ‘Standard Coil Charging’
-  - **Spark Output** to ‘Going Low (Normal)
+  - **Cranking Trigger** to 'Trigger Return'
+  - **Coil Charging Scheme** to 'Standard Coil Charging'
+  - **Spark Output** to 'Going Low (Normal)
 
-Read more: 
+Read more:
 
 - [MegaSquirt Manual MS2/V3.57](https://www.msextra.com/doc/pdf/MS2V357_Hardware-3.4.pdf)
 
@@ -521,7 +525,7 @@ Read more:
 - [Bosch Ignition Modules components](https://www.pim-engineering.com/tiedostot/ignitionmodules.pdf)
 
   - Max primary current, 8-10A
-  - Type of trigger, hall effect
+  - Type of trigger, Hall effect
 
 - [Dwell on TCi ignition, smart dwell](https://www.vwvortex.com/threads/ignition-control-modules.9363575/)
 
@@ -546,6 +550,6 @@ Read more:
 | Coil Charging Scheme   | **Standard Coil Charge**                                     |
 | Spark Output           | **Going High (Inverted)** for production MS-II('Going High (Inverted)' *for MicroSquirt*) |
 
-## Conclusion
+## I swear this is going to work.
 
-That covers just about everything ECU side! I'll be making changes retroactively as I run into issues during actual installation, but the theoretical portion is at least solved. Next post, I'll be working out the fuel system.
+Making and writing my first wiring diagram was not particularly difficult, but it took a lot of time. The way I see it, the time doing research and headache on the computer is time exponentially saved when troubleshooting anything in the car. With something written down and documented, it's clear as day where the potential problems are. That covers just about everything on the ECU side! I'll be making changes retroactively as I run into issues during actual installation, but the theoretical portion is at least solved. Next post, I'll be working out the fuel system.
