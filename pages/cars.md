@@ -4,7 +4,7 @@ title: Cars
 permalink: /cars/
 ---
 
-I own a [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/cars/#1985-volkswagen-golf-cabriolet) and a [2019 Honda Civic Si (10th gen)](https://www.sudoyashi.com/cars/#2019-honda-civic-si). I don't plan to build either of these fast cause that's expensive, lol.
+I own a [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/cars/#1985-volkswagen-golf-cabriolet) and a [2019 Honda Civic Si (10th gen)](https://www.sudoyashi.com/cars/#2019-honda-civic-si).
 
 ## [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/dacabby)
 
@@ -20,16 +20,15 @@ The Golf, coloquially known as the cabby, is the sketchy project car that hasn't
 
 ![SCCA Race 7](https://www.sudoyashi.com/assets/img//scca/race7/cabby-autocross-arvin-6.jpg) [Race 7](*The Cab's first race*)
 
-
 ## [2019 Honda Civic Si](https://www.sudoyashi.com/civicsi)
 
-The Civic is the daily driver.
+It's just a Civic, but at least it makes pssh pssh noises.
 
 ![Civic Race highlight](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
 
+## SCCA Hawaii
 
-## SCCA Hawaii 2023
-
+### 2023
 ![Race 5 in the rain](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
 
 - [Race 1](https://www.sudoyashi.com/scca2023race1)
@@ -38,7 +37,7 @@ The Civic is the daily driver.
 - [Race 6](https://www.sudoyashi.com/scca2023race6)
 - [Race 7](https://www.sudoyashi.com/scca2023race7)
 
-## Race DIY
+## DIY
 
 ![Civic with decal](https://www.sudoyashi.com/assets/img/civic-si-decal2.jpg)
 - [DIY Decals](https://www.sudoyashi.com/diy-decal) - Making decals for less than $15 

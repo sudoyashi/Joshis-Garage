@@ -19,20 +19,20 @@ TLDR; here's the wiring diagram and parts list.
 
 ![img](https://www.megamanual.com/ms2/v3components.gif)
 
-The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. This is the Cabby's EFI conversion project I've been working on for the last three months; today, let's start with wiring and the ECU. We're mapping out the MegaSquirt 2 ECU, a bulkhead connector, a new fusebox, and future-proofing other wiring issues.
+The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. This is the Cabby's EFI conversion project I've been working on for the last three months; today, let's dive into the ECU and wiring.
 
-The Golf MK1 came with mechanical fuel injection that was reliable, until it wasn't. When it failed me back in 2021, the cost to fix the parts ($700) was too much to justify a fix to an already archaic system, so I used bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again. It ruined the carbs and part of the engine. Carbs are not inherently bad, but they leave much to be desired in tuning and control. Changing towards EFI and a standalone ECU will solve many of the carbs' imprecision issues and hopefully save this car one more time.
+The Golf MK1 came with mechanical fuel injection that was reliable, until it wasn't. When it failed me back in 2021, the cost to fix the parts ($700) was too much to justify a fix to an already archaic system, so I used bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again. It ruined the carbs and part of the engine, not a bad time to swap it! While carbs are not inherently bad, but they leave much to be desired in tuning and control. Changing the system to electronic fuel injection (EFI) and a standalone ECU will solve many of the carbs' imprecision issues but with it comes a lot of new challenges to complete the setup, but in the end, we'll save this car one more time.
 
-We are assembling the Megasquirt 2 DIY kit on the v3.0 PCB. I will not be using the following features:
+I'm using the Megasquirt 2 DIY kit on the v3.0 PCB, but will not be using the following features:
 
-- Anything related to Idle Air Control, the ITBS come from a 2005 Honda CBR 600RR that uses a wax idle routed with coolant instead of an IAC. 
+- Anything related to Idle Air Control, the ITBS come from a 2005 Honda CBR 600RR that uses a wax idle enrichment system that using coolant routed with coolant instead of an IAC
 - MS2 "CAN" bus, supposedly it's not good or not real CAN BUS? CAN BUS will be set for another build as I still find CAN BUS very interesting.
 
-## What is a MegaSquirt ECU? The original MegaSquirt Wiring Diagram
+## What is a MegaSquirt ECU? The ultimate DIY ECU
 
-The car's ECU is the computer that tells it when to spark and when to squirt fuel. It's not magic, it's science. The MegaSquirt (MS) ECU is a cheaper, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. Unfortunately, if you don't know what you are doing, like me, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup, and it can take a lot of work to figure out what you want to do. It's not impossible, though. With time and determination, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs. Just drop a few months of your time.
+The car's ECU is the computer that tells it when to spark and when to squirt fuel. It's not magic, it's science. The MegaSquirt (MS) ECU is a cheap, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. For about $650, with a wiring harness and test kit, I got my ECU setup ready to go in a couple days. Unfortunately, if you don't know what you are doing, like me, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup, and it can take a lot of work to figure out what you want to do. It's not impossible, though. With time and determination, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs.
 
-Below is the original diagram provided by MegaSquirt, though there are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before. The diagram illustrates what the ECU will read (inputs) and what it will control (outputs), with this control on inputs and outputs (I/O) we can tune the engine to behave how we want it to.
+Below is the original diagram provided by MegaSquirt. There are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before. The diagram illustrates what the ECU will read (inputs) and what it will control (outputs), with this control on inputs and outputs (I/O) we can tune the engine to behave how we want it to.
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
