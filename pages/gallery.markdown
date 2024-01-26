@@ -3,6 +3,14 @@ layout: page
 title: gallery
 permalink: /gallery/
 ---
+
+## Photography
+
+<u>[2018 - Reminiscent of Korea](https://www.sudoyashi.com/collection-reminiscentofkorea)</u>
+![Gamcheon](https://www.sudoyashi.com/assets/img/collections/2018-reminiscentofkorea/Reminiscent_of_Korea14-20.jpg)
+I studied abroad in Korea in 2016 and found it both foreign and familiar. A lot of things that I saw and felt felt like I was back home in Hawai’i. This is a series on familiarity abroad.
+
+## Cars
 A not really reverse-chronological view of car ownership.
 
 ## 1985 Volkswagen Golf Cabriolet
