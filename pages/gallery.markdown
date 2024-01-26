@@ -10,6 +10,13 @@ permalink: /gallery/
 ![Gamcheon](https://www.sudoyashi.com/assets/img/collections/2018-reminiscentofkorea/Reminiscent_of_Korea14-20.jpg)
 I studied abroad in Korea in 2016 and found it both foreign and familiar. A lot of things that I saw and felt felt like I was back home in Hawai’i. This is a series on familiarity abroad.
 
+**2017 - Expired**
+![Expired 1](https://www.sudoyashi.com/assets/img/collections/2017-expired/expired1-3.jpg)
+A closer look at pig cuttings as a way emphasize the forms of dead objects. Photographed on large format for detail.
+**2017 - Cold plates**
+![Cold plates](https://www.sudoyashi.com/assets/img/collections/2017-coldplates/cold_plates_and_cool_tones2.jpg)
+An experimental project with contact prints on glass and cyanotype.
+
 ## Cars
 
 **[1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/collection-dacabby)
