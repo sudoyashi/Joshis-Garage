@@ -3,7 +3,7 @@ layout: page
 title: Reminiscent of Korea
 permalink: /collection-reminiscentofkorea/
 ---
-Reminiscent of Korea is a collection of photos from a trip to 2018 in my day-to-day walks. As I travel the world, despite our cultural, linguistic, and physical differences, I want to remind myself that people around the world are not that dissimilar. We all have families to return to, work to be done, and we can all recognize similar locations and tropes in the public that would remind of us of things at home like parks and stations.
+Reminiscent of Korea is a collection of photos from a trip to 2018 in my day-to-day walks. As I travel the world, despite our cultural, linguistic, and physical differences, I want to remind myself that people worldwide are not that dissimilar. We all have families. We all have work to do. And we can all recognize similar locations and tropes in the public that would remind us of things at home, like parks and stations.
 
 I studied abroad in Korea in 2016 and found it both foreign and familiar, a series on familiarity abroad.
 
