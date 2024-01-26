@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cars
-permalink: /cars/
+permalink: /whatilearned/
 ---
 
 I get lost in the weeds quite often and can get pessimistic about my current projects or situation. To orient myself and remind myself how far I've come, this is a list of things that I've learned. These are my little reminders of my many mistakes and success stories I've made along the way. 
