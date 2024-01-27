@@ -8,7 +8,7 @@ markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
-google_analytics:    UA-133288884-2
+google_analytics:    "UA-133288884-2"
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "sudoyashi"
 description:	       "let's try!"
