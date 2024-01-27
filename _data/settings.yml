@@ -16,8 +16,8 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'instagram', link:  'https://instagram.com/joshi.tsunami'}
-#- {icon: 'instagram', link:  'https://instagram.com/da_cabby'}
+#- {icon: 'instagram', link:  'https://instagram.com/joshi.tsunami'}
+- {icon: 'instagram', link:  'https://instagram.com/da_cabby'}
 
 # Customize site text
 pagination:
@@ -26,6 +26,6 @@ pagination:
 
 sharing_button_prompt: 'Feel free to share!'
 
-related_posts: 'Other silly posts...'
+related_posts: 'Other posts...'
 
 post_date_prefix: 'Written on'
