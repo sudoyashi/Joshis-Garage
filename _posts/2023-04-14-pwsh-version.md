@@ -31,7 +31,7 @@ There are MANY ways to get the Windows version of a remote computer...
 2846
 ```
 
-The problem is I don't really care about the specific number, I want to get the human-readable name like *Windows 10 22H2!* Again, there are a number of ways to convert these 19045 or 2846 values to the version we want. 
+The problem is I don't really care about the specific number, I want to get the human-readable name like *Windows 10 22H2!* Again, there are a number of ways to convert these 19045 or 2846 values to the version we want.
 
 ## Powershell Script using a Profile
 
