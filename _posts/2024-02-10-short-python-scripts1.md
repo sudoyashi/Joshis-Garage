@@ -1,0 +1,135 @@
+---
+layout: post
+title:  "Short, kinda useful Python scripts"
+date:   2024-02-08 00:00:00 -1000
+categories: it python
+image: lazy-python.jpg
+---
+
+Small utilities for future Josh to use when I want to do things the lazy way, with scripts. With all scripts, run at your own risk :) I don't develop or write python for optimization, I write it enough that it works for my specific scenarios.
+
+[Scripts found here.](github.com/sudoyashi/python_progress)
+
+## Create folders with whatever is in a .csv
+
+Wherever the script is, create a file called `directory.csv` and hard write the values 'CDs, software, drivers' in rows. Then, read that `.csv` and create folders based on those values. To create other folders, just edit the list of names in `directory.write`
+
+```python
+# Creates a list of directories if they do not exist. This creates
+# the CDs, software, and drivers directories, as indicated by directory.csv
+import os
+import csv
+from pathlib import Path
+
+# create the file directory.csv
+
+with open('directory.csv', 'w') as directory:
+    directory.write('CDs,software,drivers')
+
+# setup variable that loads all *.csv information
+    
+pathName = os.getcwd()
+directoryFiles = os.listdir(pathName)
+csvFiles = []
+for file in directoryFiles:
+    if file.endswith(".csv"):
+        csvFiles.append(file)
+
+with open('directory.csv') as csvfile:
+    reader = csv.reader(csvfile, delimiter=',')
+    for row in reader:
+        for column in row:
+            print(column)
+            p = pathName + '\\' + column
+            Path(p).mkdir(parents=True, exist_ok=True)
+```
+
+
+
+## Removing some metadata from .doc* files
+
+I have a feeling the `'*.doc*'` wildcard is not the best, but I'm not sure how else to write the solution. Anyways, opens the directory and recurisvely checks all folders and files for .doc* files. Then, edit the properties to change the Author and Title. Of course, you can change anything else, just modify the `core_properties` variable. 
+
+The title property of a .docx was mismatching the name and filename when opening it in Acrobat. It was a small problem, but still, a problem.
+
+```python
+# Open all the documents and check to see if the document has a title, if so, remove it.
+# Open all the documents and change the Author
+import glob
+import os
+import fnmatch
+from docx import Document
+
+# Select all the docx
+# files = glob.glob("*.doc*")
+cwd = os.getcwd()
+for dirpath, dirs, files in os.walk(cwd):
+    for filename in fnmatch.filter(files, '*.doc*'):
+        # print (os.path.join(dirpath, filename))
+        editFile = (os.path.join(dirpath, filename))
+        document = Document(editFile)
+        core_properties = document.core_properties
+        # If the author filed is not marc's, fill with marc's email
+        if (core_properties.author != 'joshua...email'):
+            core_properties.author = 'joshua...newEmail'
+        # Check if title is not empty, make it empty
+        if (core_properties.title != ''):
+            core_properties.title = ''
+        # Save the file with the original name
+        document.save(editFile)
+        print ('Saved ', editFile)
+```
+
+
+
+## Convert XML files to Excel (.xlsx)
+
+Find all `.xml` files in the current working directory, then convert those files into `.xlsx` and save it into an existing folder called `xlsx`.
+
+```python
+
+# This script finds all files that end with .xml and puts them into a list. In that list,
+# extract the xml value pairs, remove duplicates and write the pairs into sheet1 
+# of a new Excel sheet within columns B:Z
+# Finally, save the XML as an XLSX into the xlsx directory.
+
+import xml.etree.ElementTree as ETree
+import pandas as pd
+import os
+import pathlib
+from os import listdir, path
+from pathlib import Path
+
+cwd = os.getcwd()
+files = []
+for file in listdir(cwd):
+    if file.endswith('.xml'):
+        files.append(path.join(cwd, file))
+
+for xml in files:
+    fileroot = Path(xml).stem
+    tree = ETree.parse(xml)
+    root = tree.getroot()
+    valuePairs = []  # empty array assigned to A
+    for elements in root:
+        valuePair = {}  # empty array; store data values in key:value pair
+        for element in list(elements):
+            valuePair.update({element.tag: element.text})  # updating dictionary with(tag -> Columns, text -> Rowdata)
+            valuePairs.append(valuePair)  # Append key:value pair to A list
+        df = pd.DataFrame(valuePairs)  # Create dataframe (df)
+        df.drop_duplicates(keep='first', inplace=True)  # Only keep first, ignore all others
+        df.reset_index(drop=True, inplace=True)
+        writer = pd.ExcelWriter(cwd + '\\' + 'xlsx' + '\\' + fileroot + '.xlsx', engine='xlsxwriter')
+        df.to_excel(writer, sheet_name='sheet1')
+        worksheet = writer.sheets['sheet1']
+        worksheet.set_column('B:Z', 30)  # Set column char to 30 for columns from B to Z
+        writer._save()
+    print(df)
+    print('XML file has been parsed. Open at ' + fileroot + '.xlsx...')
+```
+
+
+
+## Yeah, just really short scripts to make my life easier
+
+These are housekeeping scripts, but nonetheless scripts to make things consistent. For me, Python is useful for automating menial tasks that are tedious to do. I could optimize them, but at the tiny scale I have them, I don't need to do that right now. Thank goodness for modern hardware.
