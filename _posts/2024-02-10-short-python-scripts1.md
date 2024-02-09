@@ -44,13 +44,11 @@ with open('directory.csv') as csvfile:
             Path(p).mkdir(parents=True, exist_ok=True)
 ```
 
-
-
 ## Removing Title and Author metadata from .docx files
 
-The issue I had to solve was that the title property of a .docx was showing in Acrobat rather than the actual filename. One of our users thought this was a phishing attempt or virus, and rightfully so, but it was just a slight problem with metadata.
+After saving a `.docx` file as an Adobe PDF, the pdf tab would show the document Title rather than the actual filename. This was a reoccuring issue because users like to copy and paste files for templates, so hundrerds of files had this Title misnomer over the years. One of our users thought this was a phishing attempt or virus. Fair enough. Thankfully, it was just a slight problem with metadata.
 
-The `*.docx` wildcard is not the best, but I'm unsure how else to write the solution. It opens the directory and recursively checks all folders and files for `.docx` files. Then, edit the properties to change the Author and Title. Of course, you can change anything else: modify the core_properties variable. The script does NOT cover `.doc` files; you would have to use something to convert `.doc` files into `.docx`.
+The script opens the current directory and checks all folders and files for `.docx` files. Then, we edit the properties to change the Author and Title. You can change any of the properties you need to, just modify the `core_properties` variable. The script does NOT cover `.doc` files; you would have to convert the `.doc` files into `.docx`.
 
 ```python
 # Open all the documents and check to see if the document has a title, if so, remove it.
@@ -80,18 +78,14 @@ for dirpath, dirs, files in os.walk(cwd):
 ```
 
 ### You will have issues if these are server files!
-
-- A couple of issues:
-  - During actual testing, Python-docx cannot modify the metadata of .doc files.
-  - If you're modifying server files, like me, the packages will not load properly because of the UNC path. You need to add the package to the server's local directory and then do a local import. The following submodules .py were affected and had to be modified:
-    - `api.py`
-    - `phys_pkg.py`
-    - `package.py`
-    - `pkgreader.py`
+If you're modifying server files, like me, the packages will not load properly because of the UNC path. You need to add the package to the server's local directory and then do a local import. The following submodules .py were affected and had to be modified:
+  - `api.py`
+  - `phys_pkg.py`
+  - `package.py`
+  - `pkgreader.py`
 
 For each file above, append the following to the beginning list of imports:
-
-```
+```python
 # mymodule.py
 import os
 import sys
@@ -101,16 +95,16 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 Then you can import the package using:
 
-```
+```python
 from docx import Document
 ```
-
 Depending on the directory setup, it may take a couple of tries to read the errors. You may also have to replace any __ init__.py with empty files. For more information, read the issue on [Attempted relative import with no known parent package](https://net-informations.com/q/py/known.html).
-
 
 ## Convert XML files to Excel (.xlsx)
 
 Find all `.xml` files in the current working directory, convert them to `.xlsx`, and save the converted files in an existing folder called `.xlsx`.
+
+Our VoIP phones use `.xml` files to create a directory; however, reading raw `.xml` is atrocious work. We can convert them to '.xlsx' for quick viewing to make sure there are no parsing or spelling errors.
 
 ```python
 
@@ -154,8 +148,6 @@ for xml in files:
     print('XML file has been parsed. Open at ' + fileroot + '.xlsx...')
 ```
 
-## **Write a script if it's faster than doing it manually.** 
+## Write a script if it's faster than doing it manually.
 
-I am not trying to edit 300+ files within each directory to rename the file to something else. That's what you make a script! These are housekeeping scripts that help make things fast and consistent. Python is useful for automating tedious menial tasks. I could optimize them, but at the tiny scale I have them, I don't need to right now. Thank goodness for modern hardware. 
-
-And if it's not faster, you don't need a script. Just do it, ya lazy.
+I am not trying to edit 300+ files within each directory to rename the file to something else. That's why you make a script! I could optimize them, but at the tiny scale I have them, I don't need to right now. Thank goodness for modern hardware.
