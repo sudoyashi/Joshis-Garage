@@ -104,7 +104,7 @@ Depending on the directory setup, it may take a couple of tries to read the erro
 
 Find all `.xml` files in the current working directory, convert them to `.xlsx`, and save the converted files in an existing folder called `.xlsx`.
 
-Our VoIP phones use `.xml` files to create a directory; however, reading raw `.xml` is atrocious work. We can convert them to '.xlsx' for quick viewing to make sure there are no parsing or spelling errors.
+Our VoIP phones use `.xml` files to create a directory; however, reading raw `.xml` is atrocious work. We can convert them to `.xlsx` for quick viewing to make sure there are no parsing or spelling errors.
 
 ```python
 
@@ -148,6 +148,6 @@ for xml in files:
     print('XML file has been parsed. Open at ' + fileroot + '.xlsx...')
 ```
 
-## Write a script if it's faster than doing it manually.
+## Snakes are aight when they're on your side
 
 I am not trying to edit 300+ files within each directory to rename the file to something else. That's why you make a script! I could optimize them, but at the tiny scale I have them, I don't need to right now. Thank goodness for modern hardware.
