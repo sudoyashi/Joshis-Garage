@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "The Pratical MDM guide with Jamf Pro"
-date:   2024-01-30 00:00:00 -1000
+title:  "A flowchart MDM guide for Jamf Pro"
+date:   2024-02-29 00:00:00 -1000
 categories: jamf it phone mdm
 image: 
 ---
-
 The Mobile Device Management (MDM) process is a not-so-straightforward way of managing company devices. While the setup starts off straightforward, there are a lot of ways that the setup can go wrong because of bad profiles, bad configuration, or incorrect setups that don't allow us to fully control a phone. MDM doesn't have to be hard, but it feels like a lot of company guides include a lot of fluff to convey the point of the process. This guide was made to be as straightforward as possible to get you started with using MDM in your business environment.
 
 ## MDM is used by business to support and configure company devices
