@@ -4,7 +4,7 @@ title: Home
 ---
 <center><h2>The pursuit of performance on a budget</h2>
 <p>
-This is my website, a life of projects and wonder. And this is my car, a <a href="https://sudoyashi.com/dacabby">Volkswagen Golf Cabriolet MK1</a>.
+A collection of unprofessional thoughts and home to my project car, the <a href="https://sudoyashi.com/dacabby">Volkswagen Golf Cabriolet MK1</a>.
 <br>
 <br>
 </center>
