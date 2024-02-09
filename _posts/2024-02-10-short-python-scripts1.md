@@ -46,25 +46,24 @@ with open('directory.csv') as csvfile:
 
 
 
-## Removing some metadata from .doc* files
+## Removing some metadata from .docx files
 
-I have a feeling the `'*.doc*'` wildcard is not the best, but I'm not sure how else to write the solution. Anyways, opens the directory and recurisvely checks all folders and files for .doc* files. Then, edit the properties to change the Author and Title. Of course, you can change anything else, just modify the `core_properties` variable. 
+I have a feeling the `'*.docx'` wildcard is not the best, but I'm not sure how else to write the solution. Anyways, opens the directory and recurisvely checks all folders and files for .doc* files. Then, edit the properties to change the Author and Title. Of course, you can change anything else, just modify the `core_properties` variable. This does NOT cover `.doc` files, you
+would have to use something to convert `.doc` files into `.docx`
 
-The title property of a .docx was mismatching the name and filename when opening it in Acrobat. It was a small problem, but still, a problem.
+The issue I had to solve was that the title property of a .docx was showing in Acrobat rather than the actual filename. One of our users thought this was a phishing or virus, rightfully so. It was a small problem with metadata, but still, a problem.
 
 ```python
 # Open all the documents and check to see if the document has a title, if so, remove it.
 # Open all the documents and change the Author
-import glob
 import os
 import fnmatch
 from docx import Document
 
 # Select all the docx
-# files = glob.glob("*.doc*")
 cwd = os.getcwd()
 for dirpath, dirs, files in os.walk(cwd):
-    for filename in fnmatch.filter(files, '*.doc*'):
+    for filename in fnmatch.filter(files, '*.docx'):
         # print (os.path.join(dirpath, filename))
         editFile = (os.path.join(dirpath, filename))
         document = Document(editFile)
@@ -79,8 +78,6 @@ for dirpath, dirs, files in os.walk(cwd):
         document.save(editFile)
         print ('Saved ', editFile)
 ```
-
-
 
 ## Convert XML files to Excel (.xlsx)
 
