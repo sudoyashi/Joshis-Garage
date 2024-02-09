@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 1985 Volkswagen Golf Cabriolet
-permalink: /collection-dacabby/
+permalink: /gallery-dacabby/
 ---
 *From [dacabby page](https://www.sudoyashi.com/dacabby)
 This is my first project car and since getting my own beginner socket and wrench set in 2020, until now, I have spent roughly $10,000 inclusive of the fees, maintenance costs, custom parts, and other useless things I shouldn't have bought. It's probably more, but I stopped counting at 5 figures for this hunk  of metal lol. 

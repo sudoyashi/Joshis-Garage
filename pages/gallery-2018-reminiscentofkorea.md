@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reminiscent of Korea
-permalink: /collection-reminiscentofkorea/
+permalink: /gallery-reminiscentofkorea/
 ---
 Reminiscent of Korea is a collection of photos from a trip to 2018 in my day-to-day walks. As I travel the world, despite our cultural, linguistic, and physical differences, I want to remind myself that people worldwide are not that dissimilar. We all have families. We all have work to do. And we can all recognize similar locations and tropes in the public that would remind us of things at home, like parks and stations.
 

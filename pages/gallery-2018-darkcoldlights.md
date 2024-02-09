@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Dark, cold lights
-permalink: /collection-darkcoldlights/
+permalink: /gallery-darkcoldlights/
 ---

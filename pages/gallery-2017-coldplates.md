@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Reminiscent of Korea
-permalink: /collection-reminiscentofkorea/
+permalink: /gallery-reminiscentofkorea/
 ---
