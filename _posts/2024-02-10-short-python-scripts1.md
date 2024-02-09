@@ -6,7 +6,7 @@ categories: it python
 image: lazy-python.jpg
 ---
 
-Small utilities for future Josh to use when I want to do things the lazy way, with scripts. With all scripts, run at your own risk :) I don't develop or write python for optimization, I write it enough that it works for my specific scenarios.
+These are small utilities for future me to use when I want to do things the lazy way with scripts. As with all scripts, run at your own risk. :) I don't develop or write Python for optimization; I write it enough that it works for my specific scenarios.
 
 [Scripts found here.](github.com/sudoyashi/python_progress)
 
@@ -48,9 +48,9 @@ with open('directory.csv') as csvfile:
 
 ## Removing Title and Author metadata from .docx files
 
-The issue I had to solve was that the title property of a .docx was showing in Acrobat rather than the actual filename. One of our users thought this was a phishing or virus, rightfully so. It was a small problem with metadata, but still, a problem.
+The issue I had to solve was that the title property of a .docx was showing in Acrobat rather than the actual filename. One of our users thought this was a phishing or virus, and rightfully so. It was a slight problem with metadata, but still a problem.
 
-I have a feeling the `'*.docx'` wildcard is not the best, but I'm not sure how else to write the solution. Anyways, opens the directory and recurisvely checks all folders and files for `.docx` files. Then, edit the properties to change the Author and Title. Of course, you can change anything else, just modify the `core_properties` variable. This does NOT cover `.doc` files, you would have to use something to convert `.doc` files into `.docx`. 
+The '*.docx' wildcard is not the best, but I'm unsure how else to write the solution. It opens the directory and recursively checks all folders and files for .docx files. Then, edit the properties to change the Author and Title. Of course, you can change anything else: modify the core_properties variable. The script does NOT cover .doc files; you would have to use something to convert .doc files into .docx. 
 
 ```python
 # Open all the documents and check to see if the document has a title, if so, remove it.
@@ -81,14 +81,13 @@ for dirpath, dirs, files in os.walk(cwd):
 
 ### You will have issues if these are server files!
 
-Couple of issues:
-
-- On actual testing, python-docx cannot modify the metadata of .doc files. You will get a package not found error
-- Because my files were on a UNC path (server path), packages did not load properly. You need to add the package to the server's local directory then do a local import. The following submodules .py were affected and had to be modified:
-  - api.py
-  - phys_pkg.py
-  - package.py
-  - pkgreader.py
+- A couple of issues:
+  - During actual testing, Python-docx cannot modify the metadata of .doc files. You will get a package not found error.
+  - The packages did not load properly because my files were on a UNC path (server path). You need to add the package to the server's local directory and then do a local import. The following submodules .py were affected and had to be modified:
+    - api.py
+    - phys_pkg.py
+    - package.py
+    - pkgreader.py
 
 For each file above, append the following to the beginning list of imports:
 
@@ -106,7 +105,7 @@ Then you can import the package using:
 from docx import Document
 ```
 
-It may take a couple tries of reading the errors depending on the directory setup. You may also have to replace any \_\_ init\_\_.py with empty files. Read the issue on [Attempted relative import with no known parent package](https://net-informations.com/q/py/known.html) for more information.
+Depending on the directory setup, it may take a couple of tries to read the errors. You may also have to replace any __ init__.py with empty files. For more information, read the issue on [Attempted relative import with no known parent package](https://net-informations.com/q/py/known.html).
 
 ## This does not modify .doc files
 
@@ -114,7 +113,7 @@ Yeah. Only .docx.
 
 ## Convert XML files to Excel (.xlsx)
 
-Find all `.xml` files in the current working directory, then convert those files into `.xlsx` and save it into an existing folder called `xlsx`.
+Find all `.xml` files in the current working directory, convert them to `.xlsx`, and save the converted files in an existing folder called `.xlsx`.
 
 ```python
 
@@ -158,8 +157,8 @@ for xml in files:
     print('XML file has been parsed. Open at ' + fileroot + '.xlsx...')
 ```
 
+## **Write a script if it's faster than doing it manually.** 
 
+I am not trying to edit 300+ files within each directory to rename the file to something else. That's what you make a script! These are housekeeping scripts that help make things fast and consistent. Python is useful for automating tedious menial tasks. I could optimize them, but at the tiny scale I have them, I don't need to right now. Thank goodness for modern hardware. 
 
-## Yeah, just really short scripts to make my life easier
-
-These are housekeeping scripts, but nonetheless scripts to make things consistent. For me, Python is useful for automating menial tasks that are tedious to do. I could optimize them, but at the tiny scale I have them, I don't need to do that right now. Thank goodness for modern hardware.
+And if it's not faster, you don't need a script. Just do it, ya lazy.
