@@ -8,7 +8,7 @@ image: lazy-python.jpg
 
 These are small utilities for future me to use when I want to do things the lazy way with scripts. As with all scripts, run at your own risk. :) I don't develop or write Python for optimization; I write it enough that it works for my specific scenarios.
 
-[Scripts found here.](github.com/sudoyashi/python_progress)
+[Scripts found here.](https://github.com/sudoyashi/python_progress/tree/master/projects)
 
 ## Create folders with whatever is in a .csv
 
@@ -48,9 +48,9 @@ with open('directory.csv') as csvfile:
 
 ## Removing Title and Author metadata from .docx files
 
-The issue I had to solve was that the title property of a .docx was showing in Acrobat rather than the actual filename. One of our users thought this was a phishing or virus, and rightfully so. It was a slight problem with metadata, but still a problem.
+The issue I had to solve was that the title property of a .docx was showing in Acrobat rather than the actual filename. One of our users thought this was a phishing attempt or virus, and rightfully so, but it was just a slight problem with metadata.
 
-The '*.docx' wildcard is not the best, but I'm unsure how else to write the solution. It opens the directory and recursively checks all folders and files for .docx files. Then, edit the properties to change the Author and Title. Of course, you can change anything else: modify the core_properties variable. The script does NOT cover .doc files; you would have to use something to convert .doc files into .docx. 
+The `*.docx` wildcard is not the best, but I'm unsure how else to write the solution. It opens the directory and recursively checks all folders and files for `.docx` files. Then, edit the properties to change the Author and Title. Of course, you can change anything else: modify the core_properties variable. The script does NOT cover `.doc` files; you would have to use something to convert `.doc` files into `.docx`.
 
 ```python
 # Open all the documents and check to see if the document has a title, if so, remove it.
@@ -82,12 +82,12 @@ for dirpath, dirs, files in os.walk(cwd):
 ### You will have issues if these are server files!
 
 - A couple of issues:
-  - During actual testing, Python-docx cannot modify the metadata of .doc files. You will get a package not found error.
-  - The packages did not load properly because my files were on a UNC path (server path). You need to add the package to the server's local directory and then do a local import. The following submodules .py were affected and had to be modified:
-    - api.py
-    - phys_pkg.py
-    - package.py
-    - pkgreader.py
+  - During actual testing, Python-docx cannot modify the metadata of .doc files.
+  - If you're modifying server files, like me, the packages will not load properly because of the UNC path. You need to add the package to the server's local directory and then do a local import. The following submodules .py were affected and had to be modified:
+    - `api.py`
+    - `phys_pkg.py`
+    - `package.py`
+    - `pkgreader.py`
 
 For each file above, append the following to the beginning list of imports:
 
@@ -107,9 +107,6 @@ from docx import Document
 
 Depending on the directory setup, it may take a couple of tries to read the errors. You may also have to replace any __ init__.py with empty files. For more information, read the issue on [Attempted relative import with no known parent package](https://net-informations.com/q/py/known.html).
 
-## This does not modify .doc files
-
-Yeah. Only .docx.
 
 ## Convert XML files to Excel (.xlsx)
 
@@ -139,9 +136,9 @@ for xml in files:
     fileroot = Path(xml).stem
     tree = ETree.parse(xml)
     root = tree.getroot()
-    valuePairs = []  # empty array assigned to A
+    valuePairs = []  # empty list assigned to A
     for elements in root:
-        valuePair = {}  # empty array; store data values in key:value pair
+        valuePair = {}  # empty array; store data in key:value pair
         for element in list(elements):
             valuePair.update({element.tag: element.text})  # updating dictionary with(tag -> Columns, text -> Rowdata)
             valuePairs.append(valuePair)  # Append key:value pair to A list
