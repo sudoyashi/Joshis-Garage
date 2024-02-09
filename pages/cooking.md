@@ -5,52 +5,19 @@ permalink: /cooking/
 image: cooking.jpg
 ---
 
-I hate 99% of all cooking websites. I'm just going to scroll down to your recipes anyways. I find the home stories seldom relatable and superfluous. Please, just tell me how to make it. Instead, here's some recipes. Just the recipes.
-
-Based on an Asian-American diet.
+It's 2024 and I've decided to put together all my favorite recipes so I don't have to keep using Google for them.
 
 ## Drinks
 
-1. Coffee; pour over ratios
-2. Coffee; cold brew
-3. Rehydration; ginger gatorade
-4. Absolute health; an all right green smoothie
+1. [Making coffee](https://sudoyashi.com/cooking-coffee); my preferences on brewing coffee
+2. [Oral Rehydration Solution (ORS)](https://sudoyashi.com/cooking-ors); homestyle ORS with ginger and lemon
 
 ## Appetizers
 
-1. Rustic bread
-2. Herb butter
-3. Rolled egg (Gyeranmari)
-4. Pico de gallo
-5. Kimchi pancake
-6. Chapatti
-7. Tuna sandwich
+- Rolled egg (Gyeranmari)
+- Chapatti
 
 ## Entrée
 
-1. Furikake salmon
-2. Paprika chicken (baked or grilled)
-3. Past noodles
-   - Shrimp alfredo fettucine
-   - Chicken tomato fettucine
-   - Lasagna
-4. Pizza dough
-   - Pizza; plain cheese
-   - Pizza; sun-dried tomatoes and spinach
-   - Pizza; ham, spam, pepperoni
-   - Pizza; white sauce, chicken and herbs
-   - Pizza; margherita (sliced tomatoes)
-
-## Desserts
-
-1. Strawberry cheesecake
-2. Coffee cookies
-
-## Social Drinks
-
-1. Daquiri
-2. Homemade Kahlúa
-
-## 
-1. Cutting a mango
-2. Peeling garlic with a microwave
+- Chashu; rolled, braised pork 
+- White nut in my soup; Butternut squash with white chocolate cream;
