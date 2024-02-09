@@ -5,7 +5,7 @@ permalink: /about/
 image: about.jpg
 ---
 
-![Itsme](https://www.sudoyashi.com/assets/img/2022-update.jpg)
+<!-- ![Itsme](https://www.sudoyashi.com/assets/img/2022-update.jpg) -->
 
 Hi, i'm josh!
 
@@ -13,7 +13,7 @@ These are my experiences with my projects and hobbies--but really it's mostly ab
 
 ## So what does "sudoyashi" mean anyways?
 
-Uhh, I dunno. It sounded cool when I used as my IGN in Monster Hunter.
+It sounded cool when I used as my IGN in Monster Hunter.
 
 **"sudo"**
 
