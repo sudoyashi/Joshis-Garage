@@ -3,25 +3,27 @@ layout: post
 title:  "Middle schoolers with money"
 date:   2024-02-16 00:00:00 -1000
 categories: blog
-image: /assets/img/2024/europe-2023/colloseo.jpg
+image: /2024/europe-2023/colloseo.jpg
 ---
 ## Twenty-year olds are still figuring it out.
-
-![MR2 Cruise](https://sudoyashi.com/assets/img/2024/cabby/mr2-cruise.jpg)
 
 The twenties. Sprinkled with bullshit, irreplaceable memories, and sometimes unbelievable things that you have or haven't done that no one is going to believe your stories. Sounds too familiar.
 
 In many ways, it parallels a lot of what I've felt in middle school, with a little more freedom. It's a transition period from adulthood to parenthood. For others, it's a time to enjoy ourselves with newfound money, accolades, glory, and accomplishments that we've never had before. However, some adults still can't do middle school math, so not everything has changed. Every year could be an identity crisis, and yeah, that still happens lol.
 
-Buy that gold chain.
+Buy that new Grand Seiko.
 Buy them sick boots.
 Get in on the official Supreme drop.
-Buy that Corvette.
-Let's fly to Japan.
+Buy that Supra.
+Let's fly to Korea.
 
-It's all possible now! Frankly, I am happier in my life because I have the privilege to do and have all of these things that lil me would have been stoked to have had five years earlier. But I've learned that finally getting the *thing* never and could never sate my entire life's desires because it can't! It'll get close, but there's always something more that is to be desired. While the desires remain, I've gotten better at narrowing my choices on what I want to grind for and what I can ignore.
+![MR2 Cruise](https://sudoyashi.com/assets/img/2024/cabby/mr2-cruise.jpg)
 
-I've let go of finding the next car that I want to buy. I've let go of perfecting my hobbies, and I've let go of my self-help craze. It was fitting for a time, but my priorities have changed. I don't need a faster car; I want to be a quicker driver. Perfection in a hobby comes with time, so stop hopping to new ones all the time. And the entire self-help industry has exploded into absurdity that I don't need to optimize every second of my life because it is exhausting.
+It's all possible now! Frankly, I am happier in my life because I have the privilege to do and have all of these things that lil me would have been stoked to have had five years earlier. But I remember the first time getting a watch that I thought I really wanted, I bought it and got it in the mail and I definitely liked it, but it didn't make me feel like I have more, all it meant was that I had a new shiny watch. It didn't change my life and I think I knew it wouldn't but that experience wasn't what I was looking for. 
+
+But if I bought the new boots or bought in on the new drop, maybe this time I'll feel better. For a bit, after each purchase, it did make me feel cool. Then two or three months later, the impact never lasted. I couldn't sate my desires because I don't think I can. It'll get close, but there's always something more that is to be desired. So maybe it's not the product I'm looking for. I've started to narrow down my choices on what I want to grind for and what I can ignore, but if you still flash an Alpinist or Cartier at me, I'm definitely going to look.
+
+I've started to let go of finding the next car that I want to buy. I've let go of perfecting my hobbies, and I've let go of my self-help craze. It was fitting for a time, but my priorities have changed. I don't need a faster car; I want to be a quicker driver. Perfection in a hobby comes with time, so stop hopping to new ones all the time. And the entire self-help industry has exploded into absurdity that I don't need to optimize every second of my life because all of this wishing for the next best thing gets exhausting.
 
 On the flip side, there are things that I absolutely will put my all into! After traveling to Europe for a couple of weeks, I've come to enjoy food more, both cooking and eating. Italy, Greece, and Turkey sparked a massive onset of tasting and finding new flavors I could try independently.
 
