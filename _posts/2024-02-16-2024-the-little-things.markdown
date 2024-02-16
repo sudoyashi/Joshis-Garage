@@ -19,15 +19,21 @@ Let's fly to Korea.
 
 ![MR2 Cruise](https://sudoyashi.com/assets/img/2024/cabby/mr2-cruise.jpg)
 
-It's all possible now! Frankly, I am happier in my life because I have the privilege to do and have all of these things that lil me would have been stoked to have had five years earlier. But I remember the first time getting a watch that I thought I really wanted, I bought it and got it in the mail and I definitely liked it, but it didn't make me feel like I have more, all it meant was that I had a new shiny watch. It didn't change my life and I think I knew it wouldn't but that experience wasn't what I was looking for. 
+It's all possible now! Frankly, I am happier in my life because I have the privilege to do and have all of these things that lil me would have been stoked to have had five years earlier. But I remember the first time getting a watch that I thought I really wanted, I bought it and got it in the mail and I definitely liked it, but it didn't make me feel like I have more, all it meant was that I had a new shiny watch. It didn't change my life and I think I knew it wouldn't but that experience wasn't what I was looking for.
 
-But if I bought the new boots or bought in on the new drop, maybe this time I'll feel better. For a bit, after each purchase, it did make me feel cool. Then two or three months later, the impact never lasted. I couldn't sate my desires because I don't think I can. It'll get close, but there's always something more that is to be desired. So maybe it's not the product I'm looking for. I've started to narrow down my choices on what I want to grind for and what I can ignore, but if you still flash an Alpinist or Cartier at me, I'm definitely going to look.
+If I got those new boots or got that new watch, then I'll be happy. This time I'll feel better. After each purchase, I felt good about myself. Then, two or three months later, the impact never lasted. I couldn't satisfy that itch and think it's impossible to remain satisfied. It'll get close, but there's always something more. I've started narrowing down my choices on what I want to grind for and what I can ignore. It's a start.
 
-I've started to let go of finding the next car that I want to buy. I've let go of perfecting my hobbies, and I've let go of my self-help craze. It was fitting for a time, but my priorities have changed. I don't need a faster car; I want to be a quicker driver. Perfection in a hobby comes with time, so stop hopping to new ones all the time. And the entire self-help industry has exploded into absurdity that I don't need to optimize every second of my life because all of this wishing for the next best thing gets exhausting.
+I've started to let go of finding the next car that I want to buy. I've let go of perfecting my hobbies, and I've let go of my self-help craze. It was fitting for a time, but my priorities have changed. I don't need a faster car; I want to be a quicker driver. Perfection in a hobby comes with time, so stop hopping to new ones all the time. And the entire self-help industry has exploded into absurdity that I don't need to optimize every second of my life because all of this wishing for the next best thing gets exhausting. I really don't have time to care about the next coolest notetaking app. It's intellectual masturbation.
+
+## Not a surprise, I also like cooking
+
+![Chashu](https://sudoyashi.com/assets/img/2024/chashu.jpg)
 
 On the flip side, there are things that I absolutely will put my all into! After traveling to Europe for a couple of weeks, I've come to enjoy food more, both cooking and eating. Italy, Greece, and Turkey sparked a massive onset of tasting and finding new flavors I could try independently.
 
-![Chashu](https://sudoyashi.com/assets/img/2024/chashu.jpg)
+## I swear it's going to get fixed, just give me another 6-12 months
+
+![Maybe we'll add a mono](https://sudoyashi.com/assets/img/2024/cabby/mono-cabby.jpg)
 
 Rebuilding my cabby has always been on the table, but I've come to terms with knowing that this rebuild will be worth my time agonizing over all the little things. I know the grind to perfection from my art classes, and it's not for the weary. You'll get what you put in at the end of the day. The external validation from family and friends is a good plus, but my pride has way more weight. It's still going to be a shitbox 110HP car, but it's MY shitbox 110HP car.
 
