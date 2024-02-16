@@ -3,11 +3,11 @@ layout: post
 title:  "Middle schoolers with money"
 date:   2024-02-16 00:00:00 -1000
 categories: blog
-image: 2024/cabby/mr2-cruise.jpg
+image: /assets/img/2024/europe-2023/colloseo.jpg
 ---
 ## Twenty-year olds are still figuring it out.
 
-
+![MR2 Cruise](https://sudoyashi.com/assets/img/2024/cabby/mr2-cruise.jpg)
 
 The twenties. Sprinkled with bullshit, irreplaceable memories, and sometimes unbelievable things that you have or haven't done that no one is going to believe your stories. Sounds too familiar.
 
