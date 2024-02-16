@@ -45,7 +45,8 @@ In January, I hit my old personal record on deadlift at 315 lbs and that felt pr
 
 ![Little things](https://www.sudoyashi.com/assets/img/2024/little-things.jpg)
 
-I was hanging out with some mutual friends and told them I was 28. They called me old. I called them annoying. I don't have a cohesive way to put these trivial things together, so here's an unordered list of unimportant things I thought about over the past few months:
+I was hanging out with some mutual friends and told them I was 28. They called me old. I called them annoying.
+I don't have a cohesive way to put these trivial things together, so here's an unordered list of unimportant things I thought about over the past few months:
 
 - Finding out that other people do the thing where you make a circle with your pointer and thumb to figure out which one is your drink and bread on a dining table
 - Buying flowers before or on Valentine's Day will always be stressful.
