@@ -23,17 +23,20 @@ I've let go of finding the next car that I want to buy. I've let go of perfectin
 
 On the flip side, there are things that I absolutely will put my all into! After traveling to Europe for a couple of weeks, I've come to enjoy food more, both cooking and eating. Italy, Greece, and Turkey sparked a massive onset of tasting and finding new flavors I could try independently.
 
+![Chashu](https://sudoyashi.com/assets/img/2024/chashu.jpg)
+
 Rebuilding my cabby has always been on the table, but I've come to terms with knowing that this rebuild will be worth my time agonizing over all the little things. I know the grind to perfection from my art classes, and it's not for the weary. You'll get what you put in at the end of the day. The external validation from family and friends is a good plus, but my pride has way more weight. It's still going to be a shitbox 110HP car, but it's MY shitbox 110HP car.
+
 
 The urges and sudden decisions are still there! But I've gotten better at controlling them. Usually, lol.
 
-## Hit a record then get sick - the ups and downs.
+## Lift double my bodyweight then get a fever.
 
 ![ABA Manifold draft](https://www.sudoyashi.com/assets/img/2024/cabby/aba-manifold.jpg)
 
-In January, I hit my old personal record on deadlift at 315 lbs and that felt pretty good! Then I got a fever from exhaustion. A couple of weeks ago, I bested some friends in an SCCA race by .003ths of a second. Then I found out I needed to replace my brakes and rotors. A couple of days ago, I finally got a design approved for my intake manifold and parts for the steering rack, but now I'm out another $750 for my project antics, fixing my dad's car, and other unexpected costs.
+In January, I hit my old personal record on deadlift at 315 lbs and that felt pretty good! Then I got a fever from exhaustion. A couple of weeks ago, I bested some friends in an SCCA race by .003ths of a second. Then I found out I needed to replace my brakes and rotors. A couple of days ago, I finally got a design approved for my intake manifold and parts for the steering rack, but my dad's truck has been acting up so I've been working to repair his car too. Pretty good 2024, so far.
 
-There's a give and take with everything; as you age, the consequences hit a little more complicated in your life. Pick your battles, but stay on a good win/loss ratio.
+There's a give and take with everything; but as you age, the consequences hit a little more complicated in your life. Pick your battles, but stay on a good win/loss ratio.
 
 ## I like the little things. Does that make me an old man now?
 
