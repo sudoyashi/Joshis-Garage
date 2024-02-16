@@ -5,9 +5,9 @@ date:   2024-02-16 00:00:00 -1000
 categories: blog
 image: /2024/europe-2023/colloseo.jpg
 ---
-## Twenty-year olds are still figuring it out.
+## Twenty-somethings are still figuring it out.
 
-The twenties. Sprinkled with bullshit, irreplaceable memories, and sometimes unbelievable things that you have or haven't done that no one is going to believe your stories. Sounds too familiar.
+Ahh yes, the twenties. Some people peaked in high school. But this time it's the late bloomer's turn. Sprinkled with bullshit, irreplaceable memories, and sometimes unbelievable things that you have or haven't done that no one is going to believe your stories. It all sounds too familiar.
 
 In many ways, it parallels a lot of what I've felt in middle school, with a little more freedom. It's a transition period from adulthood to parenthood. For others, it's a time to enjoy ourselves with newfound money, accolades, glory, and accomplishments that we've never had before. However, some adults still can't do middle school math, so not everything has changed. Every year could be an identity crisis, and yeah, that still happens lol.
 
