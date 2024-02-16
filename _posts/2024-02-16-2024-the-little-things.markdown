@@ -3,7 +3,7 @@ layout: post
 title:  "Middle schoolers with money"
 date:   2024-02-16 00:00:00 -1000
 categories: blog
-image: 2024/cabby/mr2-cruise.jpg)
+image: 2024/cabby/mr2-cruise.jpg
 ---
 
 ## Twenty-somethings are middle Schoolers with money.
@@ -45,11 +45,10 @@ I like the little things, and more so when other people like the little things t
 I don't have a cohesive way to put these trivial things together, so here's an unordered list of things of things I enjoyed over the past few months:
 
 - Finding out that other people do the thing where you make a circle with your pointer and thumb to figure out which one is your drink on a dining table was a nice little thing to see.
-  ![Drink is on the right](https://emilypost.com/client_media/images/blogs/dining-B-D.png.)
-- Buying flowers prior or on Valentine's Day will always be stressful.
+- Buying flowers prior to or on Valentine's Day will always be stressful.
 - Trying to explain how a turbo works is really difficult, but making sound effects really helps. It also helps if you have a turbo.
-- Old people are good at things you're not because they're retired and have time.
-- I'm still bad at sewing, but I'll always give it a try.
+- Old people are good at things you're not because they're retired and have time. But you still suck at a lot of things, bwaha.
+- Sewing is not a blood-talent, it'll get better!
 - I unconsciously try to copy British accents because of all the RuneScape videos I've watched in my entire life. Some of my favorite specific words include: gutted, rubbish, and cheeky.
 
 
