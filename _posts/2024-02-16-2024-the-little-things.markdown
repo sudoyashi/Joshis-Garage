@@ -7,15 +7,17 @@ image: 2024/cabby/mr2-cruise.jpg
 ---
 ## Twenty-year olds are still figuring it out.
 
+
+
 The twenties. Sprinkled with bullshit, irreplaceable memories, and sometimes unbelievable things that you have or haven't done that no one is going to believe your stories. Sounds too familiar.
 
 In many ways, it parallels a lot of what I've felt in middle school, with a little more freedom. It's a transition period from adulthood to parenthood. For others, it's a time to enjoy ourselves with newfound money, accolades, glory, and accomplishments that we've never had before. However, some adults still can't do middle school math, so not everything has changed. Every year could be an identity crisis, and yeah, that still happens lol.
 
-> Buy that gold chain.
-> Buy them sick boots.
-> Get in on the official Supreme drop.
-> Buy that Corvette.
-> Let's fly to Japan.
+Buy that gold chain.
+Buy them sick boots.
+Get in on the official Supreme drop.
+Buy that Corvette.
+Let's fly to Japan.
 
 It's all possible now! Frankly, I am happier in my life because I have the privilege to do and have all of these things that lil me would have been stoked to have had five years earlier. But I've learned that finally getting the *thing* never and could never sate my entire life's desires because it can't! It'll get close, but there's always something more that is to be desired. While the desires remain, I've gotten better at narrowing my choices on what I want to grind for and what I can ignore.
 
@@ -26,7 +28,6 @@ On the flip side, there are things that I absolutely will put my all into! After
 ![Chashu](https://sudoyashi.com/assets/img/2024/chashu.jpg)
 
 Rebuilding my cabby has always been on the table, but I've come to terms with knowing that this rebuild will be worth my time agonizing over all the little things. I know the grind to perfection from my art classes, and it's not for the weary. You'll get what you put in at the end of the day. The external validation from family and friends is a good plus, but my pride has way more weight. It's still going to be a shitbox 110HP car, but it's MY shitbox 110HP car.
-
 
 The urges and sudden decisions are still there! But I've gotten better at controlling them. Usually, lol.
 
@@ -39,6 +40,8 @@ In January, I hit my old personal record on deadlift at 315 lbs and that felt pr
 There's a give and take with everything; but as you age, the consequences hit a little more complicated in your life. Pick your battles, but stay on a good win/loss ratio.
 
 ## I like the little things. Does that make me an old man now?
+
+![Little things](https://www.sudoyashi.com/assets/img/2024/little-things.jpg)
 
 I was hanging out with some mutual friends and told them I was 28. They called me old. I called them annoying.
 
@@ -54,14 +57,11 @@ I don't have a cohesive way to put these trivial things together, so here's an u
 ## Yeah, I want to go back to Italy. Spain and Switzerland would be cool too.
 
 It was dope.
-
-![It me](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-7.jpg)
-![Greece](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-1.jpg)
-
-![Blue tower](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-3.jpg)
-
-![Turkey](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-4.jpg)
-
-![Greece](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-6.jpg)
-
-![Turkey](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-8.jpg)
+![Flight](https://www.sudoyashi.com/assets/img/2024/europe-2023/flight.jpg)
+<br>
+![Greece](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-1.jpg)<br>
+![Blue tower](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-3.jpg)<br>
+![Turkey](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-4.jpg)<br>
+![Restaurant](https://www.sudoyashi.com/assets/img/2024/europe-2023/restaurant.jpg)<br>
+![Greece](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-6.jpg)<br>
+![Turkey](https://www.sudoyashi.com/assets/img/2024/europe-2023/europe-8.jpg)<br>
