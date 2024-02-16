@@ -3,12 +3,10 @@ layout: post
 title:  "Middle schoolers with money"
 date:   2024-02-16 00:00:00 -1000
 categories: blog
-image: lazy-python.jpg
+image: 2024/cabby/mr2-cruise.jpg)
 ---
 
 ## Twenty-somethings are middle Schoolers with money.
-
-![MR2 Cruise](https://www.sudoyashi.com/assets/img/2024/cabby/mr2-cruise.jpg)
 
 Twenties. Sprinkled with bullshit, irreplaceable memories, and sometimes unbelievable things that you have or haven't done that no one is going to believe your stories. Sounds a little too familiar. 
 
