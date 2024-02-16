@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Middle schoolers with money"
-date:   2024-02-08 00:00:00 -1000
-categories: it python
+date:   2024-02-16 00:00:00 -1000
+categories: blog
 image: lazy-python.jpg
 ---
 
