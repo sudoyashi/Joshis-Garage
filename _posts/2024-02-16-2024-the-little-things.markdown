@@ -27,7 +27,7 @@ If I got those new boots or got that new watch, then I'll be happy. This time I'
 
 ![Maybe we'll add a mono](https://sudoyashi.com/assets/img/2024/cabby/mono-cabby.jpg)
 
-I've been working with a specialist manufacturer in Washington on an ABA manifold, I've see his work with Volkswagens and I really want him to make my manifold. Design was sent and confirmed with him and hopefully we'll be getting the finished product in about a month. On the other side of the states, another gentlemen helped me figure out what manual steering parts I'll need to changeover into a manual rack. The leaks are not worth keeping this thing together. The car is light, not an issue.
+I've been working with a specialist manufacturer in Washington on an ABA manifold, I've see his work with Volkswagens and I really want him to make my manifold. Design was sent and confirmed with him and hopefully we'll be getting the finished product in about a month. On the other side of the states, another gentlemen helped me figure out what manual steering parts I'll need to changeover into a manual rack. The leaks are not worth keeping this thing together. It might be an issue in autocross, but really, I'm not winning in this car anytime soon, haha.
 
 Rebuilding my cabby has always been on the table, but I've come to terms with knowing that this rebuild will be worth my time agonizing over all the little things. I'm all too familiar with the grind from college and it sucks. But, you get what you put in at the end of the day. It's still going to be a shitbox 110HP car, but it's MY shitbox 110HP car.
 
