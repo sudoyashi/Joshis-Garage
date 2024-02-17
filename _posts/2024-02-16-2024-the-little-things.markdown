@@ -23,23 +23,13 @@ It's all possible now! Frankly, I am happier in my life because I have the privi
 
 If I got those new boots or got that new watch, then I'll be happy. This time I'll feel better. After each purchase, I felt good about myself. Then, two or three months later, the impact never lasted. I couldn't satisfy that itch and think it's impossible to remain satisfied. It'll get close, but there's always something more. I've started narrowing down my choices on what I want to grind for and what I can ignore. It's a start.
 
-## Traveling made me want to cook more, so I'll try to post more about that too
-
-![Chashu](https://sudoyashi.com/assets/img/2024/chashu.jpg)
-
-On the flip side, there are things that I absolutely will put my all into! After traveling to Europe for a couple of weeks, I've come to enjoy food more, both cooking and eating. Italy, Greece, and Turkey sparked a massive onset of tasting and finding new flavors I could try independently.
-
-## Cabby is getting new steering parts ala Tennessee
+## ITB Manifold and steering rack are coming!
 
 ![Maybe we'll add a mono](https://sudoyashi.com/assets/img/2024/cabby/mono-cabby.jpg)
 
+I've been working with a specialist manufacturer in Washington on an ABA manifold, I've see his work with Volkswagens and I really want him to make my manifold. Design was sent and confirmed with him and hopefully we'll be getting the finished product in about a month. On the other side of the states, another gentlemen helped me figure out what manual steering parts I'll need to changeover into a manual rack. I won't be running a power steering system which will be a bummer, but I'll have a little less parasitic loss from my engine. It probably won't make a difference, lol. 
+
 Rebuilding my cabby has always been on the table, but I've come to terms with knowing that this rebuild will be worth my time agonizing over all the little things. I'm all too familiar with the grind from college and it sucks. But, you get what you put in at the end of the day. It's still going to be a shitbox 110HP car, but it's MY shitbox 110HP car.
-
-## Lift double my bodyweight then get a fever
-
-![ABA Manifold draft](https://www.sudoyashi.com/assets/img/2024/cabby/aba-manifold.jpg)
-
-In January, I hit my old personal record on deadlift at 315 lbs and that felt pretty good. Then I got a fever from exhaustion. A couple of weeks ago, I bested some friends in an SCCA race by .003 seconds. Then I found out I needed to replace my brakes and rotors. A couple of days ago, I finally got a design approved for my intake manifold and parts for the steering rack, then I got the bills while my dad's truck has been acting up, so double the project parts. It is what it is, haha. Just pick your battles and move on.
 
 ## I like the little things. Does that make me an old man now?
 
