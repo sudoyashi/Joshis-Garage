@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Middle schoolers with money"
-date:   2024-02-16 00:00:00 -1000
+date:   2099-02-16 00:00:00 -1000
 categories: blog
 image: /2024/europe-2023/colloseo.jpg
 ---
