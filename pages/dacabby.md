@@ -157,8 +157,12 @@ Clutch in. I lightly pushed the shifter into what I thought was first gear, but 
 
 But with the revs finally up and the car finally moving, I rolled down the windows to let the musty air flow out. Still getting a feel for the steering and suspension, the car surprisingly drove pretty well! A California stop into the next stop sign and I finally opened up to an open road. Car's warm and I was itching to see what the car was going to be like. I pulled out and nearly floored it. And this car did NOT pull, haha! But what it did do was that it putted down the road like a panther's prowl. Low and subtle. And for some reason, the lack of power and flabbergasting experience driving an 80s car put me in a different headspace. This isn't a car to drive for speed, this is a car to peacock the fuck outta these streets.
 
-I absolutely wanted that car and instantly become attached. This car was cool as fuck.
+I absolutely wanted that car and instantly become attached. This car was so cool.
 
 I returned to the driveway and feeling pretty good about the car. We let the car run for a bit to see how the car would idle. As I got out of the car my friends were talking with the owner at the time and everything seemed to be going great. It was finally time to start talking about price. His Craigslist ad listed the car for $1800 since it was in mildly rough condition, I was just about to offer $1500 considering that this was going to need a bunch of work to refresh and get it safely on the road... and then a heater hose blew.
 
-White smoke straight from the hood. Ronald quickly shouted "turn it off!" and the car just sat there among the silence as the car shut down. With the leaking fluid and smoke clearing up, we were trying to figure out what happened. The white smoke was a clear indicator, but at the time, I didn't know the difference between any of the smoke colors! All I knew is that it was bad. When everything settled down, the car was not in a condition to run anymore 
+White smoke shot straight from the hood and Ronald quickly shouted "turn it off!" We stood there in silence as the car shut down. With the leaking fluid and smoke clearing up, we were trying to figure out what happened. At the time, I had no idea what happened. The white smoke was a clear indicator, but at the time, I didn't know if that was engine failure or coolant! All I knew is that it was bad. When everything settled down, the car was not in condition to run anymore.
+
+Will you take $800?
+
+I could have gone lower, but $800 seemed fine enough. I went out to grab the money and we got my 1999 Honda CR-V with ratchet straps and gingerly escorted the car back home.
