@@ -19,24 +19,26 @@ TLDR: here's the wiring diagram and parts list.
 
 ![img](https://www.megamanual.com/ms2/v3components.gif)
 
-The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. This is the Cabby's EFI conversion project I've worked on for the last three months; today, let's dive into the ECU and wiring.
+The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. I want to save this car because I still think it's the coolest car I've ever owned and because I want to prove to myself that I can do it.
 
-The Golf MK1 came with mechanical fuel injection that was reliable until it wasn't. When it failed me back in 2021, the cost to fix the parts ($700) was too much to justify a fix to an already archaic system, so I used bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. In retrospect, this was my fault and would have worked again. It ruined the carbs and part of the engine, a good time to swap it! While carbs are not inherently bad, but they leave much to be desired in tuning and control. Changing the system to electronic fuel injection (EFI) and a standalone ECU will solve many of the carbs' imprecision issues but with it comes a lot of new challenges to complete the setup, but in the end, we'll save this car one more time.
+The Golf MK1 came with mechanical fuel injection that was reliable until it wasn't. When it failed me back in 2021, the cost to fix the parts ($700) was too much to justify a fix to an already archaic system, so I used bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. It ruined the carbs and part of the engine and at this point, it seemed like a good time to swap it! Carburetors are inefficent and they leave much to be desired in tuning and control. By changing the system from carbs to electronic fuel injection (EFI) and a standalone ECU, this will solve many of the carbs' issues, but with it comes new challenges to complete the setup. Let's save this car one more time.
 
-I'm using the Megasquirt 2 DIY kit on the v3.0 PCB, but will not be using the following features:
+I'm using the Megasquirt 2 DIY kit on the v3.0 PCB and will not be using the following features:
 
 - Anything related to Idle Air Control, the ITBS come from a 2005 Honda CBR 600RR that uses a wax idle enrichment system that using coolant routed with coolant instead of an IAC
 - MS2 "CAN" bus, supposedly it's not good or not real CAN BUS? CAN BUS will be set for another build as I still find CAN BUS very interesting.
 
+This is the Cabby's EFI conversion project I've worked on for the last three month. Let's dive into the ECU and wiring.
+
 ## What is a MegaSquirt ECU? The ultimate DIY ECU
 
-The car's ECU is the computer that tells it when to spark and when to squirt fuel. It's not magic, it's science. The MegaSquirt (MS) ECU is a cheap, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. For about $650, with a wiring harness and test kit, I got my ECU setup ready to go in a couple days. Unfortunately, if you don't know what you are doing, like me, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup, and it can take a lot of work to figure out what you want to do. It's not impossible, though. With time and determination, you can work through the MS ECU if you are determined not to drop $1000s on other aftermarket ECUs.
+A car's ECU is the computer that tells it when to spark and when to squirt fuel based on various data inputs from the engine and environment. It's not magic, it's science. Specifically, the MegaSquirt (MS) ECU is a cheap, DIY alternative to other aftermarket ECUs to make standalone setups more accessible. For about $650, with a wiring harness and test kit, I got my ECU setup ready to go in a couple days. In the nature of DIY, if you don't know what you are doing, like me, there are A LOT of "ifs" and situational aspects in the MegaSquirt setup, and it can take a lot of work to figure out what you want to do. But with time and determination, you can work through the MS ECU.
 
 Below is the original diagram provided by MegaSquirt. There are several versions of this diagram, depending on the version and generation of MS, so this may be different than the ones you could have seen before. The diagram illustrates what the ECU will read (inputs) and what it will control (outputs). With this control on inputs and outputs (I/O), we can tune the engine to behave how we want it to.
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
-Let's start with the wires and discuss what the ECU will control! The ECU will control fuel and spark by reading sensors on the car, like air temperature, coolant temperature, and engine speed. The data read by the ECU will read off a table of values and spit out some value to spray a certain amount of fuel and spark at a specific time. This dynamically adjusts to the car and environment, and the cycle continues.
+Again, the ECU controls spark and fuel and does it by reading sensors on the car, like air temperature, coolant temperature, and engine speed. The data read by the ECU will read off a table of values and spit out some value to spray a certain amount of fuel and spark at a specific time. Based on a table of values, referred to as a fuel map, the ECU dynamically adjusts to the car and environment on how to modulate fuel and spark.
 
 The ECU has a DB37 connector with 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
 
@@ -99,7 +101,7 @@ This table references the terminals for the DB37 connector on the MegaSquirt 2 f
 
 ![REC, 29P, BLK, E, RNG, 12/16/20, S-HDP24-24-29SE-L017](https://www.te.com/content/dam/te-com/catalog/part/HDP/242/429/HDP24-24-29SE-L017-t1.jpg/jcr:content/renditions/product-details.png)
 
-A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick, and as far as reliability and durability are concerned, I wanted to give it a try. I was very excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is easy, but the hard part is parts availability and planning.
+A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick, and as far as reliability and durability are concerned, provides a solid bang for your buck. I was even more excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is easy, but the hard part is parts availability and planning. I already have a decent amount of electrical tools and supplies, so this was a decent
 
 It's a challenge in planning and wiring that I wanted to take to prepare myself for future wiring jobs. Crimping the MS2 harness directly to my components would be simpler, but a bulkhead connector would make it easier to service in the long run. Automotive wiring is a challenge for most people, and if I can show others that putting in the time and work will pay dividends in the build's reliability, consistency, and durability. Mapping the diagram forces me to consider every wire going into my car and makes me understand what I'm doing.
 
