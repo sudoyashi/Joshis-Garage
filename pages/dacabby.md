@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Build
+title: About the build
 permalink: /dacabby/
 ---
 This is my [first project car](https://www.sudoyashi.com/dacabby/) and since getting my own beginner socket and wrench set in 2020, until now. I've spent my time after work almost everyday to get this thing working in the first few months I had it. At the same time, I was still trying to figure out how to do anythign on a car in general. This was my guinea pig and it has been through hell and back. Literally. It caught on fire at one point. 
@@ -155,14 +155,12 @@ Clutch in. I lightly pushed the shifter into what I thought was first gear, but 
 
 "First gear" with the revs even higher and I just barely managed to pull out. I was definitely trying to pull out in 3rd gear. 
 
-But with the revs finally up and the car finally moving, I rolled down the windows to let the musty air flow out. Still getting a feel for the steering and suspension, the car surprisingly drove pretty well! A California stop into the next stop sign and I finally opened up to an open road. Car's warm and I was itching to see what the car was going to be like. I pulled out and nearly floored it. And this car did NOT pull, haha! But what it did do was that it putted down the road like a panther's prowl. Low and subtle. And for some reason, the lack of power and flabbergasting experience driving an 80s car put me in a different headspace. This isn't a car to drive for speed, this is a car to peacock the fuck outta these streets.
+But with the revs finally up and the car finally moving, I rolled down the windows to let the musty air flow out. Still getting a feel for the steering and suspension, the car surprisingly drove pretty well! A California stop into the next stop sign and I finally opened up to an open road. Car's warm and I was itching to see what the car was going to be like. I pulled out and nearly floored it. And this car did NOT pull, haha! But what it did do was that it putted down the road like a panther's prowl. Low and subtle. And for some reason, the lack of power and flabbergasting experience driving an 80s car put me in a different headspace. This isn't a car to drive for speed, this is a cruiser. The 80s aesthetic is in and this car fits the bill.
 
-I absolutely wanted that car and instantly become attached. This car was so cool.
+I returned to the driveway and felt pretty good about the car. We let the car run for a bit to see how the car would idle. As I got out of the car my friends were talking with the owner at the time and everything seemed to be going great. It was finally time to start talking about price. His Craigslist ad listed the car for $1800 since it was in mildly rough condition. Rust here and there, probably a few other electric gremlins and could use some general TLC. As I was about to offer $1500 ... a heater hose blew.
 
-I returned to the driveway and feeling pretty good about the car. We let the car run for a bit to see how the car would idle. As I got out of the car my friends were talking with the owner at the time and everything seemed to be going great. It was finally time to start talking about price. His Craigslist ad listed the car for $1800 since it was in mildly rough condition, I was just about to offer $1500 considering that this was going to need a bunch of work to refresh and get it safely on the road... and then a heater hose blew.
-
-White smoke shot straight from the hood and Ronald quickly shouted "turn it off!" We stood there in silence as the car shut down. With the leaking fluid and smoke clearing up, we were trying to figure out what happened. At the time, I had no idea what happened. The white smoke was a clear indicator, but at the time, I didn't know if that was engine failure or coolant! All I knew is that it was bad. When everything settled down, the car was not in condition to run anymore.
+White smoke shot straight followed by a big FOOMP! from the sound of coolant hitting the hot engine. Ronald quickly shouted "turn it off!" I rushed in to pull the key and the car sat in silence. We inspected the leaking fluid after the smoke cleared up. At the time, I had no idea what happened. The white smoke was a clear indicator it was coolant, but to me I think the whole engine was in shambles! All I knew is that it was bad and when everything settled down, the car was not in condition to run anymore.
 
 Will you take $800?
 
-I could have gone lower, but $800 seemed fine enough. I went out to grab the money and we got my 1999 Honda CR-V with ratchet straps and gingerly escorted the car back home.
+I could have gone lower, but $800 seemed fine enough. I went out to grab the money and we setup my 1999 Honda CR-V with ratchet straps towing the Cab back home. The straps was strapped to... something on the car. Ronald was in the CR-V towing me along while I steered the Cabby. And that's where are the financial mistakes begun.
