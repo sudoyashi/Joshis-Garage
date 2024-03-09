@@ -25,7 +25,25 @@ We're starting with the block since we still have the engine mostly assembled. W
 | 3        | 150  | Did not test |
 | 4        | 190  | Did not test |
 
-I saw the readings and thought maybe it's just a bad head gasket. I ordered a new MLS head gasket and timing components to replace and waited for them to do another test.
+Not good. Two things that jump out to me is 1) abnormal compression on 1 and 4 and 2) inconsistent compression.
+
+| Normal Cylinder | Dry  |
+| -------- | ---- 
+| Compression | 145-189 psi   |
+| Wear limit | 109 psi |
+| Maximum difference | 44 psi  |
+
+ I saw the readings and was hoping it was just a bad head gasket. I didn't disassemble things yet, so I ordered a new MLS head gasket and timing components to replace. After that, I went ahead I disassembled the engine and checked the head.
+
+ ## Checking the head
+
+![Check head](https://www.sudoyashi.com/assets/img/cabby/aba/check-head.jpg)
+
+And thankfully, it wasn't a bad head!
+
+With the long block disassembled, I removed the camshaft and then flipped the head over, sitting upside down. Do not remove anything else other than the camshaft. On a level-ish surface, I poured isopropyl alcohol and filled each chamber. With compressed air, I blew air up the intake port and exhaust port checking to see if there were any leaks in the valves.
+
+With compressed air, blow air into each port to check for bubbles. If there are bubbles, it's a leak. If there are no bubbles, no leaks. The head passed and no leaks were found! It's not a bulletproof test, things are not at temperature and there is no pressure simulating the assembled engine, but still, very good signs. Onto the block.
 
 ### New parts, same results
 
@@ -52,39 +70,29 @@ The wet tests looked better and that leads me to believe the rings are due for a
 
 The consistency was that the second test gave us the same compression numbers. The compression tests aren't looking good. I'm getting low compression on cylinder 1, average pressure for 2 and 3, and cylinder 4 is getting monster pressure. The difference between cylinders isn't promising either. The engine could run, but not at full power. The caveat is that the tests were done on a cold engine! Nt accounting for expansion and sealing with a warm block, the tests are only an indicator until the machine shop pulls out the pistons to check on clearances there. So, let's break split the engine and test if it's a bad head.
 
-## Checking the head
+### Piston rings and talking with Ted's Automotive Machine shop
 
-![Check head](https://www.sudoyashi.com/assets/img/cabby/aba/check-head.jpg)
-
-And thankfully, it wasn't a bad head!
-
-With the long block disassembled, I removed the camshaft and then flipped the head over, sitting upside down. Do not remove anything else other than the camshaft. On a level-ish surface, I poured isopropyl alcohol and filled each chamber. With compressed air, I blew air up the intake port and exhaust port checking to see if there were any leaks in the valves.
-
-With compressed air, blow air into each port to check for bubbles. If there are bubbles, it's a leak. If there are no bubbles, no leaks. The head passed and no leaks were found! It's not a bulletproof test, things are not at temperature and there is no pressure simulating the assembled engine, but still, very good signs. Onto the block.
-
-### Checking the seals without opening the block
-
-While I would love to disassemble the whole block, I don't want to cause more issues from my mistakes in installing or incorrect torquing. I spoke to the machine shop and they recommended I try a "leak" test. Add some transmission oil to the cylinders and see how much leaks past the rings. In theory, it should kind of hold some fluid but if one piston holds less than the other, then we might need to do more work.
+While I would love to disassemble the whole block, I don't want to cause more issues from my mistakes in installing or incorrect torquing. I spoke to Ted's Automotive machine shop in Kalihi, Hawaii and they recommended I try another "leak" test. Add some transmission oil to the cylinders and see how much leaks past the rings. In theory, it should kind of hold some fluid but if one piston holds less than the other, then we can get more information about the cylinders. 
 
 ![Check block](https://www.sudoyashi.com/assets/img/cabby/aba/check-block.jpg)
 
-On March 6, 20204, I filled the cylinders with 75W-90 transmission oil, with the cylinders about halfway up the walls, and left them covered for 24 hours. Afterward, it looked about the same, the level of the fluid didn't go down dramatically. Again, this tells me it's not crazy sealing issues, but it also points to a re-ring.
+On March 6, 20204, I filled the cylinders with 75W-90 transmission oil, with the cylinders about halfway up the walls, and left them covered for 24 hours. Afterward, it looked about the same, the level of the fluid didn't go down dramatically. Again, this tells me it's not crazy sealing issues, but it also points to a stock re-ring rather than an oversized bore and piston. Hopefully, lol.
 
 ## So, are you going to rebuild the engine?
 
-Yes. My wallet will hate me, but my sanity will thank me.
+With these results, yup we should take it to the shop lol. My wallet will hate me, but my sanity will thank me.
 
 I was see-sawing between rebuilding and not rebuilding, ultimately, I think the final decision will come when I speak to my engine builder. In Honolulu, the only places that I heard of engine building were Snyder's and Ted's Automotive. Since I've used Ted's before, I went to them.
 
 After consulting and telling them about my goal and current engine health (OK valves, age of engine, possible piston ring issue) they suggested it would be about $1000 for a clean rebuild. About $400 for the block to re-ring, glaze, and hone the cylinders. About $600 to build the head with new HD (heavy-duty TT) springs, seals, and possibly decking the head. For $1000, not bad! I'm sure it will be a little more expensive, but we're in a good range!
 
-For parts, I'm going to let Ted's machine shop take care of the block components to see what I need or don't need. For the rest of the parts I'm getting:
+For parts, I'm going to let Ted's Automotive machine shop take care of the block components to see what I need or don't need. For the rest of the parts I'm getting:
 
 - [Engine gasket set for ABA 2.0L with standard MLS gasket 1.65mm](https://techtonicstuning.com/product/complete-gasket-set-for-96-early99-mk3-crossflow-20-8v/)
 - Replacement crankshaft bolt, just in case
 - Freeze plugs
 
-Piston rings, bearings, and other block components, I'll let the machine shop handle them in case I need to get different components.
+For the block, I'm going to ask them to order the piston rings, bearings, and other block components in case I need to get different components.
 
 ## 7000 Redline Golf.
 
