@@ -8,23 +8,13 @@ categories: personal
 image: /cabby/aba/check-engine.jpg
 ---
 
-Inconsistent compression across the board. But why?
-
-## Checking the head
-
-![Check head](https://www.sudoyashi.com/assets/img/cabby/aba/check-head.jpg)
-
-Thankfully, it wasn't a bad head!
-
-I checked the valves of the head by removing the camshaft then flipping the head over, sitting upside down. Do not remove anything else other than the camshaft. On a level-ish surface, I poured isopropyl alcohol since I fear the surface rust with water and filled each cylinder. With compressed air, I blew air up the intake port and exhaust port checking to see if there were any leaks in the valves.
-
-If there are bubbles, it's a leak. If there are no bubbles, no leaks. And this head did not look. This isn't a foolproof test, I'd say. Things are not at temperature, there is no pressure simulating the assembled engine, but these are very good signs it is not the head causing the issue.
+Inconsistent compression across the board. But why? Let's check the block and head.
 
 ## Checking the block
 
 ![Check block](https://www.sudoyashi.com/assets/img/cabby/aba/check-block.jpg)
 
-Tested on a warm January 15, 2024. At this point, no repairs or replacement were made to the engine. Gaskets, head bolts, and timing components as found.
+We're starting with the block since we still have the engine mostly assembled. We'd be wasting time disassembling the long block to test the head first. Tested on a warm January 15, 2024. At this point, no repairs or replacement were made to the engine. Gaskets, head bolts, and timing components as found. We did a bench compression test by connecting the transmission and powering the starter with a battery. Then we manually triggered the starter with a wire going to the starter solenoid and battery positive.
 
 ### Control results 
 
@@ -37,19 +27,21 @@ Tested on a warm January 15, 2024. At this point, no repairs or replacement were
 | 3        | 150  | Did not test |
 | 4        | 190  | Did not test |
 
-In the beginning, I saw the readings and thought maybe it's just a bad head gasket. At that time, I didn't do a compressed air test with the camshaft out, I was swamped with work at the time so this project was on a lower priority. I ordered a new MLS head gasket and timing components to replace and waited for them to do another test.
+I saw the readings and thought maybe it's just a bad head gasket. I ordered a new MLS head gasket and timing components to replace and waited for them to do another test.
 
 ### New parts, same results
 
+![New parts](https://www.sudoyashi.com/assets/img/cabby/aba/new-parts.jpg)
+
 Stupidly, I ordered the wrong gasket at first and got sent ELRING 915.591, which was supposed to be for the 2.0L gasket, but it didn't fit properly, not lining up with the dowel pin found near cylinder 4. I ordered another part from RockAuto, [APEX AHG904](https://www.rockauto.com/en/moreinfo.php?pk=8188476&cc=1430391&pt=5412&jsn=10) and it fit. Along with that, I got the timing belt kit which includes a new tensioner and head bolts.
 
-Tested on February 27, 2024 on a cold night. Again the engine was tested on the "bench". Outside of the car. This invalidates the hot compression test result we would normally want to see (109+ PSI), but I'm looking for consistency. And well, we got consistency but not the way I wanted.
+Tested on February 27, 2024, on a cold night. Again the engine was tested on the "bench". Outside of the car. This invalidates the hot compression test result we would normally want to see (109+ PSI), but I'm looking for consistency. And well, we got consistency but not the way I wanted.
 
 - New timing belt
 - New tensioner
 - New head gasket
 
-![Compression test control](https://www.sudoyashi.com/assets/img/cabby/aba/compression-test2.jpg)
+![Compression test 2](https://www.sudoyashi.com/assets/img/cabby/aba/compression-test2.jpg)
 
 | Cylinder | Dry  | Wet                            |
 | -------- | ---- | ------------------------------ |
@@ -58,37 +50,47 @@ Tested on February 27, 2024 on a cold night. Again the engine was tested on the 
 | 3        | 150  | 160                            |
 | 4        | 210  | Did not test, put too much oil |
 
-![New parts](https://www.sudoyashi.com/assets/img/cabby/aba/new-parts.jpg)
+The wet tests looked better and that leads me to believe the rings are due for a change.
 
-The consistency was that the second test gave us the same compression numbers. The compression tests aren't looking good. I'm getting low compression on cylinder 1, average pressure for 2 and 3, and cylinder 4 is getting monster pressure. The difference between cylinders aren't promising either. It seems like cylinder 1's rings are worn. The engine could run, but not at full power. The caveat, again, is that the tests were done on a cold engine! Less sealing, not accounting for expansion from heat, so the tests are only an indicator until the machine shop pulls out the pistons to check on clearances there.
+The consistency was that the second test gave us the same compression numbers. The compression tests aren't looking good. I'm getting low compression on cylinder 1, average pressure for 2 and 3, and cylinder 4 is getting monster pressure. The difference between cylinders isn't promising either. The engine could run, but not at full power. The caveat is that the tests were done on a cold engine! Nt accounting for expansion and sealing with a warm block, the tests are only an indicator until the machine shop pulls out the pistons to check on clearances there. So, let's break split the engine and test if it's a bad head.
+
+## Checking the head
+
+![Check head](https://www.sudoyashi.com/assets/img/cabby/aba/check-head.jpg)
+
+And thankfully, it wasn't a bad head!
+
+With the long block disassembled, I removed the camshaft and then flipped the head over, sitting upside down. Do not remove anything else other than the camshaft. On a level-ish surface, I poured isopropyl alcohol and filled each chamber. With compressed air, I blew air up the intake port and exhaust port checking to see if there were any leaks in the valves.
+
+With compressed air, blow air into each port to check for bubbles. If there are bubbles, it's a leak. If there are no bubbles, no leaks. The head passed and no leaks were found! It's not a bulletproof test, things are not at temperature and there is no pressure simulating the assembled engine, but still, very good signs. Onto the block.
 
 ### Checking the seals without opening the block
 
-While I would love to disassemble the whole block, I don't want to cause more issues from my mistakes installing or incorrect torquing. I spoke to the machine shop and they recommended I can try a "leak" test. Add some transmission oil to the cylinders and see how much leaks past the rings. In theory, it should kind of hold some fluid but if one piston holds less than the other, then we might need to do more work.
+While I would love to disassemble the whole block, I don't want to cause more issues from my mistakes in installing or incorrect torquing. I spoke to the machine shop and they recommended I try a "leak" test. Add some transmission oil to the cylinders and see how much leaks past the rings. In theory, it should kind of hold some fluid but if one piston holds less than the other, then we might need to do more work.
 
-On March 6, 20204, I filled the cylinders with 75W-90 transmission oil, with the cylinders about halfway up the walls and left it covered for 24 hours. Afterwards, it looked about the same, the level of the fluid didn't go down dramatically 
+On March 6, 20204, I filled the cylinders with 75W-90 transmission oil, with the cylinders about halfway up the walls, and left them covered for 24 hours. Afterward, it looked about the same, the level of the fluid didn't go down dramatically. Again, this tells me it's not crazy sealing issues, but it also points to a re-ring.
 
 ## So, are you going to rebuild the engine?
 
 Yes. My wallet will hate me, but my sanity will thank me.
 
-I was see-sawing between rebuilding and not rebuilding, ultimately, I think the final decision will come when I speak to my engine builder. In Honolulu, the only places that I heard for engine building were Snyder's and Ted's Automotive. Since I've used Ted's before, I went to them.
+I was see-sawing between rebuilding and not rebuilding, ultimately, I think the final decision will come when I speak to my engine builder. In Honolulu, the only places that I heard of engine building were Snyder's and Ted's Automotive. Since I've used Ted's before, I went to them.
 
 After consulting and telling them about my goal and current engine health (OK valves, age of engine, possible piston ring issue) they suggested it would be about $1000 for a clean rebuild. About $400 for the block to re-ring, glaze, and hone the cylinders. About $600 to build the head with new HD (heavy-duty TT) springs, seals, and possibly decking the head. For $1000, not bad! I'm sure it will be a little more expensive, but we're in a good range!
 
-For parts I'm going to let Ted's machine shop take care of the block components to see what I need or don't need. For the rest of the parts I'm getting:
+For parts, I'm going to let Ted's machine shop take care of the block components to see what I need or don't need. For the rest of the parts I'm getting:
 
 - [Engine gasket set for ABA 2.0L with standard MLS gasket 1.65mm](https://techtonicstuning.com/product/complete-gasket-set-for-96-early99-mk3-crossflow-20-8v/)
 - Replacement crankshaft bolt, just in case
 - Freeze plugs
 
-Piston rings, bearings, and other block components, I'll let the machine shop handle in case I need to get different components.
+Piston rings, bearings, and other block components, I'll let the machine shop handle them in case I need to get different components.
 
-## 7000 redline Golf.
+## 7000 Redline Golf.
 
 The goal for the Cabby is to finish this project and not catch on fire. It's in my best interest to give it the best chance I can and if it means I need to sacrifice 4-6 more months to get it, let's get it done.
 
-A choppy idle, with decent high-rev power with the responsiveness of ITBS. The NA ITB nature is something that suits my driving as I like being able to get on and off the throttle at a moment's notice. My agressive and punchy style suited me a lot better driving in an NA Miata versus my Turbo Civic.
+A choppy idle, with decent high-rev power with the responsiveness of ITBS. The NA ITB nature is something that suits my driving as I like being able to get on and off the throttle at a moment's notice. My aggressive and punchy style suited me a lot better when driving in an NA Miata versus my Turbo Civic.
 
 From the internet estimates from the Vortex, 7500RPM on a healthy engine should work fine. I HOPE. The choppy 276 TT cam will sacrifice some street drivability compared to the OEM cam, but I want to use it for at SCCA as the primary "race car" so I'm not racing the Civic, since it's my daily. This build isn't revolutionary nor will it break any YouTube algorithm, but it's mine and it'll be a fun car! We don't have many other official races out here in Hawaii and I'm not planning for street races, either. This car will lose. LOL.
 
@@ -107,12 +109,12 @@ The specs I am planning for are:
   - Diamond Racing 14" wheels, lightweight "steelies" or other lightweight 14"
   - 185/60/14 Toyo RE71R
 - Targets:
-  - 120HP? I have no idea on the Dyno and tune. Frankly, I could care less. The main point is highly responsive NA car, the cab is 2200lbs, I'm not too wired haha.
+  - 120HP? I have no idea about the Dyno and tune. Frankly, I couldn't care less. The main point is a highly responsive NA car, the cab is just under 2100 lbs, I'm not too worried haha.
 
 ## For the legacy of a sick whip
 
 ![Cabby Mono](https://www.sudoyashi.com/assets/img/cabby/aba/cabby-mono.jpg)
 
-I can't say I "love" the cab like others would with their dear cars. The car is disposable, but it'd be very hard to find a replacement for what it does so well. The color, the convertible, the stories, and the shitty-ness of it, it's enjoyable. It's a good ship and it's one that I want to finish the project. Call it a sense of pride and silliness. It might , but at least I'll have a fully built engine in it, because when I sell it, that's a lot easier to market than having one cylinder with low compression.
+I can't say I "love" the cab like others would with their dear cars. The car is disposable, but it'd be hard to find a replacement for what it does so well. Being a sick convertible car. The color, the convertible, the stories, and the shitty-ness of it, it's enjoyable, and personally want to say I finished this project. A pride thing, really. I'll have a rebuilt engine in it and that's a lot easier to market than saying I have one cylinder with low compression.
 
-My family and friends know this is MY car. This car has become part of my identity and in some ways it's fine. What I can do and how I view the world can be expressed through my work in this car. The limit is up to my wallet and imagination. 3D printing parts and learning more about the historic Golf MK1, MK2, and MK3 influenced a lot of my choices on what I want to do with this car. It has a good vibe to it and in Hawaii, it's always a good time.
+My family and friends know this is MY car. This car has become part of my identity whether I like it or not, haha. What I'm able to do and how I view the world can be expressed through my work in this car. The limit is up to my wallet and imagination. 3D printing parts and learning more about the historic Golf MK1, MK2, and MK3 influenced a lot of my choices on what I want to do with this car. It has a good vibe driving it, and especially since I live in Hawaii, it's always a good time.
