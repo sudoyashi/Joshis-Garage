@@ -10,9 +10,7 @@ image: /cabby/aba/check-engine.jpg
 
 Inconsistent compression across the board. But why? Let's check the block and head.
 
-## Checking the block
-
-![Check block](https://www.sudoyashi.com/assets/img/cabby/aba/check-block.jpg)
+## Checking the engine
 
 We're starting with the block since we still have the engine mostly assembled. We'd be wasting time disassembling the long block to test the head first. Tested on a warm January 15, 2024. At this point, no repairs or replacement were made to the engine. Gaskets, head bolts, and timing components as found. We did a bench compression test by connecting the transmission and powering the starter with a battery. Then we manually triggered the starter with a wire going to the starter solenoid and battery positive.
 
@@ -67,6 +65,8 @@ With compressed air, blow air into each port to check for bubbles. If there are 
 ### Checking the seals without opening the block
 
 While I would love to disassemble the whole block, I don't want to cause more issues from my mistakes in installing or incorrect torquing. I spoke to the machine shop and they recommended I try a "leak" test. Add some transmission oil to the cylinders and see how much leaks past the rings. In theory, it should kind of hold some fluid but if one piston holds less than the other, then we might need to do more work.
+
+![Check block](https://www.sudoyashi.com/assets/img/cabby/aba/check-block.jpg)
 
 On March 6, 20204, I filled the cylinders with 75W-90 transmission oil, with the cylinders about halfway up the walls, and left them covered for 24 hours. Afterward, it looked about the same, the level of the fluid didn't go down dramatically. Again, this tells me it's not crazy sealing issues, but it also points to a re-ring.
 
