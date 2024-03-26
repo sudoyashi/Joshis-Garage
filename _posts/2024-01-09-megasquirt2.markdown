@@ -412,7 +412,7 @@ https://www.msextra.com/forums/viewtopic.php?t=38492
 
 ![Electronic_Ignition_System](https://www.championautoparts.com/content/loc-na/loc-us/fmmp-champion/en_US/Technical/Tech-Tips/How-Ignition-Systems-Work/_jcr_content/article/article-par/image_1274956326.img.gif/Electronic_Ignition_System-1557923939893.gif)
 
-*Champion Auto Parts digagram, note the primary and secondary circuits*
+*Champion Auto Parts digagram, note the primary and secondary circuits at https://www.championautoparts.com/Technical/Tech-Tips/How-Ignition-Systems-Work.html*
 
 As the engine turns runs, the crankshaft turns, whereby the VR sensor sees crankshaft movement by reading the missing tooth wheel. The original configuration uses the hall effect with a trigger window in the distributor to mark the spark events. We aren't using the hall effect to control the spark, so we can disconnect this signal. Instead, with the MegaSquirt, we can use the input `ECU #24 TACH IN` from the VR sensor, which will condition the AC sine wave into a 5V DC square wave, output through `IGN signal (#36 IGN OUT)` to the ICM.
 
