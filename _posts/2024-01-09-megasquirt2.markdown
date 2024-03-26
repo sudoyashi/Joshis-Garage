@@ -166,13 +166,15 @@ Here are four things to consider when choosing your connectors:
    - There are multiple to choose from. Consider Gold (Au), Nickel (Ni), Tin (Sn), and Silver (Ag). Let's focus on the most common ones, Gold and Tin. According to this [Molex article](https://www.molex.com/en-us/blog/gold-or-tin-vs-gold-and-tin), essentially, gold connectors are more durable than tin, maintain a durable connection over time and never mix the types of connectors while tin connectors are cheaper, do the job, but may not survive many mating cycles. **Tldr; buy what's available and never don't mix mating materials. Tin is cheap. Gold is highly reliable.** Some connectors may be made of both (AU/SN).
    - Make sure that the pins and sockets are of the same materials when buying your parts. There are gold (Au), tin (Sn), nickel (Ni), and silver (Ag)
 4. **Is it available to buy?**
-   Availability is the bane of car parts. The parts exist, but your job is to find out who sells them and who has them for the cheapest price. **Tl;dr: If a kit exists, buy the kit.** Hunting for the same part after the fact will ruin your future days.
+   - Availability is the bane of car parts. The parts exist, but your job is to find out who sells them and who has them for the cheapest price. **Tl;dr: If a kit exists, buy the kit.** Hunting for the same part after the fact will ruin your future days.
 
 #### Splicing wires with CMA
 
 <img src="https://m.media-amazon.com/images/I/21pP4ldV4EL.jpg" alt="485043-1 TERMINAL, OPEN BARREL SPLICE, CRIMP (5 pieces)" style="width: 200px;"/>
 
-Bare-metal wire splices were introduced to me by this [article from High Performance Academy](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/). There are three open-barrel splices. These splices don't go by the usual AWG size but by the CMA or *Circular Mil Area*. Each wire has an estimated density of wires, giving us a particular area. Thinner wires have smaller CMA; thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec. The advantage to these open-barrel types is that it doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
+Bare-metal wire splices were introduced to me by this [article from High Performance Academy](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/). There are three open-barrel splices. These splices don't go by the usual AWG size but by the CMA or *Circular Mil Area*. Each wire has an estimated density of wires, giving us a particular area. Thinner wires have smaller CMA; thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec.
+
+These crimps can be harder to use because it is much smaller, but the advantage to these open-barrel types is that it doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
 
 The issue I had with butt connectors was that I couldn't inspect the crimp after the fact, just pulling on it and hoping it stays. The connectors are slightly bulkier by comparison, but when you have to splice multiple wires in an area, it can look messy. Using the open-barrel splices lets us resolve both issues!
 
@@ -189,8 +191,8 @@ The issue I had with butt connectors was that I couldn't inspect the crimp after
 
 As we splice more wires together, we want to add them up, and then we can choose a splice. Below are the available splices.
 
-1. 1500 CMA and less of combined wire area: [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header) These are too small for me to use.
-2. 1500 to 5000 CMA of combined wire area: TE [63130-2](https://www.te.com/usa-en/product-63130-2.html) Example: Two 20AWG wires or two 18AWG wires for ECU splicing.
+1. 1500 CMA and less of combined wire area: [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header) These are SMALL. Best for 22AWG or higher.
+2. 1500 to 5000 CMA of combined wire area: TE [63130-2](https://www.te.com/usa-en/product-63130-2.html) Example: Two 20AWG wires or two 18AWG wires for ECU crimping.
 3. 5000 to 10,000 CMA of combined wire area: TE [62357-1](https://www.te.com/usa-en/product-62357-1.html?q=62357-1&source=header) Example: One 14AWG wire to four 20AWG wires for fuel injector wires.
 
 #### Bulkhead receptacle (the hot socket side)
@@ -201,9 +203,9 @@ As we splice more wires together, we want to add them up, and then we can choose
 
 Housing for Female Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & Cable, Power & Signal, Panel Mount, Hybrid. THIS USES THE SOCKET PINS. 
 
-The receptacle, the socket or female end of the connector, is where we'll connect the Megasquirt harness. This will be routed in the car and then mounted on the firewall. As a tip from TE Connectivity, use the socket side as the hot side (the one connected to the battery) so you don't shock yourself.
+The receptacle, socket or otherwise known as the female end of the connector, is where we'll connect the Megasquirt harness. This will be routed in the car and then mounted on the firewall. As a tip from TE Connectivity, use the socket side as the hot side (the one connected to the battery) so you don't shock yourself. Much harder to cause a short with holes than prongs.
 
-The plug side will be mounted on the firewall.
+THESE ARE THE SOCKET PINS.
 
 #### Bulkhead Plug (the cold pokey side)
 
@@ -212,6 +214,7 @@ The plug side will be mounted on the firewall.
 [Part number: **HDP26**-24-29PE-L017](https://www.te.com/usa-en/product-HDP26-24-29PE-L017.html)
 Housing for Male Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & Cable, Power & Signal, Panel Mount, -67 – 257 °F [-55 – 125 °C], Hybrid
 
+This will be on the engine bay side that will connect all of our connectors, sensors, injects, and engine bay relays. This should be unpowered (cold).
 THIS USES THE POKEY PINS.
 
 #### Bulkhead Parts list
@@ -231,7 +234,6 @@ THIS USES THE POKEY PINS.
 | Size 20 Solid Plug pin (male)                                | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG" alt="Size 20 receptacle"  /> | 16-20AWG, Gold, 0462-201-1631   | (1062) 0462-XXX-20 |          |          |
 | Boot                                                         | <img src="https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220" alt="HD30 boot"  /> | Protective boot                 | HD30-24BT-BK       | 2        | $3.07    |
 | Fuse holder with terminals                                   | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG" alt="DigiKey Fuseholder"  /> | Individual fuse holder          | DigiKey, F5194-ND  |          |          |
-|                                                              |                                                              |                                 |                    |          |          |
 
 ### Fuse and relay panel
 

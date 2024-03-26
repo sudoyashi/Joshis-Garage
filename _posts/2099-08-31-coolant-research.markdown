@@ -17,8 +17,6 @@ What happens when an engine overheats or runs too hot?
   - Piston bore clearance and rings
 - Combustion cycle can be affected
 
-
-
 Reliability with coolant temperature range
 
 - Emissions
@@ -26,8 +24,6 @@ Reliability with coolant temperature range
 - Combustion efficiency
   - Combustion charge temperature can be influenced
   - More prone to suffer from detonation
-
-
 
 ## Influence of materials
 
