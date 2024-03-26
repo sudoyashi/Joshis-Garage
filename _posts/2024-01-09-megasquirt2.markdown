@@ -15,11 +15,10 @@ TLDR: here's the wiring diagram and parts list.
 - [Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
 
 - [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
-
-  
+- [Megasquirt Wiring Table](https://www.sudoyashi.com/megasquirt2#megasquirt-wiring-table)
+- [Bulkhead Connector Wiring Table](https://www.sudoyashi.com/megasquirt2#bulkhead-deutsch-hdp29-connector-wiring-table)
+-  
 ## Introduction
-
-![img](https://www.megamanual.com/ms2/v3components.gif)
 
 The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. I want to save this car because I still think it's the coolest car I've ever owned and because I want to prove to myself that I can do it.
 
@@ -61,49 +60,49 @@ This table references the terminals for the DB37 connector on the MegaSquirt 2 f
 
 #### Megasquirt Wiring Table
 
-| Terminal or Pin | Color              | Used? | Function                                                    | IN/OUT  | Max Amps |
-| --------------- | ------------------ | ----- | ----------------------------------------------------------- | ------- | -------- |
-| 1/2/24          | Black in Shield    | YES   | Crank sensor ground                                         | GND     | -        |
-| 2/1/24          | Shield             | YES   | Crank sensor shield                                         | GND     | -        |
-| 3               | Tan                | NO    | CAN High                                                    | (Comms) | -        |
-| 4               | Tan/Red            | NO    | CAN Low                                                     | (Comms) | -        |
-| 5               | Tan/Green          | NO    | -                                                           | -       | -        |
-| 6               | Tan/Orange         | NO    | -                                                           | -       | -        |
-| 7               | Black/White stripe | YES   | On-board sensor ground for, IAT, ECT, TPS                   | GND     | -        |
-| 8               | -                  | NO    | Spare GND                                                   | GND     | -        |
-| 9               | -                  | NO    | Spare GND                                                   | GND     | -        |
-| 10              | -                  | NO    | Spare GND                                                   | GND     | -        |
-| 11              | -                  | NO    | Spare GND                                                   | GND     | -        |
-| 12              | -                  | NO    | Spare GND                                                   | GND     | -        |
-| 13              | -                  | NO    | Spare GND                                                   | GND     | -        |
-| 14              | -                  | NO    | Spare GND                                                   | GND     | -        |
-| 15              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
-| 16              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
-| 17              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
-| 18              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
-| 19              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
-| 20              | Orange             | YES   | Intake air temperature (IAT)                                | In      | -        |
-| 21              | Yellow             | YES   | Coolant temperature sensor/Engine Coolant Temperature (ECT) | In      | -        |
-| 22              | Light Blue         | YES   | Throttle position sensor (TPS)                              | In      | -        |
-| 23              | Pink               | YES   | Exhaust Oxygen Sensor (EGO or O2)                           | In      | -        |
-| 24/2/24         | White in Shield    | YES   | TACH IN                                                     | In      | -        |
-| 25              | Blue/White         | NO    | IAC1A                                                       | (Out)   | -        |
-| 26              | Gray               | YES   | TPS 5V Supply                                               | Out     | 0.5A     |
-| 27              | Blue/Red           | NO    | IAC1B                                                       | (Out)   | 0.1A     |
-| 28              | Red                | YES   | 12V Supply                                                  | In      | 0.5A     |
-| 29              | Green/White        | NO    | IAC2A                                                       | (Out)   | <1A      |
-| 30              | Light green        | YES   | PWM Idle (Fan control)                                      | Out     | 0.1A*    |
-| 31              | Green/Red          | NO    | IAC2B                                                       | (Out)   | 0.5A     |
-| 32              | Blue               | YES   | Injector Bank 1                                             | Out     | 7A       |
-| 33              | Blue               | YES   | Injector Bank 1                                             | Out     | 7A       |
-| 34              | Green              | YES   | Injector Bank 2                                             | Out     | 7A       |
-| 35              | Green              | YES   | Injector Bank 2                                             | Out     | 7A       |
-| 36              | Brown              | YES   | Ignition signal out                                         | (Out)   | 7A       |
-| 37              | Violet             | YES   | Fuel pump relay output                                      | Out     | 0.1A     |
+| Terminal or Pin | Color                | Used? | Function                                                    | IN/OUT  | Max Amps |
+| --------------- | -------------------- | ----- | ----------------------------------------------------------- | ------- | -------- |
+| 1/2/24          | 🛡️⚫ Black in Shield   | YES   | Crank sensor ground                                         | GND     | -        |
+| 2/1/24          | 🛡️ Shield             | YES   | Crank sensor shield                                         | GND     | -        |
+| 3               | Tan                  | NO    | CAN High                                                    | (Comms) | -        |
+| 4               | Tan/Red              | NO    | CAN Low                                                     | (Comms) | -        |
+| 5               | Tan/Green            | NO    | -                                                           | -       | -        |
+| 6               | Tan/Orange           | NO    | -                                                           | -       | -        |
+| 7               | ⚫⚪Black/White stripe | YES   | On-board sensor ground for, IAT, ECT, TPS                   | GND     | -        |
+| 8               | -                    | NO    | Spare GND                                                   | GND     | -        |
+| 9               | -                    | NO    | Spare GND                                                   | GND     | -        |
+| 10              | -                    | NO    | Spare GND                                                   | GND     | -        |
+| 11              | -                    | NO    | Spare GND                                                   | GND     | -        |
+| 12              | -                    | NO    | Spare GND                                                   | GND     | -        |
+| 13              | -                    | NO    | Spare GND                                                   | GND     | -        |
+| 14              | -                    | NO    | Spare GND                                                   | GND     | -        |
+| 15              | ⚫ Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 16              | ⚫ Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 17              | ⚫ Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 18              | ⚫ Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 19              | ⚫ Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 20              | 🟠 Orange             | YES   | Intake air temperature (IAT)                                | In      | -        |
+| 21              | 🟡 Yellow             | YES   | Coolant temperature sensor/Engine Coolant Temperature (ECT) | In      | -        |
+| 22              | 🐋 Light Blue         | YES   | Throttle position sensor (TPS)                              | In      | -        |
+| 23              | 🎀 Pink               | YES   | Exhaust Oxygen Sensor (EGO or O2)                           | In      | -        |
+| 24/2/24         | 🛡️⚪White in Shield    | YES   | TACH IN                                                     | In      | -        |
+| 25              | Blue/White           | NO    | IAC1A                                                       | (Out)   | -        |
+| 26              | 💿 Gray               | YES   | TPS 5V Supply                                               | Out     | 0.5A     |
+| 27              | 🔵🔴 Blue/Red          | NO    | IAC1B                                                       | (Out)   | 0.1A     |
+| 28              | 🔴 Red                | YES   | 12V Supply                                                  | In      | 0.5A     |
+| 29              | 🟢Green/White         | NO    | IAC2A                                                       | (Out)   | <1A      |
+| 30              | 🍏 Light green        | YES   | PWM Idle (Fan control)                                      | Out     | 0.1A*    |
+| 31              | 🟢🔴 Green/Red         | NO    | IAC2B                                                       | (Out)   | 0.5A     |
+| 32              | 🔵 Blue               | YES   | Injector Bank 1                                             | Out     | 7A       |
+| 33              | 🔵 Blue               | YES   | Injector Bank 1                                             | Out     | 7A       |
+| 34              | 🟢Green               | YES   | Injector Bank 2                                             | Out     | 7A       |
+| 35              | 🟢Green               | YES   | Injector Bank 2                                             | Out     | 7A       |
+| 36              | 🟤 Brown              | YES   | Ignition signal out                                         | (Out)   | 7A       |
+| 37              | 🟣 Violet             | YES   | Fuel pump relay output                                      | Out     | 0.1A     |
 
 ### Deutsch bulkhead connector
 
-![REC, 29P, BLK, E, RNG, 12/16/20, S-HDP24-24-29SE-L017](https://www.te.com/content/dam/te-com/catalog/part/HDP/242/429/HDP24-24-29SE-L017-t1.jpg/jcr:content/renditions/product-details.png)
+<img src="https://www.te.com/content/dam/te-com/catalog/part/HDP/242/429/HDP24-24-29SE-L017-t1.jpg/jcr:content/renditions/product-details.png" alt="REC, 29P, BLK, E, RNG, 12/16/20, S-HDP24-24-29SE-L017" style="width: 200px;" />
 
 A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick, and as far as reliability and durability are concerned, provides a solid bang for your buck. I was even more excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is easy, but the hard part is parts availability and planning.
 
@@ -176,7 +175,7 @@ Here are four things to consider when choosing your connectors:
 
 #### Splicing wires with CMA
 
-![485043-1 TERMINAL, OPEN BARREL SPLICE, CRIMP (5 pieces)](https://m.media-amazon.com/images/I/21pP4ldV4EL.jpg)
+<img src="https://m.media-amazon.com/images/I/21pP4ldV4EL.jpg" alt="485043-1 TERMINAL, OPEN BARREL SPLICE, CRIMP (5 pieces)" style="width: 200px;"/>
 
 Bare-metal wire splices were introduced to me by this [article from High Performance Academy](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/). There are three open-barrel splices. These splices don't go by the usual AWG size but by the CMA or *Circular Mil Area*. Each wire has an estimated density of wires, giving us a particular area. Thinner wires have smaller CMA; thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec. The advantage to these open-barrel types is that it doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
 
@@ -201,7 +200,7 @@ As we splice more wires together, we want to add them up, and then we can choose
 
 #### Bulkhead receptacle (the hot socket side)
 
-<img src="https://i.ebayimg.com/images/g/lr0AAOSwWyJkBR~b/s-l1200.webp" alt="DEUTSCH #HDP26-24-29SE-L017 & HDP24-24-29PE 29-POSITION CONNECTORS M125 |  eBay" style="zoom:25%;" />
+<img src="https://i.ebayimg.com/images/g/lr0AAOSwWyJkBR~b/s-l1200.webp" alt="DEUTSCH #HDP26-24-29SE-L017 & HDP24-24-29PE 29-POSITION CONNECTORS M125 |  eBay" style="width: 200px;"/>
 
 [Part number: **HDP24**-24-29SE-L017](https://www.te.com/usa-en/product-HDP24-24-29SE-L017.html)
 
@@ -213,7 +212,7 @@ The plug side will be mounted on the firewall.
 
 #### Bulkhead Plug (the cold pokey side)
 
-<img src="https://i.ebayimg.com/images/g/bhsAAOSwFClkBR~m/s-l400.png" alt="DEUTSCH #HDP26-24-29SE-L017 & HDP24-24-29PE 29-POSITION CONNECTORS M125 |  eBay" style="zoom: 67%;" />
+<img src="https://i.ebayimg.com/images/g/bhsAAOSwFClkBR~m/s-l400.png" alt="DEUTSCH #HDP26-24-29SE-L017 & HDP24-24-29PE 29-POSITION CONNECTORS M125 |  eBay" style="width: 200px;" />
 
 [Part number: **HDP26**-24-29PE-L017](https://www.te.com/usa-en/product-HDP26-24-29PE-L017.html)
 Housing for Male Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & Cable, Power & Signal, Panel Mount, -67 – 257 °F [-55 – 125 °C], Hybrid
@@ -222,21 +221,22 @@ THIS USES THE POKEY PINS.
 
 #### Bulkhead Parts list
 
-| Item                                  | Image                                                        | Description                     | Part Number        | Quantity | Subtotal |
-| ------------------------------------- | ------------------------------------------------------------ | ------------------------------- | ------------------ | -------- | -------- |
-| Deutsch socket                        | <img src="https://www.buydeutsch.com/cdn/shop/products/HDP24-24-29SE-L017_1400x.jpg?v=1597691170" alt="HDP24-24-29SE-L017 - HDP20 Series - 29 Socket Receptacle - 24 Shell, E  Seal, Reverse, Ring Adapter, Flange"  /> | Bulkhead plastic socket, 29-pin | HDP24-24-29SE-L017 | 1        |          |
-| Deutsch plug,                         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg" alt="HDP26-24-29PE"  /> | Bulkhead plastic plug, 29-pin   | HDP26-24-29PE-L017 | 1        |          |
-| Medium splice                         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg" alt="Medium splice"  /> | Splices for my 18-20AWG         | 63130-2            | 100      | $8.52    |
-| Large splice                          | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG" alt="Larger splice"  /> | Splices for my 14AWG            | 62357-1            | 100      | $11.25   |
-| Size 12 Solid Receptacle pin (female) | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG" alt="12 pin"  /> |                                 | (1060) 0460-XXX-12 |          |          |
-| Size 12 Solid Plug pin (male)         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg" alt="12 plug"  /> |                                 | (1062) 0462-XXX-12 |          |          |
-| Size 16 Solid Receptacle pin (female) | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg" alt="Size 16 receptacle"  /> |                                 | (1060) 0460-XXX-16 |          |          |
-| Size 16 Solid Plug pin (male)         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg" alt="Size 16 plug"  /> |                                 | (1062) 0462-XXX-16 |          |          |
-| Size 20 Solid Receptacle pin (female) | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg" alt="Size 20 receptacle"  /> | 16-20AWG, Gold, 0460-202-1631   | (1060) 0460-XXX-20 |          |          |
-| Size 20 Solid Plug pin (male)         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG" alt="Size 20 receptacle"  /> | 16-20AWG, Gold, 0462-201-1631   | (1062) 0462-XXX-20 |          |          |
-| Boot                                  | <img src="https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220" alt="HD30 boot"  /> | Protective boot                 | HD30-24BT-BK       | 2        | $3.07    |
-| Fuse holder with terminals            | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG" alt="DigiKey Fuseholder"  /> | Individual fuse holder          | DigiKey, F5194-ND  |          |          |
-|                                       |                                                              |                                 |                    |          |          |
+| Item                                                         | Image                                                        | Description                     | Part Number        | Quantity | Subtotal |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------- | ------------------ | -------- | -------- |
+| [Deutsch HDP2Bulkhead 29-pin Connector kit, 12-16-20 AWG Solid Contacts](https://www.amazon.com/Deutsch-Bulkhead-Connector-12-16-20-Contacts/dp/B01H8H27A8/ref=sr_1_4?crid=2H1U8J9CBA8FS&dib=eyJ2IjoiMSJ9.wuFg8ZbRV5toaFT7wmx8T-1Z2qoKXMV_z5vyKIAGHMjQJr8kpKqhEKUM6tnqogGV75D4HOTZIThcvuJfya4llz-4RlrbQskbWs_XVq_5-9TaarcA3B-3Sxakl6RNNQ4bBS7jYt18qrtZ4DcfSe8bDCsA9_PI7ysWz60h76_P9YHo9QV3hSSjradJTZGEWm1w2ONjly8EEuNjVHFnuvw_aiBudqNNB6rio8i-jrikYTXVTNxqonrIYjSyvEn_HYGAfm8jfT407jQy1rU11tcUlsb9-PG4TimAC9g3ozwmWZw.ZXO0Pi6yRGm3OoMl4a0V41ecxWZl__WE_mL2ko9Hs70&dib_tag=se&keywords=deutsch+hdp20&qid=1711473580&s=industrial&sprefix=deutsch+hdp20+%2Cindustrial%2C184&sr=1-4) | ![img](https://m.media-amazon.com/images/I/81qfj9GlK+L._SL1500_.jpg) | Bulkhead kit                    |                    | 1        | $80      |
+| Deutsch socket                                               | <img src="https://www.buydeutsch.com/cdn/shop/products/HDP24-24-29SE-L017_1400x.jpg?v=1597691170" alt="HDP24-24-29SE-L017 - HDP20 Series - 29 Socket Receptacle - 24 Shell, E  Seal, Reverse, Ring Adapter, Flange"  /> | Bulkhead plastic socket, 29-pin | HDP24-24-29SE-L017 | 1        |          |
+| Deutsch plug,                                                | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg" alt="HDP26-24-29PE"  /> | Bulkhead plastic plug, 29-pin   | HDP26-24-29PE-L017 | 1        |          |
+| Medium splice                                                | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg" alt="Medium splice"  /> | Splices for my 18-20AWG         | 63130-2            | 100      | $8.52    |
+| Large splice                                                 | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG" alt="Larger splice"  /> | Splices for my 14AWG            | 62357-1            | 100      | $11.25   |
+| Size 12 Solid Receptacle pin (female)                        | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG" alt="12 pin"  /> |                                 | (1060) 0460-XXX-12 |          |          |
+| Size 12 Solid Plug pin (male)                                | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg" alt="12 plug"  /> |                                 | (1062) 0462-XXX-12 |          |          |
+| Size 16 Solid Receptacle pin (female)                        | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg" alt="Size 16 receptacle"  /> |                                 | (1060) 0460-XXX-16 |          |          |
+| Size 16 Solid Plug pin (male)                                | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg" alt="Size 16 plug"  /> |                                 | (1062) 0462-XXX-16 |          |          |
+| Size 20 Solid Receptacle pin (female)                        | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg" alt="Size 20 receptacle"  /> | 16-20AWG, Gold, 0460-202-1631   | (1060) 0460-XXX-20 |          |          |
+| Size 20 Solid Plug pin (male)                                | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG" alt="Size 20 receptacle"  /> | 16-20AWG, Gold, 0462-201-1631   | (1062) 0462-XXX-20 |          |          |
+| Boot                                                         | <img src="https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220" alt="HD30 boot"  /> | Protective boot                 | HD30-24BT-BK       | 2        | $3.07    |
+| Fuse holder with terminals                                   | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG" alt="DigiKey Fuseholder"  /> | Individual fuse holder          | DigiKey, F5194-ND  |          |          |
+|                                                              |                                                              |                                 |                    |          |          |
 
 ### Fuse and relay panel
 
