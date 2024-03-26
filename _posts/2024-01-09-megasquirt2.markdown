@@ -17,19 +17,14 @@ TLDR: here's the wiring diagram and parts list.
 - [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
 - [Megasquirt Wiring Table](https://www.sudoyashi.com/megasquirt2#megasquirt-wiring-table)
 - [Bulkhead Connector Wiring Table](https://www.sudoyashi.com/megasquirt2#bulkhead-deutsch-hdp29-connector-wiring-table)
--  
-## Introduction
+
+## New wires for a 39-year-old car
 
 The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. I want to save this car because I still think it's the coolest car I've ever owned and because I want to prove to myself that I can do it.
 
 The Golf MK1 came with mechanical fuel injection that was reliable until it wasn't. When it failed me back in 2021, the cost to fix the parts ($700) was too much to justify a fix to an already archaic system, so I used bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. It ruined the carbs and part of the engine and at this point, it seemed like a good time to swap it! Carburetors are inefficent and they leave much to be desired in tuning and control. By changing the system from carbs to electronic fuel injection (EFI) and a standalone ECU, this will solve many of the carbs' issues, but with it comes new challenges to complete the setup. Let's save this car one more time.
 
-I'm using the Megasquirt 2 DIY kit on the v3.0 PCB and will not be using the following features:
-
-- Anything related to Idle Air Control, the ITBS come from a 2005 Honda CBR 600RR that uses a wax idle enrichment system that using coolant routed with coolant instead of an IAC
-- MS2 "CAN" bus, supposedly it's not good or not real CAN BUS? CAN BUS will be set for another build as I still find CAN BUS very interesting.
-
-This is the Cabby's EFI conversion project I've worked on for the last three month. Let's dive into the ECU and wiring.
+This is the Cabby's EFI conversion project I've worked on for the last six months, so let's dive into the ECU and wiring.
 
 ## What is a MegaSquirt ECU? The ultimate DIY ECU
 
@@ -39,9 +34,9 @@ Below is the original diagram provided by MegaSquirt. There are several versions
 
 ![img](https://www.megamanual.com/ms2/V3_ext_wire.gif)
 
-Again, the ECU controls spark and fuel and does it by reading sensors on the car, like air temperature, coolant temperature, and engine speed. The data read by the ECU will read off a table of values and spit out some value to spray a certain amount of fuel and spark at a specific time. Based on a table of values, referred to as a fuel map, the ECU dynamically adjusts to the car and environment on how to modulate fuel and spark.
+The sensor data read by the ECU will read off a table of values and spit out some value to spray a certain amount of fuel and spark at a specific time also known as a fuel map, this allows the ECU to dynamically adjust the car's fueling.
 
-The ECU has a DB37 connector with 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
+The ECU has a DB37 connector with 37 possible pins to give and retrieve instructions. Here's the wiring diagram provided by Megasquirt, this is a good place to get started with your own map.
 
 ### Wiring Diagram for Megasquirt II V3.0
 
@@ -59,6 +54,8 @@ This table references the terminals for the DB37 connector on the MegaSquirt 2 f
 - ABA VR Sensor
 
 #### Megasquirt Wiring Table
+
+Here's a wiring table of what I'm going to use for my DB37 harness. I will remove wires as needed.
 
 | Terminal or Pin | Color                | Used? | Function                                                    | IN/OUT  | Max Amps |
 | --------------- | -------------------- | ----- | ----------------------------------------------------------- | ------- | -------- |
@@ -112,48 +109,46 @@ A bulkhead connector! I've wanted to do a bulkhead because it was what all the r
 
 It's a challenge in planning and wiring that I wanted to take to prepare myself for future wiring jobs. Crimping the MS2 harness directly to my components would be simpler, but a bulkhead connector would make it easier to service in the long run. Automotive wiring is a challenge for most people, and if I can show others that putting in the time and work will pay dividends in the build's reliability, consistency, and durability. Mapping the diagram forces me to consider every wire going into my car and makes me understand what I'm doing.
 
-Wiring is a frustrating process as a DIYer, but future Josh will thank current Josh multiple times over.
-
 ### Bulkhead firewall (plug) pinout
 
 ![Bulkhead pinout](https://www.sudoyashi.com/assets/img/cabby/megasquirt/wiring-bulkhead.jpg)
 
-The plan is to take the wires from the MS2 harness and put it into the bulkhead connector. Since we know how many wires we want to use, I decided on the 29-pin connector. Suppose you need more pins and plan to include wiring for other components, factor that into your new connector. The table below shows the pins I'm using and what function from the MS2 or secondary fusebox it will provide. Find out what wire you want and if you plan to use wire splices.
+Let's take the wires from the MS2 harness and put it into the bulkhead connector. Since we know how many wires we want to use, I decided on the 29-pin connector. The table below shows the pins I'm using and what function from the MS2 or secondary fusebox it will provide. Find out what wire you want and if you plan to use wire splices.
 
-View **[the like bulkhead diagram here](https://www.sudoyashi.com/assets/documents/ms2-bulkhead.pdf)** or visit https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5
+View **[the like bulkhead diagram here](https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5)** or visit (https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5)[https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5]
 
 #### Bulkhead Deutsch HDP29 connector wiring table
 
 | Pin  | MS2 Function                                     | Color                      | Fusebox                      | AWG    | Splice CMA |
 | ---- | ------------------------------------------------ | -------------------------- | ---------------------------- | ------ | ---------- |
-| 1    | -                                                | 🔴 Red                      | Fusebox power                | 12     |            |
-| 2    | -                                                | ⚫ Black                    | Fusebox ground               | 12     |            |
-| 3    | Crank shield + signal, DB37/2,24                 | 🛡️/⚫/⚪ Shield, Black, White | -                            | Shield |            |
-| 4    | Sensor engine ground OUT, DB37/15-19             | ⚫ Black                    | -                            | 12     | Yes, 5100  |
-| 5    | Injector 1, DB37/32                              | 🔵 Blue                     | -                            | 20     |            |
-| 6    | Injector 2, DB37/33                              | 🔵 Blue                     | -                            | 20     |            |
-| 7    | Injector 3, DB37/34                              | 🟢 Green                    | -                            | 20     |            |
-| 8    | Injector 4, DB37/35                              | 🟢 Green                    | -                            | 20     |            |
-| 9    | -                                                | 🔴 Red                      | Bank 1 power, Fusebox Bank 1 | 20     |            |
-| 10   | -                                                | 🔴 Red                      | Bank 2 power, Fusebox Bank 2 | 20     |            |
-| 11   | Crank sensor ground, DB37/1                      | ⚫ Black                    | -                            | 20     |            |
-| 12   | Ignition Out, DB37/36                            | 🟤 Brown                    | -                            | 20     |            |
-| 13   | Sensor ground IN (ECT-, TPS-, IAT-, O2-), DB37/7 | ⚫ Black                    | -                            | 20     | Yes, 6480  |
-| 14   | IAT IN, DB37/20                                  | 🟠 Orange                   | -                            | 20     |            |
-| 15   | ECT IN, DB37/21                                  | 🟡 Yellow                   | -                            | 20     |            |
-| 16   | TPS Signal IN, DB37/22                           | 🐋Cyan                      | -                            | 20     |            |
-| 17   | TPS 5V Supply, DB37/26                           | 💿 Grey                     | -                            | 20     |            |
+| 1    | Fusebox                                                | 🔴 Red                      | Fusebox power                | 12-14  |            |
+| 2    | Fusebox                                         | ⚫ Black                    | Spare Ground  | 12-14  |            |
+| 3    |                                                  |               |                              |       |            |
+| 4    | Sensor engine ground OUT, DB37/15-19             | ⚫ Black                    | -                            | CRIMP | Yes, 6480 CMA  |
+| 5    | ⛽Injector 1, DB37/32                             | 🔵 Blue                     | -                            | 20     |            |
+| 6    | ⛽Injector 2, DB37/33                             | 🔵 Blue                     | -                            | 20     |            |
+| 7    | ⛽Injector 3, DB37/34                             | 🟢 Green                    | -                            | 20     |            |
+| 8    | ⛽Injector 4, DB37/35                             | 🟢 Green                    | -                            | 20     |            |
+| 9    | Fusebox                                                | 🔴 Red                      | Bank 1 power, Fusebox Bank 1 | 20     |            |
+| 10   | Fusebox                                                | 🔴 Red                      | Bank 2 power, Fusebox Bank 2 | 20     |            |
+| 11   | ⚙️Crank sensor ground, DB37/1                    | ⚫ Black                    | -                            | 20     |            |
+| 12   | 💥Ignition Out, DB37/36                          | 🟤 Brown                    | -                            | 20     |            |
+| 13   | Sensor ground IN (ECT-, TPS-, IAT-, O2-), DB37/7 | ⚫ Black                    | -                            | 20     | Yes, 6480 CMA  |
+| 14   | 💨IAT IN, DB37/20                                | 🟠 Orange                   | -                            | 20     |            |
+| 15   | 💧ECT IN, DB37/21                                | 🟡 Yellow                   | -                            | 20     |            |
+| 16   | 🎿TPS Signal IN, DB37/22                         | 🐋Cyan                      | -                            | 20     |            |
+| 17   | ⚡TPS 5V Supply, DB37/26                          | 💿 Grey                     | -                            | 20     |            |
 | 18   | -                                                |                            |                              |        |            |
-| 19   | Fan control, DB37/30                             | 🍏 Light green              | -                            | 20     |            |
-| 20   | -                                                | 🔴 Red                      | Fan relay power              | 20     |            |
-| 21   | -                                                | 🔴 Red                      | Headlight Left low beam      | 20     |            |
-| 22   | -                                                | 🔵 Blue                     | Headlight Right low beam     | 20     |            |
-| 23   | -                                                | 🟡 Yellow                   | Headlight Left high beam     | 20     |            |
-| 24   | -                                                | 🔵 Blue                     | Headlight Right high beam    | 20     |            |
-| 25   | -                                                | 🟡 Yellow                   | O2 Sensor Power              | f20    |            |
-| 26   | unused                                           |                            |                              |        |            |
+| 19   | 🌫️Fan control, DB37/30                          | 🍏 Light green              | -                            | 20     |            |
+| 20   | -                                                |                     |               |     |            |
+| 21   | Fusebox                                                | 🔴 Red                      | Headlight Left low beam      | 18     |            |
+| 22   | Fusebox                                                | 🔵 Blue                     | Headlight Right low beam     | 18     |            |
+| 23   | Fusebox                                                | 🟡 Yellow                   | Headlight Left high beam     | 18     |            |
+| 24   | Fusebox                                                | 🔵 Blue                     | Headlight Right high beam    | 18     |            |
+| 25   | Fusebox                                                | 🟡 Yellow                   | O2 Sensor Power              | 18    |            |
+| 26   | unused                                           | 🔴 Red                         |   Fan relay power           | 18       |            |
 | 27   | unused                                           |                            |                              |        |            |
-| 28   | O2 Signal IN, DB37/23                            | 🎀 Pink                     | -                            | 18/20  |            |
+| 28   | 💨O2 Signal IN, DB37/23                      | 🎀 Pink                     | -                            | 18/20  |            |
 | 29   | unused                                           |                            |                              |        |            |
 
 
