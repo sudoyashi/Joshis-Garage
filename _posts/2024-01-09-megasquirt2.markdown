@@ -13,8 +13,10 @@ The silly journey to put EFI on a 100HP car.
 TLDR: here's the wiring diagram and parts list.
 
 - [Golf MK1 MS2 Wiring Diagram](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing)
+
 - [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
 
+  
 ## Introduction
 
 ![img](https://www.megamanual.com/ms2/v3components.gif)
@@ -42,11 +44,11 @@ Again, the ECU controls spark and fuel and does it by reading sensors on the car
 
 The ECU has a DB37 connector with 37 possible pins to give and retrieve instructions. I'll refer to the connector as the DB37. After many days of studying, this is the final harness for the Golf 2.0 ABA swap.
 
-### Wire Harness Terminals DB-37 Connector Megasquirt II V3.0
+### Wiring Diagram for Megasquirt II V3.0
 
 ![Wire Harness diagram](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-wiringdiagram.jpg)
 
-View the diagram online [here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
+- [Wiring diagram is here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
 This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine using the following sensors. More info can be found in the [Sensors](https://www.sudoyashi.com/megasquirt2#sensors) section.
 
@@ -57,57 +59,61 @@ This table references the terminals for the DB37 connector on the MegaSquirt 2 f
 - AEM Wideband X-Series O2 Sensor
 - ABA VR Sensor
 
-| Terminal or Pin | Color           | Function                                                     | IN/OUT  | Max Amps | Used? |
-| --------------- | --------------- | ------------------------------------------------------------ | ------- | -------- | ----- |
-| 1               | Black           | Crank sensor ground                                          | GND     | -        | YES   |
-| 2               | -               | Crank sensor shield                                          | GND     | -        | YES   |
-| 3               | Tan             | CAN High                                                     | (Comms) | -        | NO    |
-| 4               | Tan/Red         | CAN Low                                                      | (Comms) | -        | NO    |
-| 5               | Tan/Green       | -                                                            | -       | -        | NO    |
-| 6               | Tan/Orange      | -                                                            | -       | -        | NO    |
-| 7               | Black/White     | On-board sensor ground for, IAT, ECT, TPS                    | GND     | -        | YES   |
-| 8               | -               | Spare GND                                                    | GND     | -        | NO    |
-| 9               | -               | Spare GND                                                    | GND     | -        | NO    |
-| 10              | -               | Spare GND                                                    | GND     | -        | NO    |
-| 11              | -               | Spare GND                                                    | GND     | -        | NO    |
-| 12              | -               | Spare GND                                                    | GND     | -        | NO    |
-| 13              | -               | Spare GND                                                    | GND     | -        | NO    |
-| 14              | -               | Spare GND                                                    | GND     | -        | NO    |
-| 15              | Black           | Sensor ground, High current power ground                     | GND     | -        | YES   |
-| 16              | Black           | Sensor ground, High current power ground                     | GND     | -        | YES   |
-| 17              | Black           | Sensor ground, High current power ground                     | GND     | -        | YES   |
-| 18              | Black           | Sensor ground, High current power ground                     | GND     | -        | YES   |
-| 19              | Black           | Sensor ground, High current power ground                     | GND     | -        | YES   |
-| 20              | Orange          | Intake air temperature (IAT)                                 | In      | -        | YES   |
-| 21              | Yellow          | Coolant temperature sensor/Engine Coolant Temperature (ECT) | In      | -        | YES   |
-| 22              | Light Blue      | Throttle position sensor (TPS)                               | In      | -        | YES   |
-| 23              | Pink            | Exhaust Oxygen Sensor (EGO or O2)                            | In      | -        | YES   |
-| 24              | White in Shield | TACH IN                                                      | In      | -        | YES   |
-| 25              | Blue/White      | IAC1A                                                        | (Out)   | -        | NO    |
-| 26              | Gray            | TPS 5V Supply                                                | Out     | 0.5A     | YES   |
-| 27              | Blue/Red        | IAC1B                                                        | (Out)   | 0.1A     | NO    |
-| 28              | Red             | 12V Supply                                                   | In      | 0.5A     | YES   |
-| 29              | Green/White     | IAC2A                                                        | (Out)   | <1A      | NO    |
-| 30              | Light green     | PWM Idle (Fan control)                                       | Out     | 0.1A*    | YES   |
-| 31              | Green/Red       | IAC2B                                                        | (Out)   | 0.5A     | NO    |
-| 32              | Blue            | Injector Bank 1                                              | Out     | 7A       | YES   |
-| 33              | Blue            | Injector Bank 1                                              | Out     | 7A       | YES   |
-| 34              | Green           | Injector Bank 2                                              | Out     | 7A       | YES   |
-| 35              | Green           | Injector Bank 2                                              | Out     | 7A       | YES   |
-| 36              | Brown           | Ignition signal out                                          | (Out)   | 7A       | YES   |
-| 37              | Violet          | Fuel pump relay output                                       | Out     | 0.1A     | YES   |
+#### Megasquirt Wiring Table
+
+| Terminal or Pin | Color              | Used? | Function                                                    | IN/OUT  | Max Amps |
+| --------------- | ------------------ | ----- | ----------------------------------------------------------- | ------- | -------- |
+| 1/2/24          | Black in Shield    | YES   | Crank sensor ground                                         | GND     | -        |
+| 2/1/24          | Shield             | YES   | Crank sensor shield                                         | GND     | -        |
+| 3               | Tan                | NO    | CAN High                                                    | (Comms) | -        |
+| 4               | Tan/Red            | NO    | CAN Low                                                     | (Comms) | -        |
+| 5               | Tan/Green          | NO    | -                                                           | -       | -        |
+| 6               | Tan/Orange         | NO    | -                                                           | -       | -        |
+| 7               | Black/White stripe | YES   | On-board sensor ground for, IAT, ECT, TPS                   | GND     | -        |
+| 8               | -                  | NO    | Spare GND                                                   | GND     | -        |
+| 9               | -                  | NO    | Spare GND                                                   | GND     | -        |
+| 10              | -                  | NO    | Spare GND                                                   | GND     | -        |
+| 11              | -                  | NO    | Spare GND                                                   | GND     | -        |
+| 12              | -                  | NO    | Spare GND                                                   | GND     | -        |
+| 13              | -                  | NO    | Spare GND                                                   | GND     | -        |
+| 14              | -                  | NO    | Spare GND                                                   | GND     | -        |
+| 15              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 16              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 17              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 18              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 19              | Black              | YES   | Sensor ground, High current power ground                    | GND     | -        |
+| 20              | Orange             | YES   | Intake air temperature (IAT)                                | In      | -        |
+| 21              | Yellow             | YES   | Coolant temperature sensor/Engine Coolant Temperature (ECT) | In      | -        |
+| 22              | Light Blue         | YES   | Throttle position sensor (TPS)                              | In      | -        |
+| 23              | Pink               | YES   | Exhaust Oxygen Sensor (EGO or O2)                           | In      | -        |
+| 24/2/24         | White in Shield    | YES   | TACH IN                                                     | In      | -        |
+| 25              | Blue/White         | NO    | IAC1A                                                       | (Out)   | -        |
+| 26              | Gray               | YES   | TPS 5V Supply                                               | Out     | 0.5A     |
+| 27              | Blue/Red           | NO    | IAC1B                                                       | (Out)   | 0.1A     |
+| 28              | Red                | YES   | 12V Supply                                                  | In      | 0.5A     |
+| 29              | Green/White        | NO    | IAC2A                                                       | (Out)   | <1A      |
+| 30              | Light green        | YES   | PWM Idle (Fan control)                                      | Out     | 0.1A*    |
+| 31              | Green/Red          | NO    | IAC2B                                                       | (Out)   | 0.5A     |
+| 32              | Blue               | YES   | Injector Bank 1                                             | Out     | 7A       |
+| 33              | Blue               | YES   | Injector Bank 1                                             | Out     | 7A       |
+| 34              | Green              | YES   | Injector Bank 2                                             | Out     | 7A       |
+| 35              | Green              | YES   | Injector Bank 2                                             | Out     | 7A       |
+| 36              | Brown              | YES   | Ignition signal out                                         | (Out)   | 7A       |
+| 37              | Violet             | YES   | Fuel pump relay output                                      | Out     | 0.1A     |
 
 ### Deutsch bulkhead connector
 
 ![REC, 29P, BLK, E, RNG, 12/16/20, S-HDP24-24-29SE-L017](https://www.te.com/content/dam/te-com/catalog/part/HDP/242/429/HDP24-24-29SE-L017-t1.jpg/jcr:content/renditions/product-details.png)
 
-A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick, and as far as reliability and durability are concerned, provides a solid bang for your buck. I was even more excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is easy, but the hard part is parts availability and planning. I already have a decent amount of electrical tools and supplies, so this was a decent
+A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick, and as far as reliability and durability are concerned, provides a solid bang for your buck. I was even more excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is easy, but the hard part is parts availability and planning.
+
+- [Deutsch HDP2Bulkhead 29-pin Conector kit, 12-16-20 AWG Solid Contacts](https://www.amazon.com/Deutsch-Bulkhead-Connector-12-16-20-Contacts/dp/B01H8H27A8/ref=sr_1_4?crid=2H1U8J9CBA8FS&dib=eyJ2IjoiMSJ9.wuFg8ZbRV5toaFT7wmx8T-1Z2qoKXMV_z5vyKIAGHMjQJr8kpKqhEKUM6tnqogGV75D4HOTZIThcvuJfya4llz-4RlrbQskbWs_XVq_5-9TaarcA3B-3Sxakl6RNNQ4bBS7jYt18qrtZ4DcfSe8bDCsA9_PI7ysWz60h76_P9YHo9QV3hSSjradJTZGEWm1w2ONjly8EEuNjVHFnuvw_aiBudqNNB6rio8i-jrikYTXVTNxqonrIYjSyvEn_HYGAfm8jfT407jQy1rU11tcUlsb9-PG4TimAC9g3ozwmWZw.ZXO0Pi6yRGm3OoMl4a0V41ecxWZl__WE_mL2ko9Hs70&dib_tag=se&keywords=deutsch+hdp20&qid=1711473580&s=industrial&sprefix=deutsch+hdp20+%2Cindustrial%2C184&sr=1-4)
+- [Cheap Deutsch crimper, 14, 16, 18 gage](https://www.amazon.com/IWISS-Crimper-Impression-Deutsch-Contacts/dp/B07V1C6N2V/ref=sr_1_2?crid=29G6RUP07BC2B&dib=eyJ2IjoiMSJ9.xfu_5kcyj0WtmEd2-qTPlXxAwuPewyeBDDUfAU-e8AsWAX1I_4ZgVnVfkwo0qagobJL9EaVz4DYG5hGwfuY3wsp8mX9iBtJ9I-3UhgQI5wBrDNPWWuZOn1qg-r4BgtZXg1eFTEW_WODt5XIF-OHe7aOs0y_v3quP9Vqwyyo_4Sm2MlwoJlpWpu6JwazsxkpK-dzOZr12UT7xmUPxRkTnA1WOqIVEEHJ3G4-p8xrBGqFpdQXZAtT51xqujR2xan3vvA8DxHH1uH6keaADgsVA2GENcI0ouTE0o1hhwssVM9E.sUFcCzZ0I_zB3OtvGLwKa0SwNAI0O2KkOA8h_7dMxNM&dib_tag=se&keywords=iCrimp%2BClosed%2BBarrel%2BCrimper%2B4%2BWay%2BIndent%2C8%2BImpression%2BType%2Bfor%2BDeutsch%2BSolid%2BContacts%2Bgage%2B14%2C16%2618(IWD-16)&qid=1711473732&s=hi&sprefix=icrimp%2Bclosed%2Bbarrel%2Bcrimper%2B4%2Bway%2Bindent%2C8%2Bimpression%2Btype%2Bfor%2Bdeutsch%2Bsolid%2Bcontacts%2Bgage%2B14%2C16%2618%2Biwd-16%2B%2Ctools%2C207&sr=1-2&th=1)
+- [Cheap Deutsch crimper, 20 gage](https://www.amazon.com/IWISS-Crimper-Impression-Deutsch-Contacts/dp/B07TW4X7JP/ref=sr_1_2?crid=29G6RUP07BC2B&dib=eyJ2IjoiMSJ9.xfu_5kcyj0WtmEd2-qTPlXxAwuPewyeBDDUfAU-e8AsWAX1I_4ZgVnVfkwo0qagobJL9EaVz4DYG5hGwfuY3wsp8mX9iBtJ9I-3UhgQI5wBrDNPWWuZOn1qg-r4BgtZXg1eFTEW_WODt5XIF-OHe7aOs0y_v3quP9Vqwyyo_4Sm2MlwoJlpWpu6JwazsxkpK-dzOZr12UT7xmUPxRkTnA1WOqIVEEHJ3G4-p8xrBGqFpdQXZAtT51xqujR2xan3vvA8DxHH1uH6keaADgsVA2GENcI0ouTE0o1hhwssVM9E.sUFcCzZ0I_zB3OtvGLwKa0SwNAI0O2KkOA8h_7dMxNM&dib_tag=se&keywords=iCrimp%2BClosed%2BBarrel%2BCrimper%2B4%2BWay%2BIndent%2C8%2BImpression%2BType%2Bfor%2BDeutsch%2BSolid%2BContacts%2Bgage%2B14%2C16%2618(IWD-16)&qid=1711473732&s=hi&sprefix=icrimp%2Bclosed%2Bbarrel%2Bcrimper%2B4%2Bway%2Bindent%2C8%2Bimpression%2Btype%2Bfor%2Bdeutsch%2Bsolid%2Bcontacts%2Bgage%2B14%2C16%2618%2Biwd-16%2B%2Ctools%2C207&sr=1-2&th=1)
 
 It's a challenge in planning and wiring that I wanted to take to prepare myself for future wiring jobs. Crimping the MS2 harness directly to my components would be simpler, but a bulkhead connector would make it easier to service in the long run. Automotive wiring is a challenge for most people, and if I can show others that putting in the time and work will pay dividends in the build's reliability, consistency, and durability. Mapping the diagram forces me to consider every wire going into my car and makes me understand what I'm doing.
 
 Wiring is a frustrating process as a DIYer, but future Josh will thank current Josh multiple times over.
-
-I plan on using the Deutsch HDP connector. The parts list and connections are at the end of this section. Let's simplify the Deutsch connector world, as I'll list the exact part numbers I used in this build, what they do, and how to plan your build.
 
 ### Bulkhead firewall (plug) pinout
 
@@ -115,91 +121,64 @@ I plan on using the Deutsch HDP connector. The parts list and connections are at
 
 The plan is to take the wires from the MS2 harness and put it into the bulkhead connector. Since we know how many wires we want to use, I decided on the 29-pin connector. Suppose you need more pins and plan to include wiring for other components, factor that into your new connector. The table below shows the pins I'm using and what function from the MS2 or secondary fusebox it will provide. Find out what wire you want and if you plan to use wire splices.
 
-[The bulkhead diagram](https://www.sudoyashi.com/assets/documents/ms2-bulkhead.pdf) or visit https://www.sudoyashi.com/assets/documents/ms2-bulkhead.pdf
+View **[the like bulkhead diagram here](https://www.sudoyashi.com/assets/documents/ms2-bulkhead.pdf)** or visit https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5
 
+#### Bulkhead Deutsch HDP29 connector wiring table
 
+| Pin  | MS2 Function                                     | Color                      | Fusebox                      | AWG    | Splice CMA |
+| ---- | ------------------------------------------------ | -------------------------- | ---------------------------- | ------ | ---------- |
+| 1    | -                                                | 🔴 Red                      | Fusebox power                | 12     |            |
+| 2    | -                                                | ⚫ Black                    | Fusebox ground               | 12     |            |
+| 3    | Crank shield + signal, DB37/2,24                 | 🛡️/⚫/⚪ Shield, Black, White | -                            | Shield |            |
+| 4    | Sensor engine ground OUT, DB37/15-19             | ⚫ Black                    | -                            | 12     | Yes, 5100  |
+| 5    | Injector 1, DB37/32                              | 🔵 Blue                     | -                            | 20     |            |
+| 6    | Injector 2, DB37/33                              | 🔵 Blue                     | -                            | 20     |            |
+| 7    | Injector 3, DB37/34                              | 🟢 Green                    | -                            | 20     |            |
+| 8    | Injector 4, DB37/35                              | 🟢 Green                    | -                            | 20     |            |
+| 9    | -                                                | 🔴 Red                      | Bank 1 power, Fusebox Bank 1 | 20     |            |
+| 10   | -                                                | 🔴 Red                      | Bank 2 power, Fusebox Bank 2 | 20     |            |
+| 11   | Crank sensor ground, DB37/1                      | ⚫ Black                    | -                            | 20     |            |
+| 12   | Ignition Out, DB37/36                            | 🟤 Brown                    | -                            | 20     |            |
+| 13   | Sensor ground IN (ECT-, TPS-, IAT-, O2-), DB37/7 | ⚫ Black                    | -                            | 20     | Yes, 6480  |
+| 14   | IAT IN, DB37/20                                  | 🟠 Orange                   | -                            | 20     |            |
+| 15   | ECT IN, DB37/21                                  | 🟡 Yellow                   | -                            | 20     |            |
+| 16   | TPS Signal IN, DB37/22                           | 🐋Cyan                      | -                            | 20     |            |
+| 17   | TPS 5V Supply, DB37/26                           | 💿 Grey                     | -                            | 20     |            |
+| 18   | -                                                |                            |                              |        |            |
+| 19   | Fan control, DB37/30                             | 🍏 Light green              | -                            | 20     |            |
+| 20   | -                                                | 🔴 Red                      | Fan relay power              | 20     |            |
+| 21   | -                                                | 🔴 Red                      | Headlight Left low beam      | 20     |            |
+| 22   | -                                                | 🔵 Blue                     | Headlight Right low beam     | 20     |            |
+| 23   | -                                                | 🟡 Yellow                   | Headlight Left high beam     | 20     |            |
+| 24   | -                                                | 🔵 Blue                     | Headlight Right high beam    | 20     |            |
+| 25   | -                                                | 🟡 Yellow                   | O2 Sensor Power              | f20    |            |
+| 26   | unused                                           |                            |                              |        |            |
+| 27   | unused                                           |                            |                              |        |            |
+| 28   | O2 Signal IN, DB37/23                            | 🎀 Pink                     | -                            | 18/20  |            |
+| 29   | unused                                           |                            |                              |        |            |
 
-| Pin  | MS2 Function                                         | Color                | Fusebox                      | AWG    | Splice CMA |
-| ---- | ------------------------------------------------ | -------------------- | ---------------------------- | ------ | ---------- |
-| 1    | -                                                | Red                  | Fusebox power                | 14     |            |
-| 2    | -                                                | Black                | Fusebox ground               | 14     |            |
-| 3    | Crank shield + signal, DB37/2,24                 | Shield, Black, White | -                            | Shield |            |
-| 4    | Sensor engine ground OUT, DB37/15-19             | Black                | -                            | 14     | Yes, 5100  |
-| 5    | Injector 1, DB37/32                              | Blue                 | -                            | 18/20  |            |
-| 6    | Injector 2, DB37/33                              | Blue                 | -                            | 18/20  |            |
-| 7    | Injector 3, DB37/34                              | Green                | -                            | 18/20  |            |
-| 8    | Injector 4, DB37/35                              | Green                | -                            | 18/20  |            |
-| 9    | -                                                | Red                  | Bank 1 power, Fusebox Bank 1 | 18/20  |            |
-| 10   | -                                                | Red                  | Bank 2 power, Fusebox Bank 2 | 18/20  |            |
-| 11   | Crank sensor ground, DB37/1                      | Black                | -                            | 18/20  |            |
-| 12   | Ignition Out, DB37/36                            | Brown                | -                            | 18/20  |            |
-| 13   | Sensor ground IN (ECT-, TPS-, IAT-, O2-), DB37/7 | Black                | -                            | 18/20  | Yes, 6480  |
-| 14   | IAT IN, DB37/20                                  | Orange               | -                            | 18/20  |            |
-| 15   | ECT IN, DB37/21                                  | Yellow               | -                            | 18/20  |            |
-| 16   | TPS Signal IN, DB37/22                           | Cyan                 | -                            | 18/20  |            |
-| 17   | TPS 5V Supply, DB37/26                           | Grey                 | -                            | 18/20  |            |
-| 18   | O2 Signal IN, DB37/23                            | Pink                 | -                            | 18/20  |            |
-| 19   | Fan control, DB37/30                             |                      | -                            | 18/20  |            |
-| 20   | -                                                | Red                  | Fan relay power              | 18/20  |            |
-| 21   | -                                                | Red                  | Headlight Llow               | 18/20  |            |
-| 22   | -                                                | Blue                 | Headlight Rlow               | 18/20  |            |
-| 23   | -                                                | Yellow               | Headlight Lhi                | 18/20  |            |
-| 24   | -                                                | Blue                 | Headlight Rhi                | 18/20  |            |
-| 25   | -                                                | Yellow               | O2 Sensor Power              | 18/20  |            |
-| 26   | unused                                           |                      |                              |        |            |
-| 27   | unused                                           |                      |                              |        |            |
-| 28   | unused                                           |                      |                              |        |            |
-| 29   | unused                                           |                      |                              |        |            |
 
 #### The Deutsch Contact Size and you
 
 ![HDP Pinout 1](https://www.sudoyashi.com/assets/img/cabby/megasquirt/wiring-hdp29pinout-1.jpg)
 
-Let's look into the Deutsch bulkhead connector. Do you know about the different materials and wire ranges between terminals? Here are four things to consider when choosing your connectors:
+Here are four things to consider when choosing your connectors:
 
-1. What size pin or socket?
+1. **What size pin or socket?**
    - You need both the pin and the socket. This creates the wire connection, and the type of pin or socket depends on the connector you have. Refer to the specification ([Deutsch stamped contacts](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-151000%7FG%7Fpdf%7FEnglish%7FENG_SS_108-151000_G.pdf%7F1060-12-0222)) on what contact size you need. There are two types of terminals: stamped and solid. Stamped ones are cheap. Solid contacts are a pricy but durable option.
-2. What size AWG are you using?
-   - Now, the Deutsch contact size is NOT equal to the exact AWG size. You will see size 12, 16, and 20 contacts, but they come in various AWGs, so there is some flexibility in the wire that you can use. Because of this flexibility, price and availability come into play. You need to know what size wires you are using. In my case, I am using AWG 12, AWG 18, and AWG 20. AWG 12 is for high-power applications like the main relay and fans, while AWG 18-20 is for low-power applications like the ECU, injectors, and sensors.
-3. What material?
+2. **What size AWG are you using?**
+   - Deutsch contact sizes is NOT ALWAYS equal to the exact AWG size. You will see size 12, 16, and 20 contacts, but they come in various AWGs, so there is some flexibility in the wire that you can use. Because of this flexibility, price and availability come into play. You need to know what size wires you are using. In my case, I am using AWG 12, AWG 18, and AWG 20. AWG 12 is for high-power applications like the main relay and fans, while AWG 18-20 is for low-power applications like the ECU, injectors, and sensors.
+3. **What material?**
    - There are multiple to choose from. Consider Gold (Au), Nickel (Ni), Tin (Sn), and Silver (Ag). Let's focus on the most common ones, Gold and Tin. According to this [Molex article](https://www.molex.com/en-us/blog/gold-or-tin-vs-gold-and-tin), essentially, gold connectors are more durable than tin, maintain a durable connection over time and never mix the types of connectors while tin connectors are cheaper, do the job, but may not survive many mating cycles. **Tldr; buy what's available and never don't mix mating materials. Tin is cheap. Gold is highly reliable.** Some connectors may be made of both (AU/SN).
    - Make sure that the pins and sockets are of the same materials when buying your parts. There are gold (Au), tin (Sn), nickel (Ni), and silver (Ag)
-4. Is it available to buy?
-   Availability is the unspoken bane of car people. The parts exist, but your job is to find out who sells them and who has them for the cheapest price. **Tl;dr: If a kit exists, buy the kit.** Hunting for the same part after the fact will ruin your future days.
-
-What does a budget look like for some parts?
-
-Consider that sometimes you can't buy these parts individually and may need to be in bulk; prices decrease commensurate with bulk and material choice. Cheaper options include tin or nickel options and are usually stamped contacts. This is good enough. You can find that some kits typically have stamped contacts.
-
-**Stamped contacts are cheaper**
-
-| Size | Socket (1062) | Pin (1060) | AWG | Material (XX) | PN | Qty | $ |
-| ---- | ------ | ---- | ------------ | -------- | ---- | ------------- | ------------- |
-| 12   | X      |      | 12           | Ni/Sn | 1062-12-0166 | 4 | $1 |
-| 12   |        | X    | 12           | Ni/Sn | 1060-12-0166 | 4 | $ |
-| 16   | X      |      | 18-20        | Sn/Sn | 1062-16-0677 | 19 | $0.69 |
-| 16   |        | X    | 18-20        | Ni/Sn  | 1060-16-0622 | 19 | $0.55 |
-| 20   | X      |      | 18-20        | Sn            | 1062-20-0377 | 6 | $1.04 |
-| 20   |        | X    | 18-20        | Sn   | 1060-20-0177 | 6 | $0.45 |
-
-The premium option is usually solid contacts with gold, which would run me at least $106.99. Sometimes, you can only buy some parts in bulk of 1000 or so, so this does not include shipping, bulk costs, and overhead (mistakes). You can see why materials matter now, lol.
-
-**Solid contacts get expensive real quick**
-
-| Size | Socket (0462) | Pin (0460) | Expected AWG | Material (XX) | Part #        | Qty  | $      |
-| ---- | ------------- | ---------- | ------------ | ------------- | ------------- | ---- | ------ |
-| 12   | X             |            | 12           | Au            | 0462-210-1231 | 4    | $4.23  |
-| 12   |               | X          | 12           | Au            | 0460-220-1231 | 4    | $2.56  |
-| 16   | X             |            | 18-20        | PD/Ni/Au      | 0462-004-1631 | 19   | $2.04  |
-| 16   |               | X          | 18-20        | PD/Ni/Au      | 0460-002-1631 | 19   | $1.47  |
-| 20   | X             |            | 18-20        | Au            | 0462-201-2031 | 6    | $1.16  |
-| 20   |               | X          | 18-20        | Au            | 0460-202-2031 | 6    | $1.030 |
-
-XX / Tin(Sn)=309,Gold(Au)=31,Nickel(Ni)=90 or 141
+4. **Is it available to buy?**
+   Availability is the bane of car parts. The parts exist, but your job is to find out who sells them and who has them for the cheapest price. **Tl;dr: If a kit exists, buy the kit.** Hunting for the same part after the fact will ruin your future days.
 
 #### Splicing wires with CMA
 
-Bare-metal wire splices were introduced to me by this [article](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/) from High Performance Academy. There are three open-barrel splices. These splices don't go by the usual AWG size but by the CMA or Circular Mil Area. Each wire has an estimated density of wires, giving us a particular area. Thinner wires have smaller CMA; thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec. The advantage to these open-barrel types is that it doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
+![485043-1 TERMINAL, OPEN BARREL SPLICE, CRIMP (5 pieces)](https://m.media-amazon.com/images/I/21pP4ldV4EL.jpg)
+
+Bare-metal wire splices were introduced to me by this [article from High Performance Academy](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/). There are three open-barrel splices. These splices don't go by the usual AWG size but by the CMA or *Circular Mil Area*. Each wire has an estimated density of wires, giving us a particular area. Thinner wires have smaller CMA; thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec. The advantage to these open-barrel types is that it doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
 
 The issue I had with butt connectors was that I couldn't inspect the crimp after the fact, just pulling on it and hoping it stays. The connectors are slightly bulkier by comparison, but when you have to splice multiple wires in an area, it can look messy. Using the open-barrel splices lets us resolve both issues!
 
@@ -222,34 +201,41 @@ As we splice more wires together, we want to add them up, and then we can choose
 
 #### Bulkhead receptacle (the hot socket side)
 
+<img src="https://i.ebayimg.com/images/g/lr0AAOSwWyJkBR~b/s-l1200.webp" alt="DEUTSCH #HDP26-24-29SE-L017 & HDP24-24-29PE 29-POSITION CONNECTORS M125 |  eBay" style="zoom:25%;" />
+
 [Part number: **HDP24**-24-29SE-L017](https://www.te.com/usa-en/product-HDP24-24-29SE-L017.html)
-Housing for Female Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & Cable, Power & Signal, Panel Mount, Hybrid
+
+Housing for Female Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & Cable, Power & Signal, Panel Mount, Hybrid. THIS USES THE SOCKET PINS. 
 
 The receptacle, the socket or female end of the connector, is where we'll connect the Megasquirt harness. This will be routed in the car and then mounted on the firewall. As a tip from TE Connectivity, use the socket side as the hot side (the one connected to the battery) so you don't shock yourself.
 
+The plug side will be mounted on the firewall.
+
 #### Bulkhead Plug (the cold pokey side)
+
+<img src="https://i.ebayimg.com/images/g/bhsAAOSwFClkBR~m/s-l400.png" alt="DEUTSCH #HDP26-24-29SE-L017 & HDP24-24-29PE 29-POSITION CONNECTORS M125 |  eBay" style="zoom: 67%;" />
 
 [Part number: **HDP26**-24-29PE-L017](https://www.te.com/usa-en/product-HDP26-24-29PE-L017.html)
 Housing for Male Terminals, Wire-to-Wire, 29 Position, Sealable, Black, Wire & Cable, Power & Signal, Panel Mount, -67 – 257 °F [-55 – 125 °C], Hybrid
 
-The plug side will be mounted on the firewall.
+THIS USES THE POKEY PINS.
 
 #### Bulkhead Parts list
 
 | Item                                  | Image                                                        | Description                     | Part Number        | Quantity | Subtotal |
 | ------------------------------------- | ------------------------------------------------------------ | ------------------------------- | ------------------ | -------- | -------- |
-| Deutsch socket                        | ![HDP24-24-29SE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5555/MFG_HDP24-24-29SE-L017.jpg) | Bulkhead plastic socket, 29-pin | HDP24-24-29SE-L017 | 1        |          |
-| Deutsch plug,                         | ![HDP26-24-29PE](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg) | Bulkhead plastic plug, 29-pin   | HDP26-24-29PE-L017 | 1        |          |
-| Medium splice                         | ![Medium splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg) | Splices for my 18-20AWG         | 63130-2            | 100      | $8.52    |
-| Large splice                          | ![Larger splice](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG) | Splices for my 14AWG            | 62357-1            | 100      | $11.25   |
-| Size 12 Solid Receptacle pin (female) | ![12 pin](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG) |                                 | (1060) 0460-XXX-12 |          |          |
-| Size 12 Solid Plug pin (male)         | ![12 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                 | (1062) 0462-XXX-12 |          |          |
-| Size 16 Solid Receptacle pin (female) | ![Size 16 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg) |                                 | (1060) 0460-XXX-16 |          |          |
-| Size 16 Solid Plug pin (male)         | ![Size 16 plug](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg) |                                 | (1062) 0462-XXX-16 |          |          |
-| Size 20 Solid Receptacle pin (female) | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg) | 16-20AWG, Gold, 0460-202-1631   | (1060) 0460-XXX-20 |          |          |
-| Size 20 Solid Plug pin (male)         | ![Size 20 receptacle](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG) | 16-20AWG, Gold, 0462-201-1631   | (1062) 0462-XXX-20 |          |          |
-| Boot                                  | ![HD30 boot](https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220) | Protective boot                 | HD30-24BT-BK       | 2        | $3.07    |
-| Fuse holder with terminals            | ![DigiKey Fuseholder](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG) | Individual fuse holder          | DigiKey, F5194-ND  |          |          |
+| Deutsch socket                        | <img src="https://www.buydeutsch.com/cdn/shop/products/HDP24-24-29SE-L017_1400x.jpg?v=1597691170" alt="HDP24-24-29SE-L017 - HDP20 Series - 29 Socket Receptacle - 24 Shell, E  Seal, Reverse, Ring Adapter, Flange"  /> | Bulkhead plastic socket, 29-pin | HDP24-24-29SE-L017 | 1        |          |
+| Deutsch plug,                         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/432/HDP26-24-29PE-L017.jpg" alt="HDP26-24-29PE"  /> | Bulkhead plastic plug, 29-pin   | HDP26-24-29PE-L017 | 1        |          |
+| Medium splice                         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/805/63130-2.jpg" alt="Medium splice"  /> | Splices for my 18-20AWG         | 63130-2            | 100      | $8.52    |
+| Large splice                          | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/632/62357-1.JPG" alt="Larger splice"  /> | Splices for my 14AWG            | 62357-1            | 100      | $11.25   |
+| Size 12 Solid Receptacle pin (female) | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2209/0460-204-12141.JPG" alt="12 pin"  /> |                                 | (1060) 0460-XXX-12 |          |          |
+| Size 12 Solid Plug pin (male)         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg" alt="12 plug"  /> |                                 | (1062) 0462-XXX-12 |          |          |
+| Size 16 Solid Receptacle pin (female) | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2236/0462-203-12141.jpg" alt="Size 16 receptacle"  /> |                                 | (1060) 0460-XXX-16 |          |          |
+| Size 16 Solid Plug pin (male)         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/891/MFG_0460-202-16141.jpg" alt="Size 16 plug"  /> |                                 | (1062) 0462-XXX-16 |          |          |
+| Size 20 Solid Receptacle pin (female) | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/799/0460-202-1631.jpg" alt="Size 20 receptacle"  /> | 16-20AWG, Gold, 0460-202-1631   | (1060) 0460-XXX-20 |          |          |
+| Size 20 Solid Plug pin (male)         | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2282/0462-201-1631.JPG" alt="Size 20 receptacle"  /> | 16-20AWG, Gold, 0462-201-1631   | (1062) 0462-XXX-20 |          |          |
+| Boot                                  | <img src="https://www.te.com/content/dam/te-com/catalog/part/HD3/024/BTB/HD30-24BT-BK-t1.jpg/jcr:content/renditions/product-details.png?w=220" alt="HD30 boot"  /> | Protective boot                 | HD30-24BT-BK       | 2        | $3.07    |
+| Fuse holder with terminals            | <img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/12/178.6152.0001.JPG" alt="DigiKey Fuseholder"  /> | Individual fuse holder          | DigiKey, F5194-ND  |          |          |
 |                                       |                                                              |                                 |                    |          |          |
 
 ### Fuse and relay panel
@@ -259,15 +245,33 @@ The history of Golf Mk1/Mk2 and Polo rallies has always attracted me from my sho
 
 I couldn't find any fuse box I liked, so I'm making a custom-mounted one. Using individual fuse holders, [178.6152.0001](http://d.digikey.com/dc/mn-w0iJh4uEE_bUitNCuXmOASUNxIUHHNt2ANEnMXZ_AG_WhgOqCceIg4XKIDiTGU5IpRQEyR1t2V-Puo8lFuHzTPtYX6bfJEClHe62PNrZkDz-UHKBnux6j6Cr0l8ucounb-wISKZM8WacqeDnNHnfIeGZ5XxGzspQ5d8Uh5FxYEeWcK4B7IXHW6B16Ip7g/MDI4LVNYSy01MDcAAAGQlqDFwJPDtEc8eI9npTdI25sL8hjJ6yozBRIZwzLlO--b-HK9nX_LRC97znpBDoLWE892rl0=), I'll mount the fuse holders behind an ABS faceplate and mount the fuses like the ones above. I might update this to include more goodies (*AHEM on-board rally intercom*). 
 
+### Wire Sizes
+
+Provided by the MegaManual, here is a list of wire sizes recommended for the correct amperage for about 15 feet. The sizes in bold are the ones I normally use.
+
+| **Wire Size for Runs up to 15 Feet**               |         |           |
+| -------------------------------------------------- | ------- | --------- |
+| Gauge                                              | Metric  | Amps      |
+| 8                                                  | 8.0     | 32-40     |
+| 10                                                 | 5.0     | 28-35     |
+| **12**                                             | **3.0** | **18-30** |
+| 14                                                 | 2.0     | 12-20     |
+| **16**                                             | **1.0** | **8-13**  |
+| **18**                                             | **0.8** | **6-10**  |
+| **20**                                             | **0.5** | **4-6**   |
+| 22                                                 | 0.22    | 2-3       |
+| (capacity depends on wire quality & length of run) |         |           |
+
+
 That's enough wiring technicalities. Let's talk about the actual MegaSquirt now.
 
-## MegaSquirt Sensors and you
-
-We need your input!
+## Megasquirt wiring, sensors and you
 
 Sensors give the ECU data so that it can do its job. If a sensor fails or malfunctions, the ECU will fail. Therefore, get the correct sensors and get the correct pinouts for your application. From my experience, you get what you pay for. While eBay and Alibaba sensors might come cheap, I wouldn't count on all of them giving you all of the correct instructions and wiring diagrams needed to do the work. Stick to the tried and true sensors like OEM or GM sensor.
 
-Sensors usually work by changing their physical properties to produce some resistance. It can be a bi-metallic metal, plate, resistance, and so on. Not sure where to start, follow my table here and swap out your sensors accordingly.
+Sensors usually work by changing their physical properties to produce some resistance and that resistance will reference a specific value. It can be a bi-metallic metal, plate, resistance, and so on. Remember, **sensors grounds should end at the engine, not at the battery.** Not sure where to start, follow my table here and swap out your sensors accordingly.
+
+### Megasquirt sensor table
 
 | Sensor                           | MS Pin# | MegaSquirt Wire Color | Ground             | Connection                                                 | Existing or Buy       | Part Name or Number                                          | # Total wires | Wires                              |
 | -------------------------------- | ------- | --------------------- | ------------------ | ---------------------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------- | ---------------------------------- |
@@ -277,6 +281,7 @@ Sensors usually work by changing their physical properties to produce some resis
 | Throttle Position (TPS)          | 22      | Light Blue            | Black White DB37/7 | Honda TPS                                                  | Buy (on ITBS)         | Honda 255478286857                                           | 3             | Ground, 5V, signal                 |
 | Exhaust Gas Oxygen (O2 or EGO)   | 23      | Pink                  | ECU                | AEM 30-3427                                                | Existing              | AEM 30-0300                                                  | 6             | Multiple, splice only              |
 | Ignition (VR)                    | 24      | White/Shield          | Black DB37/1       | ICM/6, replace existing Hall-Effect signal                 | Existing              | VW 021 907 319A                                              | 3             | Ground, Power, shield              |
+
 
 ### MS2 On-board MAP sensor to manifold
 
@@ -370,7 +375,7 @@ Harness: AEM 30-3427
 | 4 Dash gauge      | --                 |
 
 
-### Idle Air Control
+### Idle Air Control (not using actual IAC)
 
 In my case, idle will be handled by a warm-up enrichment and wax idle mechanical enrichment on the ITBS.
 
@@ -405,6 +410,18 @@ https://www.msextra.com/forums/viewtopic.php?t=38492
 
 #### How it works
 
+![Electronic_Ignition_System](https://www.championautoparts.com/content/loc-na/loc-us/fmmp-champion/en_US/Technical/Tech-Tips/How-Ignition-Systems-Work/_jcr_content/article/article-par/image_1274956326.img.gif/Electronic_Ignition_System-1557923939893.gif)
+
+*Champion Auto Parts digagram, note the primary and secondary circuits*
+
+As the engine turns runs, the crankshaft turns, whereby the VR sensor sees crankshaft movement by reading the missing tooth wheel. The original configuration uses the hall effect with a trigger window in the distributor to mark the spark events. We aren't using the hall effect to control the spark, so we can disconnect this signal. Instead, with the MegaSquirt, we can use the input `ECU #24 TACH IN` from the VR sensor, which will condition the AC sine wave into a 5V DC square wave, output through `IGN signal (#36 IGN OUT)` to the ICM.
+
+![Expected VR Polarity Example](https://mcs.woodward.com/content/motohawk/Documentation/MotoHawk2015bSP0/Images/MotoHawk_topics/VRInterfacing_Expected.png)
+
+The ICM will ground the ignition coil's primary winding, collapsing the magnetic field and produce the high voltage spark at the secondary winding to the distributor, and finally, sending the spark to our spark plug.
+
+### ABA Megasquirt Trigger wheel setup
+
 We control the ABA by reading the incoming signal from the 60-2 trigger wheel and a VR sensor.
 
 - The ABA uses 60-2 missing tooth wheel attached to the crank; this is the CRANK(VR) sensor to #24 TACH IN
@@ -412,11 +429,10 @@ We control the ABA by reading the incoming signal from the 60-2 trigger wheel an
 - The ignition signal (VR conditioned) Golf ICM gets actuated by ignition signal; spark event to distributor
 - Distributor spark to spark plug
 
-As the engine turns runs, the crankshaft turns, whereby the VR sensor sees crankshaft movement by reading the missing tooth wheel. The original configuration uses the hall effect with a trigger window in the distributor to mark the spark events. We aren't using the hall effect to control the spark, so we can disconnect this signal. Instead, with the MegaSquirt, we can use the input `ECU #24 TACH IN` from the VR sensor, which will condition the AC sine wave into a 5V DC square wave, output through `IGN signal (#36 IGN OUT)` to the ICM. The ICM will ground the ignition coil's primary winding, collapsing the magnetic field, producing the high voltage spark at the secondary winding to the distributor, and finally, sending the spark to our spark plug.
-
 You got it?! If not, you can read on in-depth to learn more.
 
 **Tuner Studio settings**
+
 - Toothed Wheel:
   - Physical wheel: missing tooth on crank
   - Trigger Angle/Offset: always zero
