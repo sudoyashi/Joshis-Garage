@@ -503,15 +503,15 @@ Since we don't depend on the HE sensor to get a signal, we swipe that pin and us
 
 My VW Golf mk1 ICM, I'm assuming (lol), should be an intelligent module and have dwell settings implemented, otherwise known as closed-loop control of dwell. The module will automatically adjust the dwell settings based on current. [Going off of a reference here](https://www.msextra.com/forums/viewtopic.php?t=52201), my car did not come with a separate ECU, therefore dwell must have been controlled within the model known as Auto-dwell. Auto-dwell is superior in that it won't break your shit, usually.
 
-##### Some background info on ignition and dwell
+##### WTF is auto-dwell and why does that matter to me? How NOT to fry your ignition module
 
-[According to this article](https://web.archive.org/web/20170215145951/http://dtec.net.au/Tech%20Articles/Dwell%20Calibration.pdf), "dwell, or 'dwell time' in ignition systems refers to the period that the coil is on, i.e., that current is flowing through the primary winding and the magnetic field is building up in the coil." Well, what does THAT mean? *Dwell is the time it takes for a coil to produce the spark for a spark plug.* [If we shorten the dwell time too much](https://www.denso-am.eu/news/deneur21_08_ignition-coil-charge-up), the primary winding does not get enough charge-up time, and the spark is weak and shitty and your engine runs rough. If we extend the dwell too long, the primary winding charges too much and can cause overheating and frying the coil.
+*Dwell is the time it takes for a coil to produce the spark for a spark plug.* [If we shorten the dwell time too much](https://www.denso-am.eu/news/deneur21_08_ignition-coil-charge-up), the primary winding does not get enough charge-up time, and the spark is weak and shitty and your engine runs rough. **Basically, if we extend the dwell too long, the primary winding charges too much and can cause overheating and frying the coil.**
+
+[According to this article](https://web.archive.org/web/20170215145951/http://dtec.net.au/Tech%20Articles/Dwell%20Calibration.pdf), "dwell, or 'dwell time' in ignition systems refers to the period that the coil is on, i.e., that current is flowing through the primary winding and the magnetic field is building up in the coil."
 
 In addition, [dwell angle is the dwell time measured in degrees of rotation](https://docs.rs-online.com/fb75/0900766b800290e1.pdf), which refers to distributor setups where the rotor and contact points are closed, creating the spark event.
 
-Learn this stuff, and you'll find the answer to how to set up your ignition system a lot easier. Let's continue with my setup.
-
-The Bosch 137 module seems to be cross-listed with the VW part 191 905 351, which is what we have. The 137 is like the 139 module in that it's smart and dynamically sets the dwell settings for us. Without needing to set dwell, we don't have to worry too much about having a shitty spark or cooking our coil. So, we can use these settings in TunerStudio according to DIY AutoTune.
+[The Bosch 137 module seems to be cross-listed with the VW part 191 905 351](https://www.rmeuropean.com/Products/191905351B-MFG14.aspx), which is what we have. The 137 is like the 139 module in that it's smart and dynamically sets the dwell settings for us. Without needing to set dwell, we don't have to worry too much about having a shitty spark or cooking our coil. So, we can use these settings in TunerStudio according to DIY AutoTune.
 
 ##### Ignition references
 
