@@ -298,7 +298,8 @@ Part: [25036751](https://lowdoller-motorsports.com/products/intake-air-temp-sens
 
 The GM IAT is a universally accepted sensor that most aftermarket users will opt for if they don't already have an IAT sensor. The sensor only has two pins, sensor ground  and temperature signal. Place the sensor in the intake manifold or plenum, wherever your car gets air.
 
-**Table: Intake Air Temperature (IAT) Sensor pinout**
+**Table: Intake Air Temperature (IAT) Sensor pinout**<br>
+Part: GM 25036751
 
 | IAT Sensor Pin       | MegaSquirt ECU Pin |
 | -------------------- | ------------------ |
@@ -323,7 +324,8 @@ Related part: Engine cooling fan switch (AC switch) 2-pin, 191 919 369A
 Measure resistance between pins 1 and 3 at three different temperatures, use this to map temperature curve.
 Pin 2 and 4 provide a temp readout to our gauge readout.
 
-**Table: Electronic Coolant Temperature (ECT) Sensor pinout**
+**Table: Electronic Coolant Temperature (ECT) Sensor pinout**<br>
+Part: Golf MK3 ECT black body yellow ring, 357 919 501A
 
 | ECT Sensor Pin                | MegaSquirt ECU Pin |
 | ----------------------------- | ------------------ |
@@ -348,7 +350,8 @@ Connector: Compatible with Sumitomo HX 040 6189-0887 receptacle
 
 The ECU supplies the sensor with voltage and ground and completes a circuit. The sensor houses a potentiometer, a resistor that changes with position. The TPS is mounted on the throttle linkage and moves with the throttle plates. As the throttle plate opens and closes, the position modulates the resistance and creates a specific voltage output (pin 3). The ECU reads the voltage and digitally tells the ECU the throttle is at the *x* position.
 
-**Table: Throttle Position Sensor (TPS) pinout**
+**Table: Throttle Position Sensor (TPS) pinout**<br>
+Part: HONDA 255478286857
 
 | TPS Sensor Pin  | MegaSquirt ECU Pin |
 | --------------- | ------------------ |
@@ -397,8 +400,8 @@ Okay, so ignition is probably the most complicated and important section in any 
 ![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.jpg)
 [More info on 3 wire VR sensor from Volkswagen](https://www.msextra.com/forums/viewtopic.php?t=38492)
 
-**Table: Variable Reluctance (VR) Sensor pinout**
-
+**Table: Variable Reluctance (VR) Sensor pinout**<br>
+Part: ABA VR sensor, 021 907 319A
 | VR Sensor Pin    | MegaSquirt ECU Pin |
 | ----------------- | ------------------ |
 | 1 Signal   | White DB37/24 |
