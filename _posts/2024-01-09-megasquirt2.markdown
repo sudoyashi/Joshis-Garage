@@ -409,9 +409,11 @@ https://www.msextra.com/forums/viewtopic.php?t=38492
 
 ![Electronic_Ignition_System](https://www.championautoparts.com/content/loc-na/loc-us/fmmp-champion/en_US/Technical/Tech-Tips/How-Ignition-Systems-Work/_jcr_content/article/article-par/image_1274956326.img.gif/Electronic_Ignition_System-1557923939893.gif)
 
-*Champion Auto Parts digagram, note the primary and secondary circuits at https://www.championautoparts.com/Technical/Tech-Tips/How-Ignition-Systems-Work.html*
+*Champion Auto Parts digram, note the primary and secondary circuits at https://www.championautoparts.com/Technical/Tech-Tips/How-Ignition-Systems-Work.html*
 
-As the engine turns runs, the crankshaft turns, whereby the VR sensor sees crankshaft movement by reading the missing tooth wheel. The original configuration uses the hall effect with a trigger window in the distributor to mark the spark events. We aren't using the hall effect to control the spark, so we can disconnect this signal. Instead, with the MegaSquirt, we can use the input `ECU #24 TACH IN` from the VR sensor, which will condition the AC sine wave into a 5V DC square wave, output through `IGN signal (#36 IGN OUT)` to the ICM.
+When the engine turns it means our crankshaft turns, the crank trigger wheel also turns since it is mounted on the crank. The VR sensor sees crankshaft movement by reading the missing tooth crank trigger wheel and this creates a signal. Unlike the original configuration which uses the hall effect with a trigger window in the distributor to mark the spark events. we use the VR signal to tell MegaSquirt to control the spark.
+
+We use signal input from the VR sensor and connect it to `ECU #24 TACH IN`.  MS2 will read the AC sine wave and convert it into a 5V DC square wave, which will finally output through `IGN signal (#36 IGN OUT)` to the ICM. The ICM will trigger spark in the distributor and allow combustion.
 
 ![Expected VR Polarity Example](https://mcs.woodward.com/content/motohawk/Documentation/MotoHawk2015bSP0/Images/MotoHawk_topics/VRInterfacing_Expected.png)
 
@@ -425,8 +427,6 @@ We control the ABA by reading the incoming signal from the 60-2 trigger wheel an
 - Single ignition coil; MEGA #36 IGN to the ICM, Ignition Control Module; refer to amplifiers
 - The ignition signal (VR conditioned) Golf ICM gets actuated by ignition signal; spark event to distributor
 - Distributor spark to spark plug
-
-You got it?! If not, you can read on in-depth to learn more.
 
 **Tuner Studio settings**
 
@@ -490,18 +490,18 @@ Since we don't depend on the HE sensor to get a signal, we swipe that pin and us
 
 | Hall-Effect (HE) and MK1 ICM Pin | Function  |      | Hall-Effect (HE) and ICM Pin | Function               |
 | -------------------------------- | --------- | ---- | ---------------------------- | ---------------------- |
-| HE/1                             | GND HE    |      | HE/1                         | GND HE                 |
-| HE/2                             | Signal    |      | HE/2                         | **-**                  |
-| HE/3                             | Power     |      | HE/3                         | Power HE               |
+| HE Sensor/1                             | GND HE    |      | HE Sensor/1                         | GND HE                 |
+| HE Sensor/2                             | Signal    |      | HE Sensor/2                         | **-**                  |
+| HE Sensor/3                             | Power     |      | HE Sensor/3                         | Power HE               |
 | ICM/1                            | GND Coil  |      | ICM/1                        | GND Coil               |
 | ICM/2                            | GND ICM   |      | ICM/2                        | GND ICM                |
 | ICM/3                            | GND HE    |      | ICM/3                        | GND HE                 |
 | ICM/4                            | 12V Coil  |      | ICM/4                        | 12V Coil               |
 | ICM/5                            | 12V HE    |      | ICM/5                        | 12V Hall-Effect Sensor |
 | ICM/6                            | Signal HE |      | ICM/6                        | **DB37/36 IGN OUT**    |
-| ICM/7                            |           |      | ICM/7                        | -                      |
+| ICM/7                            | Unused    |      | ICM/7                        | Unused                 |
 
-The VW ICM should be an intelligent module and have dwell settings implemented, otherwise known as closed-loop control of dwell. The module will automatically adjust the dwell settings based on current. Auto-dwell is superior in that it won't break your shit, usually, and as a beginner in ECU tuning, this is great.
+My VW Golf mk1 ICM, I'm assuming (lol), should be an intelligent module and have dwell settings implemented, otherwise known as closed-loop control of dwell. The module will automatically adjust the dwell settings based on current. [Going off of a reference here](https://www.msextra.com/forums/viewtopic.php?t=52201), my car did not come with a separate ECU, therefore dwell must have been controlled within the model known as Auto-dwell. Auto-dwell is superior in that it won't break your shit, usually.
 
 ##### Some background info on ignition and dwell
 
