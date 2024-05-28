@@ -294,20 +294,18 @@ Read more about how the sensor works here: [https://www.nxp.com/docs/en/data-she
 
 Part: [25036751](https://lowdoller-motorsports.com/products/intake-air-temp-sensor-iat-mat-25036751-25037225-25037034)
 
-
-
 ![MS IAT](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-iat.jpg)
 
 The GM IAT is a universally accepted sensor that most aftermarket users will opt for if they don't already have an IAT sensor. The sensor only has two pins, sensor ground  and temperature signal. Place the sensor in the intake manifold or plenum, wherever your car gets air.
 
-**Table: IAT pinout**
+**Table: Intake Air Temperature (IAT) Sensor pinout**
 
 | IAT Sensor Pin       | MegaSquirt ECU Pin |
 | -------------------- | ------------------ |
 | 1 Signal ground      | Black White DB37/7 |
 | 2 Temperature signal | Orange DB37/20     |
 
-**Table: IAT expected temp resistance values**
+**Table: Intake Air Temperature (IAT) expected temp resistance values**
 
 | Intake Air Temperature Temperature | Ohms |
 | ---------------------------------- | ---- |
@@ -322,10 +320,10 @@ Related part: Engine cooling fan switch (AC switch) 2-pin, 191 919 369A
 [What does the Coolant Temp Sensor do?](https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/)
 ![Coolant Temperature Sensor calibration](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-clt.jpg)
 
-Measure resistance between pins 1 and 3 at three different temperatures.
+Measure resistance between pins 1 and 3 at three different temperatures, use this to map temperature curve.
 Pin 2 and 4 provide a temp readout to our gauge readout.
 
-**Table: ECT pinout**
+**Table: Electronic Coolant Temperature (ECT) Sensor pinout**
 
 | ECT Sensor Pin                | MegaSquirt ECU Pin |
 | ----------------------------- | ------------------ |
@@ -350,9 +348,11 @@ Connector: Compatible with Sumitomo HX 040 6189-0887 receptacle
 
 The ECU supplies the sensor with voltage and ground and completes a circuit. The sensor houses a potentiometer, a resistor that changes with position. The TPS is mounted on the throttle linkage and moves with the throttle plates. As the throttle plate opens and closes, the position modulates the resistance and creates a specific voltage output (pin 3). The ECU reads the voltage and digitally tells the ECU the throttle is at the *x* position.
 
+**Table: Throttle Position Sensor (TPS) pinout**
+
 | TPS Sensor Pin  | MegaSquirt ECU Pin |
 | --------------- | ------------------ |
-| 1 TPS VREF      | Grey DB37/26       |
+| 1 TPS VREF (voltage reference)      | Grey DB37/26       |
 | 2 Sensor ground | Black White DB37/7 |
 | 3 TPS Signal    | Blue DB37/22       |
 
@@ -362,7 +362,7 @@ Part: AEM 30-0300 X-Series Wideband UEGO Sensor, AEM 30-0300
 Harness: AEM 30-3427
 ![Megasquirt O2](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-o2.jpg)
 
-**Table: O2 pinout**
+**Table: Exhaust Gas Oxygen Sensor (EGO) or O2 pinout**
 
 | O2 Sensor Pin     | MegaSquirt ECU Pin |
 | ----------------- | ------------------ |
@@ -372,7 +372,7 @@ Harness: AEM 30-3427
 | 4 Dash gauge      | --                 |
 
 
-### Idle Air Control (not using actual IAC)
+### Idle Air Control (not using IAC)
 
 In my case, idle will be handled by a warm-up enrichment and wax idle mechanical enrichment on the ITBS.
 
@@ -395,9 +395,9 @@ Part: Ignition coil, VW part 1 220 522 016<br>
 Okay, so ignition is probably the most complicated and important section in any engine setup with an aftermarket ECU. Every setup is going to be slightly different, so use this as a guide to get started.
 
 ![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.jpg)
-https://www.msextra.com/forums/viewtopic.php?t=38492
+[More info on 3 wire VR sensor from Volkswagen](https://www.msextra.com/forums/viewtopic.php?t=38492)
 
-**Table: O2 pinout**
+**Table: Variable Reluctance (VR) Sensor pinout**
 
 | VR Sensor Pin    | MegaSquirt ECU Pin |
 | ----------------- | ------------------ |
@@ -411,7 +411,7 @@ https://www.msextra.com/forums/viewtopic.php?t=38492
 
 *Champion Auto Parts digram, note the primary and secondary circuits at https://www.championautoparts.com/Technical/Tech-Tips/How-Ignition-Systems-Work.html*
 
-When the engine turns it means our crankshaft turns, the crank trigger wheel also turns since it is mounted on the crank. The VR sensor sees crankshaft movement by reading the missing tooth crank trigger wheel and this creates a signal. Unlike the original configuration which uses the hall effect with a trigger window in the distributor to mark the spark events. we use the VR signal to tell MegaSquirt to control the spark.
+When the engine turns it means our crankshaft turns, the crank trigger wheel also turns since it is mounted on the crank. The VR sensor sees crankshaft movement by reading the crank trigger wheel, when the signal is interrupted by the missing tooth (usually) the signal is interrupted and this change is seen by the ECU. Unlike the original configuration which uses the hall effect with a trigger window in the distributor to mark the spark events. we use the VR signal to tell MegaSquirt to control the spark.
 
 We use signal input from the VR sensor and connect it to `ECU #24 TACH IN`.  MS2 will read the AC sine wave and convert it into a 5V DC square wave, which will finally output through `IGN signal (#36 IGN OUT)` to the ICM. The ICM will trigger spark in the distributor and allow combustion.
 
