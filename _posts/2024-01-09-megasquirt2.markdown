@@ -388,9 +388,9 @@ This means:
 
 ### ABA VR Sensor and the Volkswagen Golf MK1 Ignition Control Module
 
-Part: ABA VR sensor, 021 907 319A
-Part: Golf MK1 ICM, VW part 191 905 351
-Part: Ignition coil, VW part 1 220 522 016
+Part: ABA VR sensor, 021 907 319A<br>
+Part: Golf MK1 ICM, VW part 191 905 351<br>
+Part: Ignition coil, VW part 1 220 522 016<br>
 
 Okay, so ignition is probably the most complicated and important section in any engine setup with an aftermarket ECU. Every setup is going to be slightly different, so use this as a guide to get started.
 
