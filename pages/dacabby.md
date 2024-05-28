@@ -141,9 +141,9 @@ The part that I've invested in the most since owning the car and what was stoppi
 
 ## Story Time: How I bought my car for $800
 
-I actually bought my cabby on a whim. For $800, I got a vibrant metallic orange convertible that I knew very little about. BBS wheels! Classic VW! A fucking steal! 
+I actually bought my cabby on a whim. For $800, I got a vibrant metallic orange convertible that I knew very little about.
 
-My grade school best friend Ronald, my cousin Rey, and Mark went out to Waipahu to checkout the car. It was listed on craigslist for $1800. Not too many problems, sometimes it didn't want to start, the fan didn't work, and it has been sitting for about 2 years. It definitely had the rust in the pictures, but it was the classic car in my head that I've always imagined. As we drove out on the midsummer afternoon, we pulled up and there it was, sitting underneath a Milo tree. Not too clean but not too dirty either.
+My grade school best friend Ronald, my cousin Rey, and Mark went out to Waipahu to checkout the car. It was listed on craigslist for $1800. But it had problems. Sometimes it didn't want to start, the fan didn't work, and it has been sitting for about 2 years. It definitely had the rust in the pictures, but it was the classic car in my head that I've always imagined. As we drove out on the midsummer afternoon, we pulled up and there it was, sitting underneath a Milo tree. Not too clean but not too dirty either.
 
 We checked out the car and as soon as I opened that door, it had that distinct smell of an 80s car. The smell of old leather and stale air sat happily in the cabin. Eric, the guy that was selling the car, took some time to show me how to start the car. For some reason, putting the car into first gear helped to get the car running... though in retrospect, I think it was coincidence. The ignition switch definitely doesn't have anything to do with the gear. But miraculously, the car started! 
 

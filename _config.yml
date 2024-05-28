@@ -12,7 +12,7 @@ google_analytics:    "UA-133288884-2"
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           "sudoyashi"
 description:	       "let's try!"
-author:              "Josh"
+author:              "sudoyashi"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

@@ -6,3 +6,5 @@ Gemfile.lock
 .jekyll-cache
 *.gem
 sample
+ignore-it.markdown
+ignore-cloud.md
