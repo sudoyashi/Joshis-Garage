@@ -402,6 +402,7 @@ Okay, so ignition is probably the most complicated and important section in any 
 
 **Table: Variable Reluctance (VR) Sensor pinout**<br>
 Part: ABA VR sensor, 021 907 319A
+
 | VR Sensor Pin    | MegaSquirt ECU Pin |
 | ----------------- | ------------------ |
 | 1 Signal   | White DB37/24 |
@@ -417,7 +418,7 @@ Part: ABA VR sensor, 021 907 319A
 1. Battery is properly wired
 2. Ignition switch provides power to ECM
 3. ECM is powered on
-4. ECM provides signal (via engine) to ignition coil
+4. ECM provides grounding signal (via engine) to ignition coil
 5. Distributor housing receives primary discharge
 6. Rotor rotates to correct point
 7. Distributor cap completes the circuit from coil to spark plug
