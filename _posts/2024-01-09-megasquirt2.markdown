@@ -246,7 +246,7 @@ I couldn't find any fuse box I liked, so I'm making a custom-mounted one. Using 
 
 Provided by the MegaManual, here is a list of wire sizes recommended for the correct amperage for about 15 feet. The sizes in bold are the ones I normally use.
 
-| **Wire Size for Runs up to 15 Feet**               |         |           |
+| **Wire Size for Runs up to 15 Feet**               | Length  | Current   |
 | -------------------------------------------------- | ------- | --------- |
 | Gauge                                              | Metric  | Amps      |
 | 8                                                  | 8.0     | 32-40     |
@@ -259,14 +259,11 @@ Provided by the MegaManual, here is a list of wire sizes recommended for the cor
 | 22                                                 | 0.22    | 2-3       |
 | (capacity depends on wire quality & length of run) |         |           |
 
-
-That's enough wiring technicalities. Let's talk about the actual MegaSquirt now.
-
 ## Megasquirt wiring, sensors and you
 
-Sensors give the ECU data so that it can do its job. If a sensor fails or malfunctions, the ECU will fail. Therefore, get the correct sensors and get the correct pinouts for your application. From my experience, you get what you pay for. While eBay and Alibaba sensors might come cheap, I wouldn't count on all of them giving you all of the correct instructions and wiring diagrams needed to do the work. Stick to the tried and true sensors like OEM or GM sensor.
+Sensors give the ECU data so that it can do its job. If a sensor fails or malfunctions, the ECU will bug out and use some default value. Do your homework and plan if failure happens. From my experience with parts, you get what you pay for. While eBay and Alibaba sensors might come cheap, I wouldn't count on all of them giving you all of the correct instructions and wiring diagrams needed to do the work. Stick to the tried and true sensors like OEM, GM, or other brand names like Bosch or Denso sensors.
 
-Sensors usually work by changing their physical properties to produce some resistance and that resistance will reference a specific value. It can be a bi-metallic metal, plate, resistance, and so on. Remember, **sensors grounds should end at the engine, not at the battery.** Not sure where to start, follow my table here and swap out your sensors accordingly.
+Sensors work as a result of changing their physical properties to produce some resistance and that resistance will reference a specific value. It can be a bi-metallic metal, plate, resistance, and so on. Remember, **sensors grounds should end at the engine, not at the battery.** Grounding to the engine usually will collect less noise than grounding at the battery. Grounding at the battery may collect noise from other electronics. Use the next table to check off focus on what sensors you will need. Otherwise, read along.
 
 ### Megasquirt sensor table
 
@@ -286,7 +283,7 @@ Part: [MPX4250 2.5 Bar MAP Sensor](https://www.diyautotune.com/product/mpx4250-2
 
 ![MS MAP](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-map.jpg)
 
-The onboard MAP sensor is connected with a 1/8" vacuum hose to any vacuum port on the intake manifold. Air pressure is one way for the ECU to see engine load. More pressure means more load. Turbo or supercharger? You're going to need this. NA depends on ITBS or not. You'll also have something like this for NA with a big plenum. For ITBS, you probably won't need it,but doesn't hurt to add.
+The onboard MAP sensor is connected with a 1/8" vacuum hose to any vacuum port on the intake manifold. Air pressure is one way for the ECU to see engine load. More pressure means more load. Turbo or supercharger? You're going to need this. For naturally aspirated, it's a very good helper. You'll have something like this for NA with a big plenum. For ITBS, it depends if you're planning to incorporate MAP with your alpha-n tuning, but doesn't hurt to add.
 
 Read more about how the sensor works here: [https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf](https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf). There is no pinout because it's already integrated on the ECU. If you're not using this type of sensor, follow your specific part diagram.
 
@@ -315,7 +312,7 @@ Part: GM 25036751
 | 146F                               | 560  |
 
 ### ABA Engine Coolant Temperature sensor
-Part: Golf MK3 ECT black body yellow ring, 357 919 501A
+Part: Golf MK3 ECT black body yellow ring, 357 919 501A<br>
 Related part: Engine cooling fan switch (AC switch) 2-pin, 191 919 369A
 
 [What does the Coolant Temp Sensor do?](https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/)
@@ -348,7 +345,7 @@ Connector: Compatible with Sumitomo HX 040 6189-0887 receptacle
 
 ![Megasquirt TPS](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-tps.jpg)
 
-The ECU supplies the sensor with voltage and ground and completes a circuit. The sensor houses a potentiometer, a resistor that changes with position. The TPS is mounted on the throttle linkage and moves with the throttle plates. As the throttle plate opens and closes, the position modulates the resistance and creates a specific voltage output (pin 3). The ECU reads the voltage and digitally tells the ECU the throttle is at the *x* position.
+The ECU supplies the sensor with voltage and ground and completes a circuit. The sensor houses a potentiometer, a resistor that changes with position. The TPS is mounted on the throttle linkage and moves with the throttle plates. As the throttle plate opens and closes, the resistance changes and is sent as an output (pin 3). The ECU reads the voltage and digitally tells the ECU the throttle is at the *x* position.
 
 **Table: Throttle Position Sensor (TPS) pinout**<br>
 Part: HONDA 255478286857
