@@ -414,11 +414,20 @@ Part: ABA VR sensor, 021 907 319A
 
 *Champion Auto Parts digram, note the primary and secondary circuits at https://www.championautoparts.com/Technical/Tech-Tips/How-Ignition-Systems-Work.html*
 
-When the engine turns it means our crankshaft turns, the crank trigger wheel also turns since it is mounted on the crank. The VR sensor sees crankshaft movement by reading the crank trigger wheel, when the signal is interrupted by the missing tooth (usually) the signal is interrupted and this change is seen by the ECU. Unlike the original configuration which uses the hall effect with a trigger window in the distributor to mark the spark events. we use the VR signal to tell MegaSquirt to control the spark.
+1. Battery is properly wired
+2. Ignition switch provides power to ECM
+3. ECM is powered on
+4. ECM provides signal (via engine) to ignition coil
+5. Distributor housing receives primary discharge
+6. Rotor rotates to correct point
+7. Distributor cap completes the circuit from coil to spark plug
+8. Discharge spark into cylinder
 
-We use signal input from the VR sensor and connect it to `ECU #24 TACH IN`.  MS2 will read the AC sine wave and convert it into a 5V DC square wave, which will finally output through `IGN signal (#36 IGN OUT)` to the ICM. The ICM will trigger spark in the distributor and allow combustion.
+When the engine turns, we can infer that our crankshaft and crank trigger wheel are moving. The VR sensor reads the crank trigger wheel, where the signal is interrupted by the missing tooth (usually). This change is seen by the ECU. Unlike the original configuration which uses the hall effect with a trigger window in the distributor to mark the spark events. The VR signal to tell MegaSquirt to control the spark.
 
 ![Expected VR Polarity Example](https://mcs.woodward.com/content/motohawk/Documentation/MotoHawk2015bSP0/Images/MotoHawk_topics/VRInterfacing_Expected.png)
+
+We use signal input from the VR sensor and connect it to `ECU #24 TACH IN`.  MS2 will read the AC sine wave and convert it into a 5V DC square wave, which will finally output through `IGN signal (#36 IGN OUT)` to the ICM. The ICM will trigger spark in the distributor and allow combustion.
 
 The ICM will ground the ignition coil's primary winding, collapsing the magnetic field and produce the high voltage spark at the secondary winding to the distributor, and finally, sending the spark to our spark plug.
 
@@ -427,7 +436,7 @@ The ICM will ground the ignition coil's primary winding, collapsing the magnetic
 We control the ABA by reading the incoming signal from the 60-2 trigger wheel and a VR sensor.
 
 - The ABA uses 60-2 missing tooth wheel attached to the crank; this is the CRANK(VR) sensor to #24 TACH IN
-- Single ignition coil; MEGA #36 IGN to the ICM, Ignition Control Module; refer to amplifiers
+- Single ignition coil; MEGA #36 IGN to the Ignition Control Module (ICM); refer to amplifiers
 - The ignition signal (VR conditioned) Golf ICM gets actuated by ignition signal; spark event to distributor
 - Distributor spark to spark plug
 
