@@ -3,6 +3,8 @@ layout: page
 title: About the build
 permalink: /dacabby/
 ---
+![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/driveway1.jpg)
+
 This is my [first project car](https://www.sudoyashi.com/dacabby/) and since getting my own beginner socket and wrench set in 2020, until now. I've spent my time after work almost everyday to get this thing working in the first few months I had it. At the same time, I was still trying to figure out how to do anythign on a car in general. This was my guinea pig and it has been through hell and back. Literally. It caught on fire at one point. 
 
 I started with about $300 in basic hand tools for the normal project car enthusiast. Sooner or later, I collected impact wrenches, specialty bits, suspension tools, more power tools, and so on. The list of stuff that was both useful and useless is too much to bother with. You could say it was a lot of money and time gone to waste. But for my friends and family that I've jump started, replaced their valve cover gaskets, and countless oil changes later, this has been one of the most rewarding hobbies I've ever had.

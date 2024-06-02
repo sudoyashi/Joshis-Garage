@@ -8,6 +8,8 @@ I own a [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/cars/#1985-vo
 
 ## [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/dacabby)
 
+![SCCA Race 7](https://www.sudoyashi.com/assets/img/scca/race7/cabby-autocross-arvin-10.jpg) [Race 7](*The Cab's first race*)
+
 This car sucks. I hate it. But I love it anyways.
 
 ### Guides and References
@@ -16,18 +18,18 @@ This car sucks. I hate it. But I love it anyways.
 2. [MegaSquirt 2 EFI Conversion Guide](https://sudoyashi.com/megasquirt2)<br>
 The Golf, coloquially known as the cabby, is the sketchy project car that hasn't caught on fire yet.
 
-![SCCA Race 7](https://www.sudoyashi.com/assets/img//scca/race7/cabby-autocross-arvin-6.jpg) [Race 7](*The Cab's first race*)
-
 ## [2019 Honda Civic Si](https://www.sudoyashi.com/civicsi)
+
+![Civic Race highlight](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
 
 It's just a Civic, but at least it makes pssh pssh noises.
 
-![Civic Race highlight](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
+
 
 ## SCCA Hawaii
 
 ### 2023
-![Race 5 in the rain](https://www.sudoyashi.com/assets/img/scca/race5/2023race5-civic.JPG)
+![Race 5 in the rain](2023race5-civic1.jpg)
 
 - [Race 1](https://www.sudoyashi.com/scca2023race1)
 - [Race 2](https://www.sudoyashi.com/scca2023race2prep)
