@@ -13,6 +13,7 @@ google_analytics:    "UA-133288884-2"
 title:		           "sudoyashi"
 description:	       "let's try!"
 author:              "sudoyashi"
+url: "https://sudoyashi.github.io"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
