@@ -2,7 +2,7 @@
 
 Jekyll build for the website Link: https://www.sudoyashi.com
 
-A collection of my project notes on cars, design, and other things related to building this project.
+A collection of project notes on cars, design, and other things related to building this project.
 
 ## Personal Notes for optimization
 
