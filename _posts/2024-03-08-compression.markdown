@@ -7,12 +7,11 @@ tags: cars cabby
 categories: personal
 image: /cabby/aba/check-engine.jpg
 ---
-
 Inconsistent compression across the board. But why? Let's check the block and head.
 
 ## Checking the engine
 
-We're starting with the block since we still have the engine mostly assembled. We'd be wasting time disassembling the long block to test the head first. Tested on a warm January 15, 2024. At this point, no repairs or replacement were made to the engine. Gaskets, head bolts, and timing components as found. We did a bench compression test by connecting the transmission and powering the starter with a battery. Then we manually triggered the starter with a wire going to the starter solenoid and battery positive.
+We're starting with testing the block on a warm January 15, 2024. At this point, no repairs or replacement were made to the engine. Gaskets, head bolts, and timing components as found. I did a bench compression test by connecting the transmission and powering the starter with a battery, then we manually triggered the starter with a wire going to the starter solenoid and battery positive.
 
 ### Control results 
 
@@ -25,7 +24,11 @@ We're starting with the block since we still have the engine mostly assembled. W
 | 3        | 150  | Did not test |
 | 4        | 190  | Did not test |
 
-Not good. Two things that jump out to me is 1) abnormal compression on 1 and 4 and 2) inconsistent compression.
+Not good. Two things that jump out to me are:
+- 1. Abnormal compression on cylinder one and four
+- 2. Inconsistent compression across all four cylinders
+
+**Cylinder specifications**
 
 | Normal Cylinder | Dry  |
 | -------- | ---- 
@@ -35,11 +38,11 @@ Not good. Two things that jump out to me is 1) abnormal compression on 1 and 4 a
 
  I saw the readings and was hoping it was just a bad head gasket. I didn't disassemble things yet, so I ordered a new MLS head gasket and timing components to replace. After that, I went ahead I disassembled the engine and checked the head.
 
- ## Checking the head
+## Checking the head
 
 ![Check head](https://www.sudoyashi.com/assets/img/cabby/aba/check-head.jpg)
 
-And thankfully, it wasn't a bad head!
+Now that's some good head.
 
 With the long block disassembled, I removed the camshaft and then flipped the head over, sitting upside down. Do not remove anything else other than the camshaft. On a level-ish surface, I poured isopropyl alcohol and filled each chamber. With compressed air, I blew air up the intake port and exhaust port checking to see if there were any leaks in the valves.
 
