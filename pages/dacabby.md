@@ -5,11 +5,19 @@ permalink: /dacabby/
 ---
 ![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/driveway1.jpg)
 
-This is my [first project car](https://www.sudoyashi.com/dacabby/) and since getting my own beginner socket and wrench set in 2020, until now. I've spent my time after work almost everyday to get this thing working in the first few months I had it. At the same time, I was still trying to figure out how to do anythign on a car in general. This was my guinea pig and it has been through hell and back. Literally. It caught on fire at one point. 
+It's charming. The Cab has THE boxy, vintage charm; a time capsule of what the world was like in the 80s. This is my first project car and was built on the countless amount of trial and error over the past three years. The retro orange color in a boxy package is something that has always attracted me to the car, with its faults and all. It wasn't the fastest, but you don't care, it's adorable!
 
-I started with about $300 in basic hand tools for the normal project car enthusiast. Sooner or later, I collected impact wrenches, specialty bits, suspension tools, more power tools, and so on. The list of stuff that was both useful and useless is too much to bother with. You could say it was a lot of money and time gone to waste. But for my friends and family that I've jump started, replaced their valve cover gaskets, and countless oil changes later, this has been one of the most rewarding hobbies I've ever had.
+It is Volkswagen Golf Cabriolet MK1. At 2200 lbs, 90hp from the factory, carbureted ITBS, a header-back exhaust system, and a rusty, crusty bottom, it's as good as it's going to get. I have no immediate aspirations with this car to be a champion racecar, I just wanted to enjoy driving something to the beach. The best surprises in my life have never been planned, things happen and I simply oblige.
 
-And to those that have roughed it out being  my passenger in the cabby, it is one of my most prideful moments to drive someone in my project car that I've toiled over years on end. A once decently working car that is absolutely unsafe and 100% worth the effort when it finally pulled through. Unfortunately the car got into a fire incident in late 2023. Suffering from a damaged carburetor and engine, I've decide to swap out the 1.8L engine for a 2.0L from a Mk3 Volkswagen.
+As far as the driving experience, it's deafening in here with the convertible top-up. It's not the exhaust that gets you, it's the pinging sound of a shitty old car full of metal and old plastics, that can get overwhelming in the cabin. But with the top down? It's lovely.
+
+![Airplane spec interior for the Cab](https://www.sudoyashi.com/assets/img/scca/race7/airplane.JPG)
+
+The wind barrels around the roofline and enters the cabin area, twisting and twirling our hair as we drive a healthy 70MPH in 5th gear. As we're climbing up H2 from North Shore, the cab needs a little persuasion to get up the hill. Dropped a gear but we're still here, gently climbing our way up the slope with a hearty push from the ITBS. The heat from the engine bay and exhaust warms our feet but the cool air passing from the nighttime drive balances everything out. There's nothing like a nighttime cruise with a drop-top because everything is amplified. The shining evening lights and bustling noise of the freeway and city life flood the world inside the little cabin. The cabin is illuminated by the street lights, shining on the faintly glowing gauges scattered across the dashboard. One more hill.
+
+The entire car jolts with fear and excitement commensurate with my RPMs as I depress the gas pedal. The engine growls into a lovely metallic roar that tickles my primal sense of joy. At full throttle, you can't beat the sound of ITBS, the pains of sitting in traffic roll away and all that remains is a childish grin plastered onto my face.
+
+Unfortunately the car got into a fire incident in late 2023. Suffering from a damaged carburetor and engine, I've decide to swap out the 1.8L engine for a 2.0L from a Mk3 Volkswagen.
 
 Lately, I've picked up a lot more work than I can chew. But, we'll take it day-by-day, and hopefully I can reassemble the car one more time.
 
