@@ -120,7 +120,7 @@ The specs I am planning for are:
   - Diamond Racing 14" wheels, lightweight "steelies" or other lightweight 14"
   - 185/60/14 Toyo RE71R
 - Targets:
-  - 120HP? I have no idea about the Dyno and tune. Frankly, I couldn't care less. The main point is a highly responsive NA car, the cab is just under 2100 lbs, I'm not too worried haha.
+  - At least 115HP? I have no idea about the Dyno and tune. Frankly, I couldn't care less. The main point is a highly responsive NA car, the cab is just under 2100 lbs, I'm not too worried haha.
 
 ## For the legacy of a sick whip
 
