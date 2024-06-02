@@ -9,7 +9,7 @@ google-ID: 'UA-133288884-2'
 menu:
 # - {name: 'cooking', url: 'cooking'}
 - {name: 'cars',  url: 'cars'}
-- {name: 'it', url: 'it'}
+# - {name: 'it', url: 'it'}
 - {name: 'gallery', url: 'gallery'}
 # - {name: 'cloud', url: 'cloud'}
 - {name: 'about', url: 'about'}
