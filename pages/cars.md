@@ -4,11 +4,11 @@ title: Cars
 permalink: /cars/
 ---
 
-I own a [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/cars/#1985-volkswagen-golf-cabriolet) and a [2019 Honda Civic Si (10th gen)](https://www.sudoyashi.com/cars/#2019-honda-civic-si).
-
 ## [1985 Volkswagen Golf Cabriolet](https://www.sudoyashi.com/dacabby)
 
-![SCCA Race 7](https://www.sudoyashi.com/assets/img/scca/race7/cabby-autocross-arvin-10.jpg) [Race 7](*The Cab's first race*)
+![1985 Golf Mk1 convertible](https://www.sudoyashi.com/assets/img/driveway1.jpg)
+
+![SCCA Race 7](https://www.sudoyashi.com/assets/img/scca/race7/cabby-autocross-arvin-10.jpg) [First race with the Cab]
 
 This car sucks. I hate it. But I love it anyways.
 
@@ -27,7 +27,6 @@ It's just a Civic, but at least it makes pssh pssh noises.
 ## SCCA Hawaii
 
 ### 2023
-![Race 5 in the rain](2023race5-civic1.jpg)
 
 - [Race 1](https://www.sudoyashi.com/scca2023race1)
 - [Race 2](https://www.sudoyashi.com/scca2023race2prep)
