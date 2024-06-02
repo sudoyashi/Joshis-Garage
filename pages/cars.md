@@ -24,8 +24,6 @@ The Golf, coloquially known as the cabby, is the sketchy project car that hasn't
 
 It's just a Civic, but at least it makes pssh pssh noises.
 
-
-
 ## SCCA Hawaii
 
 ### 2023
