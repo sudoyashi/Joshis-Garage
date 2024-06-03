@@ -7,7 +7,7 @@ tags: cabby golfmk1 goflcabriolet vw efi megasquirt ecu
 categories: cars cabby
 image: /cabby/megasquirt/megasquirt-1.jpg
 ---
-The silly journey to put EFI on a 100HP car.
+The silly journey to put EFI on a 100HP car. This is the Cabby's EFI conversion project I've worked on for the last six months, so let's dive into the ECU and wiring.
 
 **Quick links.**
 TLDR: here's the wiring diagram and parts list.
@@ -17,14 +17,6 @@ TLDR: here's the wiring diagram and parts list.
 - [Parts list shortcut](https://www.sudoyashi.com/megasquirt2#bulkhead-parts-list)
 - [Megasquirt Wiring Table](https://www.sudoyashi.com/megasquirt2#megasquirt-wiring-table)
 - [Bulkhead Connector Wiring Table](https://www.sudoyashi.com/megasquirt2#bulkhead-deutsch-hdp29-connector-wiring-table)
-
-## New wires for a 39-year-old car
-
-The cab has overheated. The cab has caught on fire. And these things made me very sad. So, In the pursuit of not being sad and having to worry about breaking down on a car cruise, the goal is to make this car reliable. Like actually, seriously, for real this time. I want to save this car because I still think it's the coolest car I've ever owned and because I want to prove to myself that I can do it.
-
-The Golf MK1 came with mechanical fuel injection that was reliable until it wasn't. When it failed me back in 2021, the cost to fix the parts ($700) was too much to justify a fix to an already archaic system, so I used bike carburetors as a cheap ITB setup. It worked for a couple of years until a fuel bowl gasket failure caused a small fire. It ruined the carbs and part of the engine and at this point, it seemed like a good time to swap it! Carburetors are inefficent and they leave much to be desired in tuning and control. By changing the system from carbs to electronic fuel injection (EFI) and a standalone ECU, this will solve many of the carbs' issues, but with it comes new challenges to complete the setup. Let's save this car one more time.
-
-This is the Cabby's EFI conversion project I've worked on for the last six months, so let's dive into the ECU and wiring.
 
 ## What is a MegaSquirt ECU? The ultimate DIY ECU
 
@@ -42,7 +34,7 @@ The ECU has a DB37 connector with 37 possible pins to give and retrieve instruct
 
 ![Wire Harness diagram](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-wiringdiagram.jpg)
 
-- [Wiring diagram is here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or visit [https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
+- [Wiring diagram here](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing) or copy and paste the following link:[https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing](https://drive.google.com/file/d/1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5/view?usp=sharing).
 
 This table references the terminals for the DB37 connector on the MegaSquirt 2 for a Golf ABA 2.0L engine using the following sensors. More info can be found in the [Sensors](https://www.sudoyashi.com/megasquirt2#sensors) section.
 
@@ -259,14 +251,13 @@ Provided by the MegaManual, here is a list of wire sizes recommended for the cor
 | 22                                                 | 0.22    | 2-3       |
 | (capacity depends on wire quality & length of run) |         |           |
 
-## Megasquirt wiring, sensors and you
+## Sensors
 
 Sensors give the ECU data so that it can do its job. If a sensor fails or malfunctions, the ECU will bug out and use some default value. Do your homework and plan if failure happens. From my experience with parts, you get what you pay for. While eBay and Alibaba sensors might come cheap, I wouldn't count on all of them giving you all of the correct instructions and wiring diagrams needed to do the work. Stick to the tried and true sensors like OEM, GM, or other brand names like Bosch or Denso sensors.
 
 Sensors work as a result of changing their physical properties to produce some resistance and that resistance will reference a specific value. It can be a bi-metallic metal, plate, resistance, and so on. Remember, **sensors grounds should end at the engine, not at the battery.** Grounding to the engine usually will collect less noise than grounding at the battery. Grounding at the battery may collect noise from other electronics. Use the next table to check off focus on what sensors you will need. Otherwise, read along.
 
-### Megasquirt sensor table
-
+### Table of sensors for MegaSquirt 2 
 | Sensor                           | MS Pin# | MegaSquirt Wire Color | Ground             | Connection                                                 | Existing or Buy       | Part Name or Number                                          | # Total wires | Wires                              |
 | -------------------------------- | ------- | --------------------- | ------------------ | ---------------------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------- | ---------------------------------- |
 | Manifold Absolute Pressure (MAP) | none    | none                  | none               | 1/8" vacuum line                                           | Existing, on-board MS | MPX4250                                                      | none          | none                               |
@@ -282,7 +273,7 @@ Sensors work as a result of changing their physical properties to produce some r
 Part: [MPX4250 2.5 Bar MAP Sensor](https://www.diyautotune.com/product/mpx4250-2-5-bar-map-sensor/)
 
 ![MS MAP](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-map.jpg)
-
+![MAP on MS](https://www.sudoyashi.com/assets/img/cabby/megasquirt/map.jpg)
 The onboard MAP sensor is connected with a 1/8" vacuum hose to any vacuum port on the intake manifold. Air pressure is one way for the ECU to see engine load. More pressure means more load. Turbo or supercharger? You're going to need this. For naturally aspirated, it's a very good helper. You'll have something like this for NA with a big plenum. For ITBS, it depends if you're planning to incorporate MAP with your alpha-n tuning, but doesn't hurt to add.
 
 Read more about how the sensor works here: [https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf](https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf). There is no pinout because it's already integrated on the ECU. If you're not using this type of sensor, follow your specific part diagram.
@@ -292,7 +283,7 @@ Read more about how the sensor works here: [https://www.nxp.com/docs/en/data-she
 Part: [25036751](https://lowdoller-motorsports.com/products/intake-air-temp-sensor-iat-mat-25036751-25037225-25037034)
 
 ![MS IAT](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-iat.jpg)
-
+![GM IAT Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/gm-iat.jpg)
 The GM IAT is a universally accepted sensor that most aftermarket users will opt for if they don't already have an IAT sensor. The sensor only has two pins, sensor ground  and temperature signal. Place the sensor in the intake manifold or plenum, wherever your car gets air.
 
 **Table: Intake Air Temperature (IAT) Sensor pinout**<br>
@@ -317,7 +308,7 @@ Related part: Engine cooling fan switch (AC switch) 2-pin, 191 919 369A
 
 [What does the Coolant Temp Sensor do?](https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/)
 ![Coolant Temperature Sensor calibration](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-clt.jpg)
-
+![GM IAT Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/ect.jpg)
 Measure resistance between pins 1 and 3 at three different temperatures, use this to map temperature curve.
 Pin 2 and 4 provide a temp readout to our gauge readout.
 
@@ -395,6 +386,7 @@ Part: Ignition coil, VW part 1 220 522 016<br>
 Okay, so ignition is probably the most complicated and important section in any engine setup with an aftermarket ECU. Every setup is going to be slightly different, so use this as a guide to get started.
 
 ![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.jpg)
+![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/vr.jpg)
 [More info on 3 wire VR sensor from Volkswagen](https://www.msextra.com/forums/viewtopic.php?t=38492)
 
 **Table: Variable Reluctance (VR) Sensor pinout**<br>
@@ -556,7 +548,6 @@ Read more:
 - [Dwell on TCi ignition, smart dwell](https://www.vwvortex.com/threads/ignition-control-modules.9363575/)
 
   - *However I think I located enough listings that I believe to be correct and came to the conclusion the ICM is in fact the same between the "knock box" and "non-knock" ignition systems for that period of VWs. Ha-ha, all of that to find out its the same.*
-
     *The current part number that I believe to be the correct ICM is: Bosch= 227.100.137, and VW= 191.905.351.B.*
 
 - [Bosch Ign Module 0227 100 139](https://www.msextra.com/forums/viewtopic.php?t=18144)
