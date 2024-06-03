@@ -91,7 +91,7 @@ Here's a wiring table of what I'm going to use for my DB37 harness. I will remov
 
 ### Deutsch bulkhead connector
 
-<img src="https://www.te.com/content/dam/te-com/catalog/part/HDP/242/429/HDP24-24-29SE-L017-t1.jpg/jcr:content/renditions/product-details.png" alt="REC, 29P, BLK, E, RNG, 12/16/20, S-HDP24-24-29SE-L017" style="width: 200px;" />
+![Bulkhead connector](https://www.sudoyashi.com/assets/img/cabby/megasquirt/bulkhead-1.jpg)
 
 A bulkhead connector! I've wanted to do a bulkhead because it was what all the racecars had. It looks sick, and as far as reliability and durability are concerned, provides a solid bang for your buck. I was even more excited to learn that it would cost me less than $150 in parts. Wiring and putting together connectors is easy, but the hard part is parts availability and planning.
 
@@ -167,6 +167,8 @@ Here are four things to consider when choosing your connectors:
 Bare-metal wire splices were introduced to me by this [article from High Performance Academy](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/). There are three open-barrel splices. These splices don't go by the usual AWG size but by the CMA or *Circular Mil Area*. Each wire has an estimated density of wires, giving us a particular area. Thinner wires have smaller CMA; thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec.
 
 These crimps can be harder to use because it is much smaller, but the advantage to these open-barrel types is that it doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
+
+![Splicing wires](https://www.sudoyashi.com/assets/img/cabby/megasquirt/splices.jpg)
 
 The issue I had with butt connectors was that I couldn't inspect the crimp after the fact, just pulling on it and hoping it stays. The connectors are slightly bulkier by comparison, but when you have to splice multiple wires in an area, it can look messy. Using the open-barrel splices lets us resolve both issues!
 
@@ -257,7 +259,8 @@ Sensors give the ECU data so that it can do its job. If a sensor fails or malfun
 
 Sensors work as a result of changing their physical properties to produce some resistance and that resistance will reference a specific value. It can be a bi-metallic metal, plate, resistance, and so on. Remember, **sensors grounds should end at the engine, not at the battery.** Grounding to the engine usually will collect less noise than grounding at the battery. Grounding at the battery may collect noise from other electronics. Use the next table to check off focus on what sensors you will need. Otherwise, read along.
 
-### Table of sensors for MegaSquirt 2 
+### Table of sensors for MegaSquirt 2
+
 | Sensor                           | MS Pin# | MegaSquirt Wire Color | Ground             | Connection                                                 | Existing or Buy       | Part Name or Number                                          | # Total wires | Wires                              |
 | -------------------------------- | ------- | --------------------- | ------------------ | ---------------------------------------------------------- | --------------------- | ------------------------------------------------------------ | ------------- | ---------------------------------- |
 | Manifold Absolute Pressure (MAP) | none    | none                  | none               | 1/8" vacuum line                                           | Existing, on-board MS | MPX4250                                                      | none          | none                               |
@@ -273,8 +276,10 @@ Sensors work as a result of changing their physical properties to produce some r
 Part: [MPX4250 2.5 Bar MAP Sensor](https://www.diyautotune.com/product/mpx4250-2-5-bar-map-sensor/)
 
 ![MS MAP](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-map.jpg)
-![MAP on MS](https://www.sudoyashi.com/assets/img/cabby/megasquirt/map.jpg)
+
 The onboard MAP sensor is connected with a 1/8" vacuum hose to any vacuum port on the intake manifold. Air pressure is one way for the ECU to see engine load. More pressure means more load. Turbo or supercharger? You're going to need this. For naturally aspirated, it's a very good helper. You'll have something like this for NA with a big plenum. For ITBS, it depends if you're planning to incorporate MAP with your alpha-n tuning, but doesn't hurt to add.
+
+![MAP on MS](https://www.sudoyashi.com/assets/img/cabby/megasquirt/map.jpg)
 
 Read more about how the sensor works here: [https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf](https://www.nxp.com/docs/en/data-sheet/MPX4250D.pdf). There is no pinout because it's already integrated on the ECU. If you're not using this type of sensor, follow your specific part diagram.
 
@@ -283,8 +288,10 @@ Read more about how the sensor works here: [https://www.nxp.com/docs/en/data-she
 Part: [25036751](https://lowdoller-motorsports.com/products/intake-air-temp-sensor-iat-mat-25036751-25037225-25037034)
 
 ![MS IAT](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-iat.jpg)
-![GM IAT Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/gm-iat.jpg)
+
 The GM IAT is a universally accepted sensor that most aftermarket users will opt for if they don't already have an IAT sensor. The sensor only has two pins, sensor ground  and temperature signal. Place the sensor in the intake manifold or plenum, wherever your car gets air.
+
+![GM IAT Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/gm-iat.jpg)
 
 **Table: Intake Air Temperature (IAT) Sensor pinout**<br>
 Part: GM 25036751
@@ -308,9 +315,11 @@ Related part: Engine cooling fan switch (AC switch) 2-pin, 191 919 369A
 
 [What does the Coolant Temp Sensor do?](https://www.clubgti.com/forums/index.php?threads/coolant-temp-sensor-what-does-it-do.86982/)
 ![Coolant Temperature Sensor calibration](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-clt.jpg)
-![GM IAT Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/ect.jpg)
+
 Measure resistance between pins 1 and 3 at three different temperatures, use this to map temperature curve.
 Pin 2 and 4 provide a temp readout to our gauge readout.
+
+![GM IAT Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/ect.jpg)
 
 **Table: Electronic Coolant Temperature (ECT) Sensor pinout**<br>
 Part: Golf MK3 ECT black body yellow ring, 357 919 501A
@@ -386,8 +395,10 @@ Part: Ignition coil, VW part 1 220 522 016<br>
 Okay, so ignition is probably the most complicated and important section in any engine setup with an aftermarket ECU. Every setup is going to be slightly different, so use this as a guide to get started.
 
 ![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/megasquirt-vr.jpg)
-![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/vr.jpg)
+
 [More info on 3 wire VR sensor from Volkswagen](https://www.msextra.com/forums/viewtopic.php?t=38492)
+
+![MS2 VR Sensor](https://www.sudoyashi.com/assets/img/cabby/megasquirt/vr.jpg)
 
 **Table: Variable Reluctance (VR) Sensor pinout**<br>
 Part: ABA VR sensor, 021 907 319A
