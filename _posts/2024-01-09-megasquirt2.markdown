@@ -107,7 +107,7 @@ It's a challenge in planning and wiring that I wanted to take to prepare myself 
 
 Let's take the wires from the MS2 harness and put it into the bulkhead connector. Since we know how many wires we want to use, I decided on the 29-pin connector. The table below shows the pins I'm using and what function from the MS2 or secondary fusebox it will provide. Find out what wire you want and if you plan to use wire splices.
 
-View **[the like bulkhead diagram here](https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5)** or visit (https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5)[https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5]
+View **[the like bulkhead diagram here](https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5)** or visit [https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5](https://app.diagrams.net/#G1PKhUPFUTe5xEFgeondNXi2kL-YfknbU5)
 
 #### Bulkhead Deutsch HDP29 connector wiring table
 
@@ -115,7 +115,7 @@ View **[the like bulkhead diagram here](https://app.diagrams.net/#G1PKhUPFUTe5xE
 | ---- | ------------------------------------------------ | -------------------------- | ---------------------------- | ------ | ---------- |
 | 1    | Fusebox                                                | 🔴 Red                      | Fusebox power                | 12-14  |            |
 | 2    | Fusebox                                         | ⚫ Black                    | Spare Ground  | 12-14  |            |
-| 3    |                                                  |               |                              |       |            |
+| 3    | -                                                |               |                              |       |            |
 | 4    | Sensor engine ground OUT, DB37/15-19             | ⚫ Black                    | -                            | CRIMP | Yes, 6480 CMA  |
 | 5    | ⛽Injector 1, DB37/32                             | 🔵 Blue                     | -                            | 20     |            |
 | 6    | ⛽Injector 2, DB37/33                             | 🔵 Blue                     | -                            | 20     |            |
@@ -164,15 +164,25 @@ Here are four things to consider when choosing your connectors:
 
 <img src="https://m.media-amazon.com/images/I/21pP4ldV4EL.jpg" alt="485043-1 TERMINAL, OPEN BARREL SPLICE, CRIMP (5 pieces)" style="width: 200px;"/>
 
-Bare-metal wire splices were introduced to me by this [article from High Performance Academy](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/). There are three open-barrel splices. These splices don't go by the usual AWG size but by the CMA or *Circular Mil Area*. Each wire has an estimated density of wires, giving us a particular area. Thinner wires have smaller CMA; thicker wires have larger CMA. This chart is a general reference for wire CMA. The chart below is an average I found on wire CMA, but it's close enough to club-spec.
+Bare-metal wire splices were introduced to me by this [article from High Performance Academy](https://www.hpacademy.com/blog/how-to-splice-practical-splicing-demonstration/). The biggest benefit is that you can ACTUALLY SEE the splice. The issue with butt splicers is that it is shrouded in insulation that you cannot 100% check reliability of the splice. Solder connectors also work, but you also run the risk of solder cracking. Without the extra insulation, the crimps are much smaller and don't make a harness too bulky. Lastly, open barrel splices make it simple to splice multiple wires together without too much issue.
 
 These crimps can be harder to use because it is much smaller, but the advantage to these open-barrel types is that it doesn't include insulation and lets me see the wires physically spliced with a good connection without having to guess when putting them into a butt connector.
 
 ![Splicing wires](https://www.sudoyashi.com/assets/img/cabby/megasquirt/splices.jpg)
 
-The issue I had with butt connectors was that I couldn't inspect the crimp after the fact, just pulling on it and hoping it stays. The connectors are slightly bulkier by comparison, but when you have to splice multiple wires in an area, it can look messy. Using the open-barrel splices lets us resolve both issues!
+As we splice more wires together, we want to add them up, and then we can choose a splice. Below are the available splices.
 
-**Table of AWG and its relative CMA**
+| Splice size    | CMA  |
+| -------------- | ---- |
+| Small  [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header)        | <1500 |
+| Medium TE [63130-2](https://www.te.com/usa-en/product-63130-2.html)        | 1500-5000 |
+| Large TE [62357-1](https://www.te.com/usa-en/product-62357-1.html?q=62357-1&source=header)          | 5000-10000 |
+
+1. 1500 CMA and less of combined wire area: [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header) These are SMALL. Best for 22AWG or higher.
+2. 1500 to 5000 CMA of combined wire area: TE [63130-2](https://www.te.com/usa-en/product-63130-2.html) Example: Two 20AWG wires or two 18AWG wires for ECU crimping.
+3. 5000 to 10,000 CMA of combined wire area: Example: One 14AWG wire to four 20AWG wires for fuel injector wires.
+
+**Reference table of AWG and its relative CMA**
 
 | Wire size (AWG) | CMA  |
 | --------------- | ---- |
@@ -182,12 +192,6 @@ The issue I had with butt connectors was that I couldn't inspect the crimp after
 | 18              | 1620 |
 | 20              | 1020 |
 | 22              | 642  |
-
-As we splice more wires together, we want to add them up, and then we can choose a splice. Below are the available splices.
-
-1. 1500 CMA and less of combined wire area: [TE 62759-1](https://www.te.com/usa-en/product-62759-1.html?q=62759-1&source=header) These are SMALL. Best for 22AWG or higher.
-2. 1500 to 5000 CMA of combined wire area: TE [63130-2](https://www.te.com/usa-en/product-63130-2.html) Example: Two 20AWG wires or two 18AWG wires for ECU crimping.
-3. 5000 to 10,000 CMA of combined wire area: TE [62357-1](https://www.te.com/usa-en/product-62357-1.html?q=62357-1&source=header) Example: One 14AWG wire to four 20AWG wires for fuel injector wires.
 
 #### Bulkhead receptacle (the hot socket side)
 
