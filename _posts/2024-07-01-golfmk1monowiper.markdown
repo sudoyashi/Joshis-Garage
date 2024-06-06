@@ -36,3 +36,10 @@ Tools
    8. Remove the spring washer, it's wavy for a reason!
    9. Repeat on the other arm.
 3. Once the fasteners are removed from the top, you SHOULD be able to 
+
+## References and archives
+
+The internet is a funny place, lots of info comes with lots of weeds to sift through. Check out the better posts I found on mono wipers below
+
+- [MKII scirocco owners... free single wiper conversion is at your fingertips!! (instructions included)](http://www.scirocco.org/list/archives/1998/September/msg00043.html)
+- [A1 mono wiper conversion, Mr. Dave's World](http://www.mrdavesworld.com/wiper.html)
