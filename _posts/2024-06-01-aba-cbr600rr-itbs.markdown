@@ -6,21 +6,25 @@ categories: cars itbs
 image: /cabby/megasquirt/cbr600-1.jpg
 ---
 
-## Get it right the first time, a successful adapter flange
-
-I went back and forth with how I wanted to move forward with the velocity stacks, in the end, I ended up buying the OEM velocity stacks because they just work. Manufacturing my own stacks was proving to be a materials challenge than anything. I designed and printed out several designs for the stacks and flange. While they fit well, the reality was that ABS and PLA might not withstand for long underneath the hood for proper driving. Print times are long and the Creality I have is not setup to the tee, meaning the prints aren't 100% perfect. The design process was fun, but I think I'll revisit this project later.
-
-![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/cbr600-1.jpg)
+## The CBR600RR ITBS
 
 ![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/cbr600-2.jpg)
 
+
+## Made with the help of Nub Autoworks
+
 ![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/cbr600-3.jpg)
 
-![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/throttle-body-1.jpg)
 
+### Breakdown of the ITBS
+
+![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/throttle-body-1.jpg)
+<br>
 ![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/throttle-body-flange-iat.jpg)
 
-## What went wrong with custom velocity stacks
+## Velocity stacks, trumpets, whatever, you want to call it
+
+I went back and forth with how I wanted to move forward with the velocity stacks, in the end, I ended up buying the OEM velocity stacks because they just work. Manufacturing my own stacks was proving to be a materials challenge than anything. I designed and printed out several designs for the stacks and flange. While they fit well, the reality was that ABS and PLA might not withstand for long underneath the hood for proper driving. Print times are long and the Creality I have is not setup to the tee, meaning the prints aren't 100% perfect. The design process was fun, but I think I'll revisit this project later.
 
 I  ran into a couple issues with 3D printing the velocity stacks: durability and difficult manufacturing.
 
@@ -40,5 +44,3 @@ These stacks were from an 2005 CBR600RR and a 2022 CBR600RR. They are slightly d
 Generally speaking, longer stacks help the bottom end and shorter stacks help the top end. Motorcycles were designed for higher RPMs, so consequently the stock runners are short. But for a road car, we should extend the stack. One thing to note is that when I ran the first iteration of ZX6R motorcycle carbs, the intake length was VERY short but in my opinion, drivability was not that bad and it was more dependent on having a good tune.
 
 To get the car running, these stacks will do the job, but later down the line I will hopefully find a way to make longer stacks.
-
-## 
