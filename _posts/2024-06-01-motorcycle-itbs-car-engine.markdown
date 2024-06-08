@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Adapting CBR600RR ITBS to an ABA 2.0"
+title:  "Motorcycle ITBS on a car engine"
 date:   2024-06-01 00:00:00 -1000
 categories: cars itbs
 image: /cabby/megasquirt/cbr600-1.jpg
 ---
+Adapting CBR600RR ITBS to an ABA 2.0
 
 ## The CBR600RR ITBS
 
@@ -21,6 +22,7 @@ image: /cabby/megasquirt/cbr600-1.jpg
 ![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/throttle-body-1.jpg)
 <br>
 ![Image test](https://www.sudoyashi.com/assets/img/cabby/megasquirt/throttle-body-flange-iat.jpg)
+Since I'm not using the CBR fuel rail, I installed a 12mm ID x 10mm bushing.
 
 ## Velocity stacks, trumpets, whatever, you want to call it
 
