@@ -1,12 +1,25 @@
 ---
 layout: post
-title:  "Custom Velocity Stacks"
-date:   2099-04-01 00:00:00 -1000
+title:  "Adapting CBR600RR ITBS to an ABA 2.0"
+date:   2024-06-01 00:00:00 -1000
 categories: cars itbs
-image: 
+image: /cabby/megasquirt/cbr600-1.jpg
 ---
 
+## Get it right the first time, a successful adapter flange
+
 I went back and forth with how I wanted to move forward with the velocity stacks, in the end, I ended up buying the OEM velocity stacks because they just work. Manufacturing my own stacks was proving to be a materials challenge than anything. I designed and printed out several designs for the stacks and flange. While they fit well, the reality was that ABS and PLA might not withstand for long underneath the hood for proper driving. Print times are long and the Creality I have is not setup to the tee, meaning the prints aren't 100% perfect. The design process was fun, but I think I'll revisit this project later.
+
+![Image test](https://www.sudoyashi.com/assets/img/cabby/megaqsquirt/cbr600-1.jpg)
+
+![Image test](https://www.sudoyashi.com/assets/img/cabby/megaqsquirt/cbr600-2.jpg)
+
+![Image test](https://www.sudoyashi.com/assets/img/cabby/megaqsquirt/cbr600-3.jpg)
+
+![Image test](https://www.sudoyashi.com/assets/img/cabby/megaqsquirt/throttle-body-1.jpg)
+
+![Image test](https://www.sudoyashi.com/assets/img/cabby/megaqsquirt/throttle-body-flange-iat.jpg)
+
 
 ## What went wrong with custom velocity stacks
 
