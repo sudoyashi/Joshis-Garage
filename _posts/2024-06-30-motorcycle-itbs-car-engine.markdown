@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Motorcycle ITBS on a car engine"
-date:   2024-06-01 00:00:00 -1000
+date:   2024-06-30 00:00:00 -1000
 categories: cars itbs
 image: /cabby/megasquirt/cbr600-1.jpg
 ---
