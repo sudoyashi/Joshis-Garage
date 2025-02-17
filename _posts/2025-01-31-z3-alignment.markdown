@@ -149,6 +149,11 @@ In order to make up the FR Difference of .351", we will turn our tie rod by 0.29
 
 ## Appendix 1 - Specifications
 
+OE Tie rod
+
+- 22mm locknut
+- 13mm adjustment flats
+
 | Specification             | Front (degrees) | Front (decimal degrees) | Rear (degrees) | Rear (decimal degrees) |
 | ------------------------- | --------------- | ----------------------- | -------------- | ---------------------- |
 | Toe angle (total degrees) | 0° 18' ± 8'     | **0.3° ± .13°**         | 0° 20' ± 13°   | 0.33° ± .2167°         |
