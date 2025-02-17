@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Introducing the Megasquirt 2 plan"
+title: "Golf Mk1 monowiper"
 author: "Joshua Domingo"
-date:   2024-07-01 00:00:00 -1000
+date:   2099-07-01 00:00:00 -1000
 tags: cabby golfmk1 goflcabriolet vw efi monowiper wiper
 categories: cars cabby
 image: /cabby/monowiper/monowiper.jpg
