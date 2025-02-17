@@ -90,5 +90,54 @@ My goal is 0.3° toe in at the front wheels, this gives us a goal of 0.15° toe 
 
 ## Adjusting front toe
 
+With our differences calculated, let's adjust the tie rod length to adjust toe.
+
+In my case, I lifted the car each time I wanted to adjust, rocked the car back and forth to get the suspension to settle, turned the steering wheel to center, recalibrated the strings to the 2" line, then took my measurement. In hindsight, I could have done other methods, but this was the most straightforward without having to use or build any extra parts.
 
 
+
+1. Turn the steering wheel to expose the tie rod. In my case, I turned all the way right to adjust the FR wheel.
+
+![Before alignment](https://www.sudoyashi.com/assets/img/z3/maintenance/tie-rod-adjustment-4.jpg)
+
+2. With the tie rod exposed, grab your 22mm and 13mm wrench and loosen the locknut.
+
+![Before alignment](https://www.sudoyashi.com/assets/img/z3/maintenance/tie-rod-adjustment-2.jpg)
+
+![Before alignment](https://www.sudoyashi.com/assets/img/z3/maintenance/tie-rod-adjustment-1.jpg)3. Once the locknut is released, on the FIRST adjustment, turn the tie rod by 1/6 of a turn (equal one face of the hex surface) to shorten or lengthen the tie rod. This will get us a baseline of what 1/6 of a turn will do to our tie rod. Lower the car and record the change.
+
+![Before alignment](https://www.sudoyashi.com/assets/img/z3/maintenance/tie-rod-adjustment-3.jpg)
+
+In my case, changing the tie rod by 1/6 of a turn results in a 0.2" difference. To adjust our toe smarter we can do some more math:
+
+- <u>FR Difference</u> from spec from spec E and spec F = 1.209"-1.560"
+  - FR Difference = .351"
+  - 1/6 of a turn = .2" difference
+  - 1 turn = 0.2" * 6 = 1.2"
+  - Turns to get .351 = 0.351/1.2 = **0.2925 turns**
+
+With this assumption, we can try to turn 0.29 turns or a quarter-turn and then some, and see what happens! But wait, which way do you turn it?
+
+### Which way to turn your tie rods
+
+Tie rods are just another screw, as you "tighten" it, it gets shorter. If you "loosen" it, it gets longer. But the effects may vary depending on the location.
+
+There are differences in how the tie rod will affect your alignment based on if it is in-front of or behind center. This is a table that can generally explain the effects on each side of the wheel.
+
+| Location, front                      | If you shorten the tie rod (tighten), you get... | Lengthen tie rod (loosen), you get... |
+| ------------------------------------ | ------------------------------------------------ | ------------------------------------- |
+| Front left, tie rod front of center  | toe in, positive                                 | toe out, negative                     |
+| Front right, tie rod front of center | toe in, positive                                 | toe out, negative                     |
+| Rear left, tie rod front of center   | toe in, positive                                 | toe out, negative                     |
+| Rear right, tie rod front of center  | toe in, positive                                 | toe out, negative                     |
+
+| Location, behind                     | If you shorten the tie rod (tighten), you get... | Lengthen tie rod (loosen), you get... |
+| ------------------------------------ | ------------------------------------------------ | ------------------------------------- |
+| Front left, tie rod behind of center | toe out, negative                                | toe in, positive                      |
+| Front right, tie rod behind center   | toe out, negative                                | toe in, positive                      |
+| Rear left, tie rod behind center     | toe out, negative                                | toe in, positive                      |
+| Rear right, tie rod behind center    | toe out, negative                                | toe in, positive                      |
+
+### Turning the tie rod 0.2925 turns
+
+In order to make up the FR Difference of .351", we will turn our tie rod by 0.2925 turns CCW.
